@@ -383,6 +383,18 @@ fieldset[disabled] .btn-pink.focus {
     background-color: #D8D8D8;
 }
 
+.carousel-brands {
+    width: 250px;
+    height: 250px;
+    background-color: #D8D8D8;
+}
+
+.carousel-web-design {
+    width: 250px;
+    height: 150px;
+    background-color: #D8D8D8;
+}
+
 
 /* portfolio styles */
 
@@ -460,6 +472,14 @@ fieldset[disabled] .btn-pink.focus {
 
 .text-green-starbucks {
     color: #0B7244;
+}
+
+.text-red-ets {
+    color: #ED3B3E;
+}
+
+.text-blue-otis {
+    color: rgba(36, 63, 143, 1.0);
 }
 
 .portfolio-text h5 {
@@ -573,6 +593,31 @@ section.portfolio {
     width: 105px;
 }
 
+.travel-smart-logo {
+    background-image: url('../img/travel-smart-icon.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 75px;
+    width: 75px;
+}
+
+.portfolio-otis {
+    background-image: url(../img/otis-elevator-animated-illustration-by-loogart.gif);
+    background-position: 0 -40px;
+    background-color: #fff;
+}
+
+.portfolio-innovation-space {
+    background-image: url(../img/global-affairs-canada-innovation-wall-illustrations-by-loogart.jpg);
+    background-color: #fff;
+}
+
+.otis-logo {
+    background-image: url(../img/otis-logo.png);
+    width: 105px;
+    margin-top: 20px;
+}
+
 @media (max-width: 767px) {
     .outer {
         box-shadow: 0 0 0;
@@ -589,7 +634,7 @@ section.portfolio {
     .ets-logo {
         background-image: url(../img/ets-logo.jpg);
         width: 80px;
-        margin-top: 80px;
+        margin-top: 40px;
     }
     .swiffer-logo {
         background-image: url(../img/swiffer-logo.png);
@@ -600,9 +645,20 @@ section.portfolio {
         background-image: url(../img/upa-logo.png);
         width: 55px;
     }
+    .canada-logo {
+        background-image: url(../img/canada-logo.png);
+        width: 75px;
+        margin-top: 20px;
+    }
     .suite88-logo {
         background-image: url(../img/suite88-logo.png);
         width: 85px;
+        margin-top: 60px;
+    }
+    .otis-logo {
+        background-image: url(../img/otis-logo.png);
+        width: 75px;
+        margin-top: 20px;
     }
 }
 
@@ -654,6 +710,7 @@ footer {
     min-height: 100px;
     color: #fff;
     padding: 60px 0;
+    margin-top:40px;
 }
 
 footer .col-sm-6,
@@ -679,13 +736,58 @@ footer h5 {
     font-family: "San Francisco";
 }
 
-.travel-smart-logo {
-    background-image: url('../img/travel-smart-icon.png');
-    background-size: contain;
-    background-repeat: no-repeat;
-    height: 75px;
-    width: 75px;
+
+/* form control input styles */
+
+.form-control {
+    display: block;
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #9b9b9b;
+    background-color: #4A4A4A;
+    border: 1px solid #FFFFFF;
+    border-radius: 44px;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+    -webkit-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
 }
-.text-red-ets {
-    color:#ED3B3E;
+
+.form-control:focus {
+    border-color: #F75A56;
+    outline: 0;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(102, 175, 233, .6);
+}
+
+.form-control::-moz-placeholder {
+    color: #999;
+    opacity: 1;
+}
+
+.form-control:-ms-input-placeholder {
+    color: #999;
+}
+
+.form-control::-webkit-input-placeholder {
+    color: #999;
+}
+
+.form-control::-ms-expand {
+    background-color: transparent;
+    border: 0;
+}
+
+.form-control[disabled],
+.form-control[readonly],
+fieldset[disabled] .form-control {
+    background-color: #eee;
+    opacity: 1;
+}
+
+.form-control[disabled],
+fieldset[disabled] .form-control {
+    cursor: not-allowed;
 }
