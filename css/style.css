@@ -255,6 +255,15 @@ nav.shrink .navbar-toggle {
 }
 
 
+.cta-jumbotron {
+    margin-top: 40px;
+}
+
+.cta-jumbotron .btn:before {
+    content: "\f178  ";
+    font-family: FontAwesome;
+}
+
 /* custom buttons */
 
 .btn {
@@ -424,15 +433,15 @@ fieldset[disabled] .btn-pink.focus {
 .portfolio-text.bottom {
     bottom: 0px;
     padding: 45px 25px 25px;
-    background: -webkit-linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, .24));
-    background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, .24));
+    background: -webkit-linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, .34));
+    background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, .34));
 }
 
 .portfolio-text.top {
     top: 0px;
     padding: 25px 25px 45px;
-    background: -webkit-linear-gradient(rgba(0, 0, 0, .24), rgba(0, 0, 0, 0));
-    background: linear-gradient(rgba(0, 0, 0, .24), rgba(0, 0, 0, 0));
+    background: -webkit-linear-gradient(rgba(0, 0, 0, .34), rgba(0, 0, 0, 0));
+    background: linear-gradient(rgba(0, 0, 0, .34), rgba(0, 0, 0, 0));
     overflow: hidden;
 }
 
@@ -517,7 +526,6 @@ section.portfolio {
 .ets-logo {
     background-image: url(../img/ets-logo.jpg);
     width: 105px;
-    height: 80px;
 }
 
 .portfolio-car2go {
@@ -532,8 +540,7 @@ section.portfolio {
 
 .swiffer-logo {
     background-image: url(../img/swiffer-logo.png);
-    width: 125px;
-    height: 90px;
+    width: 105px;
 }
 
 .portfolio-upa {
@@ -543,8 +550,17 @@ section.portfolio {
 
 .upa-logo {
     background-image: url(../img/upa-logo.png);
-    width: 125px;
-    height: 50px;
+    width: 105px;
+}
+
+.portfolio-travel-smart {
+    background-image: url(../img/travel-smart-visual-design-by-loogart.jpg);
+    background-position: top center;
+}
+
+.canada-logo {
+    background-image: url(../img/canada-logo.png);
+    width: 105px;
 }
 
 @media (max-width: 767px) {
@@ -560,19 +576,16 @@ section.portfolio {
     .ets-logo {
         background-image: url(../img/ets-logo.jpg);
         width: 80px;
-        height: 60px;
         margin-top: 80px;
     }
     .swiffer-logo {
         background-image: url(../img/swiffer-logo.png);
         width: 80px;
-        height: 50px;
         margin-top: 60px;
     }
     .upa-logo {
         background-image: url(../img/upa-logo.png);
         width: 55px;
-        height: 55px;
     }
     .logo-text.no-title {
         margin-top: 72px;
@@ -617,15 +630,6 @@ section.portfolio {
     box-shadow: 0 19px 38px rgba(0, 0, 0, 0.30), 0 15px 12px rgba(0, 0, 0, 0.22);
 }
 
-.cta-jumbotron {
-    margin-top: 40px;
-}
-
-.cta-jumbotron .btn:before {
-    content: "\f178  ";
-    font-family: FontAwesome;
-}
-
 
 /* footer style */
 
@@ -659,4 +663,11 @@ footer h5 {
     text-align: center;
     padding: 7px;
     font-family: "San Francisco";
+}
+.travel-smart-logo {
+    background-image:url('../img/travel-smart-icon.png');
+    background-size:contain;
+    background-repeat: no-repeat;
+    height:75px;
+    width:75px;
 }
