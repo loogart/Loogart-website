@@ -293,6 +293,8 @@ nav.shrink .navbar-toggle {
     color: #fff;
     background-color: #F75A56;
     border-color: #F75A56;
+    -webkit-transition: .25s;
+    transition: .25s;
 }
 
 .btn-pink:focus,
@@ -300,12 +302,14 @@ nav.shrink .navbar-toggle {
     color: #fff;
     background-color: #c13935;
     border-color: #c13935;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
 }
 
 .btn-pink:hover {
     color: #fff;
     background-color: #c13935;
     border-color: #c13935;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
 }
 
 .btn-pink:active,
@@ -464,7 +468,7 @@ fieldset[disabled] .btn-pink.focus {
 
 .logo {
     display: block-inline;
-    width: 30%;
+    width: 40%;
     min-width: 65px;
     min-height: 65px;
     background-color: transparent;
@@ -475,12 +479,13 @@ fieldset[disabled] .btn-pink.focus {
 
 .logo-text {
     display: block-inline;
-    width: 70%;
+    width: 60%;
 }
 
 .logo-text.no-title {
     margin-top: 32px;
 }
+
 
 /* portfolio projects */
 
@@ -511,8 +516,8 @@ section.portfolio {
 
 .ets-logo {
     background-image: url(../img/ets-logo.jpg);
-    width: 85px;
-    height: 85px;
+    width: 105px;
+    height: 80px;
 }
 
 .portfolio-car2go {
@@ -520,6 +525,27 @@ section.portfolio {
     background-position: top center;
 }
 
+.portfolio-swiffer {
+    background-image: url(../img/swiffer-marketing-by-loogart.jpg);
+    background-position: top center;
+}
+
+.swiffer-logo {
+    background-image: url(../img/swiffer-logo.png);
+    width: 125px;
+    height: 90px;
+}
+
+.portfolio-upa {
+    background-image: url(../img/upa-cityline-by-loogart.jpg);
+    background-position: top center;
+}
+
+.upa-logo {
+    background-image: url(../img/upa-logo.png);
+    width: 125px;
+    height: 50px;
+}
 
 @media (max-width: 767px) {
     .outer {
@@ -527,23 +553,30 @@ section.portfolio {
     }
     .starbucks-logo {
         background-image: url(../img/starbucks_logo.png);
-        width: 60px;
-        height: 60px;
-        margin: 0 12px 0 -10px;
+        width: 80px;
+        height: 80px;
+        margin: 0;
     }
     .ets-logo {
         background-image: url(../img/ets-logo.jpg);
-        width: 60px;
+        width: 80px;
         height: 60px;
-        margin: 85px 12px 0 -10px;
+        margin-top: 80px;
+    }
+    .swiffer-logo {
+        background-image: url(../img/swiffer-logo.png);
+        width: 80px;
+        height: 50px;
+        margin-top: 60px;
+    }
+    .upa-logo {
+        background-image: url(../img/upa-logo.png);
+        width: 55px;
+        height: 55px;
     }
     .logo-text.no-title {
         margin-top: 72px;
     }
-    .portfolio-upa {
-    background-image: url(../img/upa-cityline-by-loogart.jpg);
-    background-position: top center;
-}
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {}
