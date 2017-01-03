@@ -242,7 +242,7 @@ nav.shrink .navbar-toggle {
     .navbar-default .navbar-brand {
         font-family: "San Francisco";
         font-weight: 700;
-        line-height: 36px;
+        line-height: 16px;
         color: #F75A56;
         font-size: 32px;
         -webkit-transition: .25s;
