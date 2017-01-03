@@ -376,19 +376,18 @@ fieldset[disabled] .btn-pink.focus {
 .outer {
     /* set your width and height here on the outer div */
     display: block;
-    width: 100%px;
+    width: 100%;
     height: 360px;
     position: relative;
     overflow: hidden;
     /* comment this line to see what happens behind the scenes */
-    margin-bottom: 15px;
+    margin-bottom: 30px;
     -webkit-transition-duration: 0.3s;
     transition-duration: 0.3s;
     box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
 }
 
 .inner {
-    display: block;
     width: 100%;
     height: 100%;
     background-repeat: no-repeat;
@@ -405,8 +404,8 @@ fieldset[disabled] .btn-pink.focus {
 }
 
 .outer:hover {
-    /*-webkit-transform: scale(.98);
-    transform: scale(.98);*/
+    -webkit-transform: scale(.98);
+    transform: scale(.98);
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
 }
 
@@ -465,7 +464,6 @@ fieldset[disabled] .btn-pink.focus {
 
 .logo {
     display: block-inline;
-    float: left;
     width: 30%;
     min-width: 65px;
     min-height: 65px;
@@ -477,10 +475,12 @@ fieldset[disabled] .btn-pink.focus {
 
 .logo-text {
     display: block-inline;
-    float: right;
     width: 70%;
 }
 
+.logo-text.no-title {
+    margin-top: 32px;
+}
 
 /* portfolio projects */
 
@@ -489,41 +489,61 @@ section.portfolio {
 }
 
 .portfolio-montreal {
-    background-image: url('../img/montreal-cityline-by-loogart.jpg');
+    background-image: url(../img/montreal-cityline-by-loogart.jpg);
     background-position: top center;
 }
 
 .portfolio-starbucks {
-    background-image: url('/img/starbucks-citysapce-by-loogart.jpg');
+    background-image: url(../img/starbucks-cityscape-by-loogart.jpg);
     background-position: top center;
 }
 
 .starbucks-logo {
-    background-image: url('/img/Starbucks_logo.png');
+    background-image: url(../img/starbucks_logo.png);
     width: 85px;
     height: 85px;
 }
+
+.portfolio-ets {
+    background-image: url(../img/ets-cityline-by-loogart.jpg);
+    background-position: top center;
+}
+
+.ets-logo {
+    background-image: url(../img/ets-logo.jpg);
+    width: 85px;
+    height: 85px;
+}
+
+.portfolio-car2go {
+    background-image: url(../img/car2go-cityline-by-loogart.jpg);
+    background-position: top center;
+}
+
 
 @media (max-width: 767px) {
     .outer {
         box-shadow: 0 0 0;
     }
-    .portfolio-montreal {
-        background-image: url('/img/montreal-cityline-by-loogart.jpg');
-        background-position: top center;
-        padding: 220px 35px 0;
-    }
-    .portfolio-starbucks {
-        background-image: url('/img/starbucks-citysapce-by-loogart.jpg');
-        background-position: top center;
-        /* padding for inner text */
-    }
     .starbucks-logo {
-        background-image: url('/img/Starbucks_logo.png');
-        width: 55px;
-        height: 55px;
+        background-image: url(../img/starbucks_logo.png);
+        width: 60px;
+        height: 60px;
         margin: 0 12px 0 -10px;
     }
+    .ets-logo {
+        background-image: url(../img/ets-logo.jpg);
+        width: 60px;
+        height: 60px;
+        margin: 85px 12px 0 -10px;
+    }
+    .logo-text.no-title {
+        margin-top: 72px;
+    }
+    .portfolio-upa {
+    background-image: url(../img/upa-cityline-by-loogart.jpg);
+    background-position: top center;
+}
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {}
@@ -582,12 +602,14 @@ footer {
     background-color: #333333;
     min-height: 100px;
     color: #fff;
-    padding:60px 0;
+    padding: 60px 0;
 }
 
-footer .col-sm-6, footer .col-sm-3, footer .col-sm-4{
-    border-right:1px solid #444;
-    padding:0 30px;
+footer .col-sm-6,
+footer .col-sm-3,
+footer .col-sm-4 {
+    border-right: 1px solid #444;
+    padding: 0 30px;
 }
 
 footer h5 {
@@ -597,10 +619,11 @@ footer h5 {
     color: #fff;
     font-size: 22px;
 }
+
 .lower-footer {
     background-color: #222;
-    color:#777;
+    color: #777;
     text-align: center;
-    padding:7px;
+    padding: 7px;
     font-family: "San Francisco";
 }
