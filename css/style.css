@@ -491,18 +491,15 @@ section.portfolio {
 .portfolio-montreal {
     background-image: url('../img/montreal-cityline-by-loogart.jpg');
     background-position: top center;
-    padding: 210px 40px 0;
-    /* padding for inner text */
 }
 
 .portfolio-starbucks {
-    background-image: url('../img/starbucks-citysapce-by-loogart.jpg');
+    background-image: url('/img/starbucks-citysapce-by-loogart.jpg');
     background-position: top center;
-    /* padding for inner text */
 }
 
 .starbucks-logo {
-    background-image: url('../img/Starbucks_logo.png');
+    background-image: url('/img/Starbucks_logo.png');
     width: 85px;
     height: 85px;
 }
@@ -512,17 +509,17 @@ section.portfolio {
         box-shadow: 0 0 0;
     }
     .portfolio-montreal {
-        background-image: url('../img/montreal-cityline-by-loogart.jpg');
+        background-image: url('/img/montreal-cityline-by-loogart.jpg');
         background-position: top center;
         padding: 220px 35px 0;
     }
     .portfolio-starbucks {
-        background-image: url('../img/starbucks-citysapce-by-loogart.jpg');
+        background-image: url('/img/starbucks-citysapce-by-loogart.jpg');
         background-position: top center;
         /* padding for inner text */
     }
     .starbucks-logo {
-        background-image: url('../img/Starbucks_logo.png');
+        background-image: url('/img/Starbucks_logo.png');
         width: 55px;
         height: 55px;
         margin: 0 12px 0 -10px;
