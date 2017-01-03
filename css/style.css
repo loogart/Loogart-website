@@ -1,0 +1,556 @@
+/* HTML & BODY */
+
+body {
+    padding-top: 130px;
+}
+
+
+/* TYPOGRAPHY *?
+
+/** Ultra Light */
+
+@font-face {
+    font-family: "San Francisco";
+    font-weight: 100;
+    src: url("../fonts/SF/sanfranciscodisplay-ultralight-webfont.woff");
+}
+
+
+/** Thin */
+
+@font-face {
+    font-family: "San Francisco";
+    font-weight: 200;
+    src: url("../fonts/SF/sanfranciscodisplay-thin-webfont.woff");
+}
+
+
+/** Regular */
+
+@font-face {
+    font-family: "San Francisco";
+    font-weight: 400;
+    src: url("../fonts/SF/sanfranciscodisplay-regular-webfont.woff");
+}
+
+
+/** Medium */
+
+@font-face {
+    font-family: "San Francisco";
+    font-weight: 200;
+    src: url("../fonts/SF/sanfranciscodisplay-medium-webfont.woff");
+}
+
+
+/** Semi Bold */
+
+@font-face {
+    font-family: "San Francisco";
+    font-weight: 600;
+    src: url("../fonts/SF/sanfranciscodisplay-semibold-webfont.woff");
+}
+
+
+/** Bold */
+
+@font-face {
+    font-family: "San Francisco";
+    font-weight: 700;
+    src: url(../fonts/SF/sanfranciscodisplay-bold-webfont.woff);
+}
+
+h2 {
+    font-family: "San Francisco";
+    font-weight: 600;
+    line-height: 40px;
+    color: #222;
+    font-size: 32px;
+}
+
+h3 {
+    font-family: "San Francisco";
+    font-weight: 700;
+    line-height: 40px;
+    color: #F75A56;
+    font-size: 32px;
+}
+
+h4 {
+    font-family: "San Francisco";
+    font-weight: 500;
+    line-height: 28px;
+    color: #222;
+    font-size: 22px;
+}
+
+
+/* custom navbar */
+
+.navbar {
+    min-height: 100px;
+    padding-top: 20px;
+    margin-bottom: 0px;
+    border: 0px solid transparent;
+    -webkit-transition: .25s;
+    transition: .25s;
+}
+
+.navbar-default {
+    background-color: #fff;
+    border-color: #fff;
+}
+
+.navbar-default .navbar-brand {
+    font-family: "San Francisco";
+    font-weight: 700;
+    line-height: 40px;
+    color: #F75A56;
+    font-size: 32px;
+    -webkit-transition: .25s;
+    transition: .25s;
+}
+
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+    color: #c13935;
+    background-color: transparent;
+}
+
+.navbar-default .navbar-text {
+    color: #222;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #222;
+    font-size: 16px;
+    -webkit-transition: .25s;
+    transition: .25s;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #F75A56;
+    background-color: transparent;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+    color: #F75A56;
+    background-color: transparent;
+}
+
+.navbar-default .navbar-nav > .disabled > a,
+.navbar-default .navbar-nav > .disabled > a:hover,
+.navbar-default .navbar-nav > .disabled > a:focus {
+    color: #F75A56;
+    background-color: transparent;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+}
+
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+    background-color: #f8f8f8;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #F75A56;
+}
+
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+    border-color: #F75A56;
+}
+
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+    color: #555;
+    background-color: #e7e7e7;
+}
+
+@media (max-width: 767px) {
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+        color: #222;
+    }
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+        color: #333;
+        background-color: transparent;
+    }
+    .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+    .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+    .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+        color: #555;
+        background-color: #e7e7e7;
+    }
+    .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a,
+    .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a:hover,
+    .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a:focus {
+        color: #ccc;
+        background-color: transparent;
+    }
+}
+
+.navbar-default .navbar-link {
+    color: #222;
+}
+
+.navbar-default .navbar-link:hover {
+    color: #333;
+}
+
+.navbar-default .btn-link {
+    color: #222;
+}
+
+.navbar-default .btn-link:hover,
+.navbar-default .btn-link:focus {
+    color: #333;
+}
+
+.navbar-default .btn-link[disabled]:hover,
+fieldset[disabled] .navbar-default .btn-link:hover,
+.navbar-default .btn-link[disabled]:focus,
+fieldset[disabled] .navbar-default .btn-link:focus {
+    color: #ccc;
+}
+
+nav.navbar.shrink {
+    min-height: 35px;
+    padding-top: 0;
+    border-bottom: 1px dotted #d3d3d3;
+}
+
+nav.shrink a {
+    font-size: 15px;
+}
+
+nav.shrink .navbar-brand {
+    font-size: 24px;
+    line-height: 24px
+}
+
+nav.shrink .navbar-toggle {
+    padding: 4px 5px;
+    margin: 8px 15px 8px 0;
+}
+
+
+/* custom buttons */
+
+.btn {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 36px;
+    -webkit-transition: .25s;
+    transition: .25s;
+}
+
+.btn-lg,
+.btn-group-lg > .btn {
+    padding: 10px 16px;
+    font-size: 18px;
+    line-height: 1.3333333;
+    border-radius: 44px;
+}
+
+.btn-pink {
+    color: #fff;
+    background-color: #F75A56;
+    border-color: #F75A56;
+}
+
+.btn-pink:focus,
+.btn-pink.focus {
+    color: #fff;
+    background-color: #c13935;
+    border-color: #c13935;
+}
+
+.btn-pink:hover {
+    color: #fff;
+    background-color: #c13935;
+    border-color: #c13935;
+}
+
+.btn-pink:active,
+.btn-pink.active,
+.open > .dropdown-toggle.btn-pink {
+    color: #fff;
+    background-color: #c13935;
+    border-color: #c13935;
+}
+
+.btn-pink:active:hover,
+.btn-pink.active:hover,
+.open > .dropdown-toggle.btn-pink:hover,
+.btn-pink:active:focus,
+.btn-pink.active:focus,
+.open > .dropdown-toggle.btn-pink:focus,
+.btn-pink:active.focus,
+.btn-pink.active.focus,
+.open > .dropdown-toggle.btn-pink.focus {
+    color: #fff;
+    background-color: #c13935;
+    border-color: #c13935;
+}
+
+.btn-pink:active,
+.btn-pink.active,
+.open > .dropdown-toggle.btn-pink {
+    background-image: none;
+}
+
+.btn-pink.disabled:hover,
+.btn-pink[disabled]:hover,
+fieldset[disabled] .btn-pink:hover,
+.btn-pink.disabled:focus,
+.btn-pink[disabled]:focus,
+fieldset[disabled] .btn-pink:focus,
+.btn-pink.disabled.focus,
+.btn-pink[disabled].focus,
+fieldset[disabled] .btn-pink.focus {
+    background-color: #F75A56;
+    border-color: #F75A56;
+}
+
+.btn-pink .badge {
+    color: #F75A56;
+    background-color: #fff;
+}
+
+
+/* custom carousel */
+
+.scroll {
+    white-space: nowrap;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+}
+
+.carousel-loogs {
+    width: 150px;
+    height: 150px;
+    background-color: #D8D8D8;
+}
+
+
+/* portfolio styles */
+
+.outer {
+    /* set your width and height here on the outer div */
+    display: block;
+    width: 100%px;
+    height: 360px;
+    position: relative;
+    overflow: hidden;
+    /* comment this line to see what happens behind the scenes */
+    margin-bottom: 15px;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.30), 0 15px 12px rgba(0, 0, 0, 0.22)
+}
+
+.inner {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #D8D8D8;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    /* set the speed of your animation */
+}
+
+.outer:hover .inner {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.outer:hover {
+    /*-webkit-transform: scale(.98);
+    transform: scale(.98);*/
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.portfolio-text {
+    font-family: "San Francisco";
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    overflow: hidden;
+}
+
+.portfolio-text.bottom {
+    bottom: 0px;
+    padding: 45px 25px 25px;
+    background: -webkit-linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, .24));
+    background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, .24));
+}
+
+.portfolio-text.top {
+    top: 0px;
+    padding: 25px 25px 45px;
+    background: -webkit-linear-gradient(rgba(0, 0, 0, .24), rgba(0, 0, 0, 0));
+    background: linear-gradient(rgba(0, 0, 0, .24), rgba(0, 0, 0, 0));
+    overflow: hidden;
+}
+
+.portfolio-text.no-gradient {
+    background: -webkit-linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0));
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0));
+}
+
+.text-dark {
+    color: #222;
+}
+
+.text-light {
+    color: #fff;
+}
+
+.text-green-starbucks {
+    color: #0B7244;
+}
+
+.portfolio-text h5 {
+    font-weight: 700;
+    line-height: 32px;
+    font-size: 24px;
+    z-index: 4;
+}
+
+.portfolio-text p {
+    font-weight: 500;
+    line-height: 18px;
+    font-size: 15px;
+}
+
+.logo {
+    display: block-inline;
+    float: left;
+    width: 30%;
+    min-width: 65px;
+    min-height: 65px;
+    background-color: transparent;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.logo-text {
+        display: block-inline;
+
+    float: right;
+    width: 70%;
+}
+
+
+/* portfolio projects */
+
+section.portfolio {
+    margin: 40px auto;
+}
+
+.portfolio-montreal {
+    background-image: url('../img/montreal-cityline-by-loogart.jpg');
+    background-position: top center;
+    padding: 210px 40px 0;
+    /* padding for inner text */
+}
+
+.portfolio-starbucks {
+    background-image: url('../img/starbucks-citysapce-by-loogart.jpg');
+    background-position: top center;
+    /* padding for inner text */
+}
+
+.starbucks-logo {
+    background-image: url('../img/Starbucks_logo.png');
+    width: 85px;
+    height: 85px;
+}
+
+@media (max-width: 767px) {
+    .portfolio-montreal {
+        background-image: url('../img/montreal-cityline-by-loogart.jpg');
+        background-position: top center;
+        padding: 220px 35px 0;
+    }
+    .portfolio-starbucks {
+        background-image: url('../img/starbucks-citysapce-by-loogart.jpg');
+        background-position: top center;
+        /* padding for inner text */
+    }
+    .starbucks-logo {
+        background-image: url('../img/Starbucks_logo.png');
+        width: 55px;
+        height: 55px;
+        margin: 0 12px 0 -10px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+@media (min-width: 1200px) {
+
+}
+
+
+/* color palette */
+
+.pink {
+    color: #F75A56;
+}
+
+.pink-bg {
+    background-color: #F75A56;
+}
+
+
+/* shadow material design style */
+
+.shadow-1 {
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+.shadow-2 {
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.shadow-3 {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+
+.shadow-4 {
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.shadow-5 {
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.30), 0 15px 12px rgba(0, 0, 0, 0.22);
+}
