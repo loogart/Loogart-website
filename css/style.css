@@ -82,6 +82,7 @@ h4 {
     line-height: 28px;
     color: #222;
     font-size: 22px;
+    margin: 20px auto;
 }
 
 
@@ -253,6 +254,7 @@ nav.shrink .navbar-toggle {
     }
 }
 
+
 /* custom buttons */
 
 .btn {
@@ -382,7 +384,7 @@ fieldset[disabled] .btn-pink.focus {
     margin-bottom: 15px;
     -webkit-transition-duration: 0.3s;
     transition-duration: 0.3s;
-    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.30), 0 15px 12px rgba(0, 0, 0, 0.22)
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
 }
 
 .inner {
@@ -506,6 +508,9 @@ section.portfolio {
 }
 
 @media (max-width: 767px) {
+    .outer {
+        box-shadow: 0 0 0;
+    }
     .portfolio-montreal {
         background-image: url('../img/montreal-cityline-by-loogart.jpg');
         background-position: top center;
@@ -560,4 +565,38 @@ section.portfolio {
 
 .shadow-5 {
     box-shadow: 0 19px 38px rgba(0, 0, 0, 0.30), 0 15px 12px rgba(0, 0, 0, 0.22);
+}
+
+.cta-jumbotron {
+    margin-top: 40px;
+}
+
+.cta-jumbotron .btn:before {
+    content: "\f178  ";
+    font-family: FontAwesome;
+}
+
+
+/* footer style */
+
+footer {
+    font-family: "San Francisco";
+    font-weight: 500;
+    background-color: #333333;
+    min-height: 100px;
+    color: #fff;
+    padding:60px 0;
+}
+
+footer .col-sm-6, footer .col-sm-3, footer .col-sm-4{
+    border-right:1px solid #444;
+    padding:0 30px;
+}
+
+footer h5 {
+    font-family: "San Francisco";
+    font-weight: 700;
+    line-height: 28px;
+    color: #fff;
+    font-size: 22px;
 }
