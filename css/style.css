@@ -254,7 +254,6 @@ nav.shrink .navbar-toggle {
     }
 }
 
-
 .cta-jumbotron {
     margin-top: 40px;
 }
@@ -263,6 +262,7 @@ nav.shrink .navbar-toggle {
     content: "\f178  ";
     font-family: FontAwesome;
 }
+
 
 /* custom buttons */
 
@@ -563,9 +563,22 @@ section.portfolio {
     width: 105px;
 }
 
+.portfolio-suite88 {
+    background-image: url(../img/suite88-chocolatier-cityline-by-loogart.jpg);
+    background-position: top center;
+}
+
+.suite88-logo {
+    background-image: url(../img/suite88-logo.png);
+    width: 105px;
+}
+
 @media (max-width: 767px) {
     .outer {
         box-shadow: 0 0 0;
+    }
+    .logo-text.no-title {
+        margin-top: 72px;
     }
     .starbucks-logo {
         background-image: url(../img/starbucks_logo.png);
@@ -587,8 +600,9 @@ section.portfolio {
         background-image: url(../img/upa-logo.png);
         width: 55px;
     }
-    .logo-text.no-title {
-        margin-top: 72px;
+    .suite88-logo {
+        background-image: url(../img/suite88-logo.png);
+        width: 85px;
     }
 }
 
@@ -664,10 +678,14 @@ footer h5 {
     padding: 7px;
     font-family: "San Francisco";
 }
+
 .travel-smart-logo {
-    background-image:url('../img/travel-smart-icon.png');
-    background-size:contain;
+    background-image: url('../img/travel-smart-icon.png');
+    background-size: contain;
     background-repeat: no-repeat;
-    height:75px;
-    width:75px;
+    height: 75px;
+    width: 75px;
+}
+.text-red-ets {
+    color:#ED3B3E;
 }
