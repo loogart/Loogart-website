@@ -384,6 +384,75 @@ fieldset[disabled] .btn-pink.focus {
     background-color: #fff;
 }
 
+/* white button */
+.btn-white {
+    color: #F75A56;
+    background-color: #fff;
+    border-color: #fff;
+    -webkit-transition: .25s;
+    transition: .25s;
+}
+
+.btn-white:focus,
+.btn-white.focus {
+    color: #c13935;
+    background-color: #c13935;
+    border-color: #c13935;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.btn-white:hover {
+    color: #c13935;
+    background-color: #fff;
+    border-color: #fff;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.btn-white:active,
+.btn-white.active,
+.open > .dropdown-toggle.btn-white {
+    color: #c13935;
+    background-color: #fff;
+    border-color: #fff;
+}
+
+.btn-white:active:hover,
+.btn-white.active:hover,
+.open > .dropdown-toggle.btn-white:hover,
+.btn-white:active:focus,
+.btn-white.active:focus,
+.open > .dropdown-toggle.btn-white:focus,
+.btn-white:active.focus,
+.btn-white.active.focus,
+.open > .dropdown-toggle.btn-white.focus {
+    color: #c13935;
+    background-color: #fff;
+    border-color: #fff;
+}
+
+.btn-white:active,
+.btn-white.active,
+.open > .dropdown-toggle.btn-white {
+    background-image: none;
+}
+
+.btn-white.disabled:hover,
+.btn-white[disabled]:hover,
+fieldset[disabled] .btn-white:hover,
+.btn-white.disabled:focus,
+.btn-white[disabled]:focus,
+fieldset[disabled] .btn-white:focus,
+.btn-white.disabled.focus,
+.btn-white[disabled].focus,
+fieldset[disabled] .btn-white.focus {
+    background-color: #fff
+    border-color: #fff;
+}
+
+.btn-white .badge {
+    color: #fff;
+    background-color: #F75A56;
+}
 
 /* custom carousel */
 
@@ -689,6 +758,50 @@ section.portfolio {
 @media (min-width: 1200px) {}
 
 
+/* about page styles */
+
+
+
+.jumbotron-about {
+    background-color: #fff;
+    min-height:360px;
+    background-image:url('../img/chris-soueidan-loogart.png');
+    background-repeat: no-repeat;
+    background-size:600px;
+    background-position: center;
+}
+
+section.about {
+    background-color: #F75A56;
+    color:#fff;
+    padding:40px 0;
+}
+
+section.about h3{
+    color:#fff;
+}
+
+section.about p {
+    font-family: "San Francisco";
+    font-weight: 500;
+    line-height: 28px;
+    color: #fff;
+    font-size: 22px;
+    margin: 20px auto;
+}
+
+section.clients{
+    font-family: "San Francisco";
+    font-weight: 500;
+    line-height: 28px;
+    color: #222;
+    font-size: 22px;
+    margin: 20px auto;
+}
+section.clients ul {
+    margin:20px auto;
+}
+
 /* color palette */
 
 .pink {
@@ -814,3 +927,4 @@ fieldset[disabled] .form-control {
 fieldset[disabled] .form-control {
     cursor: not-allowed;
 }
+
