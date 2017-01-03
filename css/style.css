@@ -173,29 +173,6 @@ h4 {
     background-color: #e7e7e7;
 }
 
-@media (max-width: 767px) {
-    .navbar-default .navbar-nav .open .dropdown-menu > li > a {
-        color: #222;
-    }
-    .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
-    .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
-        color: #333;
-        background-color: transparent;
-    }
-    .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
-    .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
-    .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
-        color: #555;
-        background-color: #e7e7e7;
-    }
-    .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a,
-    .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a:hover,
-    .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a:focus {
-        color: #ccc;
-        background-color: transparent;
-    }
-}
-
 .navbar-default .navbar-link {
     color: #222;
 }
@@ -240,6 +217,41 @@ nav.shrink .navbar-toggle {
     margin: 8px 15px 8px 0;
 }
 
+@media (max-width: 767px) {
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+        color: #222;
+    }
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+        color: #333;
+        background-color: transparent;
+    }
+    .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+    .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+    .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+        color: #555;
+        background-color: #e7e7e7;
+    }
+    .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a,
+    .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a:hover,
+    .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a:focus {
+        color: #ccc;
+        background-color: transparent;
+    }
+    .navbar-default .navbar-brand {
+        font-family: "San Francisco";
+        font-weight: 700;
+        line-height: 36px;
+        color: #F75A56;
+        font-size: 32px;
+        -webkit-transition: .25s;
+        transition: .25s;
+    }
+    nav.shrink .navbar-toggle {
+        padding: 12px 5px;
+        margin: 8px 15px 8px 0;
+    }
+}
 
 /* custom buttons */
 
@@ -462,8 +474,7 @@ fieldset[disabled] .btn-pink.focus {
 }
 
 .logo-text {
-        display: block-inline;
-
+    display: block-inline;
     float: right;
     width: 70%;
 }
@@ -513,13 +524,9 @@ section.portfolio {
     }
 }
 
-@media (min-width: 992px) and (max-width: 1199px) {
+@media (min-width: 992px) and (max-width: 1199px) {}
 
-}
-
-@media (min-width: 1200px) {
-
-}
+@media (min-width: 1200px) {}
 
 
 /* color palette */
