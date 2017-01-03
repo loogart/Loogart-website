@@ -600,3 +600,10 @@ footer h5 {
     color: #fff;
     font-size: 22px;
 }
+.lower-footer {
+    background-color: #222;
+    color:#777;
+    text-align: center;
+    padding:7px;
+    font-family: "San Francisco";
+}
