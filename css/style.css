@@ -1,7 +1,7 @@
 /* HTML & BODY */
 
 body {
-    padding-top: 130px;
+    padding-top: 99px;
 }
 
 a {
@@ -17,7 +17,6 @@ a:focus {
 a:hover,
 a:focus {
     color: rgba(0, 172, 137, 1.0);
-    ;
     text-decoration: underline;
 }
 
@@ -509,12 +508,14 @@ fieldset[disabled] .btn-white.focus {
     /* set the speed of your animation */
 }
 
-.outer:hover .inner {
+.outer:hover .inner, 
+.outer:active .inner {
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
 }
 
-.outer:hover {
+.outer:hover, 
+.outer:active {
     -webkit-transform: scale(.98);
     transform: scale(.98);
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
@@ -844,6 +845,16 @@ footer {
     color: #fff;
     padding: 60px 0;
     margin-top: 40px;
+}
+
+footer a{
+    color:#fff;
+}
+
+footer a:hover,
+footer a:focus {
+    color: #ccc;
+    text-decoration: underline;
 }
 
 footer .col-sm-6,
