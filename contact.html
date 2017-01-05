@@ -10,7 +10,7 @@
     <meta name="author" content="Chris Soueidan of Loogart">
     <link rel="icon" href="../../favicon.ico">
 
-    <title>About | Loogart</title>
+    <title>Contact | Loogart</title>
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.css" rel="stylesheet">
@@ -52,58 +52,37 @@
     </nav>
 
 
-    <!-- Jumbotron section -->
-    <section class="jumbotron-about">
-        <h1 class="hidden">About Loogart: Chris Soueidan is a Montreal visual designer.</h1>
-    </section>
 
-    <!-- Pink Section section -->
-    <section class="about">
-        <div class="container">
-            <h3>Back in the day.</h3>
-            <p>My name is Chris and I have been doodling and drawing with a pen and paper since I was a young boy. In 2009, in engineering school, my classmate introduced me to Adobe Photoshop and I fell in love with the overall process of digital design.</p>
-            <p>Fast forward to the end of 2011, a friend of mine running a growing online business convinced me that he would pay money for my creative services.</p>
-            <p>That is where I started my career as a visual designer and that is how Loogart was born.</p>
-            <p class="cta-jumbotron">
-                <a class="btn btn-lg btn-white" href="contact.html" role="button">email chris</a>
-            </p>
-        </div>
-    </section>
 
-    <!-- Clients section -->
-    <section class="clients">
+    <!-- Contact form section -->
+    <section class="contact">
         <div class="container">
-            <h3>Since then I have worked with...</h3>
-            <ul class="col-sm-6 list-unstyled">
-                <li>Starbucks</li>
-                <li>car2go</li>
-                <li>Ecole de technologie superieure</li>
-                <li>Swiffer</li>
-                <li>Union des producteurs agricoles</li>
-                <li>Global Affairs Canada</li>
-                <li>Otis Elevator</li>
-                <li>Suite 88 Chocolatier</li>
-                <li>BBDO</li>
-                <li>Croix Rouge</li>
-                <li>Dagwoods</li>
-            </ul>
-            <ul class="col-sm-6 list-unstyled">
-                <li>Citizen Relations</li>
-                <li>Montreall.com</li>
-                <li>Mario Uomo</li>
-                <li>Nutritionr</li>
-                <li>Tweetaide</li>
-                <li>Kalooba</li>
-                <li>Canada’s Motorcycle (Fortnine)</li>
-                <li>Kevric</li>
-                <li>MTL Blog</li>
-                <li>Black Tiger Sex Machine</li>
-                <li>Springboard</li>
-            </ul>
-            <p>I love every single one of my clients and the design challenges they present me with. Looking to work with Loogart?</p>
+            <h3>Send us an email</h3>
+            <p>Looking to work with Loogart on a new project? Send us an email and we will get back to you as soon as possible!</p>
+
+            <form action="https://formspree.io/chris@loogart.com" method="POST">
+                <div class="form-group">
+                    <label for="inputSubject">Subject</label>
+                    <input type="hidden" name="_subject" value="New submission!" class="form-control" id="subject" placeholder="Email">
+                </div>
+                <div class="form-group">
+                    <label for="inputName">Name</label>
+                    <input type="text" name="name" class="form-control" id="exampleInputEmail1" placeholder="Email">
+                </div>
+                <div class="form-group">
+                    <label for="inputEmail">Email address</label>
+                    <input type="email" name="_replyto" class="form-control" id="exampleInputEmail1" placeholder="Email">
+                </div>
+                <input type="text" name="_gotcha" style="display:none" />
+                <div class="form-group">
+                    <label for="inputMessage">Message</label>
+                    <textarea class="form-control" rows="4" name="message" placeholder="Your message..."></textarea>
+                </div>
+                <input type="hidden" name="_next" value="index.html" />
+                <button type="submit" value="Send" class="btn btn-block btn-pink" href="./" role="button">Send you message</button>
+            </form>
 
             <p class="cta-jumbotron">
-                <a class="btn btn-lg btn-pink" href="contact.html" role="button">Work with Loogart</a>
             </p>
         </div>
     </section>

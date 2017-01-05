@@ -1047,7 +1047,7 @@ section.portfolio-content p {
     margin: 20px auto;
 }
 
-section.portfolio-content h3 {
+section .portfolio-content h3 {
     font-family: "San Francisco";
     font-weight: 700;
     line-height: 28px;
@@ -1074,4 +1074,9 @@ section.loog-collection img {
 img .lazy {
     width: 100%;
     height: 100%;
+}
+
+section.contact .container{
+    margin:auto;
+    max-width:600px;
 }
