@@ -4,6 +4,58 @@ body {
     padding-top: 99px;
 }
 
+html,
+body {
+    width: 100%;
+    height: 100%;
+    animation: fadein 1s;
+    -moz-animation: fadein 1s;
+    /* Firefox */
+    -webkit-animation: fadein 1s;
+    /* Safari and Chrome */
+    -o-animation: fadein 1s;
+    /* Opera */
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes fadein {
+    /* Firefox */
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes fadein {
+    /* Safari and Chrome */
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@-o-keyframes fadein {
+    /* Opera */
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
 a {
     color: rgba(0, 172, 137, 1.0);
     text-decoration: none;
@@ -74,6 +126,14 @@ a:focus {
     font-family: "San Francisco";
     font-weight: 700;
     src: url(../fonts/SF/sanfranciscodisplay-bold-webfont.woff);
+}
+
+h1 {
+    font-family: "San Francisco";
+    font-weight: 700;
+    line-height: 40px;
+    color: #222;
+    font-size: 36px;
 }
 
 h2 {
@@ -279,6 +339,26 @@ nav.shrink .navbar-toggle {
     font-family: FontAwesome;
 }
 
+.cta-back {
+    margin-top: 20px;
+}
+
+.cta-back:before {
+    content: "\f104  ";
+    font-family: FontAwesome;
+    color: rgba(0, 172, 137, 1.0);
+}
+
+.cta-next {
+    margin-top: 20px;
+}
+
+.cta-next:after {
+    content: "\f105  ";
+    font-family: FontAwesome;
+    color: rgba(0, 172, 137, 1.0);
+}
+
 
 /* custom buttons */
 
@@ -383,7 +463,9 @@ fieldset[disabled] .btn-pink.focus {
     background-color: #fff;
 }
 
+
 /* white button */
+
 .btn-white {
     color: #F75A56;
     background-color: #fff;
@@ -444,14 +526,14 @@ fieldset[disabled] .btn-white:focus,
 .btn-white.disabled.focus,
 .btn-white[disabled].focus,
 fieldset[disabled] .btn-white.focus {
-    background-color: #fff
-    border-color: #fff;
+    background-color: #fff border-color: #fff;
 }
 
 .btn-white .badge {
     color: #fff;
     background-color: #F75A56;
 }
+
 
 /* custom carousel */
 
@@ -508,13 +590,13 @@ fieldset[disabled] .btn-white.focus {
     /* set the speed of your animation */
 }
 
-.outer:hover .inner, 
+.outer:hover .inner,
 .outer:active .inner {
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
 }
 
-.outer:hover, 
+.outer:hover,
 .outer:active {
     -webkit-transform: scale(.98);
     transform: scale(.98);
@@ -763,21 +845,21 @@ section.portfolio {
 
 .jumbotron-about {
     background-color: #fff;
-    min-height:360px;
-    background-image:url('../img/chris-soueidan-loogart.png');
+    min-height: 360px;
+    background-image: url('../img/chris-soueidan-loogart.png');
     background-repeat: no-repeat;
-    background-size:600px;
+    background-size: 600px;
     background-position: center;
 }
 
 section.about {
     background-color: #F75A56;
-    color:#fff;
-    padding:40px 0;
+    color: #fff;
+    padding: 40px 0;
 }
 
-section.about h3{
-    color:#fff;
+section.about h3 {
+    color: #fff;
 }
 
 section.about p {
@@ -789,7 +871,7 @@ section.about p {
     margin: 20px auto;
 }
 
-section.clients{
+section.clients {
     font-family: "San Francisco";
     font-weight: 500;
     line-height: 28px;
@@ -797,9 +879,29 @@ section.clients{
     font-size: 22px;
     margin: 20px auto;
 }
+
 section.clients ul {
-    margin:20px auto;
+    margin: 20px auto;
 }
+
+section.portfolio-content p {
+    font-family: "San Francisco";
+    font-weight: 500;
+    line-height: 28px;
+    color: #222;
+    font-size: 22px;
+    margin: 20px auto;
+}
+
+section.portfolio-content h3 {
+    font-family: "San Francisco";
+    font-weight: 700;
+    line-height: 28px;
+    color: #222;
+    font-size: 28px;
+    margin: 20px auto;
+}
+
 
 /* color palette */
 
@@ -847,8 +949,8 @@ footer {
     margin-top: 40px;
 }
 
-footer a{
-    color:#fff;
+footer a {
+    color: #fff;
 }
 
 footer a:hover,
@@ -937,3 +1039,25 @@ fieldset[disabled] .form-control {
     cursor: not-allowed;
 }
 
+
+/* portfolio content */
+
+.project-jumbotron {
+    height: 350px;
+    background-color: #e5e5e5;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.project-starbucks-img {
+    background-image: url('../img/starbucks-artwork-montreal-city-by-loogart.jpg');
+}
+
+.img-portfolio {
+    margin: 30px auto;
+}
+.img-portfolio-scroller {
+    height:400px;
+    margin-right:15px;
+}

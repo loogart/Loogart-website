@@ -5,3 +5,7 @@
                 $('nav').removeClass('shrink');
             }
         });
+
+$('.project-1-starbucks').parallaxScroll({
+  friction: 0.4
+});
