@@ -51,9 +51,6 @@
         </div>
     </nav>
 
-
-
-
     <!-- Contact form section -->
     <section class="contact">
         <!--<div class="container">
@@ -87,22 +84,21 @@
         <div class="container">
             <h3>Send us an email :-)</h3>
             <p>Looking to work with Loogart on a new project? Send us an email and we will get back to you as soon as possible!</p>
-            <form action="php/contactform.php" id="contact-form" method="post">
+            <form action="php/contactform.php" id="contact_form" method="post">
+
                 <div class="form-group">
                     <label for="contact-email">Email</label>
-                    <input type="email" class="form-control" id="contact-email" type="email" name="contact-email" placeholder="you@email.com">
-                    <?php echo $emptyname?>
+                    <input type="email" class="form-control" id="contact-email" type="email" name="email" placeholder="you@email.com">
                 </div>
 
                 <div class="form-group">
                     <label for="contact-name">Name</label>
-
-                    <input class="form-control" id="contact-name" type="text" name="contact-name" placeholder="First Name and last names">
+                    <input class="form-control" id="contact-name" type="text" name="first_name" placeholder="First Name and last names">
                 </div>
 
                 <div class="form-group">
                     <label for="contact-message">Message</label>
-                    <textarea class="form-control" rows="4" id="contact-message" name="contact-message" placeholder="Your message"></textarea>
+                    <textarea class="form-control" rows="4" id="contact-message" name="comment" placeholder="Your message"></textarea>
                 </div>
                 <div class="form-group">
                     <button type="submit" name="action" class="btn btn-pink btn-block"><i class="fa fa-envelope-o" aria-hidden="true"></i> Send your message</button>
@@ -155,8 +151,8 @@
     <div class="lower-footer">
         <h6>© 2017 Loogart</h6>
     </div>
-    
-    
+
+
     <!-- Error modal -->
     <div class="modal popup fade" id="errorPopup" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
         <div class="modal-dialog" role="document">
@@ -173,7 +169,7 @@
             </div>
         </div>
     </div>
-    
+
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
@@ -181,8 +177,10 @@
     <script src="js/jquery.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/zoom.min.js"></script>
+    <script src="js/validate.js"></script>
+    <script src="js/bootstrapvalidator.js"></script>
     <script src="js/loogart.js"></script>
-        <script>
+    <script>
         if (window.location.href.indexOf("#errorPopup") > -1) {
             $('#errorPopup').modal('show');
         }

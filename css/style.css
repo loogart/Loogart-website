@@ -1113,7 +1113,7 @@ section.contact p {
     -ms-transform: translate(0, -100%);
     -o-transform: translate(0, -100%);
     transform: translate(0, -100%);
-    max-width:400px;
+    max-width: 400px;
 }
 
 .popup .modal.in .modal-dialog {
@@ -1139,12 +1139,10 @@ section.contact p {
     padding: 20px 0 0;
 }
 
-
 .popup .modal-header {
     padding: 15px;
     border-bottom: 0px solid #e5e5e5;
 }
-
 
 .popup .modal-body {
     position: relative;
@@ -1154,7 +1152,7 @@ section.contact p {
     color: #222;
     font-size: 22px;
     margin: 0 auto 20px;
-    padding:10px 50px 20px;
+    padding: 10px 50px 20px;
 }
 
 .popup .modal-footer {
@@ -1173,7 +1171,7 @@ section.contact p {
     height: 52px;
     border-radius: 0 0 0 20px;
     border-right: 1px dotted #c5c5c5;
-    padding-top:12px;
+    padding-top: 12px;
     font-size: 18px;
 }
 
@@ -1184,7 +1182,7 @@ section.contact p {
     width: 50%;
     height: 52px;
     border-radius: 0 0 20px 0;
-    padding-top:12px;
+    padding-top: 12px;
     font-size: 18px;
 }
 
@@ -1195,7 +1193,7 @@ section.contact p {
     width: 100%;
     height: 52px;
     border-radius: 0 0 20px 20px;
-    padding-top:12px;
+    padding-top: 12px;
     font-size: 18px;
 }
 
@@ -1205,4 +1203,38 @@ section.contact p {
 
 .popup .modal-footer .btn-block + .btn-block {
     margin-left: 0;
+}
+
+
+/* validation styles */
+
+
+/*!
+ * BootstrapValidator (http://bootstrapvalidator.com)
+ * The best jQuery plugin to validate form fields. Designed to use with Bootstrap 3
+ *
+ * @version     v0.5.0, built on 2014-07-14 4:31:02 PM
+ * @author      https://twitter.com/nghuuphuoc
+ * @copyright   (c) 2013 - 2014 Nguyen Huu Phuoc
+ * @license     MIT
+ */
+
+.bv-form .help-block {
+    margin-bottom: 0
+}
+
+.bv-form .tooltip-inner {
+    text-align: left
+}
+
+.nav-tabs li.bv-tab-success>a {
+    color: #3c763d
+}
+
+.nav-tabs li.bv-tab-error>a {
+    color: #a94442
+}
+
+#success_message {
+    display: none;
 }

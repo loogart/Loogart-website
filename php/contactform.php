@@ -48,9 +48,9 @@ if ( empty($_REQUEST['contact-message']) || $_REQUEST['contact-message'] == "You
 }
 
 // if there was error, print alert message
-if ( $iserror==1 ) {
+/*if ( $iserror==1 ) {
 
-/*echo "<script>
+echo "<script>
 		$(\"#message\").addClass(\"warning\").stop().slideDown(\"normal\").fadeIn(\"normal\").delay(3000).slideUp(\"normal\");
 	 </script>";
 echo "<div class=\"alert alert-block alert-danger\">";
@@ -58,12 +58,12 @@ echo "<div class=\"alert_title\"><p><strong>" . $iserrormessage . "</strong></p>
 echo "<ul class=\"unordered\">";
 echo $alert;
 echo "</ul>";
-echo "</div>";*/
+echo "</div>";
     
 header("Location: http://v2.loogart.com/contact.html#errorPopup");
 
 
-} else {
+} else {*/
 // if everything went fine, send e-mail
 $plsubject = "=?utf-8?B?".base64_encode($subject)."?=";
 $msg = "Name: " . clean_var($_REQUEST['contact-name']) . "\n";
@@ -81,5 +81,5 @@ header("Location: http://v2.loogart.com#thankyou");
 
 
 die();
-}
+//}
 ?>
