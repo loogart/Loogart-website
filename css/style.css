@@ -1105,7 +1105,7 @@ section.contact p {
     outline: 0;
 }
 
-.modal.fade .modal-dialog {
+.popup .modal.fade .modal-dialog {
     -webkit-transition: -webkit-transform .1s ease-out;
     -o-transition: -o-transform .1s ease-out;
     transition: transform .1s ease-out;
@@ -1113,15 +1113,15 @@ section.contact p {
     -ms-transform: translate(0, -100%);
     -o-transform: translate(0, -100%);
     transform: translate(0, -100%);
-    width:400px;
+    max-width:400px;
 }
 
-.modal.in .modal-dialog {
+.popup .modal.in .modal-dialog {
     -webkit-transform: translate(0, 0);
     -ms-transform: translate(0, 0);
     -o-transform: translate(0, 0);
     transform: translate(0, 0);
-    width: 400px;
+    max-width: 400px;
 }
 
 .modal.popup .modal-content {
@@ -1139,25 +1139,6 @@ section.contact p {
     padding: 20px 0 0;
 }
 
-.modal-backdrop {
-    position: fixed;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    z-index: 1040;
-    background-color: #000;
-}
-
-.modal-backdrop.fade {
-    filter: alpha(opacity=0);
-    opacity: 0;
-}
-
-.modal-backdrop.in {
-    filter: alpha(opacity=50);
-    opacity: .5;
-}
 
 .popup .modal-header {
     padding: 15px;
