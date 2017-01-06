@@ -42,7 +42,7 @@
 
                 <ul class="nav navbar-nav navbar-right">
                     <li><a href="about.html">about</a></li>
-                    <li><a href="./">shop</a></li>
+                    <li><a href="#!" data-toggle="modal" data-target="#thankyou">shop</a></li>
                     <li><a href="https://www.instagram.com/loogart/">ig</a></li>
                     <li><a href="https://www.facebook.com/LoogArt/">fb</a></li>
                 </ul>
@@ -345,6 +345,25 @@
         <h6>© 2017 Loogart</h6>
     </div>
 
+
+    <!-- Thank you modal -->
+    <div class="modal popup fade" id="thankyou" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title" id="myModalLabel">Thank you!</h3>
+                </div>
+                <div class="modal-body">
+                    We will get back to you as soon as possible. If you want to reach us faster, try sending a message on <a href="https://www.facebook.com/LoogArt/" target="_blank">Facebook</a>.
+                </div>
+                <div class="modal-footer">
+                    <a type="button" class="btn btn-default" data-dismiss="modal">Close</a>
+                    <a href="portraits-loog-a-day.html" type="button" class="btn btn-default">Browse Loogs</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
@@ -352,6 +371,11 @@
     <script src="js/bootstrap.min.js"></script>
     <script src="js/zoom.min.js"></script>
     <script src="js/loogart.js"></script>
+    <script>
+        if (window.location.href.indexOf("#thankyou") > -1) {
+            $('#thankyou').modal('show');
+        }
+    </script>
 </body>
 
 </html>

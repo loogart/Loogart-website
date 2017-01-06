@@ -1022,7 +1022,6 @@ fieldset[disabled] .form-control {
 }
 
 
-
 /* portfolio content */
 
 .project-starbucks-img {
@@ -1076,7 +1075,153 @@ img .lazy {
     height: 100%;
 }
 
-section.contact .container{
-    margin:auto;
-    max-width:600px;
+section.contact .container {
+    margin: auto;
+    max-width: 600px;
+}
+
+section.contact p {
+    font-family: "San Francisco";
+    font-weight: 500;
+    line-height: 28px;
+    color: #222;
+    font-size: 22px;
+    margin: 20px auto;
+}
+
+
+/* custom modal POPUP */
+
+.modal .popup {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1050;
+    display: none;
+    overflow: hidden;
+    -webkit-overflow-scrolling: touch;
+    outline: 0;
+}
+
+.modal.fade .modal-dialog {
+    -webkit-transition: -webkit-transform .1s ease-out;
+    -o-transition: -o-transform .1s ease-out;
+    transition: transform .1s ease-out;
+    -webkit-transform: translate(0, -100%);
+    -ms-transform: translate(0, -100%);
+    -o-transform: translate(0, -100%);
+    transform: translate(0, -100%);
+    width:400px;
+}
+
+.modal.in .modal-dialog {
+    -webkit-transform: translate(0, 0);
+    -ms-transform: translate(0, 0);
+    -o-transform: translate(0, 0);
+    transform: translate(0, 0);
+    width: 400px;
+}
+
+.modal.popup .modal-content {
+    position: relative;
+    background-color: #fff;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    border: 0px solid #999;
+    border: 0px solid rgba(0, 0, 0, .2);
+    border-radius: 20px;
+    outline: 0;
+    -webkit-box-shadow: 0 3px 9px rgba(0, 0, 0, .5);
+    box-shadow: 0 3px 9px rgba(0, 0, 0, .5);
+    text-align: center;
+    padding: 20px 0 0;
+}
+
+.modal-backdrop {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1040;
+    background-color: #000;
+}
+
+.modal-backdrop.fade {
+    filter: alpha(opacity=0);
+    opacity: 0;
+}
+
+.modal-backdrop.in {
+    filter: alpha(opacity=50);
+    opacity: .5;
+}
+
+.popup .modal-header {
+    padding: 15px;
+    border-bottom: 0px solid #e5e5e5;
+}
+
+
+.popup .modal-body {
+    position: relative;
+    font-family: "San Francisco";
+    font-weight: 500;
+    line-height: 28px;
+    color: #222;
+    font-size: 22px;
+    margin: 0 auto 20px;
+    padding:10px 50px 20px;
+}
+
+.popup .modal-footer {
+    padding: 0;
+    text-align: right;
+    border-top: 1px dotted #c5c5c5;
+    text-align: center;
+    height: 50px;
+}
+
+.popup .modal-footer a:first-child {
+    margin-bottom: 0;
+    margin-left: 0;
+    float: left;
+    width: 50%;
+    height: 52px;
+    border-radius: 0 0 0 20px;
+    border-right: 1px dotted #c5c5c5;
+    padding-top:12px;
+    font-size: 18px;
+}
+
+.popup .modal-footer a:last-child {
+    margin-bottom: 0;
+    margin-left: 0;
+    float: right;
+    width: 50%;
+    height: 52px;
+    border-radius: 0 0 20px 0;
+    padding-top:12px;
+    font-size: 18px;
+}
+
+.popup .modal-footer a.btn-wide {
+    margin-bottom: 0;
+    margin-left: 0;
+    float: right;
+    width: 100%;
+    height: 52px;
+    border-radius: 0 0 20px 20px;
+    padding-top:12px;
+    font-size: 18px;
+}
+
+.popup .modal-footer .btn-group .btn + .btn {
+    margin-left: 0;
+}
+
+.popup .modal-footer .btn-block + .btn-block {
+    margin-left: 0;
 }

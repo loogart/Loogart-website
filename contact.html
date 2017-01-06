@@ -42,7 +42,7 @@
 
                 <ul class="nav navbar-nav navbar-right">
                     <li class="active"><a href="about.html">about</a></li>
-                    <li><a href="./">shop</a></li>
+                    <li><a href="#!" data-toggle="modal" data-target="#errorPopup">shop</a></li>
                     <li><a href="https://www.instagram.com/loogart/">ig</a></li>
                     <li><a href="https://www.facebook.com/LoogArt/">fb</a></li>
                 </ul>
@@ -56,11 +56,10 @@
 
     <!-- Contact form section -->
     <section class="contact">
-        <div class="container">
+        <!--<div class="container">
             <h3>Send us an email</h3>
             <p>Looking to work with Loogart on a new project? Send us an email and we will get back to you as soon as possible!</p>
-
-            <form id="contactform" action="https://formspree.io/chris@loogart.com" method="POST">
+                <form id="contactform" action="https://formspree.io/chris@loogart.com" method="POST">
                 <div class="form-group">
                     <label for="inputSubject">Subject</label>
                     <input type="text" name="_subject" value="" class="form-control" id="subject" placeholder="How we can help you...">
@@ -84,10 +83,33 @@
 
             <p class="cta-jumbotron">
             </p>
+        </div>-->
+        <div class="container">
+            <h3>Send us an email :-)</h3>
+            <p>Looking to work with Loogart on a new project? Send us an email and we will get back to you as soon as possible!</p>
+            <form action="php/contactform.php" id="contact-form" method="post">
+                <div class="form-group">
+                    <label for="contact-email">Email</label>
+                    <input type="email" class="form-control" id="contact-email" type="email" name="contact-email" placeholder="you@email.com">
+                </div>
+
+                <div class="form-group">
+                    <label for="contact-name">Name</label>
+
+                    <input class="form-control" id="contact-name" type="text" name="contact-name" placeholder="First Name and last names">
+                </div>
+
+                <div class="form-group">
+                    <label for="contact-message">Message</label>
+                    <textarea class="form-control" rows="4" id="contact-message" name="contact-message" placeholder="Your message"></textarea>
+                </div>
+                <div class="form-group">
+                    <button type="submit" name="action" class="btn btn-pink btn-block"><i class="fa fa-envelope-o" aria-hidden="true"></i> Send your message</button>
+                </div>
+            </form>
         </div>
     </section>
     <!-- /container -->
-
 
     <!-- footer -->
     <footer>
@@ -132,6 +154,25 @@
     <div class="lower-footer">
         <h6>© 2017 Loogart</h6>
     </div>
+    
+    
+    <!-- Error modal -->
+    <div class="modal popup fade" id="errorPopup" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title" id="myModalLabel">Mmmh...</h3>
+                </div>
+                <div class="modal-body">
+                    Did you properly type your email address? Did you will out all 3 fields?
+                </div>
+                <div class="modal-footer">
+                    <a type="button" class="btn btn-default btn-wide" data-dismiss="modal">Try again</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
@@ -140,6 +181,11 @@
     <script src="js/bootstrap.min.js"></script>
     <script src="js/zoom.min.js"></script>
     <script src="js/loogart.js"></script>
+        <script>
+        if (window.location.href.indexOf("#errorPopup") > -1) {
+            $('#errorPopup').modal('show');
+        }
+    </script>
 </body>
 
 </html>
