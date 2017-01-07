@@ -967,6 +967,10 @@ footer h5 {
 
 /* form control input styles */
 
+.form-control{
+    border-radius: 0px;
+}
+
 .form-control.on-dark {
     display: block;
     width: 100%;
