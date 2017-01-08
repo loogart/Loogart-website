@@ -965,7 +965,7 @@ footer h5 {
 }
 
 
-/* form control input styles */
+/* form control, select input styles */
 
 .form-control{
     border-radius: 0px;
@@ -1023,6 +1023,28 @@ fieldset[disabled] .form-control {
 .form-control[disabled],
 fieldset[disabled] .form-control {
     cursor: not-allowed;
+}
+
+.select-69 select {
+    background-color: #fff;
+    background-image: none;
+    width: 100%;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    border: 1px solid #ccc;
+    border-radius: 0;
+    height: 34px;
+    -webkit-appearance: none;
+    color: #555;
+    text-align: center;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+}
+
+
+.styled-69 {
+    width: 100%;
+    overflow: hidden;
 }
 
 

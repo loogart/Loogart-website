@@ -26,7 +26,7 @@
                         message: 'Please supply your last name'
                     }
                 }
-            },
+            },           
             email: {
                 validators: {
                     notEmpty: {

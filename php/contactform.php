@@ -10,6 +10,7 @@ function clean_var($variable) {$variable = strip_tags(stripslashes(trim(rtrim($v
 // all is good, send e-mail
 $plsubject = "=?utf-8?B?".base64_encode($subject)."?=";
 $msg = "Name: " . clean_var($_REQUEST['first_name']) . "\n";
+$msg .= "Subject: " . clean_var($_REQUEST['subject']) . "\n";
 $msg .= "E-mail: " . clean_var($_REQUEST['email']) . "\n";
 $msg .= "Message: \n\n" . clean_var($_REQUEST['comment']);
 
