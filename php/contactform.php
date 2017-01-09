@@ -4,9 +4,6 @@
 $sendto ='chris@loogart.com';
 $subject = 'Loogart.com message';
 
-// cleaning the post variables
-//function clean_var($variable) {$variable = strip_tags(stripslashes(trim(rtrim($variable))));return $variable;}
-
 // all is good, send e-mail
 $plsubject = "=?utf-8?B?".base64_encode($subject)."?=";
 $msg = "Name: " . $_REQUEST['first_name'] . "\n";
