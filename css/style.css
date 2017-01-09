@@ -412,8 +412,8 @@ nav.shrink .navbar-toggle {
 
 .btn-pink:hover {
     color: #fff;
-    background-color: #c13935;
-    border-color: #c13935;
+    background-color: #F75A56;
+    border-color: #F75A56;
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
 }
 
@@ -895,8 +895,8 @@ section.clients ul {
 ul.list-inline li span.client-logo {
     display: inline-block;
     background-color: transparent;
-    height:140px;
-    width:100%;
+    height: 140px;
+    width: 100%;
     background-size: 120px;
     background-repeat: no-repeat;
     background-position: center;
@@ -904,17 +904,18 @@ ul.list-inline li span.client-logo {
     transition: all .3s ease-in;
 }
 
-ul.list-inline li span.client-logo:hover, ul.list-inline li span.client-logo:active{
+ul.list-inline li span.client-logo:hover,
+ul.list-inline li span.client-logo:active {
     filter: grayscale(0) opacity(1);
 }
 
-@media (max-width:767px){
+@media (max-width:767px) {
     ul.list-inline li span.client-logo {
         filter: grayscale(0) opacity(1);
     }
 }
 
-section.clients ul li h6{
+section.clients ul li h6 {
     text-align: center;
 }
 
@@ -1001,7 +1002,7 @@ footer h5 {
 
 /* form control, select input styles */
 
-.form-control{
+.form-control {
     border-radius: 0px;
 }
 
@@ -1075,7 +1076,6 @@ fieldset[disabled] .form-control {
     box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
 }
 
-
 .styled-69 {
     width: 100%;
     overflow: hidden;
@@ -1090,14 +1090,14 @@ fieldset[disabled] .form-control {
 
 .img-portfolio {
     margin: 30px auto;
-    max-height:300px;
-    width:100%;
+    max-height: 300px;
+    width: 100%;
 }
 
 .img-portfolio-scroller {
     height: 400px;
     margin-right: 15px;
-    background-color:#e5e5e5;
+    background-color: #e5e5e5;
 }
 
 section.portfolio-content p {
@@ -1304,7 +1304,6 @@ section.contact p {
     display: none;
 }
 
-
 .car2go-logo {
     background-image: url(../img/logo-car2go.png);
     width: 85px;
@@ -1318,11 +1317,11 @@ section.contact p {
 
 .list-logos {
     display: inline-block;
-    width:100%!important;
+    width: 100%!important;
 }
 
 .canada-logo-2 {
-        background-image: url(../img/logo-canada.png);
+    background-image: url(../img/logo-canada.png);
     width: 105px;
 }
 
@@ -1339,18 +1338,15 @@ section.contact p {
 }
 
 .citizenrelations-logo {
-        background-image: url('../img/logo-citizen-relations.png');
-
+    background-image: url('../img/logo-citizen-relations.png');
 }
 
 .mtlblog-logo {
-        background-image: url('../img/logo-mtlblog.png');
-
+    background-image: url('../img/logo-mtlblog.png');
 }
 
 .montreall-logo {
-        background-image: url('../img/logo-montreall.svg');
-
+    background-image: url('../img/logo-montreall.svg');
 }
 
 .mariouomo-logo {
