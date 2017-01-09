@@ -1,6 +1,6 @@
 img[data-action="zoom"] {
     /*cursor: pointer;*/
-    cursor: url('../img/icons/ic_zoom_in_black_24px.png'), auto;	
+    cursor: url('../img/icons/ic_zoom_in_black_24px.png'), auto;
     cursor: -moz-zoom-in;
 }
 
@@ -14,7 +14,7 @@ img[data-action="zoom"] {
 
 img.zoom-img {
     /*cursor: pointer;*/
-    cursor: url('../img/icons/ic_zoom_out_black_24px.png'), auto;	
+    cursor: url('../img/icons/ic_zoom_out_black_24px.png'), auto;
     cursor: -moz-zoom-out;
 }
 
@@ -41,5 +41,5 @@ img.zoom-img {
 .zoom-overlay-open,
 .zoom-overlay-transitioning {
     /*cursor: default;*/
-    cursor: url('../img/icons/ic_zoom_out_black_24px.png'), auto;	
+    cursor: url('../img/icons/ic_zoom_out_black_24px.png'), auto;
 }
