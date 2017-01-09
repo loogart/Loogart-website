@@ -792,6 +792,11 @@ section.portfolio {
     margin-top: 20px;
 }
 
+.otis-logo-2 {
+    background-image: url(../img/otis-logo.png);
+    width: 105px;
+}
+
 @media (max-width: 767px) {
     .outer {
         box-shadow: 0 0 0;
@@ -882,6 +887,35 @@ section.clients {
 
 section.clients ul {
     margin: 20px auto;
+}
+
+
+/* list clients */
+
+ul.list-inline li span.client-logo {
+    display: inline-block;
+    background-color: transparent;
+    height:140px;
+    width:100%;
+    background-size: 120px;
+    background-repeat: no-repeat;
+    background-position: center;
+    filter: grayscale(1) opacity(.5);
+    transition: all .3s ease-in;
+}
+
+ul.list-inline li span.client-logo:hover, ul.list-inline li span.client-logo:active{
+    filter: grayscale(0) opacity(1);
+}
+
+@media (max-width:767px){
+    ul.list-inline li span.client-logo {
+        filter: grayscale(0) opacity(1);
+    }
+}
+
+section.clients ul li h6{
+    text-align: center;
 }
 
 
@@ -1056,11 +1090,14 @@ fieldset[disabled] .form-control {
 
 .img-portfolio {
     margin: 30px auto;
+    max-height:300px;
+    width:100%;
 }
 
 .img-portfolio-scroller {
     height: 400px;
     margin-right: 15px;
+    background-color:#e5e5e5;
 }
 
 section.portfolio-content p {
@@ -1265,4 +1302,89 @@ section.contact p {
 
 #success_message {
     display: none;
+}
+
+
+.car2go-logo {
+    background-image: url(../img/logo-car2go.png);
+    width: 85px;
+    height: 85px;
+}
+
+.upa-logo-2 {
+    background-image: url(../img/logo-upa.jpg);
+    width: 105px;
+}
+
+.list-logos {
+    display: inline-block;
+    width:100%!important;
+}
+
+.canada-logo-2 {
+        background-image: url(../img/logo-canada.png);
+    width: 105px;
+}
+
+.bbdo-logo {
+    background-image: url('../img/logo-bbdo.png');
+}
+
+.redcross-logo {
+    background-image: url('../img/logo-redcross.jpg')
+}
+
+.dagwoods-logo {
+    background-image: url('../img/logo-dagwoods.jpg')
+}
+
+.citizenrelations-logo {
+        background-image: url('../img/logo-citizen-relations.png');
+
+}
+
+.mtlblog-logo {
+        background-image: url('../img/logo-mtlblog.png');
+
+}
+
+.montreall-logo {
+        background-image: url('../img/logo-montreall.svg');
+
+}
+
+.mariouomo-logo {
+    background-image: url('../img/logo-mariouomo.png');
+}
+
+.tweetaide-logo {
+    background-image: url('../img/logo-tweetaide.jpg');
+}
+
+.fortnine-logo {
+    background-image: url('../img/logo-fortnine.png');
+}
+
+.btsm-logo {
+    background-image: url('../img/logo-btsm.jpg');
+}
+
+.kevric-logo {
+    background-image: url('../img/logo-kevric.jpg');
+}
+
+.springboard-logo {
+    background-image: url('../img/logo-springboard.png');
+}
+
+.logo-nutritionr {
+    background-image: url('../img/logo-nutritionr.png');
+}
+
+.logo-kalooba {
+    background-image: url('../img/logo-kalooba.png');
+}
+
+.logo-station16 {
+    background-image: url('../img/logo-station16.jpg');
 }
