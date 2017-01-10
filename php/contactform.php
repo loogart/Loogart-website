@@ -21,7 +21,6 @@ $header .= 'From:'. $_REQUEST['email'];
 mail($sendto, $plsubject, $msg, $header);
 
 // following email send, bring user back to this page
-//header("Location: http://v2.loogart.com#thankyou");
 header('Location: /index.html#thankyou');  
 die();
 ?>
