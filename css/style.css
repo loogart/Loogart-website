@@ -340,7 +340,7 @@ nav.shrink .navbar-toggle {
 }
 
 .cta-back {
-    padding-top: 20px;
+    margin-top: 30px;
 }
 
 .cta-back:before {
@@ -700,6 +700,11 @@ section.portfolio {
     margin: 40px auto;
 }
 
+
+section.portfolio h4 {
+    margin: 20px auto 30px;
+}
+
 .portfolio-montreal {
     background-image: url(../img/montreal-cityline-by-loogart.jpg);
     background-position: top center;
@@ -887,6 +892,15 @@ section.clients {
     color: #222;
     font-size: 22px;
     margin: 20px auto;
+}
+
+section.clients p {
+    font-family: "San Francisco";
+    font-weight: 500;
+    line-height: 30px;
+    color: #222;
+    font-size: 22px;
+    margin: 15px auto;
 }
 
 section.clients ul {
