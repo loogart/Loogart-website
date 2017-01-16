@@ -12,3 +12,6 @@ $(function () {
         effect: "fadeIn"
     });
 });
+
+//atvImg activator
+atvImg();
