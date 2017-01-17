@@ -14,9 +14,7 @@ $(function () {
 });
 
 //parallax
-$('.project-montreal-cityline-img').parallax({
-    imageSrc: '../img/portfolio/montreal-cityline.jpg'
-});
+$('.project-montreal-cityline-img').parallax();
 
 //flickity
 $('.main-carousel').flickity({

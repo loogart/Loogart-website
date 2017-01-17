@@ -1197,8 +1197,7 @@ fieldset[disabled] .form-control {
 }
 
 .project-montreal-cityline-img {
-    height: 420px;
-    background-position: 50%;
+    height: 69vh;
 }
 
 .project-starbucks-img {
@@ -1238,17 +1237,8 @@ fieldset[disabled] .form-control {
 }
 
 @media (max-width: 767px) {
-    .project-jumbotron {
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        -webkit-box-shadow: inset 0px -30px 63px -34px rgba(0, 0, 0, 0.45);
-        -moz-box-shadow: inset 0px -30px 63px -34px rgba(0, 0, 0, 0.45);
-        box-shadow: inset 0px -30px 63px -34px rgba(0, 0, 0, 0.45);
-    }
     .project-montreal-cityline-img {
         height: 320px;
-        width: 100%;
     }
 }
 
@@ -1653,4 +1643,16 @@ http://flickity.metafizzy.co
 
 .flickity-page-dots .dot.is-selected {
     opacity: 1;
+}
+
+/* position dots up a bit */
+.flickity-page-dots {
+  bottom: -22px;
+}
+/* dots are lines */
+.flickity-page-dots .dot {
+  height: 4px;
+  width: 40px;
+  margin: 0;
+  border-radius: 0;
 }
