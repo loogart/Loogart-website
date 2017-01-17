@@ -13,5 +13,14 @@ $(function () {
     });
 });
 
-//atvImg activator
-atvImg();
+//parallax
+$('.project-montreal-cityline-img').parallax({
+    imageSrc: '../img/portfolio/montreal-cityline.jpg'
+});
+
+//flickity
+$('.main-carousel').flickity({
+    // options
+    cellAlign: 'left',
+    contain: true
+});
