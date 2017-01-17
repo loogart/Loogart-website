@@ -694,7 +694,7 @@ fieldset[disabled] .btn-white.focus {
 }
 
 
-/* portfolio projects */
+/* portfolio main page */
 
 section.portfolio {
     margin: 40px auto;
@@ -1191,14 +1191,14 @@ fieldset[disabled] .form-control {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    -webkit-box-shadow: inset 0px -30px 63px -34px rgba(0, 0, 0, 0.45);
+    -moz-box-shadow: inset 0px -30px 63px -34px rgba(0, 0, 0, 0.45);
+    box-shadow: inset 0px -30px 63px -34px rgba(0, 0, 0, 0.45);
 }
 
 .project-montreal-cityline-img {
     height: 420px;
     background-position: 50%;
-    -webkit-box-shadow: inset 0px -30px 63px -34px rgba(0, 0, 0, 0.45);
-    -moz-box-shadow: inset 0px -30px 63px -34px rgba(0, 0, 0, 0.45);
-    box-shadow: inset 0px -30px 63px -34px rgba(0, 0, 0, 0.45);
 }
 
 .project-starbucks-img {
@@ -1242,9 +1242,12 @@ fieldset[disabled] .form-control {
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
+        -webkit-box-shadow: inset 0px -30px 63px -34px rgba(0, 0, 0, 0.45);
+        -moz-box-shadow: inset 0px -30px 63px -34px rgba(0, 0, 0, 0.45);
+        box-shadow: inset 0px -30px 63px -34px rgba(0, 0, 0, 0.45);
     }
     .project-montreal-cityline-img {
-        height: 280px;
+        height: 320px;
         width: 100%;
     }
 }
