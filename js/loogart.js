@@ -17,6 +17,7 @@ $(function () {
 $('.montreal-carousel').flickity({
     // options
     cellAlign: 'left',
-    contain: true
+    contain: true,
+    imagesLoaded: true
 });
 
