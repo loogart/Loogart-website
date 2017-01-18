@@ -858,10 +858,10 @@ section.portfolio h4 {
 
 .jumbotron-about {
     background-color: #fff;
-    min-height: 360px;
-    background-image: url('../img/chris-soueidan-loogart.jpg');
+    min-height: 560px;
+    background-image: url('../img/about.jpg');
     background-repeat: no-repeat;
-    background-size: 600px;
+    background-size: contain;
     background-position: center;
 }
 
@@ -1191,13 +1191,10 @@ fieldset[disabled] .form-control {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    -webkit-box-shadow: inset 0px -30px 63px -34px rgba(0, 0, 0, 0.45);
-    -moz-box-shadow: inset 0px -30px 63px -34px rgba(0, 0, 0, 0.45);
-    box-shadow: inset 0px -30px 63px -34px rgba(0, 0, 0, 0.45);
 }
 
 .project-montreal-cityline-img {
-    height: 69vh;
+    height: 44vh;
 }
 
 .project-starbucks-img {
