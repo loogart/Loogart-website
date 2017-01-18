@@ -13,12 +13,10 @@ $(function () {
     });
 });
 
-//parallax
-$('.project-montreal-cityline-img').parallax();
-
 //flickity
-$('.main-carousel').flickity({
+$('.montreal-carousel').flickity({
     // options
     cellAlign: 'left',
     contain: true
 });
+

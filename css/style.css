@@ -859,7 +859,7 @@ section.portfolio h4 {
 .jumbotron-about {
     background-color: #fff;
     min-height: 560px;
-    background-image: url('../img/about.jpg');
+    background-image: url('../img/chris-soueidan-loogart.jpg');
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
@@ -1188,13 +1188,16 @@ fieldset[disabled] .form-control {
 
 .project-jumbotron {
     min-height: 50px;
-    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .project-montreal-cityline-img {
-    height: 44vh;
+    height: 32vh;
+    background-image: url('../img/portfolio/cityline-montreal-pink-short.png');
+    background-position: 50% 40%;
+    background-repeat: no-repeat;
+    
 }
 
 .project-starbucks-img {
@@ -1241,7 +1244,29 @@ fieldset[disabled] .form-control {
 
 .img-portfolio {
     margin: 30px auto;
-    max-height: 450px;
+    max-height:400px;
+}
+
+.carousel-cell .img-portfolio{
+    max-height:444px;
+    margin: 10px 40px 30px;
+}
+
+@media (max-width:767px){
+    .carousel-cell .img-portfolio{
+    max-height:320px;
+    margin: 10px 20px 30px;
+}
+}
+
+.portfolio-content .carousel {
+    margin:50px auto;
+}
+
+
+
+.portfolio-content ul li img {
+    margin:30px auto;
 }
 
 .img-portfolio-scroller {
@@ -1272,7 +1297,7 @@ section.portfolio-content h3 {
     font-family: "San Francisco";
     font-weight: 700;
     line-height: 28px;
-    color: #222;
+    color: #F75A56;
     font-size: 24px;
     margin: 20px auto 12px;
 }
@@ -1609,7 +1634,6 @@ http://flickity.metafizzy.co
     fill: #333;
 }
 
-
 /* ---- page dots ---- */
 
 .flickity-page-dots {
@@ -1631,8 +1655,8 @@ http://flickity.metafizzy.co
     display: inline-block;
     width: 10px;
     height: 10px;
-    margin: 0 8px;
-    background: #333;
+    margin: 4px 8px;
+    background: #F75A56;
     border-radius: 50%;
     opacity: 0.25;
     cursor: pointer;
@@ -1642,14 +1666,13 @@ http://flickity.metafizzy.co
     opacity: 1;
 }
 
+
 /* position dots up a bit */
+
 .flickity-page-dots {
-  bottom: -22px;
+    bottom: -22px;
 }
-/* dots are lines */
-.flickity-page-dots .dot {
-  height: 4px;
-  width: 40px;
-  margin: 0;
-  border-radius: 0;
+
+.montreal-carousel {
+    margin:0;
 }
