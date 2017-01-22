@@ -1105,7 +1105,52 @@ footer h5 {
 /* form control, select input styles */
 
 .form-control {
+    display: block;
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #222;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
     border-radius: 0px;
+    -webkit-box-shadow: inset 0 0 0 rgba(0, 0, 0, .075);
+    box-shadow: inset 0 0 0 rgba(0, 0, 0, .075);
+    -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+
+.form-control:focus {
+    border: 1px solid #F75A56;
+    background-color: #F75A56;
+    color: #fff;
+    outline: 0;
+    -webkit-box-shadow: inset 0 0 0 rgba(0, 0, 0, .075), 0 0 0 rgba(247, 90, 86, .3);
+    box-shadow: inset 0 0 0 rgba(0, 0, 0, .075), 0 0 0 rgba(247, 90, 86, .3);
+}
+
+.form-control:focus::-moz-placeholder {
+    color: #eee;
+    background-color: #F75A56;
+    opacity: 1;
+}
+
+.form-control:focus:-ms-input-placeholder {
+    color: #eee;
+    background-color: #F75A56;
+}
+
+.form-control:focus::-webkit-input-placeholder {
+    color: #eee;
+    background-color: #F75A56;
+}
+
+.form-control:focus::-ms-expand {
+    background-color: transparent;
+    border: 0;
 }
 
 .form-control.on-dark {
@@ -1129,7 +1174,8 @@ footer h5 {
 .form-control.on-dark:focus {
     border-color: #F75A56;
     outline: 0;
-    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(102, 175, 233, .6);
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(247, 90, 86, .3);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(247, 90, 86, .3);
 }
 
 .form-control::-moz-placeholder {
@@ -1173,9 +1219,9 @@ fieldset[disabled] .form-control {
     border-radius: 0;
     height: 34px;
     -webkit-appearance: none;
-    color: #555;
+    color: #222;
     text-align: center;
-    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    box-shadow: inset 0 0 0 rgba(0, 0, 0, .075);
 }
 
 .styled-69 {
@@ -1197,7 +1243,6 @@ fieldset[disabled] .form-control {
     background-image: url('../img/portfolio/cityline-montreal-pink-short.png');
     background-position: 50% 40%;
     background-repeat: no-repeat;
-    
 }
 
 .project-starbucks-img {
@@ -1244,29 +1289,27 @@ fieldset[disabled] .form-control {
 
 .img-portfolio {
     margin: 30px auto;
-    max-height:400px;
+    max-height: 400px;
 }
 
-.carousel-cell .img-portfolio{
-    max-height:444px;
+.carousel-cell .img-portfolio {
+    max-height: 444px;
     margin: 10px 40px 30px;
 }
 
-@media (max-width:767px){
-    .carousel-cell .img-portfolio{
-    max-height:320px;
-    margin: 10px 20px 30px;
-}
+@media (max-width:767px) {
+    .carousel-cell .img-portfolio {
+        max-height: 320px;
+        margin: 10px 20px 30px;
+    }
 }
 
 .portfolio-content .carousel {
-    margin:50px auto;
+    margin: 50px auto;
 }
 
-
-
 .portfolio-content ul li img {
-    margin:30px auto;
+    margin: 30px auto;
 }
 
 .img-portfolio-scroller {
@@ -1634,6 +1677,7 @@ http://flickity.metafizzy.co
     fill: #333;
 }
 
+
 /* ---- page dots ---- */
 
 .flickity-page-dots {
@@ -1674,5 +1718,5 @@ http://flickity.metafizzy.co
 }
 
 .montreal-carousel {
-    margin:0;
+    margin: 0;
 }
