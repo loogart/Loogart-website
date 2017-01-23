@@ -677,6 +677,7 @@ fieldset[disabled] .btn-white.focus {
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
+    margin: auto;
 }
 
 .logo-text {
@@ -1172,28 +1173,11 @@ footer h5 {
 }
 
 .form-control.on-dark:focus {
-    border-color: #F75A56;
+    border: 1px solid #F75A56;
+    background-color: #F75A56;
     outline: 0;
     -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(247, 90, 86, .3);
     box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(247, 90, 86, .3);
-}
-
-.form-control::-moz-placeholder {
-    color: #999;
-    opacity: 1;
-}
-
-.form-control:-ms-input-placeholder {
-    color: #999;
-}
-
-.form-control::-webkit-input-placeholder {
-    color: #999;
-}
-
-.form-control::-ms-expand {
-    background-color: transparent;
-    border: 0;
 }
 
 .form-control[disabled],
@@ -1240,51 +1224,76 @@ fieldset[disabled] .form-control {
 
 .project-montreal-cityline-img {
     height: 32vh;
-    background-image: url('../img/portfolio/cityline-montreal-pink-short.png');
     background-position: 50% 40%;
-    background-repeat: no-repeat;
+    background-image: url('../img/portfolio/citylines/cityline-montreal-pink-short.png');
 }
 
 .project-starbucks-img {
-    background-image: url('../img/starbucks-artwork-montreal-city-by-loogart.jpg');
+    height: 40vh;
+    background-image: url('../img/portfolio/starbucks/starbucks-montreal.png'), url('../img/portfolio/starbucks/coffee-beans-dark.jpg');
+    background-repeat: repeat-x, repeat;
+    background-position: 10% 100%, 50% 0;
+    background-size: 1600px, 600px;
+    padding: 5%;
+    animation: animatedSB 30s linear infinite;
+}
+
+@keyframes animatedSB {
+    from {
+        background-position: 10% 100%, 50% 0;
+    }
+    to {
+        background-position: 10% 100%, 0% 50%;
+
+    }
 }
 
 .project-ets-cityline-img {
+    height: 32vh;
+    background-position: 50% 40%;
     background-image: url('../img/ets-cityline-by-loogart.jpg');
 }
 
 .project-car2go-cityline-img {
+    height: 32vh;
+    background-position: 50% 40%;
     background-image: url('../img/car2go-cityline-by-loogart.jpg');
 }
 
 .project-swiffer-img {
+    height: 32vh;
+    background-position: 50% 40%;
     background-image: url('../img/swiffer-marketing-by-loogart.jpg');
 }
 
 .project-upa-cityline-img {
+    height: 32vh;
+    background-position: 50% 40%;
     background-image: url('../img/upa-cityline-by-loogart.jpg');
 }
 
 .project-travel-smart-img {
+    height: 32vh;
+    background-position: 50% 40%;
     background-image: url('../img/travel-smart-visual-design-by-loogart.jpg');
 }
 
 .project-suite88-cityline-img {
+    height: 32vh;
+    background-position: 50% 40%;
     background-image: url('../img/suite88-chocolatier-cityline-by-loogart.jpg');
 }
 
 .project-otis-elevator-img {
+    height: 32vh;
+    background-position: 50% 40%;
     background-image: url('../img/otis-elevator-animated-illustration-by-loogart.gif');
 }
 
 .project-gac-img {
+    height: 32vh;
+    background-position: 50% 40%;
     background-image: url('../img/global-affairs-canada-innovation-wall-illustrations-by-loogart.jpg');
-}
-
-@media (max-width: 767px) {
-    .project-montreal-cityline-img {
-        height: 320px;
-    }
 }
 
 .img-portfolio {
@@ -1292,16 +1301,14 @@ fieldset[disabled] .form-control {
     max-height: 400px;
 }
 
-.carousel-cell .img-portfolio {
+.montreal-carousel .carousel-cell .img-portfolio {
     max-height: 444px;
     margin: 10px 40px 30px;
 }
 
-@media (max-width:767px) {
-    .carousel-cell .img-portfolio {
-        max-height: 320px;
-        margin: 10px 20px 30px;
-    }
+.sb-carousel .carousel-cell .img-portfolio {
+    max-height: 444px;
+    margin: 10px 10px 30px;
 }
 
 .portfolio-content .carousel {
@@ -1369,6 +1376,23 @@ section.contact p {
     color: #222;
     font-size: 22px;
     margin: 20px auto;
+}
+
+@media (max-width: 767px) {
+    .project-jumbotron {
+        height: 320px;
+    }
+    .project-starbucks-img {
+        height: 50vh;
+        background-image: url('../img/portfolio/starbucks/starbucks-montreal.png'), url('../img/portfolio/starbucks/coffee-beans-dark.jpg');
+        background-repeat: repeat-x, repeat;
+        background-position: 50% 100%, 50%;
+        background-size: 1400px, 444px;
+    }
+    .carousel-cell .img-portfolio {
+        max-height: 320px;
+        margin: 10px 20px 30px;
+    }
 }
 
 
