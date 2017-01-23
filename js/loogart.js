@@ -27,12 +27,13 @@ $('.sb-carousel').flickity({
     cellAlign: 'left',
     contain: true,
     accessibility: true,
+    pageDots: false,
     imagesLoaded: true
 });
 
 $('.ets-carousel').flickity({
     // options
-    cellAlign: 'center',
+    cellAlign: 'left',
     contain: true,
     accessibility: true,
     pageDots: false,

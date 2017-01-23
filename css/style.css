@@ -1237,7 +1237,6 @@ fieldset[disabled] .form-control {
     padding: 5%;
 }
 
-
 .project-ets-cityline-img {
     height: 44vh;
     background-position: 50% 90%;
@@ -1245,9 +1244,9 @@ fieldset[disabled] .form-control {
 }
 
 .project-car2go-cityline-img {
-    height: 32vh;
-    background-position: 50% 40%;
-    background-image: url('../img/car2go-cityline-by-loogart.jpg');
+    height: 54vh;
+    background-position: 60% 90%;
+    background-image: url('../img/portfolio/car2go/car2go-cityline-2-zoom-blue-sky.jpg');
 }
 
 .project-swiffer-img {
@@ -1377,6 +1376,12 @@ section.contact p {
     .project-jumbotron {
         height: 320px;
     }
+    .montreal-carousel .carousel-cell .img-portfolio,
+    .sb-carousel .carousel-cell .img-portfolio,
+    .ets-carousel .carousel-cell .img-portfolio {
+        max-height: 320px;
+        margin: 10px 20px 30px;
+    }
     .project-starbucks-img {
         height: 50vh;
         background-image: url('../img/portfolio/starbucks/starbucks-montreal.png'), url('../img/portfolio/starbucks/coffee-beans-dark.jpg');
@@ -1384,11 +1389,10 @@ section.contact p {
         background-position: 50% 100%, 50%;
         background-size: 1400px, 444px;
     }
-    .montreal-carousel .carousel-cell .img-portfolio,
-    .sb-carousel .carousel-cell .img-portfolio,
-    .ets-carousel .carousel-cell .img-portfolio{
-        max-height: 320px;
-        margin: 10px 20px 30px;
+    .project-car2go-cityline-img {
+        height: 60vh;
+        background-position: 0% 50%;
+        background-image: url('../img/portfolio/car2go/car2go-cityline-2-zoom-blue-sky.jpg');
     }
 }
 
