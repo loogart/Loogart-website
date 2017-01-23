@@ -1232,26 +1232,16 @@ fieldset[disabled] .form-control {
     height: 40vh;
     background-image: url('../img/portfolio/starbucks/starbucks-montreal.png'), url('../img/portfolio/starbucks/coffee-beans-dark.jpg');
     background-repeat: repeat-x, repeat;
-    background-position: 10% 100%, 50% 0;
+    background-position: 10% 100%, 0;
     background-size: 1600px, 600px;
     padding: 5%;
-    animation: animatedSB 30s linear infinite;
 }
 
-@keyframes animatedSB {
-    from {
-        background-position: 10% 100%, 50% 0;
-    }
-    to {
-        background-position: 10% 100%, 0% 50%;
-
-    }
-}
 
 .project-ets-cityline-img {
-    height: 32vh;
-    background-position: 50% 40%;
-    background-image: url('../img/ets-cityline-by-loogart.jpg');
+    height: 44vh;
+    background-position: 50% 90%;
+    background-image: url('../img/portfolio/ets/ets-cityline-zoom.jpg');
 }
 
 .project-car2go-cityline-img {
@@ -1298,7 +1288,7 @@ fieldset[disabled] .form-control {
 
 .img-portfolio {
     margin: 30px auto;
-    max-height: 400px;
+    max-height: 500px;
 }
 
 .montreal-carousel .carousel-cell .img-portfolio {
@@ -1308,6 +1298,11 @@ fieldset[disabled] .form-control {
 
 .sb-carousel .carousel-cell .img-portfolio {
     max-height: 444px;
+    margin: 10px 10px 30px;
+}
+
+.ets-carousel .carousel-cell .img-portfolio {
+    max-height: 544px;
     margin: 10px 10px 30px;
 }
 
@@ -1389,7 +1384,9 @@ section.contact p {
         background-position: 50% 100%, 50%;
         background-size: 1400px, 444px;
     }
-    .carousel-cell .img-portfolio {
+    .montreal-carousel .carousel-cell .img-portfolio,
+    .sb-carousel .carousel-cell .img-portfolio,
+    .ets-carousel .carousel-cell .img-portfolio{
         max-height: 320px;
         margin: 10px 20px 30px;
     }

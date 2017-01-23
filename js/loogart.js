@@ -30,3 +30,12 @@ $('.sb-carousel').flickity({
     imagesLoaded: true
 });
 
+$('.ets-carousel').flickity({
+    // options
+    cellAlign: 'center',
+    contain: true,
+    accessibility: true,
+    pageDots: false,
+    imagesLoaded: true
+});
+
