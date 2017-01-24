@@ -1218,9 +1218,9 @@ fieldset[disabled] .form-control {
 }
 
 .project-swiffer-img {
-    height: 55vh;
-    background-position: 50% 20%;
-    background-image: url('../img/portfolio/swiffer/swiffer-cityline-by-loogart-zoomer.jpg');
+    height: 52vh;
+    background-position: 50% 100%;
+    background-image: url('../img/portfolio/swiffer/swiffer-cityline-by-loogart-v1.jpg');
 }
 
 .project-upa-cityline-img {
