@@ -932,7 +932,6 @@ section.clients ul {
     background-image: url('../img/logo-bbdo.png');
 }
 
-
 .citizenrelations-logo {
     background-image: url('../img/logo-citizen-relations.png');
 }
@@ -1085,9 +1084,9 @@ footer h5 {
     background-color: #fff;
     background-image: none;
     border: 1px solid #ccc;
-    border-radius: 0px;
-    -webkit-box-shadow: inset 0 0 0 rgba(0, 0, 0, .075);
-    box-shadow: inset 0 0 0 rgba(0, 0, 0, .075);
+    border-radius: 0;
+    -webkit-box-shadow: inset 0 0 0 rgba(0, 0, 0, 0);
+    box-shadow: inset 0 0 0 rgba(0, 0, 0, .0);
     -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
     -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
     transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
@@ -1192,8 +1191,8 @@ fieldset[disabled] .form-control {
 }
 
 .project-montreal-cityline-img {
-    height: 32vh;
-    background-position: 50% 40%;
+    height: 46vh;
+    background-position: 50% 38%;
     background-image: url('../img/portfolio/citylines/cityline-montreal-pink-short.png');
 }
 
@@ -1219,15 +1218,15 @@ fieldset[disabled] .form-control {
 }
 
 .project-swiffer-img {
-    height: 32vh;
-    background-position: 50% 40%;
-    background-image: url('../img/swiffer-marketing-by-loogart.jpg');
+    height: 55vh;
+    background-position: 50% 20%;
+    background-image: url('../img/portfolio/swiffer/swiffer-cityline-by-loogart-zoomer.jpg');
 }
 
 .project-upa-cityline-img {
-    height: 32vh;
-    background-position: 50% 40%;
-    background-image: url('../img/upa-cityline-by-loogart.jpg');
+    height: 44vh;
+    background-position: 50% 10%;
+    background-image: url('../img/portfolio/upa/upa-cityline-2015-zoomer.jpg');
 }
 
 .project-travel-smart-img {
@@ -1272,6 +1271,11 @@ fieldset[disabled] .form-control {
 .ets-carousel .carousel-cell .img-portfolio {
     max-height: 544px;
     margin: 10px 10px 30px;
+}
+
+.upa-carousel .carousel-cell .img-portfolio {
+    max-height: 700px;
+    margin:0;
 }
 
 .portfolio-content .carousel {
@@ -1349,6 +1353,10 @@ section.contact p {
     .sb-carousel .carousel-cell .img-portfolio,
     .ets-carousel .carousel-cell .img-portfolio {
         max-height: 320px;
+        margin: 10px 20px 30px;
+    }
+    .upa-carousel .carousel-cell .img-portfolio {
+        max-height: 420px;
         margin: 10px 20px 30px;
     }
     .project-starbucks-img {
@@ -1714,6 +1722,7 @@ http://flickity.metafizzy.co
 .montreal-carousel {
     margin: 0;
 }
+
 .img-spacing {
-    margin:30px auto;
+    margin: 30px auto;
 }

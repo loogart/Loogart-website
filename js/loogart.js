@@ -40,3 +40,12 @@ $('.ets-carousel').flickity({
     imagesLoaded: true
 });
 
+$('.upa-carousel').flickity({
+    // options
+    cellAlign: 'left',
+    contain: true,
+    accessibility: true,
+    pageDots: false,
+    imagesLoaded: true
+});
+
