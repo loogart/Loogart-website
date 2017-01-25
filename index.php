@@ -32,52 +32,48 @@
 <body>
     <!-- Fixed navbar -->
     <?php include 'php/navbar.php';?>
-    
-    <!-- content  of page -->
+
     <div class="container">
 
         <!-- Jumbotron section -->
-
         <div class="row">
             <div class="container">
                 <h1 class="hidden">Loogart: Montreal visual design studio for illustration, brand identity and web design</h1>
                 <h2>Loogart is a Montreal-based visual design studio that specializes in illustration, brand identity, small-scale animation and web design.</h2>
                 <p class="cta-jumbotron">
-                    <a class="btn btn-lg btn-pink" href="contact.html" role="button">email us</a>
+                    <a class="btn btn-lg btn-pink" href="contact" role="button">email us</a>
                 </p>
             </div>
         </div>
 
         <!-- LoogADay section -->
-
         <section class="portfolio">
             <div class="row">
                 <div class="container">
                     <h3>#LoogADay project</h3>
                     <h4>A collection of pop-culture and iconic people created by Loogart on an almost daily basis.</h4>
                     <div class="scroll">
-                        <a href="portraits-loog-a-day.html"><img class="carousel-loogs" src="img/loogs/loog-elvis-presley.gif" alt="Animated portrait of Elvis Presley by Loogart" title="Elvis presley"></a>
-                        <a href="portraits-loog-a-day.html"><img class="carousel-loogs" src="img/loogs/loog-ronald-mcdonald.gif" alt="Animated portrait of Ronald McDonalds by Loogart" title="Ronald McDonald"></a>
-                        <a href="portraits-loog-a-day.html"><img class="carousel-loogs" src="img/loogs/loog-colonel-sanders-kfc.gif" alt="Animated portrait of KFC's Colonel Sanders by Loogart" title="Colonel Sanders"></a>
-                        <a href="portraits-loog-a-day.html"><img class="carousel-loogs" src="img/loogs/loog-mr-bean.gif" alt="Animated portrait of comedian Mr. Bean by Loogart" title="Mr. Bean"></a>
-                        <a href="portraits-loog-a-day.html"><img class="carousel-loogs" src="img/loogs/loog-ice-cube-nwa.gif" alt="Animated portrait of Hip Hop Rap artist Ice Cube by Loogart" title="Ice Cube"></a>
-                        <a href="portraits-loog-a-day.html"><img class="carousel-loogs" src="img/loogs/loog-ironman.gif" alt="Animated portrait of Ironman by Loogart" title="Ironman"></a>
-                        <a href="portraits-loog-a-day.html"><img class="carousel-loogs" src="img/loogs/loog-pug.jpg" alt="Portrait of a cute pug by Loogart" title="Cute pug"></a>
-                        <a href="portraits-loog-a-day.html"><img class="carousel-loogs" src="img/loogs/loog-pk-subban.gif" alt="Animated portrait of NHL's PK Subban by Loogart" title="PK Subban"></a>
-                        <a href="portraits-loog-a-day.html"><img class="carousel-loogs" src="img/loogs/loog-bruno-mars.gif" alt="Animated portrait of pop singer Bruno Mars by Loogart" title="Bruno Mars"></a>
-                        <a href="portraits-loog-a-day.html"><img class="carousel-loogs" src="img/loogs/loog-snoop-dogg.jpg" alt="Portrait of the Godfather of Rap Snoop Dogg by Loogart" title="Snoop Dogg"></a>
-                        <a href="portraits-loog-a-day.html"><img class="carousel-loogs" src="img/loogs/loog-joker.jpg" alt="Portrait of Heath Ledger's Joker in Batman by Loogart" title="The Joker"></a>
-                        <a href="portraits-loog-a-day.html"><img class="carousel-loogs" src="img/loogs/loog-harry-potter.jpg" alt="Portrait of Harry Potter by Loogart" title="Harry Potter"></a>
-                        <a href="portraits-loog-a-day.html"><img class="carousel-loogs" src="img/loogs/loog-whoopi.jpg" alt="portrait actress Whoopi Goldberg by Loogart" title="Whoopi Goldberg"></a>
-                        <a href="portraits-loog-a-day.html"><img class="carousel-loogs" src="img/loogs/loog-spiderman.gif" alt="Animated portrait of Spiderman by Loogart" title="Spiderman"></a>
+                        <a href="portraits-loog-a-day.php"><img class="carousel-loogs" src="img/loogs/loog-elvis-presley.gif" alt="Animated portrait of Elvis Presley by Loogart" title="Elvis presley"></a>
+                        <a href="portraits-loog-a-day.php"><img class="carousel-loogs" src="img/loogs/loog-ronald-mcdonald.gif" alt="Animated portrait of Ronald McDonalds by Loogart" title="Ronald McDonald"></a>
+                        <a href="portraits-loog-a-day.php"><img class="carousel-loogs" src="img/loogs/loog-colonel-sanders-kfc.gif" alt="Animated portrait of KFC's Colonel Sanders by Loogart" title="Colonel Sanders"></a>
+                        <a href="portraits-loog-a-day.php"><img class="carousel-loogs" src="img/loogs/loog-mr-bean.gif" alt="Animated portrait of comedian Mr. Bean by Loogart" title="Mr. Bean"></a>
+                        <a href="portraits-loog-a-day.php"><img class="carousel-loogs" src="img/loogs/loog-ice-cube-nwa.gif" alt="Animated portrait of Hip Hop Rap artist Ice Cube by Loogart" title="Ice Cube"></a>
+                        <a href="portraits-loog-a-day.php"><img class="carousel-loogs" src="img/loogs/loog-ironman.gif" alt="Animated portrait of Ironman by Loogart" title="Ironman"></a>
+                        <a href="portraits-loog-a-day.php"><img class="carousel-loogs" src="img/loogs/loog-pug.jpg" alt="Portrait of a cute pug by Loogart" title="Cute pug"></a>
+                        <a href="portraits-loog-a-day.php"><img class="carousel-loogs" src="img/loogs/loog-pk-subban.gif" alt="Animated portrait of NHL's PK Subban by Loogart" title="PK Subban"></a>
+                        <a href="portraits-loog-a-day.php"><img class="carousel-loogs" src="img/loogs/loog-bruno-mars.gif" alt="Animated portrait of pop singer Bruno Mars by Loogart" title="Bruno Mars"></a>
+                        <a href="portraits-loog-a-day.php"><img class="carousel-loogs" src="img/loogs/loog-snoop-dogg.jpg" alt="Portrait of the Godfather of Rap Snoop Dogg by Loogart" title="Snoop Dogg"></a>
+                        <a href="portraits-loog-a-day.php"><img class="carousel-loogs" src="img/loogs/loog-joker.jpg" alt="Portrait of Heath Ledger's Joker in Batman by Loogart" title="The Joker"></a>
+                        <a href="portraits-loog-a-day.php"><img class="carousel-loogs" src="img/loogs/loog-harry-potter.jpg" alt="Portrait of Harry Potter by Loogart" title="Harry Potter"></a>
+                        <a href="portraits-loog-a-day.php"><img class="carousel-loogs" src="img/loogs/loog-whoopi.jpg" alt="portrait actress Whoopi Goldberg by Loogart" title="Whoopi Goldberg"></a>
+                        <a href="portraits-loog-a-day.php"><img class="carousel-loogs" src="img/loogs/loog-spiderman.gif" alt="Animated portrait of Spiderman by Loogart" title="Spiderman"></a>
                     </div>
-                    <h5><a href="portraits-loog-a-day.html">View all Loogs</a></h5>
+                    <h5><a href="portraits-loog-a-day.php">View all Loogs</a></h5>
                 </div>
             </div>
         </section>
 
         <!-- Portfolio section -->
-
         <section class="portfolio">
 
             <div class="row">
@@ -86,18 +82,18 @@
                     <h4>A selection of awesome design projects for different clients. These projects include illustration, animation, app visual design, packaging, web graphics and print.</h4>
                 </div>
                 <div class="col-sm-6">
-                    <a href="projects/montreal-cityline-illustration.html">
+                    <a href="projects/montreal-cityline-illustration.php">
                         <span class="outer">
-                        <div class="inner portfolio-montreal"></div>
-                        <div class="portfolio-text bottom no-gradient text-dark">
-                            <h5>Montreal CityLine</h5>
-                            <p>Illustration created originally for my best friend’s living room. He of course has it hanging in his living room.</p>
-                        </div>
-                    </span>
+                            <div class="inner portfolio-montreal"></div>
+                            <div class="portfolio-text bottom no-gradient text-dark">
+                                <h5>Montreal CityLine</h5>
+                                <p>Illustration created originally for my best friend’s living room. He of course has it hanging in his living room.</p>
+                            </div>
+                        </span>
                     </a>
                 </div>
                 <div class="col-sm-6" id="starbucks">
-                    <a href="projects/starbucks-cityscape-illustration.html">
+                    <a href="projects/starbucks-cityscape-illustration.php">
                         <div class="outer">
                             <div class="inner portfolio-starbucks"></div>
                             <div class="portfolio-text top no-gradient text-dark">
@@ -113,7 +109,7 @@
             </div>
             <div class="row">
                 <div class="col-sm-6" id="ets">
-                    <a href="projects/ets-cityline-illustration.html">
+                    <a href="projects/ets-cityline-illustration.php">
                         <div class="outer">
                             <div class="inner portfolio-ets"></div>
                             <div class="portfolio-text bottom no-gradient text-dark">
@@ -127,7 +123,7 @@
                     </a>
                 </div>
                 <div class="col-sm-6" id="car2go">
-                    <a href="projects/car2go-cityline-illustration.html">
+                    <a href="projects/car2go-cityline-illustration.php">
                         <div class="outer">
                             <div class="inner portfolio-car2go"></div>
                             <div class="portfolio-text top no-gradient text-light">
@@ -142,7 +138,7 @@
             </div>
             <div class="row">
                 <div class="col-sm-6" id="swiffer">
-                    <a href="projects/swiffer-marketing-graphics.html">
+                    <a href="projects/swiffer-marketing-graphics.php">
                         <div class="outer">
                             <div class="inner portfolio-swiffer"></div>
                             <div class="portfolio-text bottom text-light">
@@ -156,7 +152,7 @@
                     </a>
                 </div>
                 <div class="col-sm-6" id="upa">
-                    <a href="projects/upa-cityline-illustration.html">
+                    <a href="projects/upa-cityline-illustration.php">
                         <div class="outer">
                             <div class="inner portfolio-upa"></div>
                             <div class="portfolio-text top no-gradient text-light">
@@ -172,7 +168,7 @@
             </div>
             <div class="row">
                 <div class="col-sm-6" id="travelSmart">
-                    <a href="projects/travel-smart-canada-app.html">
+                    <a href="projects/travel-smart-canada-app.php">
                         <div class="outer">
                             <div class="inner portfolio-travel-smart"></div>
                             <div class="portfolio-text bottom text-light">
@@ -187,7 +183,7 @@
                     </a>
                 </div>
                 <div class="col-sm-6" id="suite88">
-                    <a href="projects/suite88-cityline-illustration.html">
+                    <a href="projects/suite88-cityline-illustration.php">
                         <div class="outer">
                             <div class="inner portfolio-suite88"></div>
                             <div class="portfolio-text bottom no-gradient text-dark">
@@ -203,7 +199,7 @@
             </div>
             <div class="row">
                 <div class="col-sm-6" id="otis">
-                    <a href="projects/otis-elevator-animated-gif.html">
+                    <a href="projects/otis-elevator-animated-gif.php">
                         <div class="outer">
                             <div class="inner portfolio-otis"></div>
                             <div class="portfolio-text bottom no-gradient text-dark">
@@ -217,7 +213,7 @@
                     </a>
                 </div>
                 <div class="col-sm-6" id="innolab">
-                    <a href="projects/global-affairs-canada-innovation-space.html">
+                    <a href="projects/global-affairs-canada-innovation-space.php">
                         <div class="outer">
                             <div class="inner portfolio-innovation-space"></div>
                             <div class="portfolio-text top text-light">
@@ -234,7 +230,6 @@
         </section>
 
         <!-- Brand identity section -->
-
         <section class="portfolio">
             <div class="row">
                 <div class="container">
@@ -258,7 +253,6 @@
         </section>
 
         <!-- Web design section -->
-
         <section class="portfolio">
             <div class="row">
                 <div class="container">
@@ -281,7 +275,7 @@
             </div>
         </section>
 
-</div>
+    </div>
 
     <!-- footer -->
     <?php include 'php/footer.php';?>

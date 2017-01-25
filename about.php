@@ -29,7 +29,6 @@
 </head>
 
 <body>
-
     <!-- Fixed navbar -->
     <nav class="navbar navbar-default navbar-fixed-top">
         <div class="container">
@@ -46,7 +45,7 @@
 
                 <ul class="nav navbar-nav navbar-right">
                     <li class="active"><a href="about">about</a></li>
-                    <li><a href="./">shop</a></li>
+                    <li><a href="#!">shop</a></li>
                     <li><a href="https://www.instagram.com/loogart/">ig</a></li>
                     <li><a href="https://www.facebook.com/LoogArt/">fb</a></li>
                 </ul>
@@ -54,7 +53,6 @@
             <!--/.nav-collapse -->
         </div>
     </nav>
-
 
     <!-- Jumbotron section -->
     <section class="jumbotron-about">
@@ -69,7 +67,7 @@
             <p>Fast forward to the end of 2011, a friend of mine running a growing online business convinced me that he would pay money for my creative services.</p>
             <p>That is where I started my career as a visual designer and that is how Loogart was born.</p>
             <p class="cta-jumbotron">
-                <a class="btn btn-lg btn-white" href="contact.html" role="button">email chris</a>
+                <a class="btn btn-lg btn-white" href="contact.php" role="button">email chris</a>
             </p>
         </div>
     </section>
@@ -134,64 +132,14 @@
             </ul>
 
             <p class="cta-jumbotron">
-                <a class="btn btn-lg btn-pink" href="contact.html" role="button">Work with Loogart</a>
+                <a class="btn btn-lg btn-pink" href="contact.php" role="button">Work with Loogart</a>
             </p>
         </div>
     </section>
     <!-- /container -->
 
-
     <!-- footer -->
-    <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-4">
-                    <h5>Hire Loogart now.</h5>
-                    <p>We create a visual language to help communicate your ideas to your clients. We do this through brand identity direction, illustration, animation, web design.
-                    </p>
-                </div>
-                <div class="col-sm-3">
-                    <h5>Reach us.</h5>
-                    <ul class="list-unstyled">
-                        <li><a href="http://facebook.com/loogart">Facebook</a></li>
-                        <li><a href="http://instagram.com/loogart">Instagram</a></li>
-                        <li><a href="contact.html">Email us</a></li>
-                    </ul>
-                </div>
-                <div class="col-sm-4">
-                    <!-- Begin MailChimp Signup Form -->
-                    <form action="//loogart.us7.list-manage.com/subscribe/post?u=318cbb07c865a88e681d7e59d&amp;id=e18344cbf9" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-                        <div id="mc_embed_signup_scroll">
-                            <h5>Loog a day</h5>
-                            <p>Be the first to see the next Loog of the Day via email.</p>
-                            <div class="input-group">
-                                <input class="form-control on-dark" type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
-                                <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-                                <div style="position: absolute; left: -5000px;" aria-hidden="true">
-                                    <input type="text" name="b_318cbb07c865a88e681d7e59d_e18344cbf9" tabindex="-1" value="">
-                                </div>
-                                <span class="input-group-btn">
-                                    <!--<button class="btn btn-default" type="button">Subscribe</button>-->
-                                    <button type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn btn-default">Subscribe</button>
-                                </span>
-                            </div>
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </footer>
-    <div class="lower-footer">
-        <h6>© 2017 Loogart</h6>
-    </div>
-
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="js/jquery.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/zoom.min.js"></script>
-    <script src="js/loogart.js"></script>
+    <?php include 'php/footer.php';?>
 </body>
 
 </html>

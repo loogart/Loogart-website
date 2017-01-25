@@ -1230,9 +1230,9 @@ fieldset[disabled] .form-control {
 }
 
 .project-travel-smart-img {
-    height: 32vh;
-    background-position: 50% 40%;
-    background-image: url('../img/travel-smart-visual-design-by-loogart.jpg');
+    height: 44vh;
+    background-position: 50% 10%;
+    background-image: url('../img/portfolio/travel-smart/mockup-assistance1.jpg');
 }
 
 .project-suite88-cityline-img {
@@ -1259,7 +1259,7 @@ fieldset[disabled] .form-control {
 }
 
 .montreal-carousel .carousel-cell .img-portfolio {
-    max-height: 444px;
+    max-height: 484px;
     margin: 10px 40px 30px;
 }
 

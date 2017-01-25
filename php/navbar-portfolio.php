@@ -13,7 +13,7 @@ echo '<nav class="navbar navbar-default navbar-fixed-top">
             <div id="navbar" class="navbar-collapse collapse">
 
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href="about.php">about</a></li>
+                    <li><a href="../about.php">about</a></li>
                     <li><a href="#!">shop</a></li>
                     <li><a href="https://www.instagram.com/loogart/">ig</a></li>
                     <li><a href="https://www.facebook.com/LoogArt/">fb</a></li>

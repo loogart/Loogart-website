@@ -25,32 +25,8 @@
 </head>
 
 <body>
-
     <!-- Fixed navbar -->
-    <nav class="navbar navbar-default navbar-fixed-top">
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="../index.html">Loogart.</a>
-            </div>
-            <div id="navbar" class="navbar-collapse collapse">
-
-                <ul class="nav navbar-nav navbar-right">
-                    <li><a href="../about.html">about</a></li>
-                    <li><a href="./">shop</a></li>
-                    <li><a href="https://www.instagram.com/loogart/">ig</a></li>
-                    <li><a href="https://www.facebook.com/LoogArt/">fb</a></li>
-                </ul>
-            </div>
-            <!--/.nav-collapse -->
-        </div>
-    </nav>
-
+    <?php include 'php/navbar.php';?>
 
     <div class="container">
 
@@ -59,13 +35,12 @@
         <div class="row">
             <div class="container">
                 <p class="cta-back">
-                    <a href="../index.html" role="button">Back to homepage</a>
+                    <a href="../index.php" role="button">Back to homepage</a>
                 </p>
                 <h1>Loog a day</h1>
                 <h4>A personal project by Loogart where we create one pop icon caricature per day. The challenge behind these mini portraits consists of producing a quick design with the best possible likeness using minimal lines, colors and visual features. Some are animated, some are simply illustrated.</h4>
             </div>
         </div>
-
 
         <!-- Loog section -->
 
@@ -363,66 +338,15 @@
         <div class="row">
             <div class="container">
                 <p class="cta-back">
-                    <a href="../index.html" role="button">Back to homepage</a>
+                    <a href="../index.php" role="button">Back to homepage</a>
                 </p>
             </div>
         </div>
 
     </div>
-    <!-- /container -->
 
     <!-- footer -->
-    <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-4">
-                    <h5>Hire Loogart now.</h5>
-                    <p>We create a visual language to help communicate your ideas to your clients. We do this through brand identity direction, illustration, animation, web design.
-                    </p>
-                </div>
-                <div class="col-sm-3">
-                    <h5>Reach us.</h5>
-                    <ul class="list-unstyled">
-                        <li><a href="http://facebook.com/loogart">Facebook</a></li>
-                        <li><a href="http://instagram.com/loogart">Instagram</a></li>
-                        <li><a href="contact.html">Email us</a></li>
-                    </ul>
-                </div>
-                <div class="col-sm-4">
-                    <!-- Begin MailChimp Signup Form -->
-                    <form action="//loogart.us7.list-manage.com/subscribe/post?u=318cbb07c865a88e681d7e59d&amp;id=e18344cbf9" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-                        <div id="mc_embed_signup_scroll">
-                            <h5>Loog a day</h5>
-                            <p>Be the first to see the next Loog of the Day via email.</p>
-                            <div class="input-group">
-                                <input class="form-control on-dark" type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
-                                <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-                                <div style="position: absolute; left: -5000px;" aria-hidden="true">
-                                    <input type="text" name="b_318cbb07c865a88e681d7e59d_e18344cbf9" tabindex="-1" value="">
-                                </div>
-                                <span class="input-group-btn">
-                                    <!--<button class="btn btn-default" type="button">Subscribe</button>-->
-                                    <button type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn btn-default">Subscribe</button>
-                                </span>
-                            </div>
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </footer>
-    <div class="lower-footer">
-        <h6>© 2017 Loogart</h6>
-    </div>
-
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="js/jquery.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/zoom.min.js"></script>
-    <script src="js/jquery.lazyload.js"></script>
-    <script src="js/loogart.js"></script>
+    <?php include 'php/footer.php';?>
 </body>
 
 </html>
