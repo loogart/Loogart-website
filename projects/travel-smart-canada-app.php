@@ -11,7 +11,7 @@
     <meta property="og:title" content="Travel Smart Canada by Loogart">
     <meta property="og:description" content="Mobile app visual design and UX/UI">
     <meta property="og:url" content="http://loogart.com/">
-    <meta property="og:image" content="http://loogart.com/version2/portfolio/img/portfolio/travel-smart">
+    <meta property="og:image" content="http://loogart.com/version2/portfolio/img/portfolio/travel-smart/mockup-ios-splash-screen.jpg">
     <link rel="icon" href="favicon.ico">
 
     <title>Travel Smart Canada Visual Design | Loogart</title>
@@ -40,8 +40,8 @@
 
             <?php include '../php/back-home.php';?>
 
-                <!-- Content section -->
-                <section class="portfolio-content">
+            <!-- Content section -->
+            <section class="portfolio-content">
 
                     <!-- Intro -->
                     <div class="row">
@@ -212,7 +212,7 @@
 
                 </section>
 
-                <?php include '../php/back-home.php';?>
+            <?php include '../php/back-home.php';?>
 
         </div>
 

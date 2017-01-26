@@ -30,6 +30,7 @@
 </head>
 
 <body>
+   
     <!-- Fixed navbar -->
     <?php include 'php/navbar.php';?>
 
@@ -41,7 +42,7 @@
                 <h1 class="hidden">Loogart: Montreal visual design studio for illustration, brand identity and web design</h1>
                 <h2>Loogart is a Montreal-based visual design studio that specializes in illustration, brand identity, small-scale animation and web design.</h2>
                 <p class="cta-jumbotron">
-                    <a class="btn btn-lg btn-pink" href="contact" role="button">email us</a>
+                    <a class="btn btn-lg btn-pink" href="contact.php" role="button">email us</a>
                 </p>
             </div>
         </div>

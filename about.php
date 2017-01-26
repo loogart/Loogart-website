@@ -29,6 +29,7 @@
 </head>
 
 <body>
+   
     <!-- Fixed navbar -->
     <nav class="navbar navbar-default navbar-fixed-top">
         <div class="container">
@@ -130,7 +131,6 @@
                     <h6>Kalooba</h6>
                 </li>
             </ul>
-
             <p class="cta-jumbotron">
                 <a class="btn btn-lg btn-pink" href="contact.php" role="button">Work with Loogart</a>
             </p>
