@@ -127,7 +127,7 @@
 
                     <h3>Art direction by BBDO</h3>
                     <p>Starbucks illustrators and designers communicate its brand through art. Artwork needs to be created based on Starbucks' visual principles: artful, elevated, layered, handcrafted, whimsical, experiential and derived from culture.</p>
-                    <p>We worked with BBDO very closely to produce the perfect visual balance for these pieces of art which would be used as a marketing vehicle for new stores being setup in cities within the Quebec provice.</p>
+                    <p>We worked with BBDO very closely to produce the perfect visual balance for these pieces of art which would be used as a marketing vehicle for new stores being setup in cities within the Quebec province.</p>
                 </div>
 
             </div>
