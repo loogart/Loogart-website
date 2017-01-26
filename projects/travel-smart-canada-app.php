@@ -34,10 +34,7 @@
     <?php include '../php/navbar-portfolio.php';?>
 
         <!-- champion image -->
-        <div class="project-jumbotron project-travel-smart-img">
-            <div class="col-sm-4 col-sm-offset-4 text-center">
-            </div>
-        </div>
+        <div class="project-jumbotron project-travel-smart-img"></div>
 
         <div class="container-fluid">
 
