@@ -8,10 +8,10 @@
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <meta name="description" content="Illustration commissioned by Suite 88 Chocolatier in Montreal for limited edition product packaging.">
     <meta name="author" content="Chris Soueidan of Loogart">
-    <meta property="og:title" content="Travel Smart Canada by Loogart">
-    <meta property="og:description" content="Mobile app visual design and UX/UI">
+    <meta property="og:title" content="Suite 88 CityLine by Loogart">
+    <meta property="og:description" content="Suite 88 CityLine by Loogart">
     <meta property="og:url" content="http://loogart.com/">
-    <meta property="og:image" content="http://loogart.com/version2/portfolio/img/suite88">
+    <meta property="og:image" content="http://loogart.com/version2/portfolio/img/suite88/mockup-chocolate-mosaique-box.jpg">
     <link rel="icon" href="favicon.ico">
 
     <title>Suite 88 CityLine Illustration | Loogart</title>

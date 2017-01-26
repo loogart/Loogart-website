@@ -1242,9 +1242,9 @@ fieldset[disabled] .form-control {
 }
 
 .project-otis-elevator-img {
-    height: 32vh;
-    background-position: 50% 40%;
-    background-image: url('../img/otis-elevator-animated-illustration-by-loogart.gif');
+    height: 44vh;
+    background-position: 50% 10%;
+    background-image: url('../img/portfolio/otis/otis-animated-gif-on-phone.gif');
 }
 
 .project-gac-img {

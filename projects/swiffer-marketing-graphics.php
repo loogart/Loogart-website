@@ -91,6 +91,7 @@
                     <img class="img-responsive img-spacing" src="../img/portfolio/swiffer/swiffer-trucks-loogart-1.jpg" data-action="zoom">
                     <img class="img-responsive img-spacing" src="../img/portfolio/swiffer/swiffer-trucks-loogart-2.jpg" data-action="zoom">
                     <img class="img-responsive img-spacing" src="../img/portfolio/swiffer/swiffer-trucks-loogart-3.jpg" data-action="zoom">
+                    <img class="img-responsive img-spacing" src="../img/portfolio/swiffer/swiffer-trucks-loogart-4.jpg" data-action="zoom">
                 </div>
             </div>
 

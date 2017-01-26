@@ -71,6 +71,7 @@
                     <!-- section 2 more photos -->
                     <div class="row">
                         <div class="col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3">
+                            <img class="img-responsive img-spacing" src="../img/portfolio/travel-smart/mockup-ios-notifications-destinations.png" data-action="zoom">
                             <img class="img-responsive img-spacing" src="../img/portfolio/travel-smart/mockup-assistance2.jpg" data-action="zoom">
                             <img class="img-responsive img-spacing" src="../img/portfolio/travel-smart/mockup-ios-destinations1.jpg" data-action="zoom">
                             <img class="img-responsive img-spacing" src="../img/portfolio/travel-smart/mockup-destinations2.jpg" data-action="zoom">
