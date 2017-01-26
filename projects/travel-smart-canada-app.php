@@ -116,9 +116,6 @@
                                         <img class="img-portfolio" src="../img/portfolio/travel-smart/prototype-android-onboard3.png" alt="travel-smart-canada-android-onboard3" title="Travel Smart: Assistance Onboard 3">
                                     </div>
                                     <div class="carousel-cell">
-                                        <img class="img-portfolio" src="../img/portfolio/travel-smart/prototype-android.png" alt="travel-smart-canada-Android-destinations-view-2" title="Travel Smart: Destinations Country Level">
-                                    </div>
-                                    <div class="carousel-cell">
                                         <img class="img-portfolio" src="../img/portfolio/travel-smart/prototype-android-destinations1.png" alt="travel-smart-canada-Android-destinations-view-2" title="Travel Smart: Destinations Country Level">
                                     </div>
                                     <div class="carousel-cell">
