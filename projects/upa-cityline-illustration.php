@@ -8,10 +8,10 @@
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <meta name="description" content="Illustration commissioned by the Union de Producteurs Agricole du Québec (UPA) for a CityLine that includes Montréal landmarks along with farm-related elements, animals and activities.">
     <meta name="author" content="Chris Soueidan of Loogart">
-    <meta property="og:title" content="CityLines by Loogart">
-    <meta property="og:description" content="CityLine illustration for Ecole de technologie supérieure in Montreal">
+    <meta property="og:title" content="UPA CityLine by Loogart">
+    <meta property="og:description" content="CityLine illustration for the UPA's Portes Ouvertes Event in the Montreal area">
     <meta property="og:url" content="http://loogart.com/">
-    <meta property="og:image" content="http://loogart.com/version2/portfolio/img/portfolio/ets/ets-cityline-full.jpg">
+    <meta property="og:image" content="http://loogart.com/version2/img/portfolio/upa/upa-cityline-2015-zoomer.jpg">
     <link rel="icon" href="favicon.ico">
 
     <title>UPA CityLine Illustration | Loogart</title>

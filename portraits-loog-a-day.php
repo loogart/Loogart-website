@@ -8,7 +8,12 @@
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <meta name="description" content="Loogart is a visual design studio that specializes in illustration, brand identity, small-scale animation and web design. Our work is featured in Montreal, Toronto, Ottawa and Gatineau.">
     <meta name="author" content="Chris Soueidan of Loogart">
-    <link rel="icon" href="../../favicon.ico">
+    <meta name="author" content="Chris Soueidan of Loogart">
+    <meta property="og:title" content="Loog a Day">
+    <meta property="og:description" content="Daily portraits of pop culture icons illustrated by Chris Soueidan of Loogart">
+    <meta property="og:url" content="http://loogart.com/">
+    <meta property="og:image" content="http://loogart.com/version2/img/loogs/loog-mr-bean.gif">
+    <link rel="icon" href="favicon.ico">
 
     <title>Loogs, portraits, animated characters, caricatures | Loogart</title>
 

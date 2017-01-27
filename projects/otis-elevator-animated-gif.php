@@ -8,10 +8,10 @@
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <meta name="description" content="Animated GIF created for Otis Elevator's Christmas email campaign.">
     <meta name="author" content="Chris Soueidan of Loogart">
-    <meta property="og:title" content="Otis 2016 GIF">
+    <meta property="og:title" content="Otis 2016 Christmas Animation">
     <meta property="og:description" content="Otis Elevator animated GIF for Christmas 2016 by Loogart">
     <meta property="og:url" content="http://loogart.com/">
-    <meta property="og:image" content="http://loogart.com/version2/portfolio/img/otis/otis-xmas-van-animated.gif">
+    <meta property="og:image" content="http://loogart.com/version2/img/portfolio/otis/otis-xmas-van-animated.gif">
     <link rel="icon" href="favicon.ico">
 
     <title>Otis Elevator Animated GIF | Loogart</title>
