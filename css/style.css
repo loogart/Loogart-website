@@ -869,7 +869,7 @@ section.portfolio h4 {
 section.about {
     background-color: #F75A56;
     color: #fff;
-    padding: 40px 0;
+    padding:40px;
 }
 
 section.about h3 {
@@ -977,12 +977,12 @@ ul.list-inline li span.client-logo {
 
 ul.list-inline li span.client-logo:hover,
 ul.list-inline li span.client-logo:active {
-    filter: grayscale(0) opacity(1);
+   filter: grayscale(0) opacity(1);
 }
 
 @media (max-width:767px) {
     ul.list-inline li span.client-logo {
-        filter: grayscale(0) opacity(1);
+     filter: grayscale(0) opacity(1);
     }
 }
 
@@ -1248,9 +1248,9 @@ fieldset[disabled] .form-control {
 }
 
 .project-gac-img {
-    height: 32vh;
+    height: 48vh;
     background-position: 50% 40%;
-    background-image: url('../img/global-affairs-canada-innovation-wall-illustrations-by-loogart.jpg');
+    background-image: url('../img/portfolio/gac-innovation/illo-awesome-wall-bleed.jpg');
 }
 
 .img-portfolio {

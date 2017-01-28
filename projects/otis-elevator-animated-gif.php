@@ -41,7 +41,7 @@
             <?php include '../php/back-home.php';?>
 
                 <!-- Content section -->
-                <section class="portfolio-content">
+            <section class="portfolio-content">
 
                     <!-- section 1: cityline -->
                     <div class="row">
@@ -90,7 +90,7 @@
 
                 </section>
 
-                <?php include '../php/back-home.php';?>
+            <?php include '../php/back-home.php';?>
 
         </div>
 
