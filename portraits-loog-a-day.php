@@ -190,7 +190,7 @@
                                 <img class="img-responsive lazy" data-original="img/loogs/loog-drake.png" alt="portrait of hip hop artist Drake" title="Drake" data-action="zoom">
                             </div>
                             <div class="col-xs-6 col-sm-4 col-md-3">
-                                <img class="img-responsive lazy" data-original="img/loogs/loog-eddie-murphy.png" alt="portrait of actor-comedian Eddie Murpy" title="Eddie Murphyloog-edwin-encarnacion.png" data-action="zoom">
+                                <img class="img-responsive lazy" data-original="img/loogs/loog-eddie-murphy.png" alt="portrait of actor-comedian Eddie Murpy" title="Eddie Murphy" data-action="zoom">
                             </div>
                             <div class="col-xs-6 col-sm-4 col-md-3">
                                 <img class="img-responsive lazy" data-original="img/loogs/loog-edwin-encarnacion.png" alt="portrait of baseball player Edwin Encarnacion" title="Edwin Encarnacion" data-action="zoom">
