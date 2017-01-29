@@ -73,7 +73,7 @@
                             <div class="carousel-cell">
                                 <img class="img-portfolio" src="../img/portfolio/gac-innovation/illo-awesome-wall-bleed.jpg" alt="global affairs Canada wall art innovation room idea garden by Loogart" title="Idea Garden Illustration by Loogart for Global Affairs Canada">
                             </div>
-
+                            <div class="carousel-cell"></div>
                         </div>
                     </div>
 
