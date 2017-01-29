@@ -8,7 +8,7 @@
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <meta name="description" content="Brand identity and illustration projects by Loogart">
     <meta name="author" content="Chris Soueidan of Loogart">
-    <meta property="og:title" content="Loog a Day">
+    <meta property="og:title" content="Brand identity design">
     <meta property="og:description" content="Brand identity and illustrations by Chris Soueidan of Loogart">
     <meta property="og:url" content="http://loogart.com/">
     <meta property="og:image" content="http://loogart.com/img/designs/sq-logo-team-dallas-curling.jpg">
