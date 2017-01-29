@@ -12,7 +12,7 @@
     <meta property="og:description" content="Montreal-based Visual Design Studio">
     <meta property="og:url" content="http://loogart.com/">
     <meta property="og:image" content="http://loogart.com/img/loogart-screenshot.jpg">
-    <link rel="icon" href="favicon.ico">
+    <?php include 'php/favicons.php';?>
 
     <title>Illustration, brand identity and web design | Loogart</title>
 

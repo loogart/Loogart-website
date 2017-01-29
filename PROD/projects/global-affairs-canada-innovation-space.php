@@ -12,7 +12,7 @@
     <meta property="og:description" content="Innovation Room Illustrations for Global Affairs Canada">
     <meta property="og:url" content="http://loogart.com/">
     <meta property="og:image" content="http://loogart.com/img/portfolio/gac-innovation/illo-awesome-wall-bleed.jpg">
-    <link rel="icon" href="favicon.ico">
+    <?php include 'php/favicons.php';?>
 
     <title>Global Affairs Canada Innovation Room Illustrations | Loogart</title>
 

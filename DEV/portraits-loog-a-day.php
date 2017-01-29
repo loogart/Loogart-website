@@ -12,7 +12,7 @@
     <meta property="og:description" content="Daily portraits of pop culture icons illustrated by Chris Soueidan of Loogart">
     <meta property="og:url" content="http://loogart.com/">
     <meta property="og:image" content="http://loogart.com/version2/img/loogs/loog-mr-bean.gif">
-    <link rel="icon" href="favicon.ico">
+    <?php include 'php/favicons.php';?>
 
     <title>Loogs, portraits, animated characters, caricatures | Loogart</title>
 

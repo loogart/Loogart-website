@@ -12,7 +12,7 @@
     <meta property="og:description" content="Illustrations of Quebec cities for Starbucks Opening Stores">
     <meta property="og:url" content="http://loogart.com/">
     <meta property="og:image" content="http://loogart.com/version2/img/portfolio/starbucks/starbucks_door2.jpg">
-    <link rel="icon" href="favicon.ico">
+    <?php include 'php/favicons.php';?>
 
     <title>Starbucks Opening Stores Cityscape Illustrations | Loogart</title>
 

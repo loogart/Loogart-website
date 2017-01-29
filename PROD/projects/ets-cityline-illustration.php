@@ -13,7 +13,7 @@
     <meta property="og:description" content="CityLine illustration for Ecole de technologie supérieure in Montreal">
     <meta property="og:url" content="http://loogart.com/">
     <meta property="og:image" content="http://loogart.com/img/portfolio/ets/ets-cityline-zoom.jpg">
-    <link rel="icon" href="favicon.ico">
+    <?php include 'php/favicons.php';?>
 
     <title>ÉTS CityLine Illustration | Loogart</title>
 

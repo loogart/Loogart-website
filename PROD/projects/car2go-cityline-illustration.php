@@ -12,7 +12,7 @@
     <meta property="og:description" content="CityLine illustration for car2go in Montreal">
     <meta property="og:url" content="http://loogart.com/">
     <meta property="og:image" content="http://loogart.com/img/portfolio/car2go/car2go-cityline-2-zoom-blue-sky.jpg">
-    <link rel="icon" href="favicon.ico">
+    <?php include 'php/favicons.php';?>
 
     <title>car2go CityLine Illustration | Loogart</title>
 
