@@ -64,7 +64,7 @@
 
                     <div class="form-group">
                         <label for="name">Name</label>
-                        <input class="form-control" type="text" name="first_name" placeholder="First Name and last names">
+                        <input class="form-control" type="text" name="first_name" placeholder="First Name and last name">
                     </div>
                     <div class="form-group">
                         <label for="name">Subject</label>

@@ -56,7 +56,7 @@
                                 <div class="row">
                                     <div class="col-xs-12">
                                         <img class="img-responsive" src="img/designs/logo-team-dallas-curling.jpg" alt="" title="" data-action="zoom">
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque aspernatur, illum tempora voluptatem tempore deleniti ad recusandae nisi dolores et provident, quos doloremque autem aliquid commodi dolorum ullam, saepe molestiae.</p>
+                                        <!--<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque aspernatur, illum tempora voluptatem tempore deleniti ad recusandae nisi dolores et provident, quos doloremque autem aliquid commodi dolorum ullam, saepe molestiae.</p>-->
                                     </div>
                                     <div class="col-xs-12">
                                         <img class="img-responsive" src="img/designs/illo-gac-digimaturity.png" alt="" title="" data-action="zoom">
