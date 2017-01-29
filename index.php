@@ -21,6 +21,7 @@
     <link href="css/font-awesome.css" rel="stylesheet">
     <link href="css/zoom.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
+
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
@@ -256,10 +257,13 @@
                         <h3>Web design projects</h3>
                         <h4>A selection of websites made with love by Loogart for several clients in different industries.</h4>
                         <div class="scroll">
+                            <a href="http://loogart.com" target="_blank" title="Loogart's Website"><img class="carousel-web-design" src="img/websites/website-loogart.png"></a>
+                            <a href="http://gac-digimat.loogart.com" target="_blank" title="Global Affairs Digital Maturity Micro-site"><img class="carousel-web-design" src="img/websites/website-gac-digimaturity.png"></a>
                             <a href="http://loog.ca/nu/" target="_blank" title="Nutritionr Web app"><img class="carousel-web-design" src="img/websites/website-nutritionr.png"></a>
                             <a href="http://loog.ca/voldemort/" target="_blank" title="Global Affairs Canada - Ask Travel Web App"><img class="carousel-web-design" src="img/websites/website-ask-travel.png"></a>
                             <a href="http://loog.ca/2/" target="_blank" title="Global Affairs Canada - InnoLab GCPedia Website"><img class="carousel-web-design" src="img/websites/website-gac-innolab.png"></a>
                             <a href="http://loog.ca/buildmetric/" target="_blank" title="Buildmetric"><img class="carousel-web-design" src="img/websites/website-buildmetric.png"></a>
+                            <a href="http://robertbeaudry.ca" target="_blank" title="50 Shades of Beaudry by Loogart"><img class="carousel-web-design" src="img/websites/website-50-shades-of-beaudry.png"></a>
                             <a href="http://loog.ca/ca/" target="_blank" title="Commecca"><img class="carousel-web-design" src="img/websites/website-commecca.png"></a>
                             <a href="http://strategiclawyers.ca " target="_blank" title="Strategic Lawyers Website"><img class="carousel-web-design" src="img/websites/website-strategic-lawyers.png"></a>
                             <a href="http://loog.ca/innolab-tools/" target="_blank" title="Global Affairs Canada - InnoLab Tools"><img class="carousel-web-design" src="img/websites/website-gac-innolab-tools.png"></a>
@@ -270,6 +274,7 @@
                             <a href="http://kalooba.ca" target="_blank" title="Kalooba eCommerce website"><img class="carousel-web-design" src="img/websites/website-kalooba.png"></a>
                             <a href="http://loog.ca/dentastic/" target="_blank" title="Dentastic App website"><img class="carousel-web-design" src="img/websites/website-dentastic.png"></a>
                             <a href="http://loog.ca/homicity/" target="_blank" title="Homicity"><img class="carousel-web-design" src="img/websites/website-homicity.png"></a>
+                            <a href="http://tiles.loogart.com" target="_blank" title="Loogart Labs"><img class="carousel-web-design" src="img/websites/website-loogart-tiles.png"></a>
                         </div>
                     </div>
                 </div>

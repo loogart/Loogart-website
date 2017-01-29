@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=0">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <meta name="description" content="Loogart is a visual design studio that specializes in illustration, brand identity, small-scale animation and web design. Our work is featured in Montreal, Toronto, Ottawa and Gatineau.">
+    <meta name="description" content="Personal project by Loogart to create a daily portrait of a pop-culture or">
     <meta name="author" content="Chris Soueidan of Loogart">
     <meta property="og:title" content="Loog a Day">
     <meta property="og:description" content="Daily portraits of pop culture icons illustrated by Chris Soueidan of Loogart">
@@ -35,7 +35,7 @@
 
         <div class="container-fluid">
 
-            <?php include 'php/back-home.php';?>
+            <?php include 'php/back.php';?>
 
                 <!-- Jumbotron section -->
                 <section class="portfolio-content">
@@ -341,7 +341,7 @@
                     </div>
                 </section>
 
-                <?php include 'php/back-home.php';?>
+                <?php include 'php/back.php';?>
 
         </div>
 

@@ -41,8 +41,8 @@
 
             <?php include '../php/back-home.php';?>
 
-            <!-- Content section -->
-            <section class="portfolio-content">
+                <!-- Content section -->
+                <section class="portfolio-content">
 
                     <!-- First section: Montreal Cityline and Boroughs -->
                     <div class="row">
@@ -166,6 +166,9 @@
                                     <img class="img-portfolio" src="../img/portfolio/citylines/cityline-montreall.png" alt="montreall-cityline-illustration-by-loogart" title="Montreall.com Cityline Illustration by Loogart">
                                 </div>
                                 <div class="carousel-cell">
+                                    <img class="img-portfolio" src="../img/portfolio/citylines/cityline-tweetaide.png" alt="tweetaide-2016-cityline-illustration-by-loogart" title="Tweetaide Cityline Illustration by Loogart">
+                                </div>
+                                <div class="carousel-cell">
                                     <img class="img-portfolio" src="../img/portfolio/citylines/cityline-joyce-and-chris-wedding.png" alt="wedding-joyce-and-chris-cityline-illustration-by-loogart" title="Joyce and Chris' Wedding Cityline Illustration by Loogart">
                                 </div>
                                 <div class="carousel-cell">
@@ -209,6 +212,7 @@
                         <div class="col-sm-5 col-sm-offset-1">
                             <img class="img-responsive img-spacing" src="../img/portfolio/citylines/print-montreal-1.jpg" data-action="zoom">
                             <img class="img-responsive img-spacing" src="../img/portfolio/citylines/print-montreal-3.jpg" data-action="zoom">
+                            <img class="img-responsive img-spacing" src="../img/portfolio/citylines/print-tweetaide-1.jpg" data-action="zoom">
                             <img class="img-responsive img-spacing" src="../img/portfolio/citylines/print-toronto-1.jpg" data-action="zoom">
                             <img class="img-responsive img-spacing" src="../img/portfolio/citylines/print-montreal-5.jpg" data-action="zoom">
                         </div>
@@ -216,13 +220,14 @@
                             <img class="img-responsive img-spacing" src="../img/portfolio/citylines/print-montreal-2.jpg" data-action="zoom">
                             <img class="img-responsive img-spacing" src="../img/portfolio/citylines/print-lavolley-1.jpg" data-action="zoom">
                             <img class="img-responsive img-spacing" src="../img/portfolio/citylines/print-lavolley-2.jpg" data-action="zoom">
+                            <img class="img-responsive img-spacing" src="../img/portfolio/citylines/print-tweetaide-2.jpg" data-action="zoom">
                             <img class="img-responsive img-spacing" src="../img/portfolio/citylines/print-montreal-4.jpg" data-action="zoom">
                         </div>
                     </div>
 
                 </section>
 
-            <?php include '../php/back-home.php';?>
+                <?php include '../php/back-home.php';?>
 
         </div>
 
