@@ -30,7 +30,7 @@
 </head>
 
 <body>
-
+<?php include '../php/analyticstracking.php';?>
     <!-- Fixed navbar -->
     <?php include '../php/navbar-portfolio.php';?>
 
@@ -49,7 +49,7 @@
                     <div class="row">
                         <div class="col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3">
 
-                            <img class="img-responsive" src="../img/Starbucks_logo.png" style="max-width:100px;margin:30px 0">
+                            <img class="img-responsive" src="../img/starbucks_logo.png" style="max-width:100px;margin:30px 0">
                             <h1>Starbucks Cityscapes</h1>
                             <p>Starbucks was looking for elegant and locally relevant visuals which would be used as marketing materials for all the opening stores in Quebec, specifically in Montreal, Quebec City and several other towns within the province.</p>
                         </div>

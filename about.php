@@ -29,7 +29,7 @@
 </head>
 
 <body>
-
+<?php include 'php/analyticstracking.php';?>
     <!-- Fixed navbar -->
     <nav class="navbar navbar-default navbar-fixed-top">
         <div class="container">

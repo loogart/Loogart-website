@@ -31,7 +31,7 @@
 </head>
 
 <body>
-
+<?php include 'php/analyticstracking.php';?>
     <!-- Fixed navbar -->
     <?php include 'php/navbar.php';?>
 
