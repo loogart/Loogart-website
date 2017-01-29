@@ -235,15 +235,23 @@
             <section class="portfolio">
                 <div class="row">
                     <div class="container">
-                        <h3>Illustration and brand identity</h3>
+                        <h3>Brand identity and illustration</h3>
                         <h4>A selection of illustrations, personal project designs and brand identities designed by Loogart for various clients in different industries.</h4>
                         <div class="scroll">
-                            <a href="illustration-and-brand-identity.php"><img class="carousel-brands" src=""></a>
-                            <a href="illustration-and-brand-identity.php"><img class="carousel-brands" src=""></a>
-                            <a href="illustration-and-brand-identity.php"><img class="carousel-brands" src=""></a>
-                            <a href="illustration-and-brand-identity.php"><img class="carousel-brands" src=""></a>
-                            <a href="illustration-and-brand-identity.php"><img class="carousel-brands" src=""></a>
-                            <a href="illustration-and-brand-identity.php"><img class="carousel-brands" src=""></a>
+                            <a href="illustration-and-brand-identity.php"><img class="carousel-brands" src="img/designs/sq-logo-team-dallas-curling.jpg"></a>
+                            <a href="illustration-and-brand-identity.php"><img class="carousel-brands" src="img/designs/sq-logo-eagle-boss.jpg"></a>
+                            <a href="illustration-and-brand-identity.php"><img class="carousel-brands" src="img/designs/sq-logo-runtime.jpg"></a>
+                            <a href="illustration-and-brand-identity.php"><img class="carousel-brands" src="img/designs/sq-logo-zen.jpg"></a>
+                            <a href="illustration-and-brand-identity.php"><img class="carousel-brands" src="img/designs/sq-logo-get-approved-canada.jpg"></a>
+                            <a href="illustration-and-brand-identity.php"><img class="carousel-brands" src="img/designs/sq-logo-homicity.jpg"></a>
+                            <a href="illustration-and-brand-identity.php"><img class="carousel-brands" src="img/designs/sq-logo-lightagents.jpg"></a>
+                            <a href="illustration-and-brand-identity.php"><img class="carousel-brands" src="img/designs/sq-logo-syria-canada-refugees.jpg"></a>
+                            <a href="illustration-and-brand-identity.php"><img class="carousel-brands" src="img/designs/sq-logo-svr-foundation.jpg"></a>
+                            <a href="illustration-and-brand-identity.php"><img class="carousel-brands" src="img/designs/sq-logo-svr-foundation-2.jpg"></a>
+                            <a href="illustration-and-brand-identity.php"><img class="carousel-brands" src="img/designs/sq-logo-kalooba.jpg"></a>
+                            <a href="illustration-and-brand-identity.php"><img class="carousel-brands" src="img/designs/sq-logo-amara.jpg"></a>
+                            <a href="illustration-and-brand-identity.php"><img class="carousel-brands" src="img/designs/sq-logo-studio-emeraude.jpg"></a>
+                            <a href="illustration-and-brand-identity.php"><img class="carousel-brands" src="img/designs/sq-gac-digimaturity.jpg"></a>
                         </div>
                         <h5><a href="illustration-and-brand-identity.php">View more</a></h5>
                     </div>

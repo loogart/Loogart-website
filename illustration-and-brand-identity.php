@@ -6,15 +6,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=0">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <meta name="description" content="Loogart miscellaneous illustrations, personal designs and brand identity projects">
+    <meta name="description" content="Brand identity and illustration projects by Loogart">
     <meta name="author" content="Chris Soueidan of Loogart">
     <meta property="og:title" content="Loog a Day">
-    <meta property="og:description" content="Daily portraits of pop culture icons illustrated by Chris Soueidan of Loogart">
+    <meta property="og:description" content="Brand identity and illustrations by Chris Soueidan of Loogart">
     <meta property="og:url" content="http://loogart.com/">
-    <meta property="og:image" content="http://loogart.com/version2/img/loogs/loog-mr-bean.gif">
+    <meta property="og:image" content="http://loogart.com/version2/img/designs/sq-logo-team-dallas-curling.jpg">
     <link rel="icon" href="favicon.ico">
 
-    <title>Illustration and brand identity projects | Loogart</title>
+    <title>Brand Identity and Illustration projects | Loogart</title>
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.css" rel="stylesheet">
@@ -40,8 +40,8 @@
                 <!-- Jumbotron section -->
                 <section class="portfolio-content">
                     <div class="row">
-                        <div class="col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3">
-                            <h1>Illustrations, branding and personal designs</h1>
+                        <div class="col-md-10 col-md-offset-1 col-lg-8 col-lg-offset-2">
+                            <h1>Branding and illustration work by Loogart</h1>
                             <p>A selection of illustrations, personal designs and branding created by Loogart.</p>
                         </div>
                     </div>
@@ -50,11 +50,12 @@
                 <!-- Loog section -->
                 <section class="loog-collection">
                     <div class="row">
-                        <div class="col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3">
+                        <div class="col-md-10 col-md-offset-1 col-lg-8 col-lg-offset-2">
                             <!-- Loogs are in this div -->
                             <div class="row">
                                 <div class="col-xs-12">
                                     <img class="img-responsive" src="img/designs/logo-team-dallas-curling.jpg" alt="" title="" data-action="zoom">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque aspernatur, illum tempora voluptatem tempore deleniti ad recusandae nisi dolores et provident, quos doloremque autem aliquid commodi dolorum ullam, saepe molestiae.</p>
                                 </div>
                                 <div class="col-xs-12">
                                     <img class="img-responsive" src="img/designs/illo-gac-digimaturity.png" alt="" title="" data-action="zoom">
@@ -95,10 +96,10 @@
                                 <div class="col-xs-12 col-sm-6">
                                     <img class="img-responsive" src="img/designs/logo-svr-foundation-choose.png" alt="" title="" data-action="zoom">
                                 </div>
-                                <div class="col-xs-12">
+                                <div class="col-xs-12 col-sm-6">
                                     <img class="img-responsive" src="img/designs/logo-kalooba.png" alt="" title="" data-action="zoom" style="background-color:#fff">
                                 </div>
-                                <div class="col-xs-12">
+                                <div class="col-xs-12 col-sm-6">
                                     <img class="img-responsive" src="img/designs/logo-svr-foundation.png" alt="" title="" data-action="zoom">
                                 </div>
 
