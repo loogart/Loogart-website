@@ -96,6 +96,9 @@
                                     <img class="img-responsive" src="img/designs/logo-svr-foundation-choose.png" alt="" title="" data-action="zoom">
                                 </div>
                                 <div class="col-xs-12">
+                                    <img class="img-responsive" src="img/designs/logo-kalooba.png" alt="" title="" data-action="zoom" style="background-color:#fff">
+                                </div>
+                                <div class="col-xs-12">
                                     <img class="img-responsive" src="img/designs/logo-svr-foundation.png" alt="" title="" data-action="zoom">
                                 </div>
 
