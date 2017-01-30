@@ -12,7 +12,7 @@
     <meta property="og:description" content="Swiffer Marketing Visuals for 2016 Canada Moving Day">
     <meta property="og:url" content="http://loogart.com/">
     <meta property="og:image" content="http://loogart.com/version2/img/portfolio/swiffer/swiffer-visual-moving-day-loogart.jpg">
-    <?php include 'php/favicons.php';?>
+    <?php include '../php/favicons.php';?>
 
     <title>Swiffer Marketing Visuals | Loogart</title>
 

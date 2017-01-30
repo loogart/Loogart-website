@@ -12,7 +12,7 @@
     <meta property="og:description" content="Otis Elevator animated GIF for Christmas 2016 by Loogart">
     <meta property="og:url" content="http://loogart.com/">
     <meta property="og:image" content="http://loogart.com/version2/img/portfolio/otis/otis-xmas-van-animated.gif">
-    <?php include 'php/favicons.php';?>
+    <?php include '../php/favicons.php';?>
 
     <title>Otis Elevator Animated GIF | Loogart</title>
 

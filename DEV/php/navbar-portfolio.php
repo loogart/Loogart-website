@@ -8,7 +8,7 @@ echo '<nav class="navbar navbar-default navbar-fixed-top">
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href=".././">Loogart.</a>
+                <a class="navbar-brand" href=".././"><span class="logo-loogart"></span></a>
             </div>
             <div id="navbar" class="navbar-collapse collapse">
 

@@ -11,18 +11,18 @@
     <meta property="og:title" content="Loogart">
     <meta property="og:description" content="Montreal-based Visual Design Studio">
     <meta property="og:url" content="http://loogart.com/">
-    <meta property="og:image" content="http://loogart.com/img/loogart-screenshot.jpg">
+    <meta property="og:image" content="http://loogart.com/version2/img/loogart-screenshot.jpg">
     <?php include 'php/favicons.php';?>
 
-    <title>Contact | Loogart</title>
+        <title>Contact | Loogart</title>
 
-    <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap.css" rel="stylesheet">
-    <link href="css/font-awesome.css" rel="stylesheet">
-    <link href="css/zoom.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
+        <!-- Bootstrap core CSS -->
+        <link href="css/bootstrap.css" rel="stylesheet">
+        <link href="css/font-awesome.css" rel="stylesheet">
+        <link href="css/zoom.css" rel="stylesheet">
+        <link href="css/style.css" rel="stylesheet">
+        <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
@@ -31,6 +31,7 @@
 <body>
     <?php include 'php/analyticstracking.php';?>
         <!-- Fixed navbar -->
+
         <nav class="navbar navbar-default navbar-fixed-top">
             <div class="container">
                 <div class="navbar-header">
@@ -40,18 +41,17 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="./">Loogart.</a>
+                    <a class="navbar-brand" href="./"><span class="logo-loogart"></span></a>
                 </div>
                 <div id="navbar" class="navbar-collapse collapse">
 
                     <ul class="nav navbar-nav navbar-right">
-                        <li><a href="about">about</a></li>
+                        <li><a href="about.php">about</a></li>
                         <li class="active"><a href="#!">contact</a></li>
                         <li><a href="https://www.instagram.com/loogart/"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
                         <li><a href="https://www.facebook.com/LoogArt/"><i class="fa fa-facebook-official" aria-hidden="true"></i></a></li>
                     </ul>
                 </div>
-                <!--/.nav-collapse -->
             </div>
         </nav>
 
@@ -98,6 +98,7 @@
 
         <!-- footer -->
         <?php include 'php/footer.php';?>
+
 </body>
 
 </html>
