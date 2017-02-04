@@ -1758,7 +1758,7 @@ http://flickity.metafizzy.co
 /*404 page*/
 
 section.page-404 {
-    padding: 10% 0 0;
+    padding: 5% 0 0;
 }
 
 section.page-404 h3 {
@@ -1784,4 +1784,5 @@ section.page-404 p {
     background-size: contain;
     background-repeat: no-repeat;
     background-position: left;
+    margin:auto;
 }

@@ -39,7 +39,7 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-sm-4 col-sm-offset-2">
-                            <h3>POops!</h3>
+                            <h3>P-oops!</h3>
                             <p>We can't seem to find the page you are looking for...</p>
                             <p class="cta-back">
                                 <a href="http://loogart.com" role="button">Home</a>
