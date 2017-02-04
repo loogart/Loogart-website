@@ -11,7 +11,7 @@
     <meta property="og:title" content="Travel Smart Canada by Loogart">
     <meta property="og:description" content="Mobile app visual design and UX/UI">
     <meta property="og:url" content="http://loogart.com/">
-    <meta property="og:image" content="http://loogart.com/version2/img/portfolio/travel-smart/mockup-ios-splash-screen.jpg">
+    <meta property="og:image" content="http://loogart.com/img/portfolio/travel-smart/mockup-ios-splash-screen.jpg">
     <?php include '../php/favicons.php';?>
 
     <title>Travel Smart Canada Visual Design | Loogart</title>
