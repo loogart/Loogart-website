@@ -11,7 +11,7 @@
     <meta property="og:title" content="Loogart">
     <meta property="og:description" content="Montreal-based Visual Design Studio">
     <meta property="og:url" content="http://loogart.com/">
-    <meta property="og:image" content="http://loogart.com/img/loogart-screenshot.jpg">
+    <meta property="og:image" content="http://loogart.com/img/chris-of-loogart.jpg">
     <?php include 'php/favicons.php';?>
 
         <title>About | Loogart</title>
