@@ -294,11 +294,10 @@ nav.shrink .navbar-toggle {
     margin: 8px 15px 8px 0;
 }
 
-
 .logo-loogart {
     display: inline-block;
-    width:120px;
-    height:32px;
+    width: 120px;
+    height: 32px;
     background-image: url('../img/icons/logo-loogart.svg');
     background-repeat: no-repeat;
     background-position: left;
@@ -308,8 +307,8 @@ nav.shrink .navbar-toggle {
 }
 
 nav.shrink .logo-loogart {
-    width:86px;
-    height:32px;
+    width: 86px;
+    height: 32px;
 }
 
 @media (max-width: 767px) {
@@ -887,7 +886,7 @@ section.portfolio h4 {
 section.about {
     background-color: #F75A56;
     color: #fff;
-    padding:40px;
+    padding: 40px;
 }
 
 section.about h3 {
@@ -995,12 +994,12 @@ ul.list-inline li span.client-logo {
 
 ul.list-inline li span.client-logo:hover,
 ul.list-inline li span.client-logo:active {
-   filter: grayscale(0) opacity(1);
+    filter: grayscale(0) opacity(1);
 }
 
 @media (max-width:767px) {
     ul.list-inline li span.client-logo {
-     filter: grayscale(0) opacity(1);
+        filter: grayscale(0) opacity(1);
     }
 }
 
@@ -1293,7 +1292,7 @@ fieldset[disabled] .form-control {
 
 .upa-carousel .carousel-cell .img-portfolio {
     max-height: 700px;
-    margin:0;
+    margin: 0;
 }
 
 .portfolio-content .carousel {
@@ -1745,10 +1744,44 @@ http://flickity.metafizzy.co
     margin: 30px auto;
 }
 
+
 /* video */
-.video-responsive{
-  margin:15px auto;
-  display: block;
-  max-width: 100%;
-  height: auto;
+
+.video-responsive {
+    margin: 15px auto;
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+
+/*404 page*/
+
+section.page-404 {
+    padding: 10% 0 0;
+}
+
+section.page-404 h3 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+section.page-404 p {
+    font-family: "San Francisco";
+    font-weight: 500;
+    line-height: 28px;
+    color: #222;
+    font-size: 24px;
+    margin: 15px auto;
+}
+
+.img-404 {
+    display: block;
+    max-width: 320px;
+    width: 100%;
+    min-height: 200px;
+    background-image: url('../img/bowser-404.gif');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left;
 }
