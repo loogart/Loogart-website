@@ -72,9 +72,9 @@
                                         <img class="img-responsive lazy" data-original="img/loogs/loog-ice-cube-nwa.gif" alt="Animated portrait of Hip Hop Rap artist Ice Cube" title="Ice Cube" data-action="zoom">
                                     </div>-->
                                     <div class="col-xs-6 col-sm-4 col-md-3">
-                                        <video class="video-responsive" width="100%" controls="" loop="loop" poster="img/loogs/loog-ice-cube-nwa.gif" title="Ice Cube">
-                                            <source src="videos/ice-cube.mp4" type="video/mp4"> Your browser does not support HTML5 video.
-                                        </video>
+                                            <video id="video1" class="video-responsive" width="100%" controls="" loop="loop" poster="img/loogs/loog-ice-cube-nwa.gif" title="Ice Cube">
+                                                <source src="videos/ice-cube.mp4" type="video/mp4"> Your browser does not support HTML5 video.
+                                            </video>
                                     </div>
                                     <div class="col-xs-6 col-sm-4 col-md-3">
                                         <video class="video-responsive" width="100%" controls="" loop="loop" poster="img/loogs/loog-ironman-hires.gif" title="Ironman">
@@ -331,8 +331,6 @@
                                             <source src="videos/patrick-roy.mp4" type="video/mp4"> Your browser does not support HTML5 video.
                                         </video>
                                     </div>
-
-
                                     <!--<div class="col-xs-6 col-sm-4 col-md-3">
                                         <img class="img-responsive lazy" data-original="img/loogs/loog-patrick-roy.gif" alt="animated portrait of NHL legendary goalie Patrick Roy" title="Patrick Roy" data-action="zoom">
                                     </div>-->
@@ -404,6 +402,7 @@
 
             <!-- footer -->
             <?php include 'php/footer.php';?>
+
 </body>
 
 </html>
