@@ -14,15 +14,15 @@
     <meta property="og:image" content="http://loogart.com/img/loogs/loog-mr-bean.gif">
     <?php include 'php/favicons.php';?>
 
-    <title>Loogs, portraits, animated characters, caricatures | Loogart</title>
+        <title>Loogs, portraits, animated characters, caricatures | Loogart</title>
 
-    <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap.css" rel="stylesheet">
-    <link href="css/font-awesome.css" rel="stylesheet">
-    <link href="css/zoom.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
+        <!-- Bootstrap core CSS -->
+        <link href="css/bootstrap.css" rel="stylesheet">
+        <link href="css/font-awesome.css" rel="stylesheet">
+        <link href="css/zoom.css" rel="stylesheet">
+        <link href="css/style.css" rel="stylesheet">
+        <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
@@ -69,25 +69,35 @@
                                         <img class="img-responsive lazy" data-original="img/loogs/loog-mr-bean-hires.gif" alt="Animated portrait of comedian Mr. Bean by Loogart" title="Mr. Bean" data-action="zoom">
                                     </div>
                                     <!--<div class="col-xs-6 col-sm-4 col-md-3">
-                    <img class="img-responsive lazy" data-original="img/loogs/loog-ice-cube-nwa.gif" alt="Animated portrait of Hip Hop Rap artist Ice Cube" title="Ice Cube" data-action="zoom">
-                </div>-->
+                                        <img class="img-responsive lazy" data-original="img/loogs/loog-ice-cube-nwa.gif" alt="Animated portrait of Hip Hop Rap artist Ice Cube" title="Ice Cube" data-action="zoom">
+                                    </div>-->
                                     <div class="col-xs-6 col-sm-4 col-md-3">
                                         <video class="video-responsive" width="100%" controls="" loop="loop" poster="img/loogs/loog-ice-cube-nwa.gif" title="Ice Cube">
                                             <source src="videos/ice-cube.mp4" type="video/mp4"> Your browser does not support HTML5 video.
                                         </video>
                                     </div>
                                     <div class="col-xs-6 col-sm-4 col-md-3">
-                                        <img class="img-responsive lazy" data-original="img/loogs/loog-ironman-hires.gif" alt="Animated portrait of Ironman by Loogart" title="Ironman" data-action="zoom">
+                                        <video class="video-responsive" width="100%" controls="" loop="loop" poster="img/loogs/loog-ironman-hires.gif" title="Ironman">
+                                            <source src="videos/ironman.m4v" type="video/mp4"> Your browser does not support HTML5 video.
+                                        </video>
                                     </div>
+                                    <!--<div class="col-xs-6 col-sm-4 col-md-3">
+                                        <img class="img-responsive lazy" data-original="img/loogs/loog-ironman-hires.gif" alt="Animated portrait of Ironman by Loogart" title="Ironman" data-action="zoom">
+                                    </div>-->
                                     <div class="col-xs-6 col-sm-4 col-md-3">
                                         <img class="img-responsive lazy" data-original="img/loogs/loog-pug.jpg" alt="Portrait of a cute pug by Loogart" title="Cute pug" data-action="zoom">
                                     </div>
                                     <div class="col-xs-6 col-sm-4 col-md-3">
-                                        <img class="img-responsive lazy" data-original="img/loogs/loog-pk-subban.gif" alt="Animated portrait of NHL's PK Subban by Loogart" title="PK Subban" data-action="zoom">
+                                        <video class="video-responsive" width="100%" controls="" loop="loop" poster="img/loogs/loog-pk-subban.gif" title="PK Subban">
+                                            <source src="videos/pk-subban.mp4" type="video/mp4"> Your browser does not support HTML5 video.
+                                        </video>
                                     </div>
                                     <!--<div class="col-xs-6 col-sm-4 col-md-3">
-                    <img class="img-responsive lazy" data-original="img/loogs/loog-bruno-mars.gif" alt="Animated portrait of pop singer Bruno Mars by Loogart" title="Bruno Mars" data-action="zoom">
-                </div>-->
+                                        <img class="img-responsive lazy" data-original="img/loogs/loog-pk-subban.gif" alt="Animated portrait of NHL's PK Subban by Loogart" title="PK Subban" data-action="zoom">
+                                    </div>-->
+                                    <!--<div class="col-xs-6 col-sm-4 col-md-3">
+                                        <img class="img-responsive lazy" data-original="img/loogs/loog-bruno-mars.gif" alt="Animated portrait of pop singer Bruno Mars by Loogart" title="Bruno Mars" data-action="zoom">
+                                    </div>-->
                                     <div class="col-xs-6 col-sm-4 col-md-3">
                                         <video class="video-responsive" width="100%" controls="" loop="loop" poster="img/loogs/loog-bruno-mars.gif" title="Bruno Mars">
                                             <source src="videos/bruno-mars.mp4" type="video/mp4"> Your browser does not support HTML5 video.
@@ -106,11 +116,16 @@
                                         <img class="img-responsive lazy" data-original="img/loogs/loog-whoopi.jpg" alt="portrait actress Whoopi Goldberg by Loogart" title="Whoopi Goldberg" data-action="zoom">
                                     </div>
                                     <div class="col-xs-6 col-sm-4 col-md-3">
-                                        <img class="img-responsive lazy" data-original="img/loogs/loog-spiderman.gif" alt="Animated portrait of Spiderman by Loogart" title="Spiderman" data-action="zoom">
+                                        <video class="video-responsive" width="100%" controls="" loop="loop" poster="img/loogs/loog-spiderman.gif" title="The Original Spiderman">
+                                            <source src="videos/spiderman.mp4" type="video/mp4"> Your browser does not support HTML5 video.
+                                        </video>
                                     </div>
                                     <!--<div class="col-xs-6 col-sm-4 col-md-3">
-                    <img class="img-responsive lazy" data-original="img/loogs/loog-batman-hires.gif" alt="Animated portrait of Batman by Loogart" title="Batman" data-action="zoom">
-                </div>-->
+                                        <img class="img-responsive lazy" data-original="img/loogs/loog-spiderman.gif" alt="Animated portrait of Spiderman by Loogart" title="Spiderman" data-action="zoom">
+                                    </div>-->
+                                    <!--<div class="col-xs-6 col-sm-4 col-md-3">
+                                        <img class="img-responsive lazy" data-original="img/loogs/loog-batman-hires.gif" alt="Animated portrait of Batman by Loogart" title="Batman" data-action="zoom">
+                                    </div>-->
                                     <div class="col-xs-6 col-sm-4 col-md-3">
                                         <video class="video-responsive" width="100%" controls="" loop="loop" poster="img/loogs/loog-batman.gif" title="Batman">
                                             <source src="videos/imbatman.m4v" type="video/mp4"> Your browser does not support HTML5 video.
@@ -147,8 +162,13 @@
                                         <img class="img-responsive lazy" data-original="img/loogs/loog-britney-spears.png" alt="portrait of pop singer Britney Spears" title="Britney Spears" data-action="zoom">
                                     </div>
                                     <div class="col-xs-6 col-sm-4 col-md-3">
-                                        <img class="img-responsive lazy" data-original="img/loogs/loog-cabbie-richards.png" alt="portrait of Sports TV personality Cabbie Richards" title="Cabbie Richards" data-action="zoom">
+                                        <video class="video-responsive" width="100%" controls="" loop="loop" poster="img/loogs/loog-cabbie-richards.png" title="Cabbie Richards on TSN">
+                                            <source src="videos/cabbie-richards.mp4" type="video/mp4"> Your browser does not support HTML5 video.
+                                        </video>
                                     </div>
+                                    <!--<div class="col-xs-6 col-sm-4 col-md-3">
+                                        <img class="img-responsive lazy" data-original="img/loogs/loog-cabbie-richards.png" alt="portrait of Sports TV personality Cabbie Richards" title="Cabbie Richards" data-action="zoom">
+                                    </div>-->
                                     <div class="col-xs-6 col-sm-4 col-md-3">
                                         <img class="img-responsive lazy" data-original="img/loogs/loog-captain-america.png" alt="portrait of Captain America" title="Captain America" data-action="zoom">
                                     </div>
@@ -159,8 +179,13 @@
                                         <img class="img-responsive lazy" data-original="img/loogs/loog-celine-dion.png" alt="portrait of singer Celine Dion" title="Celine Dion" data-action="zoom">
                                     </div>
                                     <div class="col-xs-6 col-sm-4 col-md-3">
-                                        <img class="img-responsive lazy" data-original="img/loogs/loog-charlie-chaplin.gif" alt="animated portrait of comedian Charlie Chaplin" title="Charlie Chaplin" data-action="zoom">
+                                        <video class="video-responsive" width="100%" controls="" loop="loop" poster="img/loogs/loog-charlie-chaplin.gif" title="Charlie Chaplin">
+                                            <source src="videos/charlie-chaplin.mv4" type="video/mp4"> Your browser does not support HTML5 video.
+                                        </video>
                                     </div>
+                                    <!--<div class="col-xs-6 col-sm-4 col-md-3">
+                                        <img class="img-responsive lazy" data-original="img/loogs/loog-charlie-chaplin.gif" alt="animated portrait of comedian Charlie Chaplin" title="Charlie Chaplin" data-action="zoom">
+                                    </div>-->
                                     <div class="col-xs-6 col-sm-4 col-md-3">
                                         <img class="img-responsive lazy" data-original="img/loogs/loog-darth-vader.png" alt="portrait of Darth Vader" title="Darth Vader" data-action="zoom">
                                     </div>
@@ -180,8 +205,13 @@
                                         <img class="img-responsive lazy" data-original="img/loogs/loog-donald-trump.png" alt="portrait of Donald Trump" title="Donald Trump" data-action="zoom">
                                     </div>
                                     <div class="col-xs-6 col-sm-4 col-md-3">
-                                        <img class="img-responsive lazy" data-original="img/loogs/loog-dr-dre.gif" alt="portrait of hip hop producer Dr. Dre" title="Dr. Dre" data-action="zoom">
+                                        <video class="video-responsive" width="100%" controls="" loop="loop" poster="img/loogs/loog-dr-dre.gif" title="Dr. Dre">
+                                            <source src="videos/dr-dre.mp4" type="video/mp4"> Your browser does not support HTML5 video.
+                                        </video>
                                     </div>
+                                    <!--<div class="col-xs-6 col-sm-4 col-md-3">
+                                        <img class="img-responsive lazy" data-original="img/loogs/loog-dr-dre.gif" alt="portrait of hip hop producer Dr. Dre" title="Dr. Dre" data-action="zoom">
+                                    </div>-->
                                     <div class="col-xs-6 col-sm-4 col-md-3">
                                         <img class="img-responsive lazy" data-original="img/loogs/loog-dr-evil.png" alt="portrait of Dr. Evil" title="Dr. Evil" data-action="zoom">
                                     </div>
@@ -201,8 +231,14 @@
                                         <img class="img-responsive lazy" data-original="img/loogs/loog-elon-musk.jpg" alt="portrait of genius Elon Musk from Tesla" title="Elon Musk" data-action="zoom">
                                     </div>
                                     <div class="col-xs-6 col-sm-4 col-md-3">
-                                        <img class="img-responsive lazy" data-original="img/loogs/loog-eminem.gif" alt="animated portrait of Slim Shady Eminem" title="Eminem" data-action="zoom">
+                                        <video class="video-responsive" width="100%" controls="" loop="loop" poster="img/loogs/loog-eminem.gif" title="The Real Slim Shady, Eminem">
+                                            <source src="videos/eminem.m4v" type="video/mp4"> Your browser does not support HTML5 video.
+                                        </video>
                                     </div>
+
+                                    <!--<div class="col-xs-6 col-sm-4 col-md-3">
+                                        <img class="img-responsive lazy" data-original="img/loogs/loog-eminem.gif" alt="animated portrait of Slim Shady Eminem" title="Eminem" data-action="zoom">
+                                    </div>-->
                                     <div class="col-xs-6 col-sm-4 col-md-3">
                                         <img class="img-responsive lazy" data-original="img/loogs/loog-eugenie-bouchard.png" alt="portrait of tennis superstar Eugenie Bouchard" title="Eugenie Bouchard" data-action="zoom">
                                     </div>
@@ -222,8 +258,13 @@
                                         <img class="img-responsive lazy" data-original="img/loogs/loog-julia-roberts.gif" alt="animated portrait of Julia Roberts" title="Julie Roberts" data-action="zoom">
                                     </div>
                                     <div class="col-xs-6 col-sm-4 col-md-3">
-                                        <img class="img-responsive lazy" data-original="img/loogs/loog-justin-trudeau.gif" alt="animated portrait of Justin Trudeau" title="Justin Trudeau" data-action="zoom">
+                                        <video class="video-responsive" width="100%" controls="" loop="loop" poster="img/loogs/loog-justin-trudeau.gif" title="Justin Trudeau, Canada's Prime Minister">
+                                            <source src="videos/justin-trudeau.mp4" type="video/mp4"> Your browser does not support HTML5 video.
+                                        </video>
                                     </div>
+                                    <!--<div class="col-xs-6 col-sm-4 col-md-3">
+                                        <img class="img-responsive lazy" data-original="img/loogs/loog-justin-trudeau.gif" alt="animated portrait of Justin Trudeau" title="Justin Trudeau" data-action="zoom">
+                                    </div>-->
                                     <div class="col-xs-6 col-sm-4 col-md-3">
                                         <img class="img-responsive lazy" data-original="img/loogs/loog-kanye-west.png" alt="portrait of the new Kanye West" title="Kanye West" data-action="zoom">
                                     </div>
@@ -237,17 +278,27 @@
                                         <img class="img-responsive lazy" data-original="img/loogs/loog-kobe-bryant.png" alt="portrait of NBA Legden Kobe Bryant" title="Kobe Bryant" data-action="zoom">
                                     </div>
                                     <div class="col-xs-6 col-sm-4 col-md-3">
-                                        <img class="img-responsive lazy" data-original="img/loogs/loog-kyle-lowry.png" alt="portrait of NBA player Kyle Lowry" title="Kyl Lowry" data-action="zoom">
+                                        <img class="img-responsive lazy" data-original="img/loogs/loog-kyle-lowry.png" alt="portrait of NBA player Kyle Lowry" title="Kyle Lowry" data-action="zoom">
                                     </div>
                                     <div class="col-xs-6 col-sm-4 col-md-3">
                                         <img class="img-responsive lazy" data-original="img/loogs/loog-lady-gaga.png" alt="portrait of superstar singer Lady Gaga" title="Lady Gaga" data-action="zoom">
                                     </div>
                                     <div class="col-xs-6 col-sm-4 col-md-3">
+                                        <video class="video-responsive" width="100%" controls="" loop="loop" poster="img/loogs/loog-lebron-james.gif" title="NBA Superstar Lebron James">
+                                            <source src="videos/lebron-james-nba.mv4.m4v" type="video/mp4"> Your browser does not support HTML5 video.
+                                        </video>
+                                    </div>
+                                    <!--<div class="col-xs-6 col-sm-4 col-md-3">
                                         <img class="img-responsive lazy" data-original="img/loogs/loog-lebron-james.gif" alt="animated portrait of NBA superstar player LeBron James" title="LeBron James" data-action="zoom">
-                                    </div>
+                                    </div>-->
                                     <div class="col-xs-6 col-sm-4 col-md-3">
-                                        <img class="img-responsive lazy" data-original="img/loogs/loog-marilyn-monroe.gif" alt="animated portrait of Marilyn Monroe" title="Marilyn Monroe" data-action="zoom">
+                                        <video class="video-responsive" width="100%" controls="" loop="loop" poster="img/loogs/loog-marilyn-monroe.gif" title="Marilyn Monroe">
+                                            <source src="videos/marilyn-monroe.mp4" type="video/mp4"> Your browser does not support HTML5 video.
+                                        </video>
                                     </div>
+                                    <!--<div class="col-xs-6 col-sm-4 col-md-3">
+                                        <img class="img-responsive lazy" data-original="img/loogs/loog-marilyn-monroe.gif" alt="animated portrait of Marilyn Monroe" title="Marilyn Monroe" data-action="zoom">
+                                    </div>-->
                                     <div class="col-xs-6 col-sm-4 col-md-3">
                                         <img class="img-responsive lazy" data-original="img/loogs/loog-michael-jordan.png" alt="portrait of NBA Hall of Famer Michael Jordan" title="Michael Jordan" data-action="zoom">
                                     </div>
@@ -276,8 +327,15 @@
                                         <img class="img-responsive lazy" data-original="img/loogs/loog-pablo-escobar.png" alt="portrait of Pablo Escobar" title="Pablo Escobar" data-action="zoom">
                                     </div>
                                     <div class="col-xs-6 col-sm-4 col-md-3">
-                                        <img class="img-responsive lazy" data-original="img/loogs/loog-patrick-roy.gif" alt="animated portrait of NHL legendary goalie Patrick Roy" title="Patrick Roy" data-action="zoom">
+                                        <video class="video-responsive" width="100%" controls="" loop="loop" poster="img/loogs/loog-patrick-roy.gif" title="NHL Legendary Goalie Patrick Roy">
+                                            <source src="videos/patrick-roy.mp4" type="video/mp4"> Your browser does not support HTML5 video.
+                                        </video>
                                     </div>
+
+
+                                    <!--<div class="col-xs-6 col-sm-4 col-md-3">
+                                        <img class="img-responsive lazy" data-original="img/loogs/loog-patrick-roy.gif" alt="animated portrait of NHL legendary goalie Patrick Roy" title="Patrick Roy" data-action="zoom">
+                                    </div>-->
                                     <div class="col-xs-6 col-sm-4 col-md-3">
                                         <img class="img-responsive lazy" data-original="img/loogs/loog-pokemon-go.png" alt="portrait of the Pokemon Go Dude" title="Pokemon Go" data-action="zoom">
                                     </div>
