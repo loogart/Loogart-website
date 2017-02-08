@@ -180,7 +180,7 @@
                                     </div>
                                     <div class="col-xs-6 col-sm-4 col-md-3">
                                         <video class="video-responsive" width="100%" controls="" loop="loop" poster="img/loogs/loog-charlie-chaplin.gif" title="Charlie Chaplin">
-                                            <source src="videos/charlie-chaplin.mv4" type="video/mp4"> Your browser does not support HTML5 video.
+                                            <source src="videos/charlie-chaplin.mp4" type="video/mp4"> Your browser does not support HTML5 video.
                                         </video>
                                     </div>
                                     <!--<div class="col-xs-6 col-sm-4 col-md-3">
