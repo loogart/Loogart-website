@@ -89,8 +89,8 @@
                                 <span class="outer">
                             <div class="inner portfolio-montreal"></div>
                             <div class="portfolio-text bottom no-gradient text-dark">
-                                <h5>Montreal CityLine</h5>
-                                <p>Illustration created originally for my best friend’s living room. He of course has it hanging in his living room.</p>
+                                <h5>The CityLines</h5>
+                                <p>Illustration of Montreal City, several cities and events. The Citylines have a distinct style with bold lines and circular anchors.</p>
                             </div>
                         </span>
                             </a>
@@ -103,7 +103,7 @@
                                         <div class="logo pull-left starbucks-logo"></div>
                                         <div class="logo-text pull-right">
                                             <h5 class="text-green-starbucks">Starbucks</h5>
-                                            <p>Illustration created originally for my best friend’s living room. He of course has it hanging in his living room.</p>
+                                            <p>Illustration designed for Starbucks Opening Stores in Montreal, Quebec City and the Quebec province.</p>
                                         </div>
                                     </div>
                                 </div>
