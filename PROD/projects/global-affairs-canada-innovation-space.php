@@ -81,7 +81,7 @@
                     <div class="row">
                         <div class="col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3">
                             <h3>Wall mockups</h3>
-                            <p>The animation is a continuous loop which seemlessly continues from one cycle to another.</p>
+                            <p>The design was mocked up on wall photographs of the current Innovation room. These mockups were passed on to the print shop who will effectively be taking care of producing the design.</p>
                             <img class="img-responsive img-spacing" src="../img/portfolio/gac-innovation/mockup-idea-garden.png" data-action="zoom">
                             <img class="img-responsive img-spacing" src="../img/portfolio/gac-innovation/mockup-coaches-corner.png" data-action="zoom">
                             <img class="img-responsive img-spacing" src="../img/portfolio/gac-innovation/mockup-awesome-wall.png" data-action="zoom">
