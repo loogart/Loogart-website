@@ -54,6 +54,21 @@
                                 <!-- Loogs are in this div -->
                                 <div class="row">
                                     <div class="col-xs-6 col-sm-4 col-md-3">
+                                        <img class="img-responsive lazy" data-original="img/loogs/loog-nacho-libre.gif" alt="Animated portrait of Nacho Libre" title="Nacho Libre" data-action="zoom">
+                                    </div>
+                                    <div class="col-xs-6 col-sm-4 col-md-3">
+                                        <img class="img-responsive lazy" data-original="img/loogs/loog-russell-peters.gif" alt="Animated portrait of Comedian Russell Peters" title="Russell Peters" data-action="zoom">
+                                    </div>
+                                    <div class="col-xs-6 col-sm-4 col-md-3">
+                                        <img class="img-responsive lazy" data-original="img/loogs/loog-bill-clinton.jpg" alt="Portrait of President Bill Clinton" title="Bill Clinton" data-action="zoom">
+                                    </div>
+                                    <div class="col-xs-6 col-sm-4 col-md-3">
+                                        <img class="img-responsive lazy" data-original="img/loogs/loog-tyrion-lanister.gif" alt="Animated portrait of Game of Thrones' Tyrion Lanister" title="Tyrion Lanister" data-action="zoom">
+                                    </div>
+                                    <div class="col-xs-6 col-sm-4 col-md-3">
+                                        <img class="img-responsive lazy" data-original="img/loogs/loog-daenerys.gif" alt="Animated portrait of Game of Thrones' Daenerys Stromborn Targaryen" title="Daenerys Targaryen" data-action="zoom">
+                                    </div>
+                                    <div class="col-xs-6 col-sm-4 col-md-3">
                                         <img class="img-responsive lazy" data-original="img/loogs/loog-byebama.gif" alt="Animated portrait Obama saying bye, Trump saying hi" title="Oba-bye" data-action="zoom">
                                     </div>
                                     <div class="col-xs-6 col-sm-4 col-md-3">
@@ -72,9 +87,9 @@
                                         <img class="img-responsive lazy" data-original="img/loogs/loog-ice-cube-nwa.gif" alt="Animated portrait of Hip Hop Rap artist Ice Cube" title="Ice Cube" data-action="zoom">
                                     </div>-->
                                     <div class="col-xs-6 col-sm-4 col-md-3">
-                                            <video id="video1" class="video-responsive" width="100%" controls="" loop="loop" poster="img/loogs/loog-ice-cube-nwa.gif" title="Ice Cube">
-                                                <source src="videos/ice-cube.mp4" type="video/mp4"> Your browser does not support HTML5 video.
-                                            </video>
+                                        <video id="video1" class="video-responsive" width="100%" controls="" loop="loop" poster="img/loogs/loog-ice-cube-nwa.gif" title="Ice Cube">
+                                            <source src="videos/ice-cube.mp4" type="video/mp4"> Your browser does not support HTML5 video.
+                                        </video>
                                     </div>
                                     <div class="col-xs-6 col-sm-4 col-md-3">
                                         <video class="video-responsive" width="100%" controls="" loop="loop" poster="img/loogs/loog-ironman-hires.gif" title="Ironman">

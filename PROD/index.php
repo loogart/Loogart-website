@@ -56,6 +56,8 @@
                             <h3>#LoogADay project</h3>
                             <h4>A collection of pop-culture and iconic people created by Loogart on an almost daily basis.</h4>
                             <div class="scroll">
+                                <a href="portraits-loog-a-day"><img class="carousel-loogs" src="img/loogs/loog-nacho-libre.gif" alt="Animated portrait of Nacho Libre by Loogart" title="Nacho Libre"></a>
+                                <a href="portraits-loog-a-day"><img class="carousel-loogs" src="img/loogs/loog-tyrion-lanister.gif" alt="Animated portrait of Tyrion Lanister by Loogart" title="Tyrion Lanister"></a>
                                 <a href="portraits-loog-a-day"><img class="carousel-loogs" src="img/loogs/loog-elvis-presley.gif" alt="Animated portrait of Elvis Presley by Loogart" title="Elvis presley"></a>
                                 <a href="portraits-loog-a-day"><img class="carousel-loogs" src="img/loogs/loog-ronald-mcdonald.gif" alt="Animated portrait of Ronald McDonalds by Loogart" title="Ronald McDonald"></a>
                                 <a href="portraits-loog-a-day"><img class="carousel-loogs" src="img/loogs/loog-colonel-sanders-kfc.gif" alt="Animated portrait of KFC's Colonel Sanders by Loogart" title="Colonel Sanders"></a>
