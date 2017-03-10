@@ -78,7 +78,7 @@ a:focus {
 /** Ultra Light */
 
 @font-face {
-    font-family: "San Francisco";
+    font-family: "San Francisco", sans-serif;
     font-weight: 100;
     src: url("../fonts/SF/sanfranciscodisplay-ultralight-webfont.woff");
 }
@@ -87,7 +87,7 @@ a:focus {
 /** Thin */
 
 @font-face {
-    font-family: "San Francisco";
+    font-family: "San Francisco", sans-serif;
     font-weight: 200;
     src: url("../fonts/SF/sanfranciscodisplay-thin-webfont.woff");
 }
@@ -96,7 +96,7 @@ a:focus {
 /** Regular */
 
 @font-face {
-    font-family: "San Francisco";
+    font-family: "San Francisco", sans-serif;
     font-weight: 400;
     src: url("../fonts/SF/sanfranciscodisplay-regular-webfont.woff");
 }
@@ -105,7 +105,7 @@ a:focus {
 /** Medium */
 
 @font-face {
-    font-family: "San Francisco";
+    font-family: "San Francisco", sans-serif;
     font-weight: 200;
     src: url("../fonts/SF/sanfranciscodisplay-medium-webfont.woff");
 }
@@ -114,7 +114,7 @@ a:focus {
 /** Semi Bold */
 
 @font-face {
-    font-family: "San Francisco";
+    font-family: "San Francisco", sans-serif;
     font-weight: 600;
     src: url("../fonts/SF/sanfranciscodisplay-semibold-webfont.woff");
 }
@@ -123,13 +123,13 @@ a:focus {
 /** Bold */
 
 @font-face {
-    font-family: "San Francisco";
+    font-family: "San Francisco", sans-serif;
     font-weight: 700;
     src: url(../fonts/SF/sanfranciscodisplay-bold-webfont.woff);
 }
 
 h1 {
-    font-family: "San Francisco";
+    font-family: "San Francisco", sans-serif;
     font-weight: 700;
     line-height: 40px;
     color: #222;
@@ -137,7 +137,7 @@ h1 {
 }
 
 h2 {
-    font-family: "San Francisco";
+    font-family: "San Francisco", sans-serif;
     font-weight: 600;
     line-height: 40px;
     color: #222;
@@ -145,7 +145,7 @@ h2 {
 }
 
 h3 {
-    font-family: "San Francisco";
+    font-family: "San Francisco", sans-serif;
     font-weight: 700;
     line-height: 40px;
     color: #F75A56;
@@ -153,7 +153,7 @@ h3 {
 }
 
 h4 {
-    font-family: "San Francisco";
+    font-family: "San Francisco", sans-serif;
     font-weight: 500;
     line-height: 30px;
     color: #222;
@@ -179,7 +179,7 @@ h4 {
 }
 
 .navbar-default .navbar-brand {
-    font-family: "San Francisco";
+    font-family: "San Francisco", sans-serif;
     font-weight: 700;
     line-height: 40px;
     color: #F75A56;
@@ -333,7 +333,7 @@ nav.shrink .logo-loogart {
         background-color: transparent;
     }
     .navbar-default .navbar-brand {
-        font-family: "San Francisco";
+        font-family: "San Francisco", sans-serif;
         font-weight: 700;
         line-height: 16px;
         color: #F75A56;
@@ -625,7 +625,7 @@ fieldset[disabled] .btn-white.focus {
 }
 
 .portfolio-text {
-    font-family: "San Francisco";
+    font-family: "San Francisco", sans-serif;
     position: absolute;
     left: 0px;
     right: 0px;
@@ -894,7 +894,7 @@ section.about h3 {
 }
 
 section.about p {
-    font-family: "San Francisco";
+    font-family: "San Francisco", sans-serif;
     font-weight: 500;
     line-height: 28px;
     color: #fff;
@@ -903,7 +903,7 @@ section.about p {
 }
 
 section.clients {
-    font-family: "San Francisco";
+    font-family: "San Francisco", sans-serif;
     font-weight: 500;
     line-height: 28px;
     color: #222;
@@ -912,7 +912,7 @@ section.clients {
 }
 
 section.clients p {
-    font-family: "San Francisco";
+    font-family: "San Francisco", sans-serif;
     font-weight: 500;
     line-height: 30px;
     color: #222;
@@ -1045,7 +1045,7 @@ section.clients ul li h6 {
 /* footer style */
 
 footer {
-    font-family: "San Francisco";
+    font-family: "San Francisco", sans-serif;
     font-weight: 500;
     background-color: #333333;
     min-height: 100px;
@@ -1072,7 +1072,7 @@ footer .col-sm-4 {
 }
 
 footer h5 {
-    font-family: "San Francisco";
+    font-family: "San Francisco", sans-serif;
     font-weight: 700;
     line-height: 28px;
     color: #fff;
@@ -1084,7 +1084,7 @@ footer h5 {
     color: #777;
     text-align: center;
     padding: 7px;
-    font-family: "San Francisco";
+    font-family: "San Francisco", sans-serif;
 }
 
 
@@ -1310,7 +1310,7 @@ fieldset[disabled] .form-control {
 }
 
 section.portfolio-content p {
-    font-family: "San Francisco";
+    font-family: "San Francisco", sans-serif;
     font-weight: 500;
     line-height: 30px;
     color: #222;
@@ -1319,7 +1319,7 @@ section.portfolio-content p {
 }
 
 section.portfolio-content h1 {
-    font-family: "San Francisco";
+    font-family: "San Francisco", sans-serif;
     font-weight: 700;
     line-height: 42px;
     color: #222;
@@ -1328,7 +1328,7 @@ section.portfolio-content h1 {
 }
 
 section.portfolio-content h3 {
-    font-family: "San Francisco";
+    font-family: "San Francisco", sans-serif;
     font-weight: 700;
     line-height: 28px;
     color: #F75A56;
@@ -1354,7 +1354,7 @@ section.contact .container {
 }
 
 section.contact p {
-    font-family: "San Francisco";
+    font-family: "San Francisco", sans-serif;
     font-weight: 500;
     line-height: 28px;
     color: #222;
@@ -1449,7 +1449,7 @@ section.contact p {
 
 .popup .modal-body {
     position: relative;
-    font-family: "San Francisco";
+    font-family: "San Francisco", sans-serif;
     font-weight: 500;
     line-height: 28px;
     color: #222;
@@ -1767,7 +1767,7 @@ section.page-404 h3 {
 }
 
 section.page-404 p {
-    font-family: "San Francisco";
+    font-family: "San Francisco", sans-serif;
     font-weight: 500;
     line-height: 28px;
     color: #222;
