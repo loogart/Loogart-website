@@ -276,7 +276,7 @@
                                 <a href="http://loog.ca/buildmetric/" target="_blank" title="Buildmetric"><img class="carousel-web-design" src="img/websites/website-buildmetric.png"></a>
                                 <a href="http://robertbeaudry.ca" target="_blank" title="50 Shades of Beaudry by Loogart"><img class="carousel-web-design" src="img/websites/website-50-shades-of-beaudry.png"></a>
                                 <a href="http://loog.ca/ca/" target="_blank" title="Commecca"><img class="carousel-web-design" src="img/websites/website-commecca.png"></a>
-                                <a href="http://strategiclawyers.ca " target="_blank" title="Strategic Lawyers Website"><img class="carousel-web-design" src="img/websites/website-strategic-lawyers.png"></a>
+                                <a href="http://strategiclawyers.ca" target="_blank" title="Strategic Lawyers Website"><img class="carousel-web-design" src="img/websites/website-strategic-lawyers.png"></a>
                                 <a href="http://loog.ca/innolab-tools/" target="_blank" title="Global Affairs Canada - InnoLab Tools"><img class="carousel-web-design" src="img/websites/website-gac-innolab-tools.png"></a>
                                 <a href="http://loog.ca/la/" target="_blank" title="LightAgents"><img class="carousel-web-design" src="img/websites/website-lightagents.png"></a>
                                 <a href="http://joyceandchris.com" target="_blank" title="Joyce&amp;Chris Wedding Website"><img class="carousel-web-design" src="img/websites/website-wedding-joyce-chris.png"></a>
