@@ -60,7 +60,13 @@
                     <h3>Freshly created.</h3>
                     <h4>Stay up to date with the latest designs relased by Loogart.</h4>
                     <!-- LightWidget WIDGET -->
-                    <script src="//lightwidget.com/widgets/lightwidget.js"></script><iframe src="//lightwidget.com/widgets/a23d64b399dc5906a2b5a9fe37087469.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width: 100%; border: 0; overflow: hidden;"></iframe>
+                    <section class="hidden-xs">
+                        <script src="//lightwidget.com/widgets/lightwidget.js"></script><iframe src="//lightwidget.com/widgets/a23d64b399dc5906a2b5a9fe37087469.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width: 100%; border: 0; overflow: hidden;"></iframe>
+                    </section>
+                    <section class="visible-xs">
+                        <!-- LightWidget WIDGET -->
+                        <script src="//lightwidget.com/widgets/lightwidget.js"></script><iframe src="//lightwidget.com/widgets/8892a326654b55329c6483c180edd0ea.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width: 100%; border: 0; overflow: hidden;"></iframe>
+                    </section>
                     <h5><a href="https://www.instagram.com/loogart/">Stay up to date</a></h5>
                 </div>
             </div>
