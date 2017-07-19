@@ -200,10 +200,9 @@ h4 {
 
 .navbar-default .navbar-nav > li > a {
     color: #222;
-    font-size: 21px;
+    font-size: 16px;
     -webkit-transition: .25s;
     transition: .25s;
-    padding:20px 0;
     
 }
 
@@ -244,7 +243,6 @@ h4 {
 .navbar-default .navbar-form {
     border-color: transparent;
     text-align: center;
-    padding-top:20px;
 }
 
 .navbar-default .navbar-collapse.in {
@@ -360,6 +358,14 @@ nav.shrink .logo-loogart {
         padding: 12px 5px;
         margin: 8px 15px 8px 0;
     }
+    .navbar-default .navbar-nav > li > a {
+    color: #222;
+    font-size: 21px;
+    -webkit-transition: .25s;
+    transition: .25s;
+    padding:20px 0;
+    
+}
 }
 
 .cta-jumbotron {
