@@ -200,9 +200,11 @@ h4 {
 
 .navbar-default .navbar-nav > li > a {
     color: #222;
-    font-size: 16px;
+    font-size: 21px;
     -webkit-transition: .25s;
     transition: .25s;
+    padding:20px 0;
+    
 }
 
 .navbar-default .navbar-nav > li > a:hover,
@@ -240,7 +242,20 @@ h4 {
 
 .navbar-default .navbar-collapse,
 .navbar-default .navbar-form {
-    border-color: #F75A56;
+    border-color: transparent;
+    text-align: center;
+    padding-top:20px;
+}
+
+.navbar-default .navbar-collapse.in {
+    max-height:6000px;
+    height:100vh;
+}
+
+.collapsing {
+    -webkit-transition: none;
+    transition: none;
+    display: none;
 }
 
 .navbar-default .navbar-nav > .open > a,
