@@ -90,9 +90,14 @@ echo '<footer>
             $("#thankyou").modal("show");
         };
     </script>
-        <script>
+    <script>
         if (window.location.href.indexOf("#errorPopup") > -1) {
             $("#errorPopup").modal("show");
         }
+    </script>
+    <script type="text/javascript">
+    $("#thankyou").modal("show") {
+    fbq("track", "SubmitMessage"
+    );
     </script>'
     ;?>

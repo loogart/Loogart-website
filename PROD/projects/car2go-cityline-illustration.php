@@ -26,18 +26,23 @@
       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
-</head>
+    <?php include 'php/facebook-pixel.php';?>
 
+</head>
+<script>
+    fbq('track', 'ViewCar2go');
+
+</script>
 <body>
-<?php include '../php/analyticstracking.php';?>
+    <?php include '../php/analyticstracking.php';?>
     <!-- Fixed navbar -->
     <?php include '../php/navbar-portfolio.php';?>
-    
+
     <!-- champion image -->
     <div class="project-jumbotron project-car2go-cityline-img"></div>
 
     <div class="container-fluid">
-       
+
         <?php include '../php/back-home.php';?>
 
         <!-- Content section -->

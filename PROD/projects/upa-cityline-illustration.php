@@ -26,10 +26,15 @@
       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
-</head>
+    <?php include 'php/facebook-pixel.php';?>
 
+</head>
+<script>
+    fbq('track', 'ViewUPA');
+
+</script>
 <body>
-<?php include '../php/analyticstracking.php';?>
+    <?php include '../php/analyticstracking.php';?>
     <!-- Fixed navbar -->
     <?php include '../php/navbar-portfolio.php';?>
 
@@ -40,7 +45,7 @@
     </div>
 
     <div class="container-fluid">
-       
+
         <?php include '../php/back-home.php';?>
 
         <!-- Content section -->
@@ -97,14 +102,14 @@
                     </div>
                     <hr>
                     <div class="embed-responsive embed-responsive-16by9">
-                    <iframe src="https://player.vimeo.com/video/183359470" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                        <iframe src="https://player.vimeo.com/video/183359470" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
                     </div>
                     <p><a href="https://vimeo.com/183359470">UPA Portes Ouvertes 2016</a> from <a href="https://vimeo.com/onechuck">oneChuck Productions</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
                 </div>
 
             </div>
-            
-                        <!-- Second section: Other Cities CityLines -->
+
+            <!-- Second section: Other Cities CityLines -->
             <div class="row">
                 <div class="col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3">
 
