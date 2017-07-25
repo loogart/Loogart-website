@@ -33,6 +33,7 @@
     fbq('track', 'ViewContact');
 
 </script>
+
 <body>
     <?php include 'php/analyticstracking.php';?>
     <!-- Fixed navbar -->
@@ -53,8 +54,10 @@
                 <ul class="nav navbar-nav navbar-right">
                     <li><a href="about">about</a></li>
                     <li class="active"><a href="#!">contact</a></li>
-                    <li><a href="https://www.instagram.com/loogart/"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-                    <li><a href="https://www.facebook.com/LoogArt/"><i class="fa fa-facebook-official" aria-hidden="true"></i></a></li>
+                    <li><a href="https://www.instagram.com/loogart/"><i class="fa fa-instagram hidden-xs" aria-hidden="true"></i> <span class="visible-xs"><i class="fa fa-instagram" aria-hidden="true"></i> Instagram</span></a></li>
+                    <li><a href="https://www.facebook.com/LoogArt/"><i class="fa fa-facebook-official hidden-xs" aria-hidden="true"></i> <span class="visible-xs"><i class="fa fa-facebook-official" aria-hidden="true"></i> Facebook</span></a></li>
+                    <li><a href="https://www.behance.net/loogart"><i class="fa fa-behance hidden-xs" aria-hidden="true"></i> <span class="visible-xs"><i class="fa fa-behance" aria-hidden="true"></i> Behance</span></a></li>
+                    <li><a href="http://loogart.tictail.com/"><i class="fa fa-shopping-bag hidden-xs" aria-hidden="true"></i> <span class="visible-xs"><i class="fa fa-shopping-bag" aria-hidden="true"></i> Shop</span></a></li>
                 </ul>
             </div>
         </div>
