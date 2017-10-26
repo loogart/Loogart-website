@@ -99,5 +99,13 @@ echo '<footer>
     $("#thankyou").modal("show") {
     fbq("track", "SubmitMessage"
     );
-    </script>'
+    </script>
+        <script>
+        window.fcSettings = {
+            token: "77e84a1b-fea0-44b2-bd0a-35827225a0ef",
+            host: "https://wchat.freshchat.com"
+        };
+
+    </script>
+    <script src="https://wchat.freshchat.com/js/widget.js" async></script>'
     ;?>
