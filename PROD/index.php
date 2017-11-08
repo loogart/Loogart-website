@@ -242,7 +242,7 @@
         <section class="portfolio">
             <div class="row">
                 <div class="container">
-                    <h3>Brand identity and illustration</h3>
+                    <h3>Logos and illustrations</h3>
                     <h4>A selection of illustrations, personal project designs and brand identities designed by Loogart for various clients in different industries.</h4>
                     <div class="scroll">
                         <a href="illustration-and-brand-identity"><img class="carousel-brands" src="img/designs/sq-logo-team-dallas-curling.jpg"></a>
@@ -269,7 +269,7 @@
         <section class="portfolio">
             <div class="row">
                 <div class="container">
-                    <h3>Web design projects</h3>
+                    <h3>Web design</h3>
                     <h4>A selection of websites made with love by Loogart for several clients in different industries.</h4>
                     <div class="scroll">
                         <a href="http://loogart.com" target="_blank" title="Loogart's Website"><img class="carousel-web-design" src="img/websites/website-loogart.png"></a>
@@ -298,8 +298,8 @@
         <section class="portfolio">
             <div class="row">
                 <div class="container">
-                    <h3>Freshly created.</h3>
-                    <h4>Stay up to date with the latest designs relased by Loogart.</h4>
+                    <h3>InstaLoog</h3>
+                    <h4>Stay up to date with the latest designs relased by Loogart on Instagram.</h4>
                     <!-- LightWidget WIDGET -->
                     <section class="hidden-xs">
                         <script src="//lightwidget.com/widgets/lightwidget.js"></script><iframe src="//lightwidget.com/widgets/a23d64b399dc5906a2b5a9fe37087469.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width: 100%; border: 0; overflow: hidden;"></iframe>
