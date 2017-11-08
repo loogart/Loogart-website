@@ -14,7 +14,7 @@
     <meta property="og:image" content="http://loogart.com/img/loogs/loog-mr-bean.gif">
     <?php include 'php/favicons.php';?>
 
-    <title>Loogs, portraits, animated characters, caricatures | Loogart</title>
+    <title>Loogmoji | Loogart</title>
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.css" rel="stylesheet">
@@ -46,8 +46,8 @@
         <section class="portfolio-content">
             <div class="row">
                 <div class="col-md-10 col-md-offset-1 col-lg-8 col-lg-offset-2">
-                    <h1>Loog a day</h1>
-                    <p>A personal project by Loogart where we create one pop icon caricature per day. The challenge behind these mini portraits consists of producing a quick design with the best possible likeness using minimal lines, colors and visual features. Some are animated, some are simply illustrated.</p>
+                    <h1>Loogmoji</h1>
+                    <p>Meet the Loogmojis! A collection of caricatures by Loogart. The challenge behind these mini portraits consists of producing a quick design with the best possible likeness using minimal lines, colors and visual features. Some are animated, some are simply illustrated.</p>
                 </div>
             </div>
         </section>

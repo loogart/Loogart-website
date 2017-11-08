@@ -53,31 +53,12 @@
             </div>
         </div>
 
-        <!-- IG section -->
+        <!-- Loogmoji section -->
         <section class="portfolio">
             <div class="row">
                 <div class="container">
-                    <h3>Freshly created.</h3>
-                    <h4>Stay up to date with the latest designs relased by Loogart.</h4>
-                    <!-- LightWidget WIDGET -->
-                    <section class="hidden-xs">
-                        <script src="//lightwidget.com/widgets/lightwidget.js"></script><iframe src="//lightwidget.com/widgets/a23d64b399dc5906a2b5a9fe37087469.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width: 100%; border: 0; overflow: hidden;"></iframe>
-                    </section>
-                    <section class="visible-xs">
-                        <!-- LightWidget WIDGET -->
-                        <script src="//lightwidget.com/widgets/lightwidget.js"></script><iframe src="//lightwidget.com/widgets/8892a326654b55329c6483c180edd0ea.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width: 100%; border: 0; overflow: hidden;"></iframe>
-                    </section>
-                    <h5><a href="https://www.instagram.com/loogart/">Stay up to date</a></h5>
-                </div>
-            </div>
-        </section>
-
-        <!-- LoogADay section -->
-        <section class="portfolio">
-            <div class="row">
-                <div class="container">
-                    <h3>#LoogADay project</h3>
-                    <h4>A collection of pop-culture and iconic people created by Loogart on an almost daily basis.</h4>
+                    <h3>Loogmoji</h3>
+                    <h4>A collection of caricatures of pop-culture and iconic people created by Loogart.</h4>
                     <div class="scroll">
                         <a href="portraits-loog-a-day"><img class="carousel-loogs" src="img/loogs/loog-nacho-libre.gif" alt="Animated portrait of Nacho Libre by Loogart" title="Nacho Libre"></a>
                         <a href="portraits-loog-a-day"><img class="carousel-loogs" src="img/loogs/loog-tyrion-lanister.gif" alt="Animated portrait of Tyrion Lanister by Loogart" title="Tyrion Lanister"></a>
@@ -106,7 +87,7 @@
 
             <div class="row">
                 <div class="container" id="montreal">
-                    <h3 id="selectedProjects">Selected projects</h3>
+                    <h3 id="selectedProjects">Client projects</h3>
                     <h4>A selection of awesome design projects for different clients. These projects include illustration, animation, app visual design, packaging, web graphics and print.</h4>
                 </div>
                 <div class="col-sm-6">
@@ -313,7 +294,24 @@
                 </div>
             </div>
         </section>
-
+        <!-- IG section -->
+        <section class="portfolio">
+            <div class="row">
+                <div class="container">
+                    <h3>Freshly created.</h3>
+                    <h4>Stay up to date with the latest designs relased by Loogart.</h4>
+                    <!-- LightWidget WIDGET -->
+                    <section class="hidden-xs">
+                        <script src="//lightwidget.com/widgets/lightwidget.js"></script><iframe src="//lightwidget.com/widgets/a23d64b399dc5906a2b5a9fe37087469.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width: 100%; border: 0; overflow: hidden;"></iframe>
+                    </section>
+                    <section class="visible-xs">
+                        <!-- LightWidget WIDGET -->
+                        <script src="//lightwidget.com/widgets/lightwidget.js"></script><iframe src="//lightwidget.com/widgets/8892a326654b55329c6483c180edd0ea.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width: 100%; border: 0; overflow: hidden;"></iframe>
+                    </section>
+                    <h5><a href="https://www.instagram.com/loogart/">Stay up to date</a></h5>
+                </div>
+            </div>
+        </section>
 
     </div>
 
