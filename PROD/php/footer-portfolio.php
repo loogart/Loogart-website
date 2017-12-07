@@ -86,7 +86,6 @@ echo '<footer>
     <script src="../js/bootstrapvalidator.js"></script>
     <script src="../js/flickity.pkgd.min.js"></script>
     <script src="../js/loogart.js"></script>
-        </script>
         <script>
         window.fcSettings = {
             token: "77e84a1b-fea0-44b2-bd0a-35827225a0ef",
