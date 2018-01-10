@@ -8,7 +8,7 @@ echo '<nav class="navbar navbar-default navbar-fixed-top">
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="./"><span class="logo-loogart"></span></a>
+                <a class="navbar-brand" href="./" aria-labelledby="homePage"><span class="logo-loogart" id="homePage"></span></a>
             </div>
             <div id="navbar" class="navbar-collapse collapse">
 
@@ -23,6 +23,5 @@ echo '<nav class="navbar navbar-default navbar-fixed-top">
             </div>
             <!--/.nav-collapse -->
         </div>
-    </nav>'    
+    </nav>'
     ;?>
-    
