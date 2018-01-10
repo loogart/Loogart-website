@@ -245,20 +245,20 @@
                     <h3>Logos and illustrations</h3>
                     <h4>A selection of illustrations, personal project designs and brand identities designed by Loogart for various clients in different industries.</h4>
                     <div class="scroll">
-                        <a href="illustration-and-brand-identity"><img class="carousel-brands" src="img/designs/sq-logo-team-dallas-curling.jpg"></a>
-                        <a href="illustration-and-brand-identity"><img class="carousel-brands" src="img/designs/sq-logo-eagle-boss.jpg"></a>
+                        <a href="illustration-and-brand-identity"><img class="carousel-brands" src="img/designs/sq-logo-team-dallas-curling.jpg" alt=""></a>
+                        <a href="illustration-and-brand-identity"><img class="carousel-brands" src="img/designs/sq-logo-eagle-boss.jpg" alt=""></a>
                         <a href="illustration-and-brand-identity"><img class="carousel-brands" src="img/designs/sq-logo-runtime.jpg"></a>
-                        <a href="illustration-and-brand-identity"><img class="carousel-brands" src="img/designs/sq-logo-zen.jpg"></a>
-                        <a href="illustration-and-brand-identity"><img class="carousel-brands" src="img/designs/sq-logo-get-approved-canada.jpg"></a>
-                        <a href="illustration-and-brand-identity"><img class="carousel-brands" src="img/designs/sq-logo-homicity.jpg"></a>
-                        <a href="illustration-and-brand-identity"><img class="carousel-brands" src="img/designs/sq-logo-lightagents.jpg"></a>
-                        <a href="illustration-and-brand-identity"><img class="carousel-brands" src="img/designs/sq-logo-syria-canada-refugees.jpg"></a>
-                        <a href="illustration-and-brand-identity"><img class="carousel-brands" src="img/designs/sq-logo-svr-foundation.jpg"></a>
-                        <a href="illustration-and-brand-identity"><img class="carousel-brands" src="img/designs/sq-logo-svr-foundation-2.jpg"></a>
-                        <a href="illustration-and-brand-identity"><img class="carousel-brands" src="img/designs/sq-logo-kalooba.jpg"></a>
-                        <a href="illustration-and-brand-identity"><img class="carousel-brands" src="img/designs/sq-logo-amara.jpg"></a>
-                        <a href="illustration-and-brand-identity"><img class="carousel-brands" src="img/designs/sq-logo-studio-emeraude.jpg"></a>
-                        <a href="illustration-and-brand-identity"><img class="carousel-brands" src="img/designs/sq-gac-digimaturity.jpg"></a>
+                        <a href="illustration-and-brand-identity"><img class="carousel-brands" src="img/designs/sq-logo-zen.jpg" alt=""></a>
+                        <a href="illustration-and-brand-identity"><img class="carousel-brands" src="img/designs/sq-logo-get-approved-canada.jpg" alt=""></a>
+                        <a href="illustration-and-brand-identity"><img class="carousel-brands" src="img/designs/sq-logo-homicity.jpg" alt=""></a>
+                        <a href="illustration-and-brand-identity"><img class="carousel-brands" src="img/designs/sq-logo-lightagents.jpg" alt=""></a>
+                        <a href="illustration-and-brand-identity"><img class="carousel-brands" src="img/designs/sq-logo-syria-canada-refugees.jpg" alt=""></a>
+                        <a href="illustration-and-brand-identity"><img class="carousel-brands" src="img/designs/sq-logo-svr-foundation.jpg" alt=""></a>
+                        <a href="illustration-and-brand-identity"><img class="carousel-brands" src="img/designs/sq-logo-svr-foundation-2.jpg" alt=""></a>
+                        <a href="illustration-and-brand-identity"><img class="carousel-brands" src="img/designs/sq-logo-kalooba.jpg" alt=""></a>
+                        <a href="illustration-and-brand-identity"><img class="carousel-brands" src="img/designs/sq-logo-amara.jpg" alt=""></a>
+                        <a href="illustration-and-brand-identity"><img class="carousel-brands" src="img/designs/sq-logo-studio-emeraude.jpg" alt=""></a>
+                        <a href="illustration-and-brand-identity"><img class="carousel-brands" src="img/designs/sq-gac-digimaturity.jpg" alt=""></a>
                     </div>
                     <h5><a href="illustration-and-brand-identity">View more</a></h5>
                 </div>
@@ -272,24 +272,24 @@
                     <h3>Web design</h3>
                     <h4>A selection of websites made with love by Loogart for several clients in different industries.</h4>
                     <div class="scroll">
-                        <a href="http://loogart.com" target="_blank" title="Loogart's Website"><img class="carousel-web-design" src="img/websites/website-loogart.png"></a>
-                        <a href="http://gac-digimat.loogart.com" target="_blank" title="Global Affairs Digital Maturity Micro-site"><img class="carousel-web-design" src="img/websites/website-gac-digimaturity.png"></a>
-                        <a href="http://loog.ca/nu/" target="_blank" title="Nutritionr Web app"><img class="carousel-web-design" src="img/websites/website-nutritionr.png"></a>
-                        <a href="http://loog.ca/voldemort/" target="_blank" title="Global Affairs Canada - Ask Travel Web App"><img class="carousel-web-design" src="img/websites/website-ask-travel.png"></a>
-                        <a href="http://loog.ca/2/" target="_blank" title="Global Affairs Canada - InnoLab GCPedia Website"><img class="carousel-web-design" src="img/websites/website-gac-innolab.png"></a>
-                        <a href="http://loog.ca/buildmetric/" target="_blank" title="Buildmetric"><img class="carousel-web-design" src="img/websites/website-buildmetric.png"></a>
-                        <a href="http://robertbeaudry.ca" target="_blank" title="50 Shades of Beaudry by Loogart"><img class="carousel-web-design" src="img/websites/website-50-shades-of-beaudry.png"></a>
-                        <a href="http://loog.ca/ca/" target="_blank" title="Commecca"><img class="carousel-web-design" src="img/websites/website-commecca.png"></a>
-                        <a href="http://strategiclawyers.ca" target="_blank" title="Strategic Lawyers Website"><img class="carousel-web-design" src="img/websites/website-strategic-lawyers.png"></a>
-                        <a href="http://loog.ca/innolab-tools/" target="_blank" title="Global Affairs Canada - InnoLab Tools"><img class="carousel-web-design" src="img/websites/website-gac-innolab-tools.png"></a>
-                        <a href="http://loog.ca/la/" target="_blank" title="LightAgents"><img class="carousel-web-design" src="img/websites/website-lightagents.png"></a>
-                        <a href="http://joyceandchris.com" target="_blank" title="Joyce&amp;Chris Wedding Website"><img class="carousel-web-design" src="img/websites/website-wedding-joyce-chris.png"></a>
-                        <a href="http://joyceandchris.com/savethedate/" target="_blank" title="Joyce&amp;Chris Save the Date Website"><img class="carousel-web-design" src="img/websites/website-save-the-date-joyce-chris.png"></a>
-                        <a href="http://loog.ca/salonteashop/" target="_blank" title="Salon Teashop"><img class="carousel-web-design" src="img/websites/website-salon-teashop.png"></a>
-                        <a href="http://kalooba.ca" target="_blank" title="Kalooba eCommerce website"><img class="carousel-web-design" src="img/websites/website-kalooba.png"></a>
-                        <a href="http://loog.ca/dentastic/" target="_blank" title="Dentastic App website"><img class="carousel-web-design" src="img/websites/website-dentastic.png"></a>
-                        <a href="http://loog.ca/homicity/" target="_blank" title="Homicity"><img class="carousel-web-design" src="img/websites/website-homicity.png"></a>
-                        <a href="http://tiles.loogart.com" target="_blank" title="Loogart Labs"><img class="carousel-web-design" src="img/websites/website-loogart-tiles.png"></a>
+                        <a href="http://loogart.com" target="_blank" title="Loogart's Website"><img class="carousel-web-design" src="img/websites/website-loogart.png" alt=""></a>
+                        <a href="http://gac-digimat.loogart.com" target="_blank" title="Global Affairs Digital Maturity Micro-site"><img class="carousel-web-design" src="img/websites/website-gac-digimaturity.png" alt=""></a>
+                        <a href="http://loog.ca/nu/" target="_blank" title="Nutritionr Web app"><img class="carousel-web-design" src="img/websites/website-nutritionr.png" alt=""></a>
+                        <a href="http://loog.ca/voldemort/" target="_blank" title="Global Affairs Canada - Ask Travel Web App"><img class="carousel-web-design" src="img/websites/website-ask-travel.png" alt=""></a>
+                        <a href="http://loog.ca/2/" target="_blank" title="Global Affairs Canada - InnoLab GCPedia Website"><img class="carousel-web-design" src="img/websites/website-gac-innolab.png" alt=""></a>
+                        <a href="http://loog.ca/buildmetric/" target="_blank" title="Buildmetric"><img class="carousel-web-design" src="img/websites/website-buildmetric.png" alt=""></a>
+                        <a href="http://robertbeaudry.ca" target="_blank" title="50 Shades of Beaudry by Loogart"><img class="carousel-web-design" src="img/websites/website-50-shades-of-beaudry.png" alt=""></a>
+                        <a href="http://loog.ca/ca/" target="_blank" title="Commecca"><img class="carousel-web-design" src="img/websites/website-commecca.png" alt=""></a>
+                        <a href="http://strategiclawyers.ca" target="_blank" title="Strategic Lawyers Website"><img class="carousel-web-design" src="img/websites/website-strategic-lawyers.png" alt=""></a>
+                        <a href="http://loog.ca/innolab-tools/" target="_blank" title="Global Affairs Canada - InnoLab Tools"><img class="carousel-web-design" src="img/websites/website-gac-innolab-tools.png" alt=""></a>
+                        <a href="http://loog.ca/la/" target="_blank" title="LightAgents"><img class="carousel-web-design" src="img/websites/website-lightagents.png" alt=""></a>
+                        <a href="http://joyceandchris.com" target="_blank" title="Joyce&amp;Chris Wedding Website"><img class="carousel-web-design" src="img/websites/website-wedding-joyce-chris.png" alt=""></a>
+                        <a href="http://joyceandchris.com/savethedate/" target="_blank" title="Joyce&amp;Chris Save the Date Website"><img class="carousel-web-design" src="img/websites/website-save-the-date-joyce-chris.png" alt=""></a>
+                        <a href="http://loog.ca/salonteashop/" target="_blank" title="Salon Teashop"><img class="carousel-web-design" src="img/websites/website-salon-teashop.png" alt=""></a>
+                        <a href="http://kalooba.ca" target="_blank" title="Kalooba eCommerce website"><img class="carousel-web-design" src="img/websites/website-kalooba.png" alt=""></a>
+                        <a href="http://loog.ca/dentastic/" target="_blank" title="Dentastic App website"><img class="carousel-web-design" src="img/websites/website-dentastic.png" alt=""></a>
+                        <a href="http://loog.ca/homicity/" target="_blank" title="Homicity"><img class="carousel-web-design" src="img/websites/website-homicity.png" alt=""></a>
+                        <a href="http://tiles.loogart.com" target="_blank" title="Loogart Labs"><img class="carousel-web-design" src="img/websites/website-loogart-tiles.png" alt=""></a>
                     </div>
                 </div>
             </div>
