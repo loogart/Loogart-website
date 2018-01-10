@@ -74,7 +74,7 @@ echo '<footer>
             </div>
         </div>
     </div>
-    
+
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
@@ -85,14 +85,5 @@ echo '<footer>
     <script src="../js/validate.js"></script>
     <script src="../js/bootstrapvalidator.js"></script>
     <script src="../js/flickity.pkgd.min.js"></script>
-    <script src="../js/loogart.js"></script>
-        </script>
-        <script>
-        window.fcSettings = {
-            token: "77e84a1b-fea0-44b2-bd0a-35827225a0ef",
-            host: "https://wchat.freshchat.com"
-        };
-
-    </script>
-    <script src="https://wchat.freshchat.com/js/widget.js" async></script>'
+    <script src="../js/loogart.js"></script>'
     ;?>
