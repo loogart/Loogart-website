@@ -31,8 +31,8 @@
 </head>
 <script>
     fbq('track', 'ViewBrands');
-
 </script>
+
 <body>
     <?php include 'php/analyticstracking.php';?>
 

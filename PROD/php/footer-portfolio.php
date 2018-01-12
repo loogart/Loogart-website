@@ -6,6 +6,7 @@ echo '<footer>
                     <h5>Hire Loogart now.</h5>
                     <p>We create a visual language to help communicate your ideas to your clients. We do this through brand identity direction, illustration, animation, web design.
                     </p>
+                    <a href="../contact"><i class="fa fa-long-arrow-right" aria-hidden="true"></i> Get in touch</a>
                 </div>
                 <div class="col-sm-3">
                     <h5>Reach us.</h5>
@@ -19,8 +20,8 @@ echo '<footer>
                     <!-- Begin MailChimp Signup Form -->
                     <form action="//loogart.us7.list-manage.com/subscribe/post?u=318cbb07c865a88e681d7e59d&amp;id=e18344cbf9" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
                         <div id="mc_embed_signup_scroll">
-                            <h5>Loog a day</h5>
-                            <p>Be the first to see the next Loog of the Day via email.</p>
+                            <h5>Loogart Newsletter</h5>
+                            <p>We will talk about our latest projects and let you know about the newest products in our shop.</p>
                             <div class="input-group">
                                 <input class="form-control on-dark" type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
                                 <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
