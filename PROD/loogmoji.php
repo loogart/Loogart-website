@@ -31,8 +31,8 @@
 </head>
 <script>
     fbq('track', 'ViewLoogaday');
-
 </script>
+
 <body>
     <?php include 'php/analyticstracking.php';?>
     <!-- Fixed navbar -->

@@ -36,6 +36,7 @@
 
     <!-- Fixed navbar -->
     <?php include 'php/navbar.php';?>
+    
     <section class="page-404">
         <div class="container">
             <div class="row">
@@ -52,6 +53,7 @@
             </div>
         </div>
     </section>
+    
 </body>
 
 </html>

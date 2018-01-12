@@ -31,7 +31,6 @@
 </head>
 <script>
     fbq('track', 'ViewHome');
-
 </script>
 
 <body>
@@ -294,6 +293,7 @@
                 </div>
             </div>
         </section>
+
         <!-- IG section -->
         <section class="portfolio">
             <div class="row">

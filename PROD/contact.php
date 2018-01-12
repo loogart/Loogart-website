@@ -31,7 +31,6 @@
 </head>
 <script>
     fbq('track', 'ViewContact');
-
 </script>
 
 <body>

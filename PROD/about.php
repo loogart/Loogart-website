@@ -31,7 +31,6 @@
 </head>
 <script>
     fbq('track', 'ViewAbout');
-
 </script>
 
 <body>
@@ -68,7 +67,6 @@
         <h1 class="hidden">About Loogart: Chris Soueidan is a Montreal visual designer.</h1>
     </section>
 
-
     <!-- Pink Section section -->
     <section class="about">
         <div class="row">
@@ -83,6 +81,7 @@
             </div>
         </div>
     </section>
+    
     <div class="container-fluid">
         <!-- Clients section -->
         <section class="clients">
@@ -150,8 +149,10 @@
             </div>
         </section>
     </div>
+    
     <!-- footer -->
     <?php include 'php/footer.php';?>
+    
 </body>
 
 </html>
