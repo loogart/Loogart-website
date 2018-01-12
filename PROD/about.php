@@ -35,54 +35,56 @@
 
 <body>
     <?php include 'php/analyticstracking.php';?>
+    <header>
+        <!-- Fixed navbar -->
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                    <a class="navbar-brand" href="./"><span class="logo-loogart"></span></a>
+                </div>
+                <div id="navbar" class="navbar-collapse collapse">
 
-    <!-- Fixed navbar -->
-    <nav class="navbar navbar-default navbar-fixed-top">
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                <a class="navbar-brand" href="./"><span class="logo-loogart"></span></a>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="active"><a href="#!">about</a></li>
+                        <li><a href="contact">contact</a></li>
+                        <li><a href="https://www.instagram.com/loogart/"><i class="fa fa-instagram hidden-xs" aria-hidden="true"></i> <span class="visible-xs"><i class="fa fa-instagram" aria-hidden="true"></i> Instagram</span></a></li>
+                        <li><a href="https://www.facebook.com/LoogArt/"><i class="fa fa-facebook-official hidden-xs" aria-hidden="true"></i> <span class="visible-xs"><i class="fa fa-facebook-official" aria-hidden="true"></i> Facebook</span></a></li>
+                        <li><a href="https://www.behance.net/loogart"><i class="fa fa-behance hidden-xs" aria-hidden="true"></i> <span class="visible-xs"><i class="fa fa-behance" aria-hidden="true"></i> Behance</span></a></li>
+                        <li><a href="http://loogart.tictail.com/"><i class="fa fa-shopping-bag hidden-xs" aria-hidden="true"></i> <span class="visible-xs"><i class="fa fa-shopping-bag" aria-hidden="true"></i> Shop</span></a></li>
+                    </ul>
+                </div>
             </div>
-            <div id="navbar" class="navbar-collapse collapse">
-
-                <ul class="nav navbar-nav navbar-right">
-                    <li class="active"><a href="#!">about</a></li>
-                    <li><a href="contact">contact</a></li>
-                    <li><a href="https://www.instagram.com/loogart/"><i class="fa fa-instagram hidden-xs" aria-hidden="true"></i> <span class="visible-xs"><i class="fa fa-instagram" aria-hidden="true"></i> Instagram</span></a></li>
-                    <li><a href="https://www.facebook.com/LoogArt/"><i class="fa fa-facebook-official hidden-xs" aria-hidden="true"></i> <span class="visible-xs"><i class="fa fa-facebook-official" aria-hidden="true"></i> Facebook</span></a></li>
-                    <li><a href="https://www.behance.net/loogart"><i class="fa fa-behance hidden-xs" aria-hidden="true"></i> <span class="visible-xs"><i class="fa fa-behance" aria-hidden="true"></i> Behance</span></a></li>
-                    <li><a href="http://loogart.tictail.com/"><i class="fa fa-shopping-bag hidden-xs" aria-hidden="true"></i> <span class="visible-xs"><i class="fa fa-shopping-bag" aria-hidden="true"></i> Shop</span></a></li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-
+        </nav>
+    </header>
+    
     <!-- Jumbotron section -->
     <section class="jumbotron-about">
         <h1 class="hidden">About Loogart: Chris Soueidan is a Montreal visual designer.</h1>
     </section>
 
     <!-- Pink Section section -->
-    <section class="about">
-        <div class="row">
-            <div class="col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3">
-                <h3>Back in the day.</h3>
-                <p>My name is Chris and I have been doodling and drawing with a pen and paper since I was a young boy. In 2009, in engineering school, my classmate introduced me to Adobe Photoshop and I fell in love with the overall process of digital design.</p>
-                <p>Fast forward to the end of 2011, a friend of mine running a growing online business convinced me that he would pay money for my creative services.</p>
-                <p>That is where I started my career as a visual designer and that is how Loogart was born.</p>
-                <p class="cta-jumbotron">
-                    <a class="btn btn-lg btn-white" href="contact.php" role="button">email chris</a>
-                </p>
+    <main>
+        <section class="about">
+            <div class="row">
+                <div class="col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3">
+                    <h3>Back in the day.</h3>
+                    <p>My name is Chris and I have been doodling and drawing with a pen and paper since I was a young boy. In 2009, in engineering school, my classmate introduced me to Adobe Photoshop and I fell in love with the overall process of digital design.</p>
+                    <p>Fast forward to the end of 2011, a friend of mine running a growing online business convinced me that he would pay money for my creative services.</p>
+                    <p>That is where I started my career as a visual designer and that is how Loogart was born.</p>
+                    <p class="cta-jumbotron">
+                        <a class="btn btn-lg btn-white" href="contact.php" role="button">email chris</a>
+                    </p>
+                </div>
             </div>
-        </div>
-    </section>
-    
-    <div class="container-fluid">
+        </section>
+
+        <div class="container-fluid">
         <!-- Clients section -->
         <section class="clients">
             <div class="row">
@@ -149,7 +151,7 @@
             </div>
         </section>
     </div>
-    
+    </main>
     <!-- footer -->
     <?php include 'php/footer.php';?>
     

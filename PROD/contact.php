@@ -36,8 +36,8 @@
 <body>
     <?php include 'php/analyticstracking.php';?>
     <!-- Fixed navbar -->
-
-    <nav class="navbar navbar-default navbar-fixed-top">
+    <header>
+        <nav class="navbar navbar-default navbar-fixed-top">
         <div class="container">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -61,48 +61,50 @@
             </div>
         </div>
     </nav>
-
+    </header>
+    
     <!-- Contact form section -->
-    <section class="contact">
-        <div class="container">
-            <h3>Send us an email :-)</h3>
-            <p>Looking to work with Loogart on a new project? Send us an email and we will get back to you as soon as possible!</p>
-            <form action="php/contactform.php" id="contact_form" method="post">
+    <main>
+        <section class="contact">
+            <div class="container">
+                <h3>Send us an email :-)</h3>
+                <p>Looking to work with Loogart on a new project? Send us an email and we will get back to you as soon as possible!</p>
+                <form action="php/contactform.php" id="contact_form" method="post">
 
-                <div class="form-group">
-                    <label for="name">Name</label>
-                    <input class="form-control" type="text" name="first_name" placeholder="First Name and last name">
-                </div>
-                <div class="form-group">
-                    <label for="name">Subject</label>
-                    <div class="select-69 has-feedback">
-                        <select name="subject" class="form-control selectpicker">
-                                <option value=" ">How can we help you?</option>
-                                <option>Commission</option>
-                                <option>Question</option>
-                                <option>Loog request</option>
-                                <option>Website bug</option>
-                                <option>Other</option>
-                            </select>
-                        <span class="glyphicon glyphicon-menu-down form-control-feedback" aria-hidden="true"></span>
+                    <div class="form-group">
+                        <label for="your-name">Name</label>
+                        <input class="form-control" id="your-name" type="text" name="first_name" placeholder="First Name and last name">
                     </div>
-                </div>
-                <div class="form-group">
-                    <label for="email">Email</label>
-                    <input type="email" class="form-control" type="email" name="email" placeholder="you@email.com">
-                </div>
+                    <div class="form-group">
+                        <label for="request-topic">Subject</label>
+                        <div class="select-69 has-feedback" id="request-topic">
+                            <select name="subject" class="form-control selectpicker">
+                                    <option value=" ">How can we help you?</option>
+                                    <option>Commission</option>
+                                    <option>Question</option>
+                                    <option>Online shop</option>
+                                    <option>Website bug</option>
+                                    <option>Other</option>
+                                </select>
+                            <span class="glyphicon glyphicon-menu-down form-control-feedback" aria-hidden="true"></span>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="your-email">Email</label>
+                        <input type="email" class="form-control" id="your-email" type="email" name="email" placeholder="you@email.com">
+                    </div>
 
-                <div class="form-group">
-                    <label for="message">Message</label>
-                    <textarea class="form-control" rows="4" placeholder="Your message" name="comment"></textarea>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea class="form-control" id="message" rows="4" placeholder="Your message" name="comment"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <button type="submit" name="action" class="btn btn-pink btn-block"><i class="fa fa-envelope-o" aria-hidden="true"></i> Send your message</button>
+                    </div>
+                </form>
                 </div>
-                <div class="form-group">
-                    <button type="submit" name="action" class="btn btn-pink btn-block"><i class="fa fa-envelope-o" aria-hidden="true"></i> Send your message</button>
-                </div>
-            </form>
-        </div>
-    </section>
-
+        </section>
+    </main>
     <!-- footer -->
     <?php include 'php/footer.php';?>
 

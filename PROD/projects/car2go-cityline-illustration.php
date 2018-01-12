@@ -26,7 +26,7 @@
       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
-    <?php include 'php/facebook-pixel.php';?>
+    <?php include '../php/facebook-pixel.php';?>
 
 </head>
 <script>
@@ -35,13 +35,13 @@
 </script>
 <body>
     <?php include '../php/analyticstracking.php';?>
-    <!-- Fixed navbar -->
-    <?php include '../php/navbar-portfolio.php';?>
+        <!-- Fixed navbar -->
+        <?php include '../php/navbar-portfolio.php';?>
+    
+        <!-- champion image -->
+        <div class="project-jumbotron project-car2go-cityline-img"></div>
 
-    <!-- champion image -->
-    <div class="project-jumbotron project-car2go-cityline-img"></div>
-
-    <div class="container-fluid">
+        <div class="container-fluid">
 
         <?php include '../php/back-home.php';?>
 
@@ -100,7 +100,6 @@
         <?php include '../php/back-home.php';?>
 
     </div>
-
     <!-- footer -->
     <?php include '../php/footer-portfolio.php';?>
 </body>
