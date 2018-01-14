@@ -6,49 +6,82 @@
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 <!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 
+
 <url>
   <loc>http://loogart.com/</loc>
+  <lastmod>2018-01-14T15:56:28+00:00</lastmod>
+  <priority>1.00</priority>
 </url>
 <url>
   <loc>http://loogart.com/about</loc>
+  <lastmod>2018-01-14T15:56:28+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>http://loogart.com/contact</loc>
+  <lastmod>2018-01-14T15:56:28+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://loogart.com/portraits-loog-a-day</loc>
+  <loc>http://loogart.com/loogmoji</loc>
+  <lastmod>2018-01-14T15:56:28+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://loogart.com/projects/montreal-cityline-illustration</loc>
+  <loc>http://loogart.com/montreal-cityline-illustration</loc>
+  <lastmod>2018-01-14T15:56:28+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://loogart.com/projects/starbucks-cityscape-illustration</loc>
+  <loc>http://loogart.com/starbucks-cityscape-illustration</loc>
+  <lastmod>2018-01-14T15:56:28+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://loogart.com/projects/ets-cityline-illustration</loc>
+  <loc>http://loogart.com/ets-cityline-illustration</loc>
+  <lastmod>2018-01-14T15:56:28+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://loogart.com/projects/car2go-cityline-illustration</loc>
+  <loc>http://loogart.com/car2go-cityline-illustration</loc>
+  <lastmod>2018-01-14T15:56:28+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://loogart.com/projects/swiffer-marketing-graphics</loc>
+  <loc>http://loogart.com/swiffer-marketing-graphics</loc>
+  <lastmod>2018-01-14T15:56:28+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://loogart.com/projects/upa-cityline-illustration</loc>
+  <loc>http://loogart.com/upa-cityline-illustration</loc>
+  <lastmod>2018-01-14T15:56:28+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://loogart.com/projects/travel-smart-canada-app</loc>
+  <loc>http://loogart.com/travel-smart-canada-app</loc>
+  <lastmod>2018-01-14T15:56:28+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://loogart.com/projects/suite88-cityline-illustration</loc>
+  <loc>http://loogart.com/suite88-cityline-illustration</loc>
+  <lastmod>2018-01-14T15:56:28+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://loogart.com/projects/otis-elevator-animated-gif</loc>
+  <loc>http://loogart.com/otis-elevator-animated-gif</loc>
+  <lastmod>2018-01-14T15:56:28+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://loogart.com/projects/global-affairs-canada-innovation-space</loc>
+  <loc>http://loogart.com/global-affairs-canada-innovation-space</loc>
+  <lastmod>2018-01-14T15:56:28+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://loogart.com/illustration-and-brand-identity</loc>
+  <loc>http://loogart.com/contact.php</loc>
+  <lastmod>2018-01-14T15:56:28+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
+
+
 </urlset>
