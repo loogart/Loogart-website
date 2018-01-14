@@ -76,7 +76,7 @@ echo '</main>
             </div>
         </div>
     </div>
-
+    
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
@@ -102,8 +102,4 @@ echo '</main>
     fbq("track", "SubmitMessage"
     );
     </script>'
-<<<<<<< HEAD:DEV/php/footer.php
     ;?>
-=======
-    ;?>
->>>>>>> master:PROD/php/footer.php
