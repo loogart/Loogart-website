@@ -17,10 +17,10 @@
     <title>Illustration, brand identity and web design | Loogart</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap.css" rel="stylesheet">
-    <link href="css/font-awesome.css" rel="stylesheet">
-    <link href="css/zoom.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
+    <link href="./css/bootstrap.css" rel="stylesheet">
+    <link href="./css/font-awesome.css" rel="stylesheet">
+    <link href="./css/zoom.css" rel="stylesheet">
+    <link href="./css/style.css" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -34,11 +34,11 @@
 </script>
 
 <body>
-   
+
     <?php include 'php/analyticstracking.php';?>
     <!-- Fixed navbar -->
     <?php include 'php/navbar.php';?>
-    
+
     <div class="container">
 
         <!-- Jumbotron section -->
@@ -85,12 +85,15 @@
         <section class="portfolio">
 
             <div class="row">
-                <div class="container" id="montreal">
+                <div class="col-sm-12" id="montreal">
                     <h3 id="selectedProjects">Client projects</h3>
                     <h4>A selection of awesome design projects for different clients. These projects include illustration, animation, app visual design, packaging, web graphics and print.</h4>
                 </div>
+            </div>
+
+            <div class="row">
                 <div class="col-sm-6">
-                    <a href="projects/montreal-cityline-illustration">
+                    <a href="montreal-cityline-illustration">
                         <span class="outer">
                             <div class="inner portfolio-montreal"></div>
                             <div class="portfolio-text bottom no-gradient text-dark">
@@ -101,7 +104,7 @@
                     </a>
                 </div>
                 <div class="col-sm-6" id="starbucks">
-                    <a href="projects/starbucks-cityscape-illustration">
+                    <a href="starbucks-cityscape-illustration">
                         <div class="outer">
                             <div class="inner portfolio-starbucks"></div>
                             <div class="portfolio-text top no-gradient text-dark">
@@ -117,7 +120,7 @@
             </div>
             <div class="row">
                 <div class="col-sm-6" id="ets">
-                    <a href="projects/ets-cityline-illustration">
+                    <a href="ets-cityline-illustration">
                         <div class="outer">
                             <div class="inner portfolio-ets"></div>
                             <div class="portfolio-text bottom no-gradient text-dark">
@@ -131,7 +134,7 @@
                     </a>
                 </div>
                 <div class="col-sm-6" id="car2go">
-                    <a href="projects/car2go-cityline-illustration">
+                    <a href="car2go-cityline-illustration">
                         <div class="outer">
                             <div class="inner portfolio-car2go"></div>
                             <div class="portfolio-text top no-gradient text-light">
@@ -146,7 +149,7 @@
             </div>
             <div class="row">
                 <div class="col-sm-6" id="swiffer">
-                    <a href="projects/swiffer-marketing-graphics">
+                    <a href="swiffer-marketing-graphics">
                         <div class="outer">
                             <div class="inner portfolio-swiffer"></div>
                             <div class="portfolio-text bottom text-light">
@@ -160,7 +163,7 @@
                     </a>
                 </div>
                 <div class="col-sm-6" id="upa">
-                    <a href="projects/upa-cityline-illustration">
+                    <a href="upa-cityline-illustration">
                         <div class="outer">
                             <div class="inner portfolio-upa"></div>
                             <div class="portfolio-text top no-gradient text-light">
@@ -176,7 +179,7 @@
             </div>
             <div class="row">
                 <div class="col-sm-6" id="travelSmart">
-                    <a href="projects/travel-smart-canada-app">
+                    <a href="travel-smart-canada-app">
                         <div class="outer">
                             <div class="inner portfolio-travel-smart"></div>
                             <div class="portfolio-text bottom text-light">
@@ -191,7 +194,7 @@
                     </a>
                 </div>
                 <div class="col-sm-6" id="suite88">
-                    <a href="projects/suite88-cityline-illustration">
+                    <a href="suite88-cityline-illustration">
                         <div class="outer">
                             <div class="inner portfolio-suite88"></div>
                             <div class="portfolio-text bottom no-gradient text-dark">
@@ -207,7 +210,7 @@
             </div>
             <div class="row">
                 <div class="col-sm-6" id="otis">
-                    <a href="projects/otis-elevator-animated-gif">
+                    <a href="otis-elevator-animated-gif">
                         <div class="outer">
                             <div class="inner portfolio-otis"></div>
                             <div class="portfolio-text bottom no-gradient text-dark">
@@ -221,7 +224,7 @@
                     </a>
                 </div>
                 <div class="col-sm-6" id="innolab">
-                    <a href="projects/global-affairs-canada-innovation-space">
+                    <a href="global-affairs-canada-innovation-space">
                         <div class="outer">
                             <div class="inner portfolio-innovation-space"></div>
                             <div class="portfolio-text top text-light">
@@ -236,33 +239,6 @@
                 </div>
             </div>
         </section>
-
-        <!-- Brand identity section -->
-        <!--<section class="portfolio">
-            <div class="row">
-                <div class="container">
-                    <h3>Logos and illustrations</h3>
-                    <h4>A selection of illustrations, personal project designs and brand identities designed by Loogart for various clients in different industries.</h4>
-                    <div class="scroll">
-                        <a href="illustration-and-brand-identity"><img class="carousel-brands" src="img/designs/sq-logo-team-dallas-curling.jpg"></a>
-                        <a href="illustration-and-brand-identity"><img class="carousel-brands" src="img/designs/sq-logo-eagle-boss.jpg"></a>
-                        <a href="illustration-and-brand-identity"><img class="carousel-brands" src="img/designs/sq-logo-runtime.jpg"></a>
-                        <a href="illustration-and-brand-identity"><img class="carousel-brands" src="img/designs/sq-logo-zen.jpg"></a>
-                        <a href="illustration-and-brand-identity"><img class="carousel-brands" src="img/designs/sq-logo-get-approved-canada.jpg"></a>
-                        <a href="illustration-and-brand-identity"><img class="carousel-brands" src="img/designs/sq-logo-homicity.jpg"></a>
-                        <a href="illustration-and-brand-identity"><img class="carousel-brands" src="img/designs/sq-logo-lightagents.jpg"></a>
-                        <a href="illustration-and-brand-identity"><img class="carousel-brands" src="img/designs/sq-logo-syria-canada-refugees.jpg"></a>
-                        <a href="illustration-and-brand-identity"><img class="carousel-brands" src="img/designs/sq-logo-svr-foundation.jpg"></a>
-                        <a href="illustration-and-brand-identity"><img class="carousel-brands" src="img/designs/sq-logo-svr-foundation-2.jpg"></a>
-                        <a href="illustration-and-brand-identity"><img class="carousel-brands" src="img/designs/sq-logo-kalooba.jpg"></a>
-                        <a href="illustration-and-brand-identity"><img class="carousel-brands" src="img/designs/sq-logo-amara.jpg"></a>
-                        <a href="illustration-and-brand-identity"><img class="carousel-brands" src="img/designs/sq-logo-studio-emeraude.jpg"></a>
-                        <a href="illustration-and-brand-identity"><img class="carousel-brands" src="img/designs/sq-gac-digimaturity.jpg"></a>
-                    </div>
-                    <h5><a href="illustration-and-brand-identity">View more</a></h5>
-                </div>
-            </div>
-        </section>-->
 
         <!-- Web design section -->
         <section class="portfolio">

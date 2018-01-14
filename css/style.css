@@ -194,6 +194,13 @@ h4 {
     background-color: transparent;
 }
 
+.navbar-default .navbar-brand p {
+    /*Accessibility */
+    position: absolute !important;
+    clip: rect(1px 1px 1px 1px);/* IE6, IE7 */
+    clip: rect(1px, 1px, 1px, 1px);
+}
+
 .navbar-default .navbar-text {
     color: #222;
 }
@@ -203,7 +210,7 @@ h4 {
     font-size: 16px;
     -webkit-transition: .25s;
     transition: .25s;
-    
+
 }
 
 .navbar-default .navbar-nav > li > a:hover,
@@ -246,8 +253,8 @@ h4 {
 }
 
 .navbar-default .navbar-collapse.in {
-    max-height:6000px;
-    height:100vh;
+    max-height: 6000px;
+    height: 100vh;
 }
 
 .collapsing {
@@ -359,13 +366,13 @@ nav.shrink .logo-loogart {
         margin: 8px 15px 8px 0;
     }
     .navbar-default .navbar-nav > li > a {
-    color: #222;
-    font-size: 21px;
-    -webkit-transition: .25s;
-    transition: .25s;
-    padding:20px 0;
-    
-}
+        color: #222;
+        font-size: 21px;
+        -webkit-transition: .25s;
+        transition: .25s;
+        padding: 20px 0;
+
+    }
 }
 
 .cta-jumbotron {
@@ -1532,7 +1539,6 @@ section.contact p {
 
 /* validation styles */
 
-
 /*!
  * BootstrapValidator (http://bootstrapvalidator.com)
  * The best jQuery plugin to validate form fields. Designed to use with Bootstrap 3
@@ -1551,11 +1557,11 @@ section.contact p {
     text-align: left
 }
 
-.nav-tabs li.bv-tab-success>a {
+.nav-tabs li.bv-tab-success > a {
     color: #3c763d
 }
 
-.nav-tabs li.bv-tab-error>a {
+.nav-tabs li.bv-tab-error > a {
     color: #a94442
 }
 
@@ -1805,5 +1811,5 @@ section.page-404 p {
     background-size: contain;
     background-repeat: no-repeat;
     background-position: left;
-    margin:auto;
+    margin: auto;
 }

@@ -31,38 +31,13 @@
 </head>
 <script>
     fbq('track', 'ViewAbout');
+
 </script>
 
 <body>
     <?php include 'php/analyticstracking.php';?>
-    <header>
-        <!-- Fixed navbar -->
-        <nav class="navbar navbar-default navbar-fixed-top">
-            <div class="container">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                            <span class="sr-only">Toggle navigation</span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                        </button>
-                    <a class="navbar-brand" href="./"><span class="logo-loogart"></span></a>
-                </div>
-                <div id="navbar" class="navbar-collapse collapse">
+    <?php include './php/navbar.php';?>
 
-                    <ul class="nav navbar-nav navbar-right">
-                        <li class="active"><a href="#!">about</a></li>
-                        <li><a href="contact">contact</a></li>
-                        <li><a href="https://www.instagram.com/loogart/"><i class="fa fa-instagram hidden-xs" aria-hidden="true"></i> <span class="visible-xs"><i class="fa fa-instagram" aria-hidden="true"></i> Instagram</span></a></li>
-                        <li><a href="https://www.facebook.com/LoogArt/"><i class="fa fa-facebook-official hidden-xs" aria-hidden="true"></i> <span class="visible-xs"><i class="fa fa-facebook-official" aria-hidden="true"></i> Facebook</span></a></li>
-                        <li><a href="https://www.behance.net/loogart"><i class="fa fa-behance hidden-xs" aria-hidden="true"></i> <span class="visible-xs"><i class="fa fa-behance" aria-hidden="true"></i> Behance</span></a></li>
-                        <li><a href="http://loogart.tictail.com/"><i class="fa fa-shopping-bag hidden-xs" aria-hidden="true"></i> <span class="visible-xs"><i class="fa fa-shopping-bag" aria-hidden="true"></i> Shop</span></a></li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-    </header>
-    
     <!-- Jumbotron section -->
     <section class="jumbotron-about">
         <h1 class="hidden">About Loogart: Chris Soueidan is a Montreal visual designer.</h1>
@@ -85,76 +60,76 @@
         </section>
 
         <div class="container-fluid">
-        <!-- Clients section -->
-        <section class="clients">
-            <div class="row">
+            <!-- Clients section -->
+            <section class="clients">
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3">
+                        <h3>I work with some awesome people.</h3>
+                        <p>I love working with clients on all sorts of challenging projects for illusration, branding, web design and small-scale animation. We ultimately look to do one thing: communicate through visual design.</p>
+                        <ul class="list-inline list-logos">
+                            <li class="col-xs-6 col-sm-4"><span class="client-logo starbucks-logo"></span>
+                                <h6>Starbucks</h6>
+                            </li>
+                            <li class="col-xs-6 col-sm-4"><span class="client-logo car2go-logo"></span>
+                                <h6>car2go</h6>
+                            </li>
+                            <li class="col-xs-6 col-sm-4"><span class="client-logo ets-logo"></span>
+                                <h6>ÉTS</h6>
+                            </li>
+                            <li class="col-xs-6 col-sm-4"><span class="client-logo swiffer-logo"></span>
+                                <h6>Swiffer</h6>
+                            </li>
+                            <li class="col-xs-6 col-sm-4"><span class="client-logo upa-logo-2"></span>
+                                <h6>L'UPA</h6>
+                            </li>
+                            <li class="col-xs-6 col-sm-4"><span class="client-logo canada-logo-2"></span>
+                                <h6>Global Affairs Canada</h6>
+                            </li>
+                            <li class="col-xs-6 col-sm-4"><span class="client-logo otis-logo-2"></span>
+                                <h6>Otis Elevator</h6>
+                            </li>
+                            <li class="col-xs-6 col-sm-4"><span class="client-logo logo-proctorgamble"></span>
+                                <h6>Proctor &amp; Gamble</h6>
+                            </li>
+                            <li class="col-xs-6 col-sm-4"><span class="client-logo bbdo-logo"></span>
+                                <h6>BBDO</h6>
+                            </li>
+                            <li class="col-xs-6 col-sm-4"><span class="client-logo citizenrelations-logo"></span>
+                                <h6>Citizen Relations</h6>
+                            </li>
+                            <li class="col-xs-6 col-sm-4"><span class="client-logo logo-station16"></span>
+                                <h6>Station 16 Gallery</h6>
+                            </li>
+                            <li class="col-xs-6 col-sm-4"><span class="client-logo mtlblog-logo"></span>
+                                <h6>MTL Blog</h6>
+                            </li>
 
-                <div class="col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3">
-                    <h3>I work with some awesome people.</h3>
-                    <p>I love working with clients on all sorts of challenging projects for illusration, branding, web design and small-scale animation. We ultimately look to do one thing: communicate through visual design.</p>
-                    <ul class="list-inline list-logos">
-                        <li class="col-xs-6 col-sm-4"><span class="client-logo starbucks-logo"></span>
-                            <h6>Starbucks</h6>
-                        </li>
-                        <li class="col-xs-6 col-sm-4"><span class="client-logo car2go-logo"></span>
-                            <h6>car2go</h6>
-                        </li>
-                        <li class="col-xs-6 col-sm-4"><span class="client-logo ets-logo"></span>
-                            <h6>ÉTS</h6>
-                        </li>
-                        <li class="col-xs-6 col-sm-4"><span class="client-logo swiffer-logo"></span>
-                            <h6>Swiffer</h6>
-                        </li>
-                        <li class="col-xs-6 col-sm-4"><span class="client-logo upa-logo-2"></span>
-                            <h6>L'UPA</h6>
-                        </li>
-                        <li class="col-xs-6 col-sm-4"><span class="client-logo canada-logo-2"></span>
-                            <h6>Global Affairs Canada</h6>
-                        </li>
-                        <li class="col-xs-6 col-sm-4"><span class="client-logo otis-logo-2"></span>
-                            <h6>Otis Elevator</h6>
-                        </li>
-                        <li class="col-xs-6 col-sm-4"><span class="client-logo logo-proctorgamble"></span>
-                            <h6>Proctor &amp; Gamble</h6>
-                        </li>
-                        <li class="col-xs-6 col-sm-4"><span class="client-logo bbdo-logo"></span>
-                            <h6>BBDO</h6>
-                        </li>
-                        <li class="col-xs-6 col-sm-4"><span class="client-logo citizenrelations-logo"></span>
-                            <h6>Citizen Relations</h6>
-                        </li>
-                        <li class="col-xs-6 col-sm-4"><span class="client-logo logo-station16"></span>
-                            <h6>Station 16 Gallery</h6>
-                        </li>
-                        <li class="col-xs-6 col-sm-4"><span class="client-logo mtlblog-logo"></span>
-                            <h6>MTL Blog</h6>
-                        </li>
+                            <li class="col-xs-6 col-sm-4"><span class="client-logo suite88-logo"></span>
+                                <h6>Suite 88 Chocolatier</h6>
+                            </li>
+                            <li class="col-xs-6 col-sm-4"><span class="client-logo mariouomo-logo"></span>
+                                <h6>Mario Uomo</h6>
+                            </li>
+                            <li class="col-xs-6 col-sm-4"><span class="client-logo tweetaide-logo"></span>
+                                <h6>Tweetaide</h6>
+                            </li>
 
-                        <li class="col-xs-6 col-sm-4"><span class="client-logo suite88-logo"></span>
-                            <h6>Suite 88 Chocolatier</h6>
-                        </li>
-                        <li class="col-xs-6 col-sm-4"><span class="client-logo mariouomo-logo"></span>
-                            <h6>Mario Uomo</h6>
-                        </li>
-                        <li class="col-xs-6 col-sm-4"><span class="client-logo tweetaide-logo"></span>
-                            <h6>Tweetaide</h6>
-                        </li>
-
-                        <li class="col-xs-6 col-sm-4"><span class="client-logo logo-kalooba"></span>
-                            <h6>Kalooba</h6>
-                        </li>
-                    </ul>
-                    <p class="cta-jumbotron">
-                        <a class="btn btn-lg btn-pink" href="contact.php" role="button">Work with Loogart</a>
-                    </p>
+                            <li class="col-xs-6 col-sm-4"><span class="client-logo logo-kalooba"></span>
+                                <h6>Kalooba</h6>
+                            </li>
+                        </ul>
+                        <p class="cta-jumbotron">
+                            <a class="btn btn-lg btn-pink" href="contact.php" role="button">Work with Loogart</a>
+                        </p>
+                    </div>
                 </div>
-            </div>
-        </section>
-    </div>
+            </section>
+        </div>
     </main>
+
     <!-- footer -->
-    <?php include 'php/footer.php';?>
-    
+    <?php include './php/footer.php';?>
+
 </body>
 
 </html>

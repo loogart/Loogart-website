@@ -17,10 +17,10 @@
     <title>Loogmoji | Loogart</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap.css" rel="stylesheet">
-    <link href="css/font-awesome.css" rel="stylesheet">
-    <link href="css/zoom.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
+    <link href="./css/bootstrap.css" rel="stylesheet">
+    <link href="./css/font-awesome.css" rel="stylesheet">
+    <link href="./css/zoom.css" rel="stylesheet">
+    <link href="./css/style.css" rel="stylesheet">
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
@@ -35,13 +35,12 @@
 
 <body>
    
-        <?php include 'php/analyticstracking.php';?>
-        <!-- Fixed navbar -->
-        <?php include 'php/navbar.php';?>
+        <?php include './php/analyticstracking.php';?>
+        <?php include './php/navbar.php';?>
     
     <div class="container-fluid">
 
-        <?php include 'php/back.php';?>
+        <?php include './php/back.php';?>
 
         <!-- Jumbotron section -->
         <section class="portfolio-content">
@@ -417,12 +416,12 @@
             </div>
         </section>
 
-        <?php include 'php/back.php';?>
+        <?php include './php/back.php';?>
 
     </div>
 
     <!-- footer -->
-    <?php include 'php/footer.php';?>
+    <?php include './php/footer.php';?>
 
 </body>
 

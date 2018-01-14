@@ -6,6 +6,7 @@ $(window).scroll(function () {
         $('nav').removeClass('shrink');
     }
 });
+
 //lazy load
 $(function () {
     $("img.img-responsive").lazyload({
@@ -47,5 +48,15 @@ $('.upa-carousel').flickity({
     accessibility: true,
     pageDots: false,
     imagesLoaded: true
+});
+
+$(document).ready(function() {
+    var loc = window.location.href; // returns the full URL
+    if (/about/.test(loc)) {
+        $("#aboutPage").addClass("active");
+    }
+    else if (/contact/.test(loc)) {
+        $("#contactPage").addClass("active");
+    }
 });
 

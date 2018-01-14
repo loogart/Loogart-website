@@ -80,13 +80,14 @@ echo '</main>
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="js/jquery.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/zoom.min.js"></script>
-    <script src="js/jquery.lazyload.js"></script>
-    <script src="js/validate.js"></script>
-    <script src="js/bootstrapvalidator.js"></script>
-    <script src="js/loogart.js"></script>
+    <script src="./js/jquery.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/zoom.min.js"></script>
+    <script src="./js/jquery.lazyload.js"></script>
+    <script src="./js/validate.js"></script>
+    <script src="./js/bootstrapvalidator.js"></script>
+    <script src="./js/flickity.pkgd.min.js"></script>
+    <script src="./js/loogart.js"></script>
         <script>
         if (window.location.href.indexOf("#thankyou") > -1) {
             $("#thankyou").modal("show");

@@ -12,21 +12,21 @@
     <meta property="og:description" content="CityLine illustration for the UPA's Portes Ouvertes Event in the Montreal area">
     <meta property="og:url" content="http://loogart.com/">
     <meta property="og:image" content="http://loogart.com/img/portfolio/upa/upa-cityline-2015-zoomer.jpg">
-    <?php include '../php/favicons.php';?>
+    <?php include './php/favicons.php';?>
 
     <title>UPA CityLine Illustration | Loogart</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="../css/bootstrap.css" rel="stylesheet">
-    <link href="../css/font-awesome.css" rel="stylesheet">
-    <link href="../css/zoom.css" rel="stylesheet">
-    <link href="../css/style.css" rel="stylesheet">
+    <link href="./css/bootstrap.css" rel="stylesheet">
+    <link href="./css/font-awesome.css" rel="stylesheet">
+    <link href="./css/zoom.css" rel="stylesheet">
+    <link href="./css/style.css" rel="stylesheet">
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
-    <?php include '../php/facebook-pixel.php';?>
+    <?php include './php/facebook-pixel.php';?>
 
 </head>
 <script>
@@ -34,9 +34,9 @@
 
 </script>
 <body>
-    <?php include '../php/analyticstracking.php';?>
+    <?php include './php/analyticstracking.php';?>
     <!-- Fixed navbar -->
-    <?php include '../php/navbar-portfolio.php';?>
+    <?php include './php/navbar.php';?>
 
     <!-- champion image -->
     <div class="project-jumbotron project-upa-cityline-img">
@@ -46,7 +46,7 @@
 
     <div class="container-fluid">
 
-        <?php include '../php/back-home.php';?>
+        <?php include './php/back.php';?>
 
         <!-- Content section -->
         <section class="portfolio-content">
@@ -54,7 +54,7 @@
             <!-- First section: Starbucks Montreal -->
             <div class="row">
                 <div class="col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3">
-                    <img class="img-responsive" src="../img/logo-upa.jpg" style="max-width:180px;margin:30px 0">
+                    <img class="img-responsive" src="./img/logo-upa.jpg" style="max-width:180px;margin:30px 0">
                     <h1>UPA CityLine Illustration</h1>
                     <p>L'Union des Producteurs Agricoles du Québec (UPA) commissioned Loogart to illustrate their 2015 Portes Ouvertes event in the CityLine style while keeping the UPA brand. This design was produced into marketing outreach posters, apparel and a TV commercial aired to all of the Quebec Provice.</p>
                 </div>
@@ -63,10 +63,10 @@
                 <div class="carousel">
                     <div class="upa-carousel" data-flickity='{ "freeScroll": true }'>
                         <div class="carousel-cell">
-                            <img class="img-portfolio" src="../img/portfolio/upa/upa-cityline-2015.jpg" alt="upa-portes-ouvertes-2015-cityline-by-loogart" title="2015 UPA Portes Ouvertes CityLine by Loogart">
+                            <img class="img-portfolio" src="./img/portfolio/upa/upa-cityline-2015.jpg" alt="upa-portes-ouvertes-2015-cityline-by-loogart" title="2015 UPA Portes Ouvertes CityLine by Loogart">
                         </div>
                         <div class="carousel-cell">
-                            <img class="img-portfolio" src="../img/portfolio/upa/upa-cityline-2015-zoomer.jpg" alt="upa-portes-ouvertes-2015-cityline-by-loogart-green-edition" title="2015 UPA Portes Ouvertes CityLine by Loogart (green edition)">
+                            <img class="img-portfolio" src="./img/portfolio/upa/upa-cityline-2015-zoomer.jpg" alt="upa-portes-ouvertes-2015-cityline-by-loogart-green-edition" title="2015 UPA Portes Ouvertes CityLine by Loogart (green edition)">
                         </div>
                         <div class="carousel-cell"></div>
                     </div>
@@ -84,7 +84,7 @@
                 <div class="carousel">
                     <div class="upa-carousel" data-flickity='{ "freeScroll": true }'>
                         <div class="carousel-cell">
-                            <img class="img-portfolio" src="../img/portfolio/upa/upa-cityline-2016.jpg" alt="upa-portes-ouvertes-2016-cityline-by-loogart" title="2016 UPA Portes Ouvertes CityLine by Loogart">
+                            <img class="img-portfolio" src="./img/portfolio/upa/upa-cityline-2016.jpg" alt="upa-portes-ouvertes-2016-cityline-by-loogart" title="2016 UPA Portes Ouvertes CityLine by Loogart">
                         </div>
                         <div class="carousel-cell"></div>
                     </div>
@@ -115,19 +115,19 @@
 
                     <h3>On the streets</h3>
                     <p>The CityLine designs were transformed into posters and featured on the UPA's Portes Ouvertes website since 2015.</p>
-                    <img class="img-responsive img-spacing" src="../img/portfolio/upa/upa-metro-poster.jpg" data-action="zoom">
-                    <img class="img-responsive img-spacing" src="../img/portfolio/upa/upa-website.jpg" data-action="zoom">
+                    <img class="img-responsive img-spacing" src="./img/portfolio/upa/upa-metro-poster.jpg" data-action="zoom">
+                    <img class="img-responsive img-spacing" src="./img/portfolio/upa/upa-website.jpg" data-action="zoom">
                 </div>
             </div>
 
         </section>
 
-        <?php include '../php/back-home.php';?>
+        <?php include './php/back.php';?>
 
     </div>
 
     <!-- footer -->
-    <?php include '../php/footer-portfolio.php';?>
+    <?php include './php/footer.php';?>
 </body>
 
 </html>
