@@ -61,7 +61,7 @@
                     <p>Adib approached Loogart in 2017 to build an advertising campaign based off the Loogmoji style. This led to the design of Adib’s Loogmoji, a dozen mini-animated videos and GIFs for social media promotion, a 1-minute promotional video which will make you LOL and traditional newspaper print ads in Le Devoir. Working with Adib was exceptional - his raw talent, knack for laughter and willingness to push the envelope artistically made this project so much fun.</p>
                     <div class="row">
                         <div class="col-sm-12">
-                            <img class="img-responsive img-spacing" src="./img/portfolio/yellow-pages/" data-action="zoom">
+                            <img class="img-responsive img-spacing" src="./img/portfolio/adib/" data-action="zoom">
                         </div>
                     </div>
                     <p>The reception of this advertising campaign led by Adib himself was very positive.</p>

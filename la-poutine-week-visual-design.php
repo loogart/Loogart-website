@@ -61,10 +61,10 @@
                     <p>As the long-term design partner of People Mover Tech, Loogart created visuals that enhanced the existing brand. The visuals are used for print and web material such as posters, table tents, stickers, web graphics and award-winning restaurants.</p>
                     <div class="row">
                         <div class="col-sm-6">
-                            <img class="img-responsive img-spacing" src="./img/portfolio/bref/" data-action="zoom">
+                            <img class="img-responsive img-spacing" src="./img/portfolio/poutineweek/" data-action="zoom">
                         </div>
                         <div class="col-sm-6">
-                            <img class="img-responsive img-spacing" src="./img/portfolio/bref/" data-action="zoom">
+                            <img class="img-responsive img-spacing" src="./img/portfolio/poutineweek/" data-action="zoom">
                         </div>
                     </div>
                 </div>

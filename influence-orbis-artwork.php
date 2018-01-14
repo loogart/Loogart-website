@@ -64,10 +64,10 @@
 
                     <div class="row">
                         <div class="col-sm-6">
-                            <img class="img-responsive img-spacing" src="./img/portfolio/bref/" data-action="zoom">
+                            <img class="img-responsive img-spacing" src="./img/portfolio/influence-toronto/" data-action="zoom">
                         </div>
                         <div class="col-sm-6">
-                            <img class="img-responsive img-spacing" src="./img/portfolio/bref/" data-action="zoom">
+                            <img class="img-responsive img-spacing" src="./img/portfolio/influence-toronto/" data-action="zoom">
                         </div>
                     </div>
                 </div>
