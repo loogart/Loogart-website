@@ -21,7 +21,7 @@ echo '</main>
                     <!-- Begin MailChimp Signup Form -->
                     <form action="//loogart.us7.list-manage.com/subscribe/post?u=318cbb07c865a88e681d7e59d&amp;id=e18344cbf9" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
                         <div id="mc_embed_signup_scroll">
-                            <h5>Loogart Newsletter</h5>
+                            <h5><label for="mce-EMAIL">Loogart Newsletter</label></h5>
                             <p>We will talk about our latest projects and let you know about the newest products in our shop.</p>
                             <div class="input-group">
                                 <input class="form-control on-dark" type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>

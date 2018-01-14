@@ -197,7 +197,8 @@ h4 {
 .navbar-default .navbar-brand p {
     /*Accessibility */
     position: absolute !important;
-    clip: rect(1px 1px 1px 1px);/* IE6, IE7 */
+    clip: rect(1px 1px 1px 1px);
+    /* IE6, IE7 */
     clip: rect(1px, 1px, 1px, 1px);
 }
 
@@ -964,8 +965,38 @@ section.clients ul {
 }
 
 .list-logos {
-    display: inline-block;
-    width: 100%!important;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 15px;
+}
+
+.about-logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 33%;
+    height: 100%;
+    margin-top:30px;
+
+}
+
+.about-logo h6{
+    font-weight: bold;
+}
+
+/* list clients */
+
+.about-logo img.client-logo {
+    width: 120px;
+    transition: all .3s ease-in;
+    -webkit-backface-visibility: hidden;
+    -webkit-transform: translate3d(0, 0, 0);
+}
+
+@media (max-width:767px) {
+    .about-logo {
+        width: 50%;
+    }
 }
 
 .canada-logo-2 {
@@ -1006,34 +1037,6 @@ section.clients ul {
 }
 
 
-/* list clients */
-
-ul.list-inline li span.client-logo {
-    display: inline-block;
-    background-color: transparent;
-    height: 121px;
-    width: 100%;
-    background-size: 120px;
-    background-repeat: no-repeat;
-    background-position: center;
-    filter: grayscale(1) opacity(.5);
-    transition: all .3s ease-in;
-}
-
-ul.list-inline li span.client-logo:hover,
-ul.list-inline li span.client-logo:active {
-    filter: grayscale(0) opacity(1);
-}
-
-@media (max-width:767px) {
-    ul.list-inline li span.client-logo {
-        filter: grayscale(0) opacity(1);
-    }
-}
-
-section.clients ul li h6 {
-    text-align: center;
-}
 
 
 /* color palette */

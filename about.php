@@ -66,58 +66,63 @@
                     <div class="col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3">
                         <h3>I work with some awesome people.</h3>
                         <p>I love working with clients on all sorts of challenging projects for illusration, branding, web design and small-scale animation. We ultimately look to do one thing: communicate through visual design.</p>
-                        <ul class="list-inline list-logos">
-                            <li class="col-xs-6 col-sm-4"><span class="client-logo starbucks-logo"></span>
+                        <div class="list-logos">
+                            <div class="about-logo">
+                                <img class="client-logo" src="./img/starbucks_logo.png" alt="Starbucks logo">
                                 <h6>Starbucks</h6>
-                            </li>
-                            <li class="col-xs-6 col-sm-4"><span class="client-logo car2go-logo"></span>
+                            </div>
+                            <div class="about-logo">
+                                <img class="client-logo" src="./img/logo-car2go.png" alt="car2go logo">
                                 <h6>car2go</h6>
-                            </li>
-                            <li class="col-xs-6 col-sm-4"><span class="client-logo ets-logo"></span>
+                            </div>
+                            <div class="about-logo">
+                                <img class="client-logo" src="./img/ets-logo.jpg" alt="ETS logo">
                                 <h6>ÉTS</h6>
-                            </li>
-                            <li class="col-xs-6 col-sm-4"><span class="client-logo swiffer-logo"></span>
+                            </div>
+                            <div class="about-logo">
+                                <img class="client-logo" src="./img/swiffer-logo.png" alt="Swiffer logo">
                                 <h6>Swiffer</h6>
-                            </li>
-                            <li class="col-xs-6 col-sm-4"><span class="client-logo upa-logo-2"></span>
+                            </div>
+                            <div class="about-logo">
+                                <img class="client-logo" src="./img/logo-upa.jpg" alt="UPA logo">
                                 <h6>L'UPA</h6>
-                            </li>
-                            <li class="col-xs-6 col-sm-4"><span class="client-logo canada-logo-2"></span>
+                            </div>
+                            <div class="about-logo"><span class="client-logo canada-logo-2"></span>
                                 <h6>Global Affairs Canada</h6>
-                            </li>
-                            <li class="col-xs-6 col-sm-4"><span class="client-logo otis-logo-2"></span>
+                            </div>
+                            <div class="about-logo"><span class="client-logo otis-logo-2"></span>
                                 <h6>Otis Elevator</h6>
-                            </li>
-                            <li class="col-xs-6 col-sm-4"><span class="client-logo logo-proctorgamble"></span>
+                            </div>
+                            <div class="about-logo"><span class="client-logo logo-proctorgamble"></span>
                                 <h6>Proctor &amp; Gamble</h6>
-                            </li>
-                            <li class="col-xs-6 col-sm-4"><span class="client-logo bbdo-logo"></span>
+                            </div>
+                            <div class="about-logo"><span class="client-logo bbdo-logo"></span>
                                 <h6>BBDO</h6>
-                            </li>
-                            <li class="col-xs-6 col-sm-4"><span class="client-logo citizenrelations-logo"></span>
+                            </div>
+                            <div class="about-logo"><span class="client-logo citizenrelations-logo"></span>
                                 <h6>Citizen Relations</h6>
-                            </li>
-                            <li class="col-xs-6 col-sm-4"><span class="client-logo logo-station16"></span>
+                            </div>
+                            <div class="about-logo"><span class="client-logo logo-station16"></span>
                                 <h6>Station 16 Gallery</h6>
-                            </li>
-                            <li class="col-xs-6 col-sm-4"><span class="client-logo mtlblog-logo"></span>
+                            </div>
+                            <div class="about-logo"><span class="client-logo mtlblog-logo"></span>
                                 <h6>MTL Blog</h6>
-                            </li>
+                            </div>
 
-                            <li class="col-xs-6 col-sm-4"><span class="client-logo suite88-logo"></span>
+                            <div class="about-logo"><span class="client-logo suite88-logo"></span>
                                 <h6>Suite 88 Chocolatier</h6>
-                            </li>
-                            <li class="col-xs-6 col-sm-4"><span class="client-logo mariouomo-logo"></span>
+                            </div>
+                            <div class="about-logo"><span class="client-logo mariouomo-logo"></span>
                                 <h6>Mario Uomo</h6>
-                            </li>
-                            <li class="col-xs-6 col-sm-4"><span class="client-logo tweetaide-logo"></span>
+                            </div>
+                            <div class="about-logo"><span class="client-logo tweetaide-logo"></span>
                                 <h6>Tweetaide</h6>
-                            </li>
+                            </div>
 
-                            <li class="col-xs-6 col-sm-4"><span class="client-logo logo-kalooba"></span>
+                            <div class="about-logo"><span class="client-logo logo-kalooba"></span>
                                 <h6>Kalooba</h6>
-                            </li>
-                        </ul>
+                            </div>
+                        </div>
                         <p class="cta-jumbotron">
                             <a class="btn btn-lg btn-pink" href="contact.php" role="button">Work with Loogart</a>
                         </p>

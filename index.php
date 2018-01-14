@@ -45,7 +45,7 @@
         <div class="row">
             <div class="container">
                 <h1 class="hidden">Loogart: Montreal visual design studio for illustration, brand identity and web design</h1>
-                <h2>Loogart is a Montreal-based visual design studio that specializes in illustration, brand identity, small-scale animation and web design.</h2>
+                <h2>Loogart is a Montreal-based visual design studio that specializes in illustration, brand identity, 2motion graphics and web design.</h2>
                 <p class="cta-jumbotron">
                     <a class="btn btn-lg btn-pink" href="contact" role="button">email us</a>
                 </p>
