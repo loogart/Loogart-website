@@ -31,15 +31,14 @@
 </head>
 <script>
     fbq('track', 'ViewHome');
-
 </script>
 
 <body>
+   
     <?php include 'php/analyticstracking.php';?>
-
     <!-- Fixed navbar -->
     <?php include 'php/navbar.php';?>
-
+    
     <div class="container">
 
         <!-- Jumbotron section -->
@@ -77,7 +76,7 @@
                         <a href="loogmoji"><img class="carousel-loogs" src="img/loogs/loog-whoopi.jpg" alt="portrait actress Whoopi Goldberg by Loogart" title="Whoopi Goldberg"></a>
                         <a href="loogmoji"><img class="carousel-loogs" src="img/loogs/loog-spiderman.gif" alt="Animated portrait of Spiderman by Loogart" title="Spiderman"></a>
                     </div>
-                    <h5><a href="loogmoji">View all Loogs</a></h5>
+                    <h5><a href="loogmoji">View all Loogmojis</a></h5>
                 </div>
             </div>
         </section>
@@ -239,7 +238,7 @@
         </section>
 
         <!-- Brand identity section -->
-        <section class="portfolio">
+        <!--<section class="portfolio">
             <div class="row">
                 <div class="container">
                     <h3>Logos and illustrations</h3>
@@ -263,15 +262,16 @@
                     <h5><a href="illustration-and-brand-identity">View more</a></h5>
                 </div>
             </div>
-        </section>
+        </section>-->
 
         <!-- Web design section -->
         <section class="portfolio">
             <div class="row">
                 <div class="container">
-                    <h3>Web design</h3>
-                    <h4>A selection of websites made with love by Loogart for several clients in different industries.</h4>
+                    <h3>Web design projects</h3>
+                    <h4>A selection of websites made with love, html and css by Loogart for several clients in different industries.</h4>
                     <div class="scroll">
+<<<<<<< HEAD:DEV/index.php
                         <a href="http://loogart.com" target="_blank" title="Loogart's Website"><img class="carousel-web-design" src="img/websites/website-loogart.png" alt=""></a>
                         <a href="http://gac-digimat.loogart.com" target="_blank" title="Global Affairs Digital Maturity Micro-site"><img class="carousel-web-design" src="img/websites/website-gac-digimaturity.png" alt=""></a>
                         <a href="http://loog.ca/nu/" target="_blank" title="Nutritionr Web app"><img class="carousel-web-design" src="img/websites/website-nutritionr.png" alt=""></a>
@@ -290,15 +290,37 @@
                         <a href="http://loog.ca/dentastic/" target="_blank" title="Dentastic App website"><img class="carousel-web-design" src="img/websites/website-dentastic.png" alt=""></a>
                         <a href="http://loog.ca/homicity/" target="_blank" title="Homicity"><img class="carousel-web-design" src="img/websites/website-homicity.png" alt=""></a>
                         <a href="http://tiles.loogart.com" target="_blank" title="Loogart Labs"><img class="carousel-web-design" src="img/websites/website-loogart-tiles.png" alt=""></a>
+=======
+                        <a href="https://loogart.github.io/leburgerweek/" target="_blank" title="Le Burger Week's Website"><img class="carousel-web-design" src="img/websites/website-le-burger-week.png" alt="Website prototype of Le Burger Week"></a>
+                        <a href="https://loogart.github.io/nutritionr-2/" target="_blank" title="Nutritionr's New Website"><img class="carousel-web-design" src="img/websites/website-nutritionr-2017.png" alt="Nutritionr's website prototype"></a>
+                        <a href="http://timeringue.com" target="_blank" title="Timeringue's Website"><img class="carousel-web-design" src="img/websites/website-timeringue.png" alt="Timeringue's Website"></a>
+                        <a href="http://gac-digimat.loogart.com" target="_blank" title="Global Affairs Digital Maturity Micro-site"><img class="carousel-web-design" src="img/websites/website-gac-digimaturity.png" alt="Global Affairs Digital Maturity Micro website prototype"></a>
+                        <a href="http://loog.ca/nu/" target="_blank" title="Nutritionr Web app"><img class="carousel-web-design" src="img/websites/website-nutritionr.png" alt="Nutritionr's app dashboard prototype"></a>
+                        <a href="http://loog.ca/voldemort/" target="_blank" title="Global Affairs Canada - Ask Travel Web App"><img class="carousel-web-design" src="img/websites/website-ask-travel.png" alt="Ask Travel Web app prototype"></a>
+                        <a href="http://loog.ca/2/" target="_blank" title="Global Affairs Canada - InnoLab GCPedia Website"><img class="carousel-web-design" src="img/websites/website-gac-innolab.png" alt="Global Affairs Canada InnoLab website prototype"></a>
+                        <a href="http://loog.ca/buildmetric/" target="_blank" title="Buildmetric"><img class="carousel-web-design" src="img/websites/website-buildmetric.png" alt="Buildmetric's website prorotype"></a>
+                        <a href="http://robertbeaudry.ca" target="_blank" title="50 Shades of Beaudry by Loogart"><img class="carousel-web-design" src="img/websites/website-50-shades-of-beaudry.png" alt="50 Shades of Beaudry retirement gift website"></a>
+                        <a href="http://loog.ca/ca/" target="_blank" title="Commecca"><img class="carousel-web-design" src="img/websites/website-commecca.png" alt="Commecca website prototype"></a>
+                        <a href="http://strategiclawyers.ca" target="_blank" title="Strategic Lawyers Website"><img class="carousel-web-design" src="img/websites/website-strategic-lawyers.png" alt="Strategic Lawyers website"></a>
+                        <a href="http://loog.ca/innolab-tools/" target="_blank" title="Global Affairs Canada - InnoLab Tools"><img class="carousel-web-design" src="img/websites/website-gac-innolab-tools.png" alt="GAC InnoLab Tools prototype"></a>
+                        <a href="http://loog.ca/la/" target="_blank" title="Social web app prorotype"><img class="carousel-web-design" src="img/websites/website-lightagents.png" alt="Social web app prorotype"></a>
+                        <a href="http://joyceandchris.com" target="_blank" title="Joyce&amp;Chris Wedding Website"><img class="carousel-web-design" src="img/websites/website-wedding-joyce-chris.png" alt="wedding website by Loogart"></a>
+                        <a href="http://joyceandchris.com/savethedate/" target="_blank" title="Joyce&amp;Chris Save the Date Website"><img class="carousel-web-design" src="img/websites/website-save-the-date-joyce-chris.png" alt="Save the Date website by Loogart"></a>
+                        <a href="http://loog.ca/salonteashop/" target="_blank" title="Salon Teashop"><img class="carousel-web-design" src="img/websites/website-salon-teashop.png" alt="Salon Teashop website prototype"></a>
+                        <a href="http://loog.ca/dentastic/" target="_blank" title="Dentastic App website"><img class="carousel-web-design" src="img/websites/website-dentastic.png" alt="Dentastic website prototype"></a>
+                        <a href="http://loog.ca/homicity/" target="_blank" title="social website prototype 2"><img class="carousel-web-design" src="img/websites/website-homicity.png" alt="social website prototype 2"></a>
+                        <a href="http://tiles.loogart.com" target="_blank" title="Loogart Labs"><img class="carousel-web-design" src="img/websites/website-loogart-tiles.png" alt="Loogart Labs experiments"></a>
+>>>>>>> master:PROD/index.php
                     </div>
                 </div>
             </div>
         </section>
+
         <!-- IG section -->
         <section class="portfolio">
             <div class="row">
                 <div class="container">
-                    <h3>InstaLoog</h3>
+                    <h3><i class="fa fa-instagram" aria-hidden="true"></i> Loogstagram</h3>
                     <h4>Stay up to date with the latest designs relased by Loogart on Instagram.</h4>
                     <!-- LightWidget WIDGET -->
                     <section class="hidden-xs">

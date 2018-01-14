@@ -27,7 +27,7 @@
       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
-    <?php include 'php/facebook-pixel.php';?>
+    <?php include '../php/facebook-pixel.php';?>
 
 </head>
 <script>
@@ -38,7 +38,7 @@
     <?php include '../php/analyticstracking.php';?>
     <!-- Fixed navbar -->
     <?php include '../php/navbar-portfolio.php';?>
-
+    
     <!-- champion image -->
     <div class="project-jumbotron project-ets-cityline-img">
         <div class="col-sm-4 col-sm-offset-4 text-center">

@@ -31,13 +31,14 @@
 </head>
 <script>
     fbq('track', 'ViewLoogaday');
-
 </script>
-<body>
-    <?php include 'php/analyticstracking.php';?>
-    <!-- Fixed navbar -->
-    <?php include 'php/navbar.php';?>
 
+<body>
+   
+        <?php include 'php/analyticstracking.php';?>
+        <!-- Fixed navbar -->
+        <?php include 'php/navbar.php';?>
+    
     <div class="container-fluid">
 
         <?php include 'php/back.php';?>

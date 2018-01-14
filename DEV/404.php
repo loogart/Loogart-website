@@ -33,25 +33,29 @@
 
 <body>
     <?php include 'php/analyticstracking.php';?>
-
-    <!-- Fixed navbar -->
-    <?php include 'php/navbar.php';?>
-    <section class="page-404">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-4 col-sm-offset-2">
-                    <h3>P-oops!</h3>
-                    <p>We can't seem to find the page you are looking for...</p>
-                    <p class="cta-back">
-                        <a href="http://loogart.com" role="button">Home</a>
-                    </p>
-                </div>
-                <div class="col-sm-4">
-                    <div class="img-404"></div>
+    
+    <header>
+        <!-- Fixed navbar -->
+        <?php include 'php/navbar.php';?>
+    </header>
+    <main>
+        <section class="page-404">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-4 col-sm-offset-2">
+                        <h3>P-oops!</h3>
+                        <p>We can't seem to find the page you are looking for...</p>
+                        <p class="cta-back">
+                            <a href="http://loogart.com" role="button">Home</a>
+                        </p>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="img-404"></div>
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
+    </main>
 </body>
 
 </html>
