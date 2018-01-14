@@ -31,6 +31,7 @@
 </head>
 <script>
     fbq('track', 'ViewHome');
+
 </script>
 
 <body>
@@ -45,7 +46,7 @@
         <div class="row">
             <div class="container">
                 <h1 class="hidden">Loogart: Montreal visual design studio for illustration, brand identity and web design</h1>
-                <h2>Loogart is a Montreal-based visual design studio that specializes in illustration, brand identity, 2motion graphics and web design.</h2>
+                <h2>Loogart is a Montreal-based visual design studio that specializes in illustration, brand identity, motion graphics and web design.</h2>
                 <p class="cta-jumbotron">
                     <a class="btn btn-lg btn-pink" href="contact" role="button">email us</a>
                 </p>
@@ -57,7 +58,7 @@
             <div class="row">
                 <div class="container">
                     <h3>Loogmoji</h3>
-                    <h4>A collection of caricatures of pop-culture and iconic people created by Loogart.</h4>
+                    <h4>Iconic pop-culture emojis designed by Loogart, just for fun. The Loogart caricature style.</h4>
                     <div class="scroll">
                         <a href="loogmoji"><img class="carousel-loogs" src="img/loogs/loog-nacho-libre.gif" alt="Animated portrait of Nacho Libre by Loogart" title="Nacho Libre"></a>
                         <a href="loogmoji"><img class="carousel-loogs" src="img/loogs/loog-tyrion-lanister.gif" alt="Animated portrait of Tyrion Lanister by Loogart" title="Tyrion Lanister"></a>
@@ -86,8 +87,98 @@
 
             <div class="row">
                 <div class="col-sm-12" id="montreal">
-                    <h3 id="selectedProjects">Client projects</h3>
-                    <h4>A selection of awesome design projects for different clients. These projects include illustration, animation, app visual design, packaging, web graphics and print.</h4>
+                    <h3 id="selectedProjects">Client projects <i class="fa fa-heart" aria-hidden="true"></i></h3>
+                    <h4>We are multidisciplinary design studio that works on illustration, branding, iconography, motion graphics, web projects and user experience. We form one team with our clients. They win, we win.</h4>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-6" id="yellowPages">
+                    <a href="yellow-pages-icons-and-illustrations">
+                        <span class="outer">
+                            <div class="inner portfolio-yp" style="background-color:#FFCD00"></div>
+                            <div class="portfolio-text bottom no-gradient text-dark">
+                               <div class="logo pull-left"><img class="tile-logo" src="./img/logo-yellow-pages.png" style="width:80px"></div>
+                               <div class="logo-text pull-right">
+                                <h5>Yellow Pages</h5>
+                                <p>Branding, iconography, illustration and user interface design.</p>
+                                </div>
+                            </div>
+                        </span>
+                    </a>
+                </div>
+                <div class="col-sm-6" id="adib">
+                    <a href="adib-alkhalidey-motion-graphics">
+                        <div class="outer">
+                            <div class="inner portfolio-adib" style="background-color:#CA1C6B"></div>
+                            <div class="portfolio-text top no-gradient text-light">
+                                <div class="logo-text pull-left">
+                                    <h5>Adib ALKLD</h5>
+                                    <p>Promotional animated cartoon series, print advertising, social media GIFs.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6" id="brefMTL">
+                    <a href="bref-montreal-illustrations">
+                        <span class="outer">
+                            <div class="inner portfolio-bref-mtl" style="background-color:#eee"></div>
+                            <div class="portfolio-text top no-gradient text-dark">
+                               <div class="logo pull-left"><img class="tile-logo" src="./img/logo-bref-mtl.png"></div>
+                               <div class="logo-text pull-right">
+                                    <h5>Bref MTL</h5>
+                                    <p>Cityscape illustrations, environment design, product design.</p>
+                                </div>
+                            </div>
+                        </span>
+                    </a>
+                </div>
+                <div class="col-sm-6" id="burgerWeek">
+                    <a href="le-burger-week-visual-design">
+                        <span class="outer">
+                            <div class="inner portfolio-burgerweek" style="background-color:#4E2D2D"></div>
+                            <div class="portfolio-text bottom no-gradient text-light">
+                               <div class="logo pull-left"><img class="tile-logo" src="./img/logo-le-burger-week.png"></div>
+                               <div class="logo-text pull-right">
+                                <h5>Le Burger Week</h5>
+                                <p>Visual design, branding, illustration, print graphic design and user interface design.</p>
+                                </div>
+                            </div>
+                        </span>
+                    </a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6" id="poutineWeek">
+                    <a href="la-poutine-week-visual-design">
+                        <span class="outer">
+                            <div class="inner portfolio-poutine-week" style="background-color:#07173C"></div>
+                            <div class="portfolio-text bottom no-gradient text-light">
+                               <div class="logo pull-left"><img class="tile-logo" src="./img/logo-la-poutine-week.png"></div>
+                               <div class="logo-text pull-right">
+                                    <h5>La Poutine Week</h5>
+                                <p>Visual design, branding, illustration and print graphic design.</p>
+                                </div>
+                            </div>
+                        </span>
+                    </a>
+                </div>
+                <div class="col-sm-6" id="influenceOrbis">
+                    <a href="influence-orbis-artwork">
+                        <span class="outer">
+                            <div class="inner portfolio-influence-orbis" style="background-color:#fff"></div>
+                            <div class="portfolio-text bottom no-gradient text-dark">
+                               <div class="logo pull-left"><img class="tile-logo" src="./img/logo-influence-orbis.png"></div>
+                               <div class="logo-text pull-right">
+                                <h5>Influence Orbis</h5>
+                                <p>Illustration, caricatures and print design.</p>
+                                </div>
+                            </div>
+                        </span>
+                    </a>
                 </div>
             </div>
 
@@ -244,7 +335,7 @@
         <section class="portfolio">
             <div class="row">
                 <div class="container">
-                    <h3>Web design projects</h3>
+                    <h3>Web design projects <i class="fa fa-mouse-pointer" aria-hidden="true"></i></h3>
                     <h4>A selection of websites made with love, html and css by Loogart for several clients in different industries.</h4>
                     <div class="scroll">
                         <a href="https://loogart.github.io/leburgerweek/" target="_blank" title="Le Burger Week's Website"><img class="carousel-web-design" src="img/websites/website-le-burger-week.png" alt="Website prototype of Le Burger Week"></a>
@@ -285,7 +376,7 @@
                         <!-- LightWidget WIDGET -->
                         <script src="//lightwidget.com/widgets/lightwidget.js"></script><iframe src="//lightwidget.com/widgets/8892a326654b55329c6483c180edd0ea.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width: 100%; border: 0; overflow: hidden;"></iframe>
                     </section>
-                    <h5><a href="https://www.instagram.com/loogart/">Stay up to date</a></h5>
+                    <h5><a href="https://www.instagram.com/loogart/">Follow @Loogart</a></h5>
                 </div>
             </div>
         </section>

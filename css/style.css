@@ -621,8 +621,7 @@ fieldset[disabled] .btn-white.focus {
     width: 100%;
     height: 360px;
     position: relative;
-    overflow: hidden;
-    /* comment this line to see what happens behind the scenes */
+    overflow: hidden;/* comment this line to see what happens behind the scenes */
     margin-bottom: 30px;
     -webkit-transition-duration: 0.3s;
     transition-duration: 0.3s;
@@ -637,7 +636,6 @@ fieldset[disabled] .btn-white.focus {
     background-color: #D8D8D8;
     -webkit-transition-duration: 0.3s;
     transition-duration: 0.3s;
-    /* set the speed of your animation */
 }
 
 .outer:hover .inner,
@@ -679,6 +677,10 @@ fieldset[disabled] .btn-white.focus {
 .portfolio-text.no-gradient {
     background: -webkit-linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0));
     background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0));
+}
+
+.portfolio .tile-logo {
+    width: 100px;
 }
 
 .text-dark {
@@ -976,15 +978,12 @@ section.clients ul {
     align-items: center;
     width: 33%;
     height: 100%;
-    margin-top:30px;
-
+    margin-top: 30px;
 }
 
-.about-logo h6{
+.about-logo h6 {
     font-weight: bold;
 }
-
-/* list clients */
 
 .about-logo img.client-logo {
     width: 120px;
@@ -1334,6 +1333,7 @@ fieldset[disabled] .form-control {
     margin: 30px auto;
 }
 
+
 .img-portfolio-scroller {
     height: 400px;
     margin-right: 15px;
@@ -1362,7 +1362,7 @@ section.portfolio-content h3 {
     font-family: "San Francisco", sans-serif;
     font-weight: 700;
     line-height: 28px;
-    color: #F75A56;
+    color: #333;
     font-size: 24px;
     margin: 20px auto 12px;
 }
@@ -1773,6 +1773,8 @@ http://flickity.metafizzy.co
 .img-spacing {
     margin: 30px auto;
 }
+
+
 
 
 /* video */

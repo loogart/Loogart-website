@@ -6,10 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=0">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <meta name="description" content="Personal project by Loogart to create a daily portrait of a pop-culture or">
+    <meta name="description" content="A collection of pop culture emojis illustrated by Loogart">
     <meta name="author" content="Chris Soueidan of Loogart">
-    <meta property="og:title" content="Loog a Day">
-    <meta property="og:description" content="Daily portraits of pop culture icons illustrated by Chris Soueidan of Loogart">
+    <meta property="og:title" content="Loogmoji">
+    <meta property="og:description" content="Caricatures of pop culture icons illustrated by Chris Soueidan of Loogart">
     <meta property="og:url" content="http://loogart.com/">
     <meta property="og:image" content="http://loogart.com/img/loogs/loog-mr-bean.gif">
     <?php include 'php/favicons.php';?>
@@ -30,7 +30,7 @@
 
 </head>
 <script>
-    fbq('track', 'ViewLoogaday');
+    fbq('track', 'ViewLoogmoji');
 </script>
 
 <body>
@@ -47,7 +47,7 @@
             <div class="row">
                 <div class="col-md-10 col-md-offset-1 col-lg-8 col-lg-offset-2">
                     <h1>Loogmoji</h1>
-                    <p>Meet the Loogmojis! A collection of caricatures by Loogart. The challenge behind these mini portraits consists of producing a quick design with the best possible likeness using minimal lines, colors and visual features. Some are animated, some are simply illustrated.</p>
+                    <p>Meet the Loogmojis! A collection of pop-culture emojis by Loogart. The challenge behind these mini portraits consists of producing a quick design with the best possible likeness using minimal lines, colors and visual features. Some are animated, some are simply illustrated.</p>
                 </div>
             </div>
         </section>

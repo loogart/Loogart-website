@@ -68,59 +68,86 @@
                         <p>I love working with clients on all sorts of challenging projects for illusration, branding, web design and small-scale animation. We ultimately look to do one thing: communicate through visual design.</p>
                         <div class="list-logos">
                             <div class="about-logo">
-                                <img class="client-logo" src="./img/starbucks_logo.png" alt="Starbucks logo">
-                                <h6>Starbucks</h6>
+                                <span><img class="client-logo" src="./img/starbucks_logo.png" alt="Starbucks logo"></span>
+                                <span><h6>Starbucks</h6></span>
                             </div>
                             <div class="about-logo">
-                                <img class="client-logo" src="./img/logo-car2go.png" alt="car2go logo">
-                                <h6>car2go</h6>
+                                <span><img class="client-logo" src="./img/logo-yellow-pages-2.png" alt="Yellow Pages logo"></span>
+                                <span><h6>Yellow Pages</h6></span>
                             </div>
                             <div class="about-logo">
-                                <img class="client-logo" src="./img/ets-logo.jpg" alt="ETS logo">
-                                <h6>ÉTS</h6>
+                                <img class="client-logo" src="./img/logo-proctorgamble.png" alt="Proctor and Gamble logo">
+                                <h6>Proctor &amp; Gamble</h6>
                             </div>
                             <div class="about-logo">
                                 <img class="client-logo" src="./img/swiffer-logo.png" alt="Swiffer logo">
                                 <h6>Swiffer</h6>
                             </div>
                             <div class="about-logo">
+                                <span><img class="client-logo" src="./img/logo-car2go.png" alt="car2go logo"></span>
+                                <span><h6>car2go</h6></span>
+                            </div>
+                            <div class="about-logo">
+                                <span><img class="client-logo" src="./img/logo-bref-mtl.png" alt="Bref MTL logo"></span>
+                                <span><h6>Bref MTL</h6></span>
+                            </div>
+                            <div class="about-logo">
+                                <span><img class="client-logo" src="./img/logo-le-burger-week.png" alt="Le Burger Week logo"></span>
+                                <span><h6>Le Burger Week</h6></span>
+                            </div>
+                            <div class="about-logo">
+                                <span><img class="client-logo" src="./img/logo-la-poutine-week.png" alt="Le Poutine Week logo"></span>
+                                <span><h6>Le Poutine Week</h6></span>
+                            </div>
+                            <div class="about-logo">
+                                <span><img class="client-logo" src="./img/logo-influence-orbis.png" alt="Influence Orbis logo"></span>
+                                <span><h6>Influence Orbis</h6></span>
+                            </div>
+
+                            <div class="about-logo">
+                                <span><img class="client-logo" src="./img/ets-logo.jpg" alt="ETS logo"></span>
+                                <span><h6>ÉTS</h6></span>
+                            </div>
+                            <div class="about-logo">
                                 <img class="client-logo" src="./img/logo-upa.jpg" alt="UPA logo">
                                 <h6>L'UPA</h6>
                             </div>
-                            <div class="about-logo"><span class="client-logo canada-logo-2"></span>
+                            <div class="about-logo">
+                                <img class="client-logo" src="./img/logo-canada.png" alt="Government of Canada logo">
                                 <h6>Global Affairs Canada</h6>
                             </div>
-                            <div class="about-logo"><span class="client-logo otis-logo-2"></span>
+                            <div class="about-logo">
+                                <img class="client-logo" src="./img/otis-logo.png" alt="Otis Elevator logo">
                                 <h6>Otis Elevator</h6>
                             </div>
-                            <div class="about-logo"><span class="client-logo logo-proctorgamble"></span>
-                                <h6>Proctor &amp; Gamble</h6>
-                            </div>
-                            <div class="about-logo"><span class="client-logo bbdo-logo"></span>
+                            <div class="about-logo">
+                                <img class="client-logo" src="./img/logo-bbdo.png" alt="BBDO logo">
                                 <h6>BBDO</h6>
                             </div>
-                            <div class="about-logo"><span class="client-logo citizenrelations-logo"></span>
+                            <div class="about-logo">
+                                <img class="client-logo" src="./img/logo-citizen-relations.png" alt="Citizen Relations logo">
                                 <h6>Citizen Relations</h6>
                             </div>
-                            <div class="about-logo"><span class="client-logo logo-station16"></span>
+                            <div class="about-logo">
+                                <img class="client-logo" src="./img/logo-station16.jpg" alt="Station 16 logo">
                                 <h6>Station 16 Gallery</h6>
                             </div>
-                            <div class="about-logo"><span class="client-logo mtlblog-logo"></span>
+                            <div class="about-logo">
+                                <img class="client-logo" src="./img/logo-mtlblog.png" alt="MTL Blog logo">
                                 <h6>MTL Blog</h6>
                             </div>
 
-                            <div class="about-logo"><span class="client-logo suite88-logo"></span>
+                            <div class="about-logo">
+                                <img class="client-logo" src="./img/suite88-logo.png" alt="Suite 88 logo">
                                 <h6>Suite 88 Chocolatier</h6>
                             </div>
-                            <div class="about-logo"><span class="client-logo mariouomo-logo"></span>
+                            <div class="about-logo">
+                                <img class="client-logo" src="./img/logo-mariouomo.png" alt="Mario Uomo logo">
                                 <h6>Mario Uomo</h6>
                             </div>
-                            <div class="about-logo"><span class="client-logo tweetaide-logo"></span>
+                            <div class="about-logo">
+                                <img class="client-logo" src="./img/logo-tweetaide.jpg" alt="Tweetaide logo">
                                 <h6>Tweetaide</h6>
-                            </div>
-
-                            <div class="about-logo"><span class="client-logo logo-kalooba"></span>
-                                <h6>Kalooba</h6>
                             </div>
                         </div>
                         <p class="cta-jumbotron">
