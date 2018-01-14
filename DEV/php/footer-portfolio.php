@@ -76,7 +76,7 @@ echo '</main>
             </div>
         </div>
     </div>
-    
+
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
@@ -87,5 +87,10 @@ echo '</main>
     <script src="../js/validate.js"></script>
     <script src="../js/bootstrapvalidator.js"></script>
     <script src="../js/flickity.pkgd.min.js"></script>
+<<<<<<< HEAD:DEV/php/footer-portfolio.php
+    <script src="../js/loogart.js"></script>'
+    ;?>
+=======
     <script src="../js/loogart.js"></script>js'
     ;?>
+>>>>>>> master:PROD/php/footer-portfolio.php
