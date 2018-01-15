@@ -13,11 +13,11 @@
     <meta property="og:image" content="http://loogart.com/img/loogart-screenshot.jpg">
     <title>Illustration, brand identity and web design | Loogart</title>
     <?php include 'php/header.php';?>
-    <?php include 'php/facebook-pixel.php';?> 
+    <?php include 'php/facebook-pixel.php';?>
 </head>
 
 <body>
-   
+
     <?php include 'php/analyticstracking.php';?>
     <?php include 'php/navbar.php';?>
 
@@ -67,7 +67,7 @@
 
             <div class="row">
                 <div class="col-sm-12" id="montreal">
-                    <h3 id="selectedProjects">Client projects <i class="fa fa-heart" aria-hidden="true"></i></h3>
+                    <h3 id="selectedProjects">Client projects <i class="fa fa-heart throb" aria-hidden="true"></i></h3>
                     <h4>We are multidisciplinary design studio that works on illustration, branding, iconography, motion graphics, web projects and user experience. We form one team with our clients. They win, we win.</h4>
                 </div>
                 <div class="col-sm-6 appear-1" id="yellowPages">
@@ -346,7 +346,10 @@
     </main>
 
     <?php include 'php/footer.php';?>
-    <script>fbq('track', 'ViewHome');</script>   
+    <script>
+        fbq('track', 'ViewHome');
+
+    </script>
 
 </body>
 
