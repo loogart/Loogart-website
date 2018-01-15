@@ -90,9 +90,7 @@
                     <h3 id="selectedProjects">Client projects <i class="fa fa-heart" aria-hidden="true"></i></h3>
                     <h4>We are multidisciplinary design studio that works on illustration, branding, iconography, motion graphics, web projects and user experience. We form one team with our clients. They win, we win.</h4>
                 </div>
-            </div>
 
-            <div class="row">
                 <div class="col-sm-6" id="yellowPages">
                     <a href="yellow-pages-icons-and-illustrations">
                         <span class="outer">
@@ -120,22 +118,34 @@
                         </div>
                     </a>
                 </div>
-            </div>
-            <div class="row">
+                <div class="col-sm-6" id="influenceOrbis">
+                    <a href="influence-orbis-artwork">
+                        <span class="outer">
+                            <div class="inner portfolio-influence-orbis" style="background-color:#fff"></div>
+                            <div class="portfolio-text bottom text-light">
+                               <div class="logo pull-left"><img class="tile-logo" src="./img/logo-influence-orbis.png"></div>
+                               <div class="logo-text pull-right">
+                                <h5>Influence Orbis</h5>
+                                <p>Illustration, caricatures and print design.</p>
+                                </div>
+                            </div>
+                        </span>
+                    </a>
+                </div>
                 <div class="col-sm-6" id="brefMTL">
                     <a href="bref-montreal-illustrations">
                         <span class="outer">
                             <div class="inner portfolio-bref-mtl" style="background-color:#eee"></div>
-                            <div class="portfolio-text top no-gradient text-dark">
-                               <div class="logo pull-left"><img class="tile-logo" src="./img/logo-bref-mtl.png"></div>
-                               <div class="logo-text pull-right">
-                                    <h5>Bref MTL</h5>
+                            <div class="portfolio-text bottom text-light">
+                               <div class="logo-text pull-left">
+                                    <h5>Encore MTL x Bref</h5>
                                     <p>Cityscape illustrations, environment design, product design.</p>
                                 </div>
                             </div>
                         </span>
                     </a>
                 </div>
+
                 <div class="col-sm-6" id="burgerWeek">
                     <a href="le-burger-week-visual-design">
                         <span class="outer">
@@ -150,13 +160,11 @@
                         </span>
                     </a>
                 </div>
-            </div>
-            <div class="row">
                 <div class="col-sm-6" id="poutineWeek">
                     <a href="la-poutine-week-visual-design">
                         <span class="outer">
-                            <div class="inner portfolio-poutine-week" style="background-color:#07173C"></div>
-                            <div class="portfolio-text bottom no-gradient text-light">
+                            <div class="inner portfolio-poutineweek" style="background-color:#07173C"></div>
+                            <div class="portfolio-text top no-gradient text-light">
                                <div class="logo pull-left"><img class="tile-logo" src="./img/logo-la-poutine-week.png"></div>
                                <div class="logo-text pull-right">
                                     <h5>La Poutine Week</h5>
@@ -166,23 +174,7 @@
                         </span>
                     </a>
                 </div>
-                <div class="col-sm-6" id="influenceOrbis">
-                    <a href="influence-orbis-artwork">
-                        <span class="outer">
-                            <div class="inner portfolio-influence-orbis" style="background-color:#fff"></div>
-                            <div class="portfolio-text bottom no-gradient text-dark">
-                               <div class="logo pull-left"><img class="tile-logo" src="./img/logo-influence-orbis.png"></div>
-                               <div class="logo-text pull-right">
-                                <h5>Influence Orbis</h5>
-                                <p>Illustration, caricatures and print design.</p>
-                                </div>
-                            </div>
-                        </span>
-                    </a>
-                </div>
-            </div>
 
-            <div class="row">
                 <div class="col-sm-6">
                     <a href="montreal-cityline-illustration">
                         <span class="outer">
@@ -208,8 +200,6 @@
                         </div>
                     </a>
                 </div>
-            </div>
-            <div class="row">
                 <div class="col-sm-6" id="ets">
                     <a href="ets-cityline-illustration">
                         <div class="outer">
@@ -237,8 +227,6 @@
                         </div>
                     </a>
                 </div>
-            </div>
-            <div class="row">
                 <div class="col-sm-6" id="swiffer">
                     <a href="swiffer-marketing-graphics">
                         <div class="outer">
@@ -267,8 +255,6 @@
                         </div>
                     </a>
                 </div>
-            </div>
-            <div class="row">
                 <div class="col-sm-6" id="travelSmart">
                     <a href="travel-smart-canada-app">
                         <div class="outer">
@@ -298,8 +284,6 @@
                         </div>
                     </a>
                 </div>
-            </div>
-            <div class="row">
                 <div class="col-sm-6" id="otis">
                     <a href="otis-elevator-animated-gif">
                         <div class="outer">

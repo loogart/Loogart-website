@@ -753,10 +753,41 @@ section.portfolio h4 {
     margin: 20px auto 30px;
 }
 
+.portfolio-yp {
+    background-image: url(../img/yellowpages-icons-design-by-loogart.svg);
+    background-position: top center;
+}
+
+.portfolio-adib {
+    background-image: url(../img/adib-cartoon-videos-by-loogart.jpg);
+    background-position: top center;
+}
+
+.portfolio-bref-mtl {
+    background-image: url(../img/bref-montreal-illustrations-by-loogart.jpg);
+    background-position: top center;
+}
+
+.portfolio-burgerweek {
+    background-image: url(../img/burgerweek-visual-design-by-loogart.jpg);
+    background-position: top center;
+}
+
+.portfolio-poutineweek {
+    background-image: url(../img/poutineweek-visual-design-by-loogart.jpg);
+    background-position: top center;
+}
+
+.portfolio-influence-orbis {
+    background-image: url(../img/influenece-toronto-artwork-by-loogart.jpg);
+    background-position: top center;
+}
+
 .portfolio-montreal {
     background-image: url(../img/montreal-cityline-by-loogart.jpg);
     background-position: top center;
 }
+
 
 .portfolio-starbucks {
     background-image: url(../img/starbucks-cityscape-by-loogart.jpg);
