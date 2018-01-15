@@ -5,44 +5,24 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=0">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <meta name="description" content="Loogart is a visual design studio that specializes in illustration, brand identity, small-scale animation and web design. Our work is featured in Montreal, Toronto, Ottawa and Gatineau.">
     <meta name="author" content="Chris Soueidan of Loogart">
     <meta property="og:title" content="Loogart">
     <meta property="og:description" content="Montreal-based Visual Design Studio">
     <meta property="og:url" content="http://loogart.com/">
     <meta property="og:image" content="http://loogart.com/img/loogart-screenshot.jpg">
-    <?php include 'php/favicons.php';?>
-
     <title>Illustration, brand identity and web design | Loogart</title>
-
-    <!-- Bootstrap core CSS -->
-    <link href="./css/bootstrap.css" rel="stylesheet">
-    <link href="./css/font-awesome.css" rel="stylesheet">
-    <link href="./css/zoom.css" rel="stylesheet">
-    <link href="./css/style.css" rel="stylesheet">
-
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-    <?php include 'php/facebook-pixel.php';?>
+    <?php include 'php/header.php';?>
+    <?php include 'php/facebook-pixel.php';?> 
 </head>
-<script>
-    fbq('track', 'ViewHome');
-
-</script>
 
 <body>
-
+   
     <?php include 'php/analyticstracking.php';?>
-    <!-- Fixed navbar -->
     <?php include 'php/navbar.php';?>
 
-    <div class="container">
+    <main class="container">
 
-        <!-- Jumbotron section -->
         <div class="row">
             <div class="container">
                 <h1 class="hidden">Loogart: Montreal visual design studio for illustration, brand identity and web design</h1>
@@ -54,7 +34,7 @@
         </div>
 
         <!-- Loogmoji section -->
-        <section class="portfolio">
+        <section class="portfolio portfolio__loogmoji">
             <div class="row">
                 <div class="container">
                     <h3>Loogmoji</h3>
@@ -83,15 +63,14 @@
         </section>
 
         <!-- Portfolio section -->
-        <section class="portfolio">
+        <section class="portfolio portfolio__clients">
 
             <div class="row">
                 <div class="col-sm-12" id="montreal">
                     <h3 id="selectedProjects">Client projects <i class="fa fa-heart" aria-hidden="true"></i></h3>
                     <h4>We are multidisciplinary design studio that works on illustration, branding, iconography, motion graphics, web projects and user experience. We form one team with our clients. They win, we win.</h4>
                 </div>
-
-                <div class="col-sm-6" id="yellowPages">
+                <div class="col-sm-6 appear-1" id="yellowPages">
                     <a href="yellow-pages-icons-and-illustrations">
                         <span class="outer">
                             <div class="inner portfolio-yp" style="background-color:#FFCD00"></div>
@@ -105,7 +84,7 @@
                         </span>
                     </a>
                 </div>
-                <div class="col-sm-6" id="adib">
+                <div class="col-sm-6 appear-1" id="adib">
                     <a href="adib-alkhalidey-motion-graphics">
                         <div class="outer">
                             <div class="inner portfolio-adib" style="background-color:#CA1C6B"></div>
@@ -118,7 +97,7 @@
                         </div>
                     </a>
                 </div>
-                <div class="col-sm-6" id="influenceOrbis">
+                <div class="col-sm-6 appear-1" id="influenceOrbis">
                     <a href="influence-orbis-artwork">
                         <span class="outer">
                             <div class="inner portfolio-influence-orbis" style="background-color:#fff"></div>
@@ -132,7 +111,7 @@
                         </span>
                     </a>
                 </div>
-                <div class="col-sm-6" id="brefMTL">
+                <div class="col-sm-6 appear-1" id="brefMTL">
                     <a href="bref-montreal-illustrations">
                         <span class="outer">
                             <div class="inner portfolio-bref-mtl" style="background-color:#eee"></div>
@@ -146,7 +125,7 @@
                     </a>
                 </div>
 
-                <div class="col-sm-6" id="burgerWeek">
+                <div class="col-sm-6 appear-1" id="burgerWeek">
                     <a href="le-burger-week-visual-design">
                         <span class="outer">
                             <div class="inner portfolio-burgerweek" style="background-color:#4E2D2D"></div>
@@ -160,7 +139,7 @@
                         </span>
                     </a>
                 </div>
-                <div class="col-sm-6" id="poutineWeek">
+                <div class="col-sm-6 appear-1" id="poutineWeek">
                     <a href="la-poutine-week-visual-design">
                         <span class="outer">
                             <div class="inner portfolio-poutineweek" style="background-color:#07173C"></div>
@@ -174,8 +153,7 @@
                         </span>
                     </a>
                 </div>
-
-                <div class="col-sm-6">
+                <div class="col-sm-6 appear-1">
                     <a href="montreal-cityline-illustration">
                         <span class="outer">
                             <div class="inner portfolio-montreal"></div>
@@ -186,7 +164,7 @@
                         </span>
                     </a>
                 </div>
-                <div class="col-sm-6" id="starbucks">
+                <div class="col-sm-6 appear-1" id="starbucks">
                     <a href="starbucks-cityscape-illustration">
                         <div class="outer">
                             <div class="inner portfolio-starbucks"></div>
@@ -200,7 +178,7 @@
                         </div>
                     </a>
                 </div>
-                <div class="col-sm-6" id="ets">
+                <div class="col-sm-6 appear-1" id="ets">
                     <a href="ets-cityline-illustration">
                         <div class="outer">
                             <div class="inner portfolio-ets"></div>
@@ -214,7 +192,7 @@
                         </div>
                     </a>
                 </div>
-                <div class="col-sm-6" id="car2go">
+                <div class="col-sm-6 appear-1" id="car2go">
                     <a href="car2go-cityline-illustration">
                         <div class="outer">
                             <div class="inner portfolio-car2go"></div>
@@ -227,7 +205,7 @@
                         </div>
                     </a>
                 </div>
-                <div class="col-sm-6" id="swiffer">
+                <div class="col-sm-6 appear-1" id="swiffer">
                     <a href="swiffer-marketing-graphics">
                         <div class="outer">
                             <div class="inner portfolio-swiffer"></div>
@@ -241,7 +219,7 @@
                         </div>
                     </a>
                 </div>
-                <div class="col-sm-6" id="upa">
+                <div class="col-sm-6 appear-1" id="upa">
                     <a href="upa-cityline-illustration">
                         <div class="outer">
                             <div class="inner portfolio-upa"></div>
@@ -255,7 +233,7 @@
                         </div>
                     </a>
                 </div>
-                <div class="col-sm-6" id="travelSmart">
+                <div class="col-sm-6 appear-1" id="travelSmart">
                     <a href="travel-smart-canada-app">
                         <div class="outer">
                             <div class="inner portfolio-travel-smart"></div>
@@ -270,7 +248,7 @@
                         </div>
                     </a>
                 </div>
-                <div class="col-sm-6" id="suite88">
+                <div class="col-sm-6 appear-1" id="suite88">
                     <a href="suite88-cityline-illustration">
                         <div class="outer">
                             <div class="inner portfolio-suite88"></div>
@@ -284,7 +262,7 @@
                         </div>
                     </a>
                 </div>
-                <div class="col-sm-6" id="otis">
+                <div class="col-sm-6 appear-1" id="otis">
                     <a href="otis-elevator-animated-gif">
                         <div class="outer">
                             <div class="inner portfolio-otis"></div>
@@ -298,7 +276,7 @@
                         </div>
                     </a>
                 </div>
-                <div class="col-sm-6" id="innolab">
+                <div class="col-sm-6 appear-1" id="innolab">
                     <a href="global-affairs-canada-innovation-space">
                         <div class="outer">
                             <div class="inner portfolio-innovation-space"></div>
@@ -316,7 +294,7 @@
         </section>
 
         <!-- Web design section -->
-        <section class="portfolio">
+        <section class="portfolio portfolio__web">
             <div class="row">
                 <div class="container">
                     <h3>Web design projects <i class="fa fa-mouse-pointer" aria-hidden="true"></i></h3>
@@ -347,7 +325,7 @@
         </section>
 
         <!-- IG section -->
-        <section class="portfolio">
+        <section class="portfolio portfolio__instagram">
             <div class="row">
                 <div class="container">
                     <h3><i class="fa fa-instagram" aria-hidden="true"></i> Loogstagram</h3>
@@ -365,10 +343,11 @@
             </div>
         </section>
 
-    </div>
+    </main>
 
-    <!-- footer -->
     <?php include 'php/footer.php';?>
+    <script>fbq('track', 'ViewHome');</script>   
+
 </body>
 
 </html>

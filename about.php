@@ -5,46 +5,26 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=0">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <meta name="description" content="Loogart is a visual design studio that specializes in illustration, brand identity, small-scale animation and web design. Our work is featured in Montreal, Toronto, Ottawa and Gatineau.">
     <meta name="author" content="Chris Soueidan of Loogart">
     <meta property="og:title" content="Loogart">
     <meta property="og:description" content="Montreal-based Visual Design Studio">
     <meta property="og:url" content="http://loogart.com/">
     <meta property="og:image" content="http://loogart.com/img/chris-of-loogart.jpg">
-    <?php include 'php/favicons.php';?>
-
     <title>About | Loogart</title>
-
-    <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap.css" rel="stylesheet">
-    <link href="css/font-awesome.css" rel="stylesheet">
-    <link href="css/zoom.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
+    <?php include 'php/header.php';?>
     <?php include 'php/facebook-pixel.php';?>
-
 </head>
-<script>
-    fbq('track', 'ViewAbout');
-
-</script>
 
 <body>
+   
     <?php include 'php/analyticstracking.php';?>
     <?php include './php/navbar.php';?>
 
-    <!-- Jumbotron section -->
-    <section class="jumbotron-about">
-        <h1 class="hidden">About Loogart: Chris Soueidan is a Montreal visual designer.</h1>
-    </section>
-
-    <!-- Pink Section section -->
     <main>
+        <section class="jumbotron-about">
+            <h1 class="hidden">About Loogart: Chris Soueidan is a Montreal visual designer.</h1>
+        </section>
         <section class="about">
             <div class="row">
                 <div class="col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3">
@@ -159,8 +139,8 @@
         </div>
     </main>
 
-    <!-- footer -->
     <?php include './php/footer.php';?>
+    <script>fbq('track', 'ViewAbout');</script>
 
 </body>
 

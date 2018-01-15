@@ -5,43 +5,24 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=0">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <meta name="description" content="Illustration of Montreal's Cityscape by Loogart. Created by Loogart for various cities - coined as a CityLine - such as Toronto, Ottawa, Zurich, New York, Los Angeles, Canada.">
     <meta name="author" content="Chris Soueidan of Loogart">
     <meta property="og:title" content="CityLines by Loogart">
     <meta property="og:description" content="llustrations of cityscapes and skylines of various cities.">
     <meta property="og:url" content="http://loogart.com/">
     <meta property="og:image" content="http://loogart.com/img/portfolio/citylines/print-montreal-1.jpg">
-    <?php include './php/favicons.php';?>
-
     <title>CityLine Illustration | Loogart</title>
-
-    <!-- Bootstrap core CSS -->
-    <link href="./css/bootstrap.css" rel="stylesheet">
-    <link href="./css/font-awesome.css" rel="stylesheet">
-    <link href="./css/zoom.css" rel="stylesheet">
-    <link href="./css/flickity.css" rel="stylesheet">
-    <link href="./css/style.css" rel="stylesheet">
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-    <?php include './php/facebook-pixel.php';?>
-
+    <?php include 'php/header.php';?>
+    <?php include 'php/facebook-pixel.php';?>
 </head>
-<script>
-    fbq('track', 'ViewMTLCityline');
 
-</script>
 <body>
+   
     <?php include './php/analyticstracking.php';?>
-    <!-- Fixed navbar -->
     <?php include './php/navbar.php';?>
 
-    <!-- champion image -->
+    <main></main>
     <div class="project-jumbotron project-montreal-cityline-img"></div>
-
     <div class="container-fluid">
 
         <?php include './php/back.php';?>
@@ -238,6 +219,8 @@
 
     <!-- footer -->
     <?php include './php/footer.php';?>
+    <script>fbq('track', 'ViewMTLCityline');</script>
+    
 </body>
 
 </html>
