@@ -75,7 +75,7 @@
                         <span class="outer">
                             <div class="inner portfolio-yp" style="background-color:#FFCD00"></div>
                             <div class="portfolio-text bottom no-gradient text-dark">
-                               <div class="logo pull-left"><img class="tile-logo" src="./img/logo-yellow-pages.png" alt="Yellow Pages Logo" style="width:80px"></div>
+                               <div class="logo pull-left"><img class="tile-logo" src="./img/logo/logo-yellow-pages.png" alt="Yellow Pages Logo" style="width:80px"></div>
                                <div class="logo-text pull-right">
                                 <h5>Yellow Pages</h5>
                                 <p>Branding, iconography, illustration and user interface design.</p>
@@ -102,7 +102,7 @@
                         <span class="outer">
                             <div class="inner portfolio-influence-orbis" style="background-color:#fff"></div>
                             <div class="portfolio-text bottom text-light">
-                               <div class="logo pull-left"><img class="tile-logo" src="./img/logo-influence-orbis.png" alt="Influence Orbis logo"></div>
+                               <div class="logo pull-left"><img class="tile-logo" src="./img/logo/logo-influence-orbis.png" alt="Influence Orbis logo"></div>
                                <div class="logo-text pull-right">
                                 <h5>Influence Orbis</h5>
                                 <p>Illustration, caricatures and print design.</p>
@@ -130,7 +130,7 @@
                         <span class="outer">
                             <div class="inner portfolio-burgerweek" style="background-color:#4E2D2D"></div>
                             <div class="portfolio-text bottom no-gradient text-light">
-                               <div class="logo pull-left"><img class="tile-logo" src="./img/logo-le-burger-week.png" alt="Le Burger Week logo"></div>
+                               <div class="logo pull-left"><img class="tile-logo" src="./img/logo/logo-le-burger-week.png" alt="Le Burger Week logo"></div>
                                <div class="logo-text pull-right">
                                 <h5>Le Burger Week</h5>
                                 <p>Visual design, branding, illustration, print graphic design and user interface design.</p>
@@ -144,7 +144,7 @@
                         <span class="outer">
                             <div class="inner portfolio-poutineweek" style="background-color:#07173C"></div>
                             <div class="portfolio-text top no-gradient text-light">
-                               <div class="logo pull-left"><img class="tile-logo" src="./img/logo-la-poutine-week.png" alt="La Poutine Week logo"></div>
+                               <div class="logo pull-left"><img class="tile-logo" src="./img/logo/logo-la-poutine-week.png" alt="La Poutine Week logo"></div>
                                <div class="logo-text pull-right">
                                     <h5>La Poutine Week</h5>
                                 <p>Visual design, branding, illustration and print graphic design.</p>

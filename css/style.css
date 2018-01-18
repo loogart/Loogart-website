@@ -755,79 +755,79 @@ section.portfolio h4 {
 }
 
 .portfolio-yp {
-    background-image: url(../img/yellowpages-icons-design-by-loogart.svg);
+    background-image: url(../img/tile/yellowpages-icons-design-by-loogart.svg);
     background-position: top center;
 }
 
 .portfolio-adib {
-    background-image: url(../img/adib-cartoon-videos-by-loogart.jpg);
+    background-image: url(../img/tile/adib-cartoon-videos-by-loogart.jpg);
     background-position: top center;
 }
 
 .portfolio-bref-mtl {
-    background-image: url(../img/bref-montreal-illustrations-by-loogart.jpg);
+    background-image: url(../img/tile/bref-montreal-illustrations-by-loogart.jpg);
     background-position: top center;
 }
 
 .portfolio-burgerweek {
-    background-image: url(../img/burgerweek-visual-design-by-loogart.jpg);
+    background-image: url(../img/tile/burgerweek-visual-design-by-loogart.jpg);
     background-position: top center;
 }
 
 .portfolio-poutineweek {
-    background-image: url(../img/poutineweek-visual-design-by-loogart.jpg);
+    background-image: url(../img/tile/poutineweek-visual-design-by-loogart.jpg);
     background-position: top center;
 }
 
 .portfolio-influence-orbis {
-    background-image: url(../img/influence-toronto-artwork-by-loogart.jpg);
+    background-image: url(../img/tile/influence-toronto-artwork-by-loogart.jpg);
     background-position: top center;
 }
 
 .portfolio-montreal {
-    background-image: url(../img/montreal-cityline-by-loogart.jpg);
+    background-image: url(../img/tile/montreal-cityline-by-loogart.jpg);
     background-position: top center;
 }
 
 
 .portfolio-starbucks {
-    background-image: url(../img/starbucks-cityscape-by-loogart.jpg);
+    background-image: url(../img/tile/starbucks-cityscape-by-loogart.jpg);
     background-position: top center;
 }
 
 .starbucks-logo {
-    background-image: url(../img/starbucks_logo.png);
+    background-image: url(../img/logo/starbucks_logo.png);
     width: 85px;
     height: 85px;
 }
 
 .portfolio-ets {
-    background-image: url(../img/ets-cityline-by-loogart.jpg);
+    background-image: url(../img/tile/ets-cityline-by-loogart.jpg);
     background-position: top center;
 }
 
 .ets-logo {
-    background-image: url(../img/ets-logo.jpg);
+    background-image: url(../img/logo/ets-logo.jpg);
     width: 105px;
 }
 
 .portfolio-car2go {
-    background-image: url(../img/car2go-cityline-by-loogart.jpg);
+    background-image: url(../img/tile/car2go-cityline-by-loogart.jpg);
     background-position: top center;
 }
 
 .portfolio-swiffer {
-    background-image: url(../img/swiffer-marketing-by-loogart.jpg);
+    background-image: url(../img/tile/swiffer-marketing-by-loogart.jpg);
     background-position: top center;
 }
 
 .swiffer-logo {
-    background-image: url(../img/swiffer-logo.png);
+    background-image: url(../img/logo/swiffer-logo.png);
     width: 105px;
 }
 
 .portfolio-upa {
-    background-image: url(../img/upa-cityline-by-loogart.jpg);
+    background-image: url(../img/tile/upa-cityline-by-loogart.jpg);
     background-position: top center;
 }
 
@@ -837,27 +837,27 @@ section.portfolio h4 {
 }
 
 .portfolio-travel-smart {
-    background-image: url(../img/travel-smart-visual-design-by-loogart.jpg);
+    background-image: url(../img/tile/travel-smart-visual-design-by-loogart.jpg);
     background-position: top center;
 }
 
 .canada-logo {
-    background-image: url(../img/canada-logo.png);
+    background-image: url(../img/logo/canada-logo.png);
     width: 105px;
 }
 
 .portfolio-suite88 {
-    background-image: url(../img/suite88-chocolatier-cityline-by-loogart.jpg);
+    background-image: url(../img/tile/suite88-chocolatier-cityline-by-loogart.jpg);
     background-position: top center;
 }
 
 .suite88-logo {
-    background-image: url(../img/suite88-logo.png);
+    background-image: url(../img/logo/suite88-logo.png);
     width: 105px;
 }
 
 .travel-smart-logo {
-    background-image: url('../img/travel-smart-icon.png');
+    background-image: url('../img/logo/travel-smart-icon.png');
     background-size: contain;
     background-repeat: no-repeat;
     height: 75px;
@@ -865,24 +865,24 @@ section.portfolio h4 {
 }
 
 .portfolio-otis {
-    background-image: url(../img/otis-elevator-animated-illustration-by-loogart.gif);
+    background-image: url(../img/tile/otis-elevator-animated-illustration-by-loogart.gif);
     background-position: 0 -40px;
     background-color: #fff;
 }
 
 .portfolio-innovation-space {
-    background-image: url(../img/global-affairs-canada-innovation-wall-illustrations-by-loogart.jpg);
+    background-image: url(../img/tile/global-affairs-canada-innovation-wall-illustrations-by-loogart.jpg);
     background-color: #fff;
 }
 
 .otis-logo {
-    background-image: url(../img/otis-logo.png);
+    background-image: url(../img/logo/otis-logo.png);
     width: 105px;
     margin-top: 20px;
 }
 
 .otis-logo-2 {
-    background-image: url(../img/otis-logo.png);
+    background-image: url(../img/logo/otis-logo.png);
     width: 105px;
 }
 
@@ -894,37 +894,37 @@ section.portfolio h4 {
         margin-top: 72px;
     }
     .starbucks-logo {
-        background-image: url(../img/starbucks_logo.png);
+        background-image: url(../img/logo/starbucks_logo.png);
         width: 80px;
         height: 80px;
         margin: 0;
     }
     .ets-logo {
-        background-image: url(../img/ets-logo.jpg);
+        background-image: url(../img/logo/ets-logo.jpg);
         width: 80px;
         margin-top: 40px;
     }
     .swiffer-logo {
-        background-image: url(../img/swiffer-logo.png);
+        background-image: url(../img/logo/swiffer-logo.png);
         width: 80px;
         margin-top: 60px;
     }
     .upa-logo {
-        background-image: url(../img/upa-logo.png);
+        background-image: url(../img/logo/upa-logo.png);
         width: 55px;
     }
     .canada-logo {
-        background-image: url(../img/canada-logo.png);
+        background-image: url(../img/logo/canada-logo.png);
         width: 75px;
         margin-top: 20px;
     }
     .suite88-logo {
-        background-image: url(../img/suite88-logo.png);
+        background-image: url(../img/logo/suite88-logo.png);
         width: 85px;
         margin-top: 60px;
     }
     .otis-logo {
-        background-image: url(../img/otis-logo.png);
+        background-image: url(../img/logo/otis-logo.png);
         width: 75px;
         margin-top: 20px;
     }
