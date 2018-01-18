@@ -1803,11 +1803,8 @@ http://flickity.metafizzy.co
 }
 
 .img-spacing {
-    margin: 30px auto;
+    margin: 20px auto;
 }
-
-
-
 
 /* video */
 
@@ -1880,4 +1877,16 @@ section.page-404 p {
     100% {
         transform: scale(1);
     }
+}
+
+/* app ui demo */
+
+.app-ui div[class^="col-"]{
+    margin:30px auto;
+}
+
+.img-app-ui{
+    border-radius: 1.25em;
+    box-shadow: 0 1px 8px 0 rgba(43, 49, 58, 0.05), 1px 12px 25px 0 rgba(43, 49, 58, 0.1);
+    transition: all .5s ease-in-out;
 }

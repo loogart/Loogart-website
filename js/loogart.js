@@ -75,4 +75,17 @@ sr.reveal('.appear-1', {
     useDelay: 'onload',
     viewFactor: 0.5
 }, 250);
+sr.reveal('.appear-2', {
+    duration: 500,
+    delay: 0,
+    origin: 'bottom',
+    distance: '69px',
+    opacity: 0,
+    scale: 0.9,
+    easing: 'ease-in-out',
+    mobile: true,
+    reset: false,
+    useDelay: 'onload',
+    viewFactor: 0.2
+}, 250);
 
