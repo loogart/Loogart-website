@@ -8,10 +8,8 @@ $(window).scroll(function () {
 });
 
 //lazy load
-$(function () {
-    $("img.img-responsive").lazyload({
-        effect: "fadeIn"
-    });
+var bLazy = new Blazy({
+    // Options
 });
 
 //flickity
@@ -73,7 +71,7 @@ sr.reveal('.appear-1', {
     mobile: true,
     reset: false,
     useDelay: 'onload',
-    viewFactor: 0.5
+    viewFactor: 0.3
 }, 250);
 sr.reveal('.appear-2', {
     duration: 500,
@@ -88,4 +86,3 @@ sr.reveal('.appear-2', {
     useDelay: 'onload',
     viewFactor: 0.2
 }, 250);
-

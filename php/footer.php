@@ -88,6 +88,7 @@ echo '</main>
     <script src="./js/bootstrapvalidator.js"></script>
     <script src="./js/flickity.pkgd.min.js"></script>
     <script src="./js/scrollreveal.js"></script>
+    <script src="./js/blazy.min.js"></script>
     <script src="./js/loogart.js"></script>
         <script>
         if (window.location.href.indexOf("#thankyou") > -1) {
