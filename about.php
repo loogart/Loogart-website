@@ -10,7 +10,7 @@
     <meta property="og:title" content="Loogart">
     <meta property="og:description" content="Montreal-based Visual Design Studio">
     <meta property="og:url" content="http://loogart.com/">
-    <meta property="og:image" content="http://loogart.com/img/chris-of-loogart.jpg">
+    <meta property="og:image" content="http://loogart.com/img/logo/chris-of-loogart.jpg">
     <title>About | Loogart</title>
     <?php include 'php/header.php';?>
     <?php include 'php/facebook-pixel.php';?>
@@ -48,85 +48,85 @@
                         <p>I love working with clients on all sorts of challenging projects for illusration, branding, web design and small-scale animation. We ultimately look to do one thing: communicate through visual design.</p>
                         <div class="list-logos">
                             <div class="about-logo">
-                                <span><img class="client-logo" src="./img/starbucks_logo.png" alt="Starbucks logo"></span>
+                                <span><img class="client-logo" src="./img/logo/starbucks_logo.png" alt="Starbucks logo"></span>
                                 <span><h6>Starbucks</h6></span>
                             </div>
                             <div class="about-logo">
-                                <span><img class="client-logo" src="./img/logo-yellow-pages-2.png" alt="Yellow Pages logo"></span>
+                                <span><img class="client-logo" src="./img/logo/logo-yellow-pages-2.png" alt="Yellow Pages logo"></span>
                                 <span><h6>Yellow Pages</h6></span>
                             </div>
                             <div class="about-logo">
-                                <img class="client-logo" src="./img/logo-proctorgamble.png" alt="Proctor and Gamble logo">
+                                <img class="client-logo" src="./img/logo/logo-proctorgamble.png" alt="Proctor and Gamble logo">
                                 <h6>Proctor &amp; Gamble</h6>
                             </div>
                             <div class="about-logo">
-                                <img class="client-logo" src="./img/swiffer-logo.png" alt="Swiffer logo">
+                                <img class="client-logo" src="./img/logo/swiffer-logo.png" alt="Swiffer logo">
                                 <h6>Swiffer</h6>
                             </div>
                             <div class="about-logo">
-                                <span><img class="client-logo" src="./img/logo-car2go.png" alt="car2go logo"></span>
+                                <span><img class="client-logo" src="./img/logo/logo-car2go.png" alt="car2go logo"></span>
                                 <span><h6>car2go</h6></span>
                             </div>
                             <div class="about-logo">
-                                <span><img class="client-logo" src="./img/logo-bref-mtl.png" alt="Bref MTL logo"></span>
+                                <span><img class="client-logo" src="./img/logo/logo-bref-mtl.png" alt="Bref MTL logo"></span>
                                 <span><h6>Bref MTL</h6></span>
                             </div>
                             <div class="about-logo">
-                                <span><img class="client-logo" src="./img/logo-le-burger-week.png" alt="Le Burger Week logo"></span>
+                                <span><img class="client-logo" src="./img/logo/logo-le-burger-week.png" alt="Le Burger Week logo"></span>
                                 <span><h6>Le Burger Week</h6></span>
                             </div>
                             <div class="about-logo">
-                                <span><img class="client-logo" src="./img/logo-la-poutine-week.png" alt="Le Poutine Week logo"></span>
+                                <span><img class="client-logo" src="./img/logo/logo-la-poutine-week.png" alt="Le Poutine Week logo"></span>
                                 <span><h6>Le Poutine Week</h6></span>
                             </div>
                             <div class="about-logo">
-                                <span><img class="client-logo" src="./img/logo-influence-orbis.png" alt="Influence Orbis logo"></span>
+                                <span><img class="client-logo" src="./img/logo/logo-influence-orbis.png" alt="Influence Orbis logo"></span>
                                 <span><h6>Influence Orbis</h6></span>
                             </div>
 
                             <div class="about-logo">
-                                <span><img class="client-logo" src="./img/ets-logo.jpg" alt="ETS logo"></span>
+                                <span><img class="client-logo" src="./img/logo/ets-logo.jpg" alt="ETS logo"></span>
                                 <span><h6>ÉTS</h6></span>
                             </div>
                             <div class="about-logo">
-                                <img class="client-logo" src="./img/logo-upa.jpg" alt="UPA logo">
+                                <img class="client-logo" src="./img/logo/logo-upa.jpg" alt="UPA logo">
                                 <h6>L'UPA</h6>
                             </div>
                             <div class="about-logo">
-                                <img class="client-logo" src="./img/logo-canada.png" alt="Government of Canada logo">
+                                <img class="client-logo" src="./img/logo/logo-canada.png" alt="Government of Canada logo">
                                 <h6>Global Affairs Canada</h6>
                             </div>
                             <div class="about-logo">
-                                <img class="client-logo" src="./img/otis-logo.png" alt="Otis Elevator logo">
+                                <img class="client-logo" src="./img/logo/otis-logo.png" alt="Otis Elevator logo">
                                 <h6>Otis Elevator</h6>
                             </div>
                             <div class="about-logo">
-                                <img class="client-logo" src="./img/logo-bbdo.png" alt="BBDO logo">
+                                <img class="client-logo" src="./img/logo/logo-bbdo.png" alt="BBDO logo">
                                 <h6>BBDO</h6>
                             </div>
                             <div class="about-logo">
-                                <img class="client-logo" src="./img/logo-citizen-relations.png" alt="Citizen Relations logo">
+                                <img class="client-logo" src="./img/logo/logo-citizen-relations.png" alt="Citizen Relations logo">
                                 <h6>Citizen Relations</h6>
                             </div>
                             <div class="about-logo">
-                                <img class="client-logo" src="./img/logo-station16.jpg" alt="Station 16 logo">
+                                <img class="client-logo" src="./img/logo/logo-station16.jpg" alt="Station 16 logo">
                                 <h6>Station 16 Gallery</h6>
                             </div>
                             <div class="about-logo">
-                                <img class="client-logo" src="./img/logo-mtlblog.png" alt="MTL Blog logo">
+                                <img class="client-logo" src="./img/logo/logo-mtlblog.png" alt="MTL Blog logo">
                                 <h6>MTL Blog</h6>
                             </div>
 
                             <div class="about-logo">
-                                <img class="client-logo" src="./img/suite88-logo.png" alt="Suite 88 logo">
+                                <img class="client-logo" src="./img/logo/suite88-logo.png" alt="Suite 88 logo">
                                 <h6>Suite 88 Chocolatier</h6>
                             </div>
                             <div class="about-logo">
-                                <img class="client-logo" src="./img/logo-mariouomo.png" alt="Mario Uomo logo">
+                                <img class="client-logo" src="./img/logo/logo-mariouomo.png" alt="Mario Uomo logo">
                                 <h6>Mario Uomo</h6>
                             </div>
                             <div class="about-logo">
-                                <img class="client-logo" src="./img/logo-tweetaide.jpg" alt="Tweetaide logo">
+                                <img class="client-logo" src="./img/logo/logo-tweetaide.jpg" alt="Tweetaide logo">
                                 <h6>Tweetaide</h6>
                             </div>
                         </div>
