@@ -79,7 +79,7 @@
                         </div>
                         <h3>App onboarding user interface</h3>
                         <p>Loogart was also involved for quick prototyping of the onboarding process in the Yellow Pages iOS app. This was mainly an exercise to evaluate how Yellow Pages could implement their new visual language and assets into their existing products. </p>
-                        <div class="row app-ui">
+                        <div class="row app-ui hover-zoom">
                             <div class="col-sm-4 appear-2">
                                 <img class="img-responsive img-app-ui" src="./img/portfolio/yellow-pages/yellow-pages-ui-by-loogart-iphone5.jpg" alt="Yellow pages app main UI by Loogart">
                             </div>
