@@ -21,7 +21,7 @@
     <?php include './php/navbar.php';?>
 
     <main>
-        <img src="./img/portfolio/yellow-pages/jumbotron-yellow-pages-loogart.jpg" class="img-responsive" style="width:100%">
+        <img src="./img/portfolio/yellow-pages/jumbotron-yellow-pages-loogart.jpg" class="img-responsive" style="width:100%" alt="yellow pages new iconography design">
         <div class="container-fluid">
 
             <?php include './php/back.php';?>

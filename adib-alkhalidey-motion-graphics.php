@@ -22,7 +22,7 @@
     <?php include './php/navbar.php';?>
 
     <main>
-        <img src="./img/portfolio/adib/adib-jumbotron-banner.jpg" class="img-responsive" style="width:100%">
+        <img src="./img/portfolio/adib/adib-jumbotron-banner.jpg" class="img-responsive" style="width:100%" alt="adib alkhalidey Loogmoji with different funny haircuts">
         <div class="container-fluid">
 
             <?php include './php/back.php';?>
