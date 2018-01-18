@@ -1896,3 +1896,11 @@ section.page-404 p {
     height:48vh;
     object-position: center 40%;
 }
+
+.hover-zoom img{
+    transition: all .25s ease-in-out;
+}
+
+.hover-zoom img:hover{
+    transform: translateY(-5px);
+}
