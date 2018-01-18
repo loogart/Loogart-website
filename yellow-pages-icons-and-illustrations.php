@@ -10,7 +10,7 @@
     <meta property="og:title" content="Yellow Pages x Loogart">
     <meta property="og:description" content="Yellow Pages Iconography and Illustration by Loogart">
     <meta property="og:url" content="http://loogart.com/">
-    <meta property="og:image" content="http://loogart.com/img/portfolio/yellow-pages/.jpg">
+    <meta property="og:image" content="http://loogart.com/img/portfolio/yellow-pages/yellow-pages-web-graphics-4b.jpg">
     <title>Yellow Pages iconography design and illustrations | Loogart</title>
     <?php include 'php/header.php';?>
     <?php include 'php/facebook-pixel.php';?>
@@ -21,7 +21,6 @@
     <?php include './php/navbar.php';?>
 
     <main>
-        <!--        <div class="project-jumbotron" style="height:36vh;background-color:#FFCD00;background-image:url('../img/portfolio/yellow-pages/yellow-pages-citysacpe-by-loogart-montreal-1.jpg');background-position:center"></div>-->
         <img src="./img/portfolio/yellow-pages/jumbotron-yellow-pages-loogart.jpg" class="img-responsive" style="width:100%">
         <div class="container-fluid">
 
@@ -160,7 +159,7 @@
                     <div class="col-sm-12">
                         <img class="img-responsive img-spacing" src="./img/portfolio/yellow-pages/yellow-pages-citysacpe-by-loogart-vancouver-2.jpg" alt="Yellow Pages Vancouver Cityscape illustration by Loogart">
                     </div>
-                     <div class="col-md-8 col-md-offset-2">
+                    <div class="col-md-8 col-md-offset-2">
                         <h3>Yellow Pages x Loogart</h3>
                         <p>Successful branding evokes proper emotion and we believe that creating a full-range of visuals to supports the brand effectively and inspires action and feelings of trust with their existing client base and prospective clients. We are proud to have been part of Yellow Pages' rebrand and we are excited to see all designs rolled out in the near future.</p>
                     </div>
@@ -177,6 +176,7 @@
     <?php include './php/footer.php';?>
     <script>
         fbq('track', 'ViewYellowPages');
+
     </script>
 
 </body>
