@@ -34,7 +34,7 @@
             <div class="row">
                 <div class="col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3">
 
-                    <img class="img-responsive" src="./img/logo-car2go.png" style="max-width:144px;margin:30px 0">
+                    <img class="img-responsive" src="./img/logo/logo-car2go.png" style="max-width:144px;margin:30px 0">
                     <h1>car2go CityLine Illustration</h1>
                     <p>car2go reached out to <a href="http://www.station16gallery.com" target="_blank">Station 16 Art Gallery</a> in Montreal to commission Loogart to create its own CityLine illustration to be used on promotional products for a company event.</p>
                 </div>

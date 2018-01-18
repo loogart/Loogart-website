@@ -33,7 +33,7 @@
                 <!-- section 1: cityline -->
                 <div class="row">
                     <div class="col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3">
-                        <img class="img-responsive" src="./img/logo-canada.png" style="max-width:140px;margin:30px 0">
+                        <img class="img-responsive" src="./img/logo/logo-canada.png" style="max-width:140px;margin:30px 0">
                         <h1>Global Affairs Canada Innovation Room Illustrations</h1>
                         <p>Global Affairs Canada commissioned Loogart to create 3 illustrations which would be used as wall art for their upcoming Innovation Room in Gatineau, Quebec. The three concepts were based on an Idea Garden, a Coaches Corner and a fun visual of the Global Affairs Canada Head Quarters with Parliament Hill.</p> <img class="img-responsive img-spacing" src="./img/portfolio/gac-innovation/illo-idea-garden.jpg" data-action="zoom">
                         <img class="img-responsive img-spacing" src="./img/portfolio/gac-innovation/illo-coaches-corner.jpg" data-action="zoom">

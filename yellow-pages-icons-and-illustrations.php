@@ -21,7 +21,7 @@
     <?php include './php/navbar.php';?>
     
     <main>
-        <div class="project-jumbotron" style="height:24vh;background-color:#FFCD00"></div>
+        <div class="project-jumbotron" style="height:36vh;background-color:#FFCD00;background-image:url('../img/portfolio/yellow-pages/yellow-pages-citysacpe-by-loogart-montreal-1.jpg');background-position:center"></div>
         <div class="container-fluid">
 
         <?php include './php/back.php';?>
@@ -33,7 +33,7 @@
             <div class="row">
                 <div class="col-md-10 col-md-offset-1 col-lg-8 col-lg-offset-2">
 
-                    <img class="img-responsive" src="./img/logo-yellow-pages-2.png" style="max-width:120px;margin:30px 0">
+                    <img class="img-responsive" src="./img/logo/logo-yellow-pages-2.png" style="max-width:120px;margin:30px 0">
                     <h1>Yellow Pages iconography and illustrations</h1>
                     <p>Loogart works with companies to enhance their brand through illustration, graphic design and user interface design. Yellow Pages worked with award-winning visual identity design firm Turner Duckworth to create a new visual language which would grab the attention of a younger, small-business entrepreneurial crowd. Yellow Pages also reached out to Loogart while they were in the midst of this rebranding effort prioritizing the more handcrafted look.</p>
                     

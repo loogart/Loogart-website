@@ -34,7 +34,7 @@
             <div class="row">
                 <div class="col-md-10 col-md-offset-1 col-lg-8 col-lg-offset-2">
 
-                    <img class="img-responsive" src="./img/logo-influence-orbis.png" style="max-width:120px;margin:30px 0">
+                    <img class="img-responsive" src="./img/logo/logo-influence-orbis.png" style="max-width:120px;margin:30px 0">
                     <h1>Influence Toronto Artwork by Loogart</h1>
                     <p>Influence Orbis is the #1 Canadian Influencer and entrepreneurship conference which brings together executives, entrepreneurs, students, creatives and individuals of influence from across the Globe. Each of their successful events is based on their 3 pillars: Inspire, Inform and Influence. The 2017 Editions were held in Montreal in May and in Toronto at the end of November.</p>
                     

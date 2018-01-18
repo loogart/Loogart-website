@@ -34,7 +34,7 @@
             <div class="row">
                 <div class="col-md-10 col-md-offset-1 col-lg-8 col-lg-offset-2">
 
-                    <img class="img-responsive" src="./img/logo-la-poutine-week.png" style="max-width:120px;margin:30px 0">
+                    <img class="img-responsive" src="./img/logo/logo-la-poutine-week.png" style="max-width:120px;margin:30px 0">
                     <h1>La Poutine Visual Design by Loogart</h1>
                     <p>Every year since 2012, between February 1-7, restaurants around Quebec, Ontario and even internationally create their brainchild poutine which will leave you salivating for days after the one-week long festival is over.</p>
                     

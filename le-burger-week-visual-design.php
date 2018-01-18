@@ -34,7 +34,7 @@
             <div class="row">
                 <div class="col-md-10 col-md-offset-1 col-lg-8 col-lg-offset-2">
 
-                    <img class="img-responsive" src="./img/logo-le-burger-week.png" style="max-width:120px;margin:30px 0">
+                    <img class="img-responsive" src="./img/logo/logo-le-burger-week.png" style="max-width:120px;margin:30px 0">
                     <h1>Le Burger Week Visual Design by Loogart</h1>
                     <p>Every year since 2012, between September 1-7, an army of restaurants across Canada and the U.S. will bring you the most incredible burgers you would have never imagined possible. This foodie initiative, which has become a flagship festival called “Le Burger Week” brings a whopping 200,000 + participants who increase traffic drastically at the restaurants who push culinary creativity to the next level.</p>
 

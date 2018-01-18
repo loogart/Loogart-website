@@ -33,7 +33,7 @@
             <!-- section 1: cityline -->
             <div class="row">
                 <div class="col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3">
-                    <img class="img-responsive" src="./img/suite88-logo.png" style="max-width:80px;margin:30px 0">
+                    <img class="img-responsive" src="./img/logo/suite88-logo.png" style="max-width:80px;margin:30px 0">
                     <h1>Suite 88 CityLine</h1>
                     <p>Suite 88 Chocolatier commissioned Loogart to create a Limited Edition branding for product packaging and print products. Derived from Montreal's DNA, the CityLine was to feature Suite 88's brand, popular Montreal landmarks and chocolate-related elements.</p>
                 </div>

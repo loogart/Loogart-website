@@ -32,7 +32,7 @@
             <!-- Intro -->
             <div class="row">
                 <div class="col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3">
-                    <img class="img-responsive" src="./img/travel-smart-icon.png" style="max-width:80px;margin:30px 0">
+                    <img class="img-responsive" src="./img/logo/travel-smart-icon.png" style="max-width:80px;margin:30px 0">
                     <h1>Travel Smart Visual Design</h1>
                     <p>Loogart was contracted to create and oversee the overall visual design of Global Affairs Canada's (then upcoming) Travel Smart mobile app for iOS and Android. This includes UI components, illustrations, all iconography, branding and the app's icon. In 2016, Travel Smart won the Canada-wide <a href="https://youtu.be/tTEGYAisPRM?t=15s" target="_blank">GTEC Award for Public in Service Excellence Delivery</a>.</p>
                 </div>

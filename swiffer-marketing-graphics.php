@@ -34,7 +34,7 @@
             <div class="row">
                 <div class="col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3">
 
-                    <img class="img-responsive" src="./img/swiffer-logo.png" style="max-width:244px;margin:30px 0">
+                    <img class="img-responsive" src="./img/logo/swiffer-logo.png" style="max-width:244px;margin:30px 0">
                     <h1>Swiffer Marketing Visuals</h1>
                     <p>Swiffer worked with Loogart and Citizen Relations to develop social media creatives utilizing the <a href="./projects/montreal-cityline-illustration.html">Montreal CityLine design</a> for their 2016 Canada Moving Day campaign in Montreal.</p>
                 </div>

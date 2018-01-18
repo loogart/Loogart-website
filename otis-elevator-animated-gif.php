@@ -33,7 +33,7 @@
                 <!-- section 1: cityline -->
                 <div class="row">
                     <div class="col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3">
-                        <img class="img-responsive" src="./img/otis-logo.png" style="max-width:140px;margin:30px 0">
+                        <img class="img-responsive" src="./img/logo/otis-logo.png" style="max-width:140px;margin:30px 0">
                         <h1>Otis Elevator Newsletter Animation</h1>
                         <p>Otis Elevator commissioned Loogart to create a small-scale animation which would be mailed out to all their Canadian clients during the Christmas period.</p>
                         <div class="col-sm-6 col-sm-offset-3">

@@ -35,7 +35,7 @@
             <!-- First section: Starbucks Montreal -->
             <div class="row">
                 <div class="col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3">
-                    <img class="img-responsive" src="./img/ets-logo.jpg" style="max-width:100px;margin:30px 0">
+                    <img class="img-responsive" src="./img/logo/ets-logo.jpg" style="max-width:100px;margin:30px 0">
                     <h1>ÉTS CityLine Illustration</h1>
                     <p>The Ecole de Technologie Supérieure in Montreal commissioned Loogart to create a CityLine illustration of its most popular landmarks and elements. The university selected all items included in the design. The exercise was to ensure that the overall design stayed true to the ETS brand while coinciding with the CityLine style by Loogart.</p>
                 </div>

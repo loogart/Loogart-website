@@ -36,7 +36,7 @@
             <!-- First section: Starbucks Montreal -->
             <div class="row">
                 <div class="col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3">
-                    <img class="img-responsive" src="./img/logo-upa.jpg" style="max-width:180px;margin:30px 0">
+                    <img class="img-responsive" src="./img/logo/logo-upa.jpg" style="max-width:180px;margin:30px 0">
                     <h1>UPA CityLine Illustration</h1>
                     <p>L'Union des Producteurs Agricoles du Québec (UPA) commissioned Loogart to illustrate their 2015 Portes Ouvertes event in the CityLine style while keeping the UPA brand. This design was produced into marketing outreach posters, apparel and a TV commercial aired to all of the Quebec Provice.</p>
                 </div>
