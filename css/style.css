@@ -1409,7 +1409,8 @@ section.loogmoji-collection {
     justify-content: space-between;
 }
 
-section.loogmoji-collection img {
+section.loogmoji-collection img,
+section.loogmoji-collection a {
     background-color: transparent;
     -webkit-box-flex: 1;
     -ms-flex: 1;
@@ -1417,19 +1418,22 @@ section.loogmoji-collection img {
 }
 
 @media (max-width: 767px) {
-    section.loogmoji-collection img {
+    section.loogmoji-collection img,
+    section.loogmoji-collection a {
         width: 49%;
     }
 }
 
 @media (min-width: 768px) {
-    section.loogmoji-collection img {
+    section.loogmoji-collection img,
+    section.loogmoji-collection a {
         width: 32%;
     }
 }
 
 @media (min-width: 991px) {
-    section.loogmoji-collection img {
+    section.loogmoji-collection img,
+    section.loogmoji-collection a {
         width: 19%;
     }
 }
@@ -1947,7 +1951,7 @@ section.page-404 p {
 }
 
 .hover-zoom img {
-    transition: all .25s ease-in-out;
+    transition: transform .25s ease-in-out;
 }
 
 .hover-zoom img:hover {

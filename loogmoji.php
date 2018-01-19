@@ -85,6 +85,67 @@
                             <img class="b-lazy" data-src="./img/loogmoji/iconic/loogmoji-of-brad-pitt_by-loogart.png" alt="Loogmoji of Brad Pitt" title="Brad Pitt" />
                             <img class="b-lazy" data-src="./img/loogmoji/iconic/loogmoji-of-captain-america_by-loogart.png" alt="Loogmoji of Captain America" title="Captain America" />
                             <img class="b-lazy" data-src="./img/loogmoji/iconic/loogmoji-of-captain-kirk_by-loogart.png" alt="Loogmoji of Captain Kirk" title="Captain Kirk" />
+                            <img class="b-lazy" data-src="./img/loogmoji/iconic/loogmoji-of-cersei-lannister-s7_by-loogart.png" alt="Loogmoji of Cersei Lannister" title="Cersei Lannister" />
+                            <img class="b-lazy" data-src="./img/loogmoji/iconic/loogmoji-of-charlie-chaplin_by-loogart.png" alt="Loogmoji of Charlie Chaplin" title="Charlie Chaplin" />
+                            <img class="b-lazy" data-src="./img/loogmoji/iconic/loogmoji-of-colonel-sanders kfc_by-loogart.png" alt="Loogmoji of Colonel Sanders" title="Colonel Sanders" />
+                            <img class="b-lazy" data-src="./img/loogmoji/iconic/loogmoji-of-daenerys-targaryen_by-loogart.png" alt="Loogmoji of Daenerys Targaryen" title="Daenerys Targaryen" />
+                            <img class="b-lazy" data-src="./img/loogmoji/iconic/loogmoji-of-darth-vader_by-loogart.png" alt="Loogmoji of Darth Vader" title="Darth Vader" />
+                            <img class="b-lazy" data-src="./img/loogmoji/iconic/loogmoji-of-deadpool_by-loogart.png" alt="Loogmoji of Deadpool" title="Deadpool" />
+                            <img class="b-lazy" data-src="./img/loogmoji/iconic/loogmoji-of-denis-coderre_by-loogart.png" alt="Loogmoji of Denis Coderre" title="Denis Coderre" />
+                            <img class="b-lazy" data-src="./img/loogmoji/iconic/loogmoji-of-donald-trump_by-loogart.png" alt="Loogmoji of Donald Trump" title="Donald Trump" />
+                            <img class="b-lazy" data-src="./img/loogmoji/iconic/loogmoji-of-dr-evil_by-loogart.png" alt="Loogmoji of Dr. Evil" title="Dr. Evil" />
+                            <img class="b-lazy" data-src="./img/loogmoji/iconic/loogmoji-of-dwight-schrute_by-loogart.png" alt="Loogmoji of Dwight Schrute" title="Dwight Schrute" />
+                            <img class="b-lazy" data-src="./img/loogmoji/iconic/loogmoji-of-eddie-murphy_by-loogart.png" alt="Loogmoji of Eddie Murphy" title="Eddie Murphy" />
+                            <img class="b-lazy" data-src="./img/loogmoji/iconic/loogmoji-of-ellen-degeneres_by-loogart.png" alt="Loogmoji of Ellen Degeneres" title="Ellen Degeneres" />
+                            <img class="b-lazy" data-src="./img/loogmoji/iconic/loogmoji-of-elon-musk_by-loogart.png" alt="Loogmoji of Elon Musk" title="Elon Musk" />
+                            <img class="b-lazy" data-src="./img/loogmoji/iconic/loogmoji-of-ema-watson_by-loogart.png" alt="Loogmoji of Emma Watson" title="Emma Watson" />
+                            <img class="b-lazy" data-src="./img/loogmoji/iconic/loogmoji-of-gordon-ramsey_by-loogart.png" alt="Loogmoji of Gordon Ramsay" title="Gordon Ramsay" />
+                            <img class="b-lazy" data-src="./img/loogmoji/iconic/loogmoji-of-harry-potter_by-loogart.png" alt="Loogmoji of Harry Potter" title="Harry Potter" />
+                            <img class="b-lazy" data-src="./img/loogmoji/iconic/loogmoji-of-heath-ledger_by-loogart.png" alt="Loogmoji of Heath Ledger as the Joker" title="Heath Ledger as the Joker" />
+                            <img class="b-lazy" data-src="./img/loogmoji/iconic/loogmoji-of-hillary-clinton_by-loogart.png" alt="Loogmoji of Hillary Clinton" title="Hillary Clinton" />
+                            <img class="b-lazy" data-src="./img/loogmoji/iconic/loogmoji-of-hodor_by-loogart.png" alt="Loogmoji of Hodor" title="Hodor" />
+                            <img class="b-lazy" data-src="./img/loogmoji/iconic/loogmoji-of-hulk_by-loogart.png" alt="Loogmoji of The Hulk" title="The Hulk" />
+                            <img class="b-lazy" data-src="./img/loogmoji/iconic/loogmoji-of-ironman_by-loogart.png" alt="Loogmoji of Robert Downey Jr. as Ironman" title="Robert Downey Jr. as Ironman" />
+                            <img class="b-lazy" data-src="./img/loogmoji/iconic/loogmoji-of-jack-nicholson_by-loogart.png" alt="Loogmoji of Jack Nicholson" title="Jack Nicholson" />
+                            <img class="b-lazy" data-src="./img/loogmoji/iconic/loogmoji-of-jamie-lannister_by-loogart.png" alt="Loogmoji of Jamie Lannister" title="Jamie Lannister" />
+                            <img class="b-lazy" data-src="./img/loogmoji/iconic/loogmoji-of-jon-snow_by-loogart.png" alt="Loogmoji of Jon Snow" title="Jon Snow" />
+                            <img class="b-lazy" data-src="./img/loogmoji/iconic/loogmoji-of-julia-roberts_by-loogart.png" alt="Loogmoji of Julia Roberts" title="Julia Roberts" />
+                            <img class="b-lazy" data-src="./img/loogmoji/iconic/loogmoji-of-justin-trudeau_by-loogart.png" alt="Loogmoji of Justin Trudeau" title="Justin Trudeau" />
+                            <img class="b-lazy" data-src="./img/loogmoji/iconic/loogmoji-of-kim-jung-un_by-loogart.png" alt="Loogmoji of Kim Jung Un" title="Kim Jung Un" />
+                            <img class="b-lazy" data-src="./img/loogmoji/iconic/loogmoji-of-little-finger_by-loogart.png" alt="Loogmoji of Little Finger" title="Little Finger" />
+                            <img class="b-lazy" data-src="./img/loogmoji/iconic/loogmoji-of-marylin-monroe_by-loogart.png" alt="Loogmoji of Marylin Monroe" title="Marylin Monroe" />
+                            <img class="b-lazy" data-src="./img/loogmoji/iconic/loogmoji-of-michael-scott_by-loogart.png" alt="Loogmoji of Michael Scott" title="Michael Scott" />
+                            <img class="b-lazy" data-src="./img/loogmoji/iconic/loogmoji-of-michelle-obama_by-loogart.png" alt="Loogmoji of Michelle Obama" title="Michelle Obama" />
+                            <img class="b-lazy" data-src="./img/loogmoji/iconic/loogmoji-of-mother-teresa_by-loogart.png" alt="Loogmoji of Mother Teresa" title="Mother Teresa" />
+                            <img class="b-lazy" data-src="./img/loogmoji/iconic/loogmoji-of-mr-bean_by-loogart.png" alt="Loogmoji of Mr. Bean" title="Mr. Bean" />
+                            <img class="b-lazy" data-src="./img/loogmoji/iconic/loogmoji-of-mr-rogers_by-loogart.png" alt="Loogmoji of Mr. Rogers" title="Mr. Rogers" />
+                            <img class="b-lazy" data-src="./img/loogmoji/iconic/loogmoji-of-muhammad-ali_by-loogart.png" alt="Loogmoji of Muhammad Ali" title="Muhammad Ali" />
+                            <img class="b-lazy" data-src="./img/loogmoji/iconic/loogmoji-of-nacho-libre_by-loogart.png" alt="Loogmoji of Nacho Libre" title="Nacho Libre" />
+                            <img class="b-lazy" data-src="./img/loogmoji/iconic/loogmoji-of-obama_by-loogart.png" alt="Loogmoji of Barrack Obama" title="Barrack Obama" />
+                            <img class="b-lazy" data-src="./img/loogmoji/iconic/loogmoji-of-oprah_by-loogart.png" alt="Loogmoji of Oprah Winfrey" title="Oprah Winfrey" />
+                            <img class="b-lazy" data-src="./img/loogmoji/iconic/loogmoji-of-original-batman_by-loogart.png" alt="Loogmoji of Adam West as Batman" title="Adam West as Batman" />
+                            <img class="b-lazy" data-src="./img/loogmoji/iconic/loogmoji-of-pablo-escobar_by-loogart.png" alt="Loogmoji of Pablo Escobar" title="Pablo Escobar" />
+                            <img class="b-lazy" data-src="./img/loogmoji/iconic/loogmoji-of-pope-francis_by-loogart.png" alt="Loogmoji of Pope Francis" title="Pope Francis" />
+                            <img class="b-lazy" data-src="./img/loogmoji/iconic/loogmoji-of-power-rangers-red_by-loogart.png" alt="Loogmoji of the Red Power Ranger" title="Red Power Ranger" />
+                            <img class="b-lazy" data-src="./img/loogmoji/iconic/loogmoji-of-queen-elizabeth_by-loogart.png" alt="Loogmoji of Queen Elizabeth" title="Queen Elizabeth" />
+                            <img class="b-lazy" data-src="./img/loogmoji/iconic/loogmoji-of-robocop_by-loogart.png" alt="Loogmoji of Robocop" title="Robocop" />
+                            <img class="b-lazy" data-src="./img/loogmoji/iconic/loogmoji-of-ronald-mcdonald_by-loogart.png" alt="Loogmoji of Ronoald McDonald" title="Ronoald McDonald" />
+                            <img class="b-lazy" data-src="./img/loogmoji/iconic/loogmoji-of-russell-peters_by-loogart.png" alt="Loogmoji of Russell Peters" title="Russell Peters" />
+                            <img class="b-lazy" data-src="./img/loogmoji/iconic/loogmoji-of-samwell_by-loogart.png" alt="Loogmoji of Samwell" title="Samwell" />
+                            <img class="b-lazy" data-src="./img/loogmoji/iconic/loogmoji-of-sansa_by-loogart.png" alt="Loogmoji of Sansa Stark" title="Sansa Stark" />
+                            <img class="b-lazy" data-src="./img/loogmoji/iconic/loogmoji-of-spiderman_by-loogart.png" alt="Loogmoji of Spiderman" title="Spiderman" />
+                            <img class="b-lazy" data-src="./img/loogmoji/iconic/loogmoji-of-spock_by-loogart.png" alt="Loogmoji of Spock" title="Spock" />
+                            <img class="b-lazy" data-src="./img/loogmoji/iconic/loogmoji-of-statue-of-liberty_by-loogart.png" alt="Loogmoji of The Statue of Liberty" title="The Statue of Liberty" />
+                            <img class="b-lazy" data-src="./img/loogmoji/iconic/loogmoji-of-steve-jobs_by-loogart.png" alt="Loogmoji of Steve Jobs" title="Steve Jobs" />
+                            <img class="b-lazy" data-src="./img/loogmoji/iconic/loogmoji-of-superman_by-loogart.png" alt="Loogmoji of Superman" title="Superman" />
+                            <img class="b-lazy" data-src="./img/loogmoji/iconic/loogmoji-of-the-hound_by-loogart.png" alt="Loogmoji of The Hound" title="The Hound" />
+                            <img class="b-lazy" data-src="./img/loogmoji/iconic/loogmoji-of-tim-cook_by-loogart.png" alt="Loogmoji of Tim Cook" title="Tim Cook" />
+                            <img class="b-lazy" data-src="./img/loogmoji/iconic/loogmoji-of-tyrion_by-loogart.png" alt="Loogmoji of Tyrion Lannister Season 1" title="Tyrion Lannister Season 1" />
+                            <img class="b-lazy" data-src="./img/loogmoji/iconic/loogmoji-of-tyrion-lannister_by-loogart.png" alt="Loogmoji of Tyrion Lannister Season 7" title="Tyrion Lannister Season 7" />
+                            <img class="b-lazy" data-src="./img/loogmoji/iconic/loogmoji-of-walter-white_by-loogart.png" alt="Loogmoji of Walter White" title="Walter White" />
+                            <img class="b-lazy" data-src="./img/loogmoji/iconic/loogmoji-of-white-walker_by-loogart.png" alt="Loogmoji of The White Walker Night King" title="The White Walker Night King" />
+                            <img class="b-lazy" data-src="./img/loogmoji/iconic/loogmoji-of-whoopi_by-loogart.png" alt="Loogmoji of Whoopi Goldberg" title="Whoopi Goldberg" />
+                            <img class="b-lazy" data-src="./img/loogmoji/iconic/loogmoji-of-yoda_by-loogart.png" alt="Loogmoji of Yoda" title="Yoda" />
                         </div>
 
                         <!-- popular -->
@@ -92,6 +153,12 @@
                         <div class="row">
                             <img class="b-lazy" data-src="./img/loogmoji/popular/loogmoji-of-adib_by-loogart.png" alt="Loogmoji of Adib Alkhalidey" title="Adib Alkhalidey" />
                             <img class="b-lazy" data-src="./img/loogmoji/popular/loogmoji-of-angel-rich_by-loogart.png" alt="Loogmoji of Angel Rich" title="Angel Rich" />
+                            <img class="b-lazy" data-src="./img/loogmoji/popular/loogmoji-of-casey-neistat_by-loogart.png" alt="Loogmoji of Casey Neistat" title="Casey Neistat" />
+                            <img class="b-lazy" data-src="./img/loogmoji/popular/loogmoji-of-charlemagne-tha-god_by-loogart.png" alt="Loogmoji of Charlamagne Tha God" title="Charlamagne Tha God" />
+                            <img class="b-lazy" data-src="./img/loogmoji/popular/loogmoji-of-david-st-jacques_by-loogart.png" alt="Loogmoji of David St-Jacques" title="David St-Jacques" />
+                            <img class="b-lazy" data-src="./img/loogmoji/popular/loogmoji-of-gary-vaynerchuk_by-loogart.png" alt="Loogmoji of Gary Vaynerchuk" title="Gary Vaynerchuk" />
+                            <img class="b-lazy" data-src="./img/loogmoji/popular/loogmoji-of-grant-cardone_by-loogart.png" alt="Loogmoji of Grant Cardone" title="Grant Cardone" />
+
                         </div>
 
                         <!-- sports -->
@@ -99,6 +166,25 @@
                         <div class="row">
                             <img class="b-lazy" data-src="./img/loogmoji/sports/loogmoji-of-budda_baker_by-loogart.png" alt="Loogmoji of Budda Baker" title="Budda Baker" />
                             <img class="b-lazy" data-src="./img/loogmoji/sports/loogmoji-of-cabbie-richards_by-loogart.png" alt="Loogmoji of Cabbie Richards" title="Cabbie Richards" />
+                            <img class="b-lazy" data-src="./img/loogmoji/sports/loogmoji-of-conor-mcgregor_by-loogart.png" alt="Loogmoji of Conor McGregor" title="Conor McGregor" />
+                            <img class="b-lazy" data-src="./img/loogmoji/sports/loogmoji-of-cristiano-ronaldo_by-loogart.png" alt="Loogmoji of Cristiano Ronaldo" title="Cristiano Ronaldo" />
+                            <img class="b-lazy" data-src="./img/loogmoji/sports/loogmoji-of-derozan_by-loogart.png" alt="Loogmoji of Demar DeRozan" title="Demar DeRozan" />
+                            <img class="b-lazy" data-src="./img/loogmoji/sports/loogmoji-of-eugenie-bouchard_by-loogart.png" alt="Loogmoji of Eugenie Bouchard" title="Eugenie Bouchard" />
+                            <img class="b-lazy" data-src="./img/loogmoji/sports/loogmoji-of-incarnacione_by-loogart.png" alt="Loogmoji of Incarnacione" title="Incarnacione" />
+                            <img class="b-lazy" data-src="./img/loogmoji/sports/loogmoji-of-jose-bautista_by-loogart.png" alt="Loogmoji of Jose Bautista" title="Jose Bautista" />
+                            <img class="b-lazy" data-src="./img/loogmoji/sports/loogmoji-of-kevin-durant_by-loogart.png" alt="Loogmoji of Kevin Durant" title="Kevin Durant" />
+                            <img class="b-lazy" data-src="./img/loogmoji/sports/loogmoji-of-kobe-bryant-24_by-loogart.png" alt="Loogmoji of Kobe Bryant" title="Kobe Bryant" />
+                            <img class="b-lazy" data-src="./img/loogmoji/sports/loogmoji-of-kyle-lowry_by-loogart.png" alt="Loogmoji of Kyle Lowry" title="Kyle Lowry" />
+                            <img class="b-lazy" data-src="./img/loogmoji/sports/loogmoji-of-kyrie-irving_by-loogart.png" alt="Loogmoji of Kyrie Irving" title="Kyrie Irving" />
+                            <img class="b-lazy" data-src="./img/loogmoji/sports/loogmoji-of-lebron-james_by-loogart.png" alt="Loogmoji of Lebron James" title="Lebron James" />
+                            <img class="b-lazy" data-src="./img/loogmoji/sports/loogmoji-of-michael-jordan_by-loogart.png" alt="Loogmoji of Michael Jordan" title="Michael Jordan" />
+                            <img class="b-lazy" data-src="./img/loogmoji/sports/loogmoji-of-oleksiak-canada swimmer_by-loogart.png" alt="Loogmoji of swimmer Oleksiak" title="Oleksiak" />
+                            <img class="b-lazy" data-src="./img/loogmoji/sports/loogmoji-of-patrick-roy_by-loogart.png" alt="Loogmoji of Patrick Roy" title="Patrick Roy" />
+                            <img class="b-lazy" data-src="./img/loogmoji/sports/loogmoji-of-pk-subban_by-loogart.png" alt="Loogmoji of PK Subban" title="PK Subban" />
+                            <img class="b-lazy" data-src="./img/loogmoji/sports/loogmoji-of-shaq_by-loogart.png" alt="Loogmoji of Shaquille O'Neil" title="Shaquille O'Neil" />
+                            <img class="b-lazy" data-src="./img/loogmoji/sports/loogmoji-of-steph-curry_by-loogart.png" alt="Loogmoji of Stephen Curry" title="Stephen Curry" />
+                            <img class="b-lazy" data-src="./img/loogmoji/sports/loogmoji-of-usain-bolt_by-loogart.png" alt="Loogmoji of Usain Bolt" title="Usain Bolt" />
+                            <img class="b-lazy" data-src="./img/loogmoji/sports/loogmoji-of-valdimir-guerrero_by-loogart.png" alt="Loogmoji of Vladimir Guerrero" title="Vladimir Guerrero" />
                         </div>
 
                         <!-- friends -->
@@ -106,6 +192,27 @@
                         <div class="row">
                             <img class="b-lazy" data-src="./img/loogmoji/friends/loogmoji-of-alex_by-loogart.png" alt="Loogmoji of Alex Tomovic" title="Alex Tomovic" />
                             <img class="b-lazy" data-src="./img/loogmoji/friends/loogmoji-of-andrew_by-loogart.png" alt="Loogmoji of Drewbie Fahmey" title="Drewbie Fahmey" />
+                            <img class="b-lazy" data-src="./img/loogmoji/friends/loogmoji-of-baba_by-loogart.png" alt="Loogmoji of Baba Soueidan" title="Baba Soueidan" />
+                            <img class="b-lazy" data-src="./img/loogmoji/friends/loogmoji-of-baz_by-loogart.png" alt="Loogmoji of Baz D" title="Baz D" />
+                            <img class="b-lazy" data-src="./img/loogmoji/friends/loogmoji-of-karim_by-loogart.png" alt="Loogmoji of Karim S" title="Karim S" />
+                            <img class="b-lazy" data-src="./img/loogmoji/friends/loogmoji-of-michael_by-loogart.png" alt="Loogmoji of Michael S" title="Michael S" />
+                            <img class="b-lazy" data-src="./img/loogmoji/friends/loogmoji-of-will-wahab_by-loogart.png" alt="Loogmoji of Will Wahab" title="Will Wahab" />
+                            <img class="b-lazy" data-src="./img/loogmoji/friends/loogmoji-of-michelle-wahab_by-loogart.png" alt="Loogmoji of Michelle Wahab" title="Michelle Wahab" />
+                            <img class="b-lazy" data-src="./img/loogmoji/friends/loogmoji-of-charles-lapointe_by-loogart.png" alt="Loogmoji of Charles Lapointe" title="Charles Lapointe" />
+                            <img class="b-lazy" data-src="./img/loogmoji/friends/loogmoji-of-dr-thomas-nguyen_by-loogart.png" alt="Loogmoji of Dr. Thomas Nguyen" title="Dr. Thomas Nguyen" />
+                            <img class="b-lazy" data-src="./img/loogmoji/friends/loogmoji-of-chris-soueidan_by-loogart.png" alt="Loogmoji of Chris Soueidan" title="Chris Soueidan" />
+                            <img class="b-lazy" data-src="./img/loogmoji/friends/loogmoji-of-joyce_by-loogart.png" alt="Loogmoji of Joyce Choueiri" title="Joyce Choueiri" />
+                            <img class="b-lazy" data-src="./img/loogmoji/friends/loogmoji-of-bowser_by-loogart.png" alt="Loogmoji of Bowser Soueidan" title="Bowser Soueidan" />
+                            <img class="b-lazy" data-src="./img/loogmoji/friends/loogmoji-of-dan-roy_by-loogart.png" alt="Loogmoji of Dan Roy" title="Dan Roy" />
+                            <img class="b-lazy" data-src="./img/loogmoji/friends/loogmoji-of-jen-mccomb_by-loogart.png" alt="Loogmoji of Jenn McComb" title="Jenn McComb" />
+                            <img class="b-lazy" data-src="./img/loogmoji/friends/loogmoji-of-feisal_by-loogart.png" alt="Loogmoji of Feisal B" title="Feisal B" />
+                            <img class="b-lazy" data-src="./img/loogmoji/friends/loogmoji-of-graham_by-loogart.png" alt="Loogmoji of Graham Jack" title="Graham Jack" />
+                            <img class="b-lazy" data-src="./img/loogmoji/friends/loogmoji-of-jean-simon_by-loogart.png" alt="Loogmoji of Jean Simon Phan Lachapelle" title="Jean Simon Phan Lachapelle" />
+                            <img class="b-lazy" data-src="./img/loogmoji/friends/loogmoji-of-myriam-lafond-imaginacake_by-loogart.png" alt="Loogmoji of Myriam Lafond Imaginacake" title="Myriam Lafond Imaginacake" />
+                            <img class="b-lazy" data-src="./img/loogmoji/friends/loogmoji-of-patrice_by-loogart.png" alt="Loogmoji of Patrice Cesar" title="Patrice Cesar" />
+                            <img class="b-lazy" data-src="./img/loogmoji/friends/loogmoji-of-samer_by-loogart.png" alt="Loogmoji of Samer Soueidan" title="Samer Soueidan" />
+                            <img class="b-lazy" data-src="./img/loogmoji/friends/loogmoji-of-simon-pierre_by-loogart.png" alt="Loogmoji of Simon Pierre Garneau" title="Simon Pierre Garneau" />
+                            <img class="b-lazy" data-src="./img/loogmoji/friends/loogmoji-of-thierry-lindor_by-loogart.png" alt="Loogmoji of Thierry Lindor" title="Thierry Lindor" />
                         </div>
 
                         <!-- gov -->
@@ -113,6 +220,27 @@
                         <div class="row">
                             <img class="b-lazy" data-src="./img/loogmoji/gov/loogmoji-of-ailish-campbell_by-loogart.png" alt="Loogmoji of Ailish Campbell" title="Ailish Campbell" />
                             <img class="b-lazy" data-src="./img/loogmoji/gov/loogmoji-of-alan-kessel_by-loogart.png" alt="Loogmoji of Alan Kessel" title="Alan Kessel" />
+                            <img class="b-lazy" data-src="./img/loogmoji/gov/" alt="Loogmoji of !" title="!" />
+                            <img class="b-lazy" data-src="./img/loogmoji/gov/" alt="Loogmoji of !" title="!" />
+                            <img class="b-lazy" data-src="./img/loogmoji/gov/" alt="Loogmoji of !" title="!" />
+                            <img class="b-lazy" data-src="./img/loogmoji/gov/" alt="Loogmoji of !" title="!" />
+                            <img class="b-lazy" data-src="./img/loogmoji/gov/" alt="Loogmoji of !" title="!" />
+                            <img class="b-lazy" data-src="./img/loogmoji/gov/" alt="Loogmoji of !" title="!" />
+                            <img class="b-lazy" data-src="./img/loogmoji/gov/" alt="Loogmoji of !" title="!" />
+                            <img class="b-lazy" data-src="./img/loogmoji/gov/" alt="Loogmoji of !" title="!" />
+                            <img class="b-lazy" data-src="./img/loogmoji/gov/" alt="Loogmoji of !" title="!" />
+                            <img class="b-lazy" data-src="./img/loogmoji/gov/" alt="Loogmoji of !" title="!" />
+                            <img class="b-lazy" data-src="./img/loogmoji/gov/" alt="Loogmoji of !" title="!" />
+                            <img class="b-lazy" data-src="./img/loogmoji/gov/" alt="Loogmoji of !" title="!" />
+                            <img class="b-lazy" data-src="./img/loogmoji/gov/" alt="Loogmoji of !" title="!" />
+                            <img class="b-lazy" data-src="./img/loogmoji/gov/" alt="Loogmoji of !" title="!" />
+                            <img class="b-lazy" data-src="./img/loogmoji/gov/" alt="Loogmoji of !" title="!" />
+                            <img class="b-lazy" data-src="./img/loogmoji/gov/" alt="Loogmoji of !" title="!" />
+                            <img class="b-lazy" data-src="./img/loogmoji/gov/" alt="Loogmoji of !" title="!" />
+                            <img class="b-lazy" data-src="./img/loogmoji/gov/" alt="Loogmoji of !" title="!" />
+                            <img class="b-lazy" data-src="./img/loogmoji/gov/" alt="Loogmoji of !" title="!" />
+                            <img class="b-lazy" data-src="./img/loogmoji/gov/" alt="Loogmoji of !" title="!" />
+                            <img class="b-lazy" data-src="./img/loogmoji/gov/" alt="Loogmoji of !" title="!" />
 
                         </div>
 
@@ -125,6 +253,30 @@
                     <div class="col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3">
                         <h3>Want to see more Loogmojis?</h3>
                         <p>Follow Loogart on <a href="https://www.instagram.com/loogart/" target="_blank">Instagram</a>, you'll see the latest <a href="https://www.instagram.com/explore/tags/loogmoji/" target="_blank">#Loogmojis</a>! If you want to get your own Loogmoji, please <a href="./contact.php">contact us</a>! Once you get your own Loogmoji, you'll be part of the family and we will add you to this page.</p>
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/BcibzeXh_zc/" data-instgrm-version="8" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:658px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);">
+                                    <div style="padding:8px;">
+                                        <div style=" background:#F8F8F8; line-height:0; margin-top:40px; padding:50.0% 0; text-align:center; width:100%;">
+                                            <div style=" background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAMUExURczMzPf399fX1+bm5mzY9AMAAADiSURBVDjLvZXbEsMgCES5/P8/t9FuRVCRmU73JWlzosgSIIZURCjo/ad+EQJJB4Hv8BFt+IDpQoCx1wjOSBFhh2XssxEIYn3ulI/6MNReE07UIWJEv8UEOWDS88LY97kqyTliJKKtuYBbruAyVh5wOHiXmpi5we58Ek028czwyuQdLKPG1Bkb4NnM+VeAnfHqn1k4+GPT6uGQcvu2h2OVuIf/gWUFyy8OWEpdyZSa3aVCqpVoVvzZZ2VTnn2wU8qzVjDDetO90GSy9mVLqtgYSy231MxrY6I2gGqjrTY0L8fxCxfCBbhWrsYYAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;"></div>
+                                        </div>
+                                        <p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;"><a href="https://www.instagram.com/p/BcibzeXh_zc/" style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;" target="_blank">A post shared by Loogart (@loogart)</a> on <time style=" font-family:Arial,sans-serif; font-size:14px; line-height:17px;" datetime="2017-12-10T22:16:14+00:00">Dec 10, 2017 at 2:16pm PST</time></p>
+                                    </div>
+                                </blockquote>
+                                <script async defer src="//platform.instagram.com/en_US/embeds.js"></script>
+                            </div>
+                            <div class="col-sm-6">
+                                <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/BG6yokbhlrS/" data-instgrm-version="8" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:658px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);">
+                                    <div style="padding:8px;">
+                                        <div style=" background:#F8F8F8; line-height:0; margin-top:40px; padding:50.0% 0; text-align:center; width:100%;">
+                                            <div style=" background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAMUExURczMzPf399fX1+bm5mzY9AMAAADiSURBVDjLvZXbEsMgCES5/P8/t9FuRVCRmU73JWlzosgSIIZURCjo/ad+EQJJB4Hv8BFt+IDpQoCx1wjOSBFhh2XssxEIYn3ulI/6MNReE07UIWJEv8UEOWDS88LY97kqyTliJKKtuYBbruAyVh5wOHiXmpi5we58Ek028czwyuQdLKPG1Bkb4NnM+VeAnfHqn1k4+GPT6uGQcvu2h2OVuIf/gWUFyy8OWEpdyZSa3aVCqpVoVvzZZ2VTnn2wU8qzVjDDetO90GSy9mVLqtgYSy231MxrY6I2gGqjrTY0L8fxCxfCBbhWrsYYAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;"></div>
+                                        </div>
+                                        <p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;"><a href="https://www.instagram.com/p/BG6yokbhlrS/" style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;" target="_blank">A post shared by Loogart (@loogart)</a> on <time style=" font-family:Arial,sans-serif; font-size:14px; line-height:17px;" datetime="2016-06-21T13:43:00+00:00">Jun 21, 2016 at 6:43am PDT</time></p>
+                                    </div>
+                                </blockquote>
+                                <script async defer src="//platform.instagram.com/en_US/embeds.js"></script>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </section>
