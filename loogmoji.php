@@ -38,157 +38,89 @@
             <!-- Loog section -->
             <section class="loogmoji-collection hover-zoom">
                 <div class="row">
-                    <div class="col-sm-10 col-sm-offset-1">
+                    <div class="col-sm-12 col-lg-10 col-lg-offset-1 text-center">
 
                         <!-- music -->
                         <h3 id="loogmojiMusic">MUSIC</h3>
-                        <div class="row">
-                            <div class="col-xs-6 col-sm-3 col-md-2">
-                                <img class="img-responsive b-lazy" data-src="./img/loogmoji/music/loogmoji-of-adele_by-loogart.png" alt="Loogmoji of Adele" title="Adele" />
-                            </div>
-                            <div class="col-xs-6 col-sm-3 col-md-2">
-                                <img class="img-responsive b-lazy" data-src="./img/loogmoji/music/loogmoji-of-biggie_by-loogart.png" alt="Loogmoji of Biggie" title="Biggie" />
-                            </div>
-                            <div class="col-xs-6 col-sm-3 col-md-2">
-                                <img class="img-responsive b-lazy" data-src="./img/loogmoji/music/loogmoji-of-bob-marley_by-loogart.png" alt="Loogmoji of Bob Marley" title="Bob Marley" />
-                            </div>
-                            <div class="col-xs-6 col-sm-3 col-md-2">
-                                <img class="img-responsive b-lazy" data-src="./img/loogmoji/music/loogmoji-of-britney-spears_by-loogart.png" alt="Loogmoji of Britney Spears" title="Britney Spears" />
-                            </div>
-                            <div class="col-xs-6 col-sm-3 col-md-2">
-                                <img class="img-responsive b-lazy" data-src="./img/loogmoji/music/loogmoji-of-bruno-mars_by-loogart.png" alt="Loogmoji of Bruno Mars" title="Bruno Mars" />
-                            </div>
-                            <div class="col-xs-6 col-sm-3 col-md-2">
-                                <img class="img-responsive b-lazy" data-src="./img/loogmoji/music/loogmoji-of-celine-dion_by-loogart.png" alt="Loogmoji of Celine Dion" title="Celine Dion" />
-                            </div>
-                            <div class="col-xs-6 col-sm-3 col-md-2">
-                                <img class="img-responsive b-lazy" data-src="./img/loogmoji/music/loogmoji-of-deadmau5_by-loogart.png" alt="Loogmoji of Deadmau5" title="Deadmau5" />
-                            </div>
-                            <div class="col-xs-6 col-sm-3 col-md-2">
-                                <img class="img-responsive b-lazy" data-src="./img/loogmoji/music/loogmoji-of-dr-dre_by-loogart.png" alt="Loogmoji of Dr. Dre" title="Dr. Dre" />
-                            </div>
-                            <div class="col-xs-6 col-sm-3 col-md-2">
-                                <img class="img-responsive b-lazy" data-src="./img/loogmoji/music/loogmoji-of-drake_by-loogart.png" alt="Loogmoji of Drake" title="Drake" />
-                            </div>
-                            <div class="col-xs-6 col-sm-3 col-md-2">
-                                <img class="img-responsive b-lazy" data-src="./img/loogmoji/music/loogmoji-of-ed-sheeran_by-loogart.png" alt="Loogmoji of Ed Sheeran" title="Ed Sheeran" />
-                            </div>
-                            <div class="col-xs-6 col-sm-3 col-md-2">
-                                <img class="img-responsive b-lazy" data-src="./img/loogmoji/music/loogmoji-of-elvis-presley_by-loogart.png" alt="Loogmoji of Elvis Presley" title="Elvis Presley" />
-                            </div>
-                            <div class="col-xs-6 col-sm-3 col-md-2">
-                                <img class="img-responsive b-lazy" data-src="./img/loogmoji/music/loogmoji-of-eminem_by-loogart.png" alt="Loogmoji of Eminem" title="Eminem" />
-                            </div>
-                            <div class="col-xs-6 col-sm-3 col-md-2">
-                                <img class="img-responsive b-lazy" data-src="./img/loogmoji/music/loogmoji-of-ice-cube_by-loogart.png" alt="Loogmoji of Ice Cube" title="Ice Cube" />
-                            </div>
-                            <div class="col-xs-6 col-sm-3 col-md-2">
-                                <img class="img-responsive b-lazy" data-src="./img/loogmoji/music/loogmoji-of-james-brown_by-loogart.png" alt="Loogmoji of James Brown" title="James Brown" />
-                            </div>
-                            <div class="col-xs-6 col-sm-3 col-md-2">
-                                <img class="img-responsive b-lazy" data-src="./img/loogmoji/music/loogmoji-of-jay-z_by-loogart.png" alt="Loogmoji of Jay-Z" title="Jay-Z" />
-                            </div>
-                            <div class="col-xs-6 col-sm-3 col-md-2">
-                                <img class="img-responsive b-lazy" data-src="./img/loogmoji/music/loogmoji-of-kanye-west_by-loogart.png" alt="Loogmoji of Kanye West" title="Kanye West" />
-                            </div>
-                            <div class="col-xs-6 col-sm-3 col-md-2">
-                                <img class="img-responsive b-lazy" data-src="./img/loogmoji/music/loogmoji-of-kendrick-lamar_by-loogart.png" alt="Loogmoji of Kendrick Lamar" title="Kendrick Lamar" />
-                            </div>
-                            <div class="col-xs-6 col-sm-3 col-md-2">
-                                <img class="img-responsive b-lazy" data-src="./img/loogmoji/music/loogmoji-of-lady-gaga_by-loogart.png" alt="Loogmoji of Lady Gaga" title="Lady Gaga" />
-                            </div>
-                            <div class="col-xs-6 col-sm-3 col-md-2">
-                                <img class="img-responsive b-lazy" data-src="./img/loogmoji/music/loogmoji-of-michael-jackson-bad_by-loogart.png" alt="Loogmoji of Michael Jackson" title="Michael Jackson" />
-                            </div>
-                            <div class="col-xs-6 col-sm-3 col-md-2">
-                                <img class="img-responsive b-lazy" data-src="./img/loogmoji/music/loogmoji-of-miley-cyrus_by-loogart.png" alt="Loogmoji of Miley Cyrus" title="Miley Cyrus" />
-                            </div>
-                            <div class="col-xs-6 col-sm-3 col-md-2">
-                                <img class="img-responsive b-lazy" data-src="./img/loogmoji/music/loogmoji-of-p-diddy_by-loogart.png" alt="Loogmoji of P. Diddy" title="P. Diddy" />
-                            </div>
-                            <div class="col-xs-6 col-sm-3 col-md-2">
-                                <img class="img-responsive b-lazy" data-src="./img/loogmoji/music/loogmoji-of-prince_by-loogart.png" alt="Loogmoji of Prince" title="Prince" />
-                            </div>
-                            <div class="col-xs-6 col-sm-3 col-md-2">
-                                <img class="img-responsive b-lazy" data-src="./img/loogmoji/music/loogmoji-of-rihanna_by-loogart.png" alt="Loogmoji of Rihanna" title="Rihanna" />
-                            </div>
-                            <div class="col-xs-6 col-sm-3 col-md-2">
-                                <img class="img-responsive b-lazy" data-src="./img/loogmoji/music/loogmoji-of-snoop-dogg_by-loogart.png" alt="Loogmoji of Snoop Dogg" title="Snoop Dogg" />
-                            </div>
-                            <div class="col-xs-6 col-sm-3 col-md-2">
-                                <img class="img-responsive b-lazy" data-src="./img/loogmoji/music/loogmoji-of-taylor-swift_by-loogart.png" alt="Loogmoji of Taylor Swift" title="Taylor Swift" />
-                            </div>
-                            <div class="col-xs-6 col-sm-3 col-md-2">
-                                <img class="img-responsive b-lazy" data-src="./img/loogmoji/music/loogmoji-of-the-weeknd_by-loogart.png" alt="Loogmoji of The Weeknd" title="The Weeknd" />
-                            </div>
-                            <div class="col-xs-6 col-sm-3 col-md-2">
-                                <img class="img-responsive b-lazy" data-src="./img/loogmoji/music/loogmoji-of-tupac_by-loogart.png" alt="Loogmoji of Tupac" title="Tupac" />
-                            </div>
+                        <div class="container-fluid">
+                            <img class="b-lazy" data-src="./img/loogmoji/music/loogmoji-of-adele_by-loogart.png" alt="Loogmoji of Adele" title="Adele" />
+                            <img class="b-lazy" data-src="./img/loogmoji/music/loogmoji-of-biggie_by-loogart.png" alt="Loogmoji of Biggie" title="Biggie" />
+                            <img class="b-lazy" data-src="./img/loogmoji/music/loogmoji-of-bob-marley_by-loogart.png" alt="Loogmoji of Bob Marley" title="Bob Marley" />
+                            <img class="b-lazy" data-src="./img/loogmoji/music/loogmoji-of-britney-spears_by-loogart.png" alt="Loogmoji of Britney Spears" title="Britney Spears" />
+                            <img class="b-lazy" data-src="./img/loogmoji/music/loogmoji-of-bruno-mars_by-loogart.png" alt="Loogmoji of Bruno Mars" title="Bruno Mars" />
+                            <img class="b-lazy" data-src="./img/loogmoji/music/loogmoji-of-celine-dion_by-loogart.png" alt="Loogmoji of Celine Dion" title="Celine Dion" />
+                            <img class="b-lazy" data-src="./img/loogmoji/music/loogmoji-of-deadmau5_by-loogart.png" alt="Loogmoji of Deadmau5" title="Deadmau5" />
+                            <img class="b-lazy" data-src="./img/loogmoji/music/loogmoji-of-dr-dre_by-loogart.png" alt="Loogmoji of Dr. Dre" title="Dr. Dre" />
+                            <img class="b-lazy" data-src="./img/loogmoji/music/loogmoji-of-drake_by-loogart.png" alt="Loogmoji of Drake" title="Drake" />
+                            <img class="b-lazy" data-src="./img/loogmoji/music/loogmoji-of-ed-sheeran_by-loogart.png" alt="Loogmoji of Ed Sheeran" title="Ed Sheeran" />
+                            <img class="b-lazy" data-src="./img/loogmoji/music/loogmoji-of-elvis-presley_by-loogart.png" alt="Loogmoji of Elvis Presley" title="Elvis Presley" />
+                            <img class="b-lazy" data-src="./img/loogmoji/music/loogmoji-of-eminem_by-loogart.png" alt="Loogmoji of Eminem" title="Eminem" />
+                            <img class="b-lazy" data-src="./img/loogmoji/music/loogmoji-of-ice-cube_by-loogart.png" alt="Loogmoji of Ice Cube" title="Ice Cube" />
+                            <img class="b-lazy" data-src="./img/loogmoji/music/loogmoji-of-james-brown_by-loogart.png" alt="Loogmoji of James Brown" title="James Brown" />
+                            <img class="b-lazy" data-src="./img/loogmoji/music/loogmoji-of-jay-z_by-loogart.png" alt="Loogmoji of Jay-Z" title="Jay-Z" />
+                            <img class="b-lazy" data-src="./img/loogmoji/music/loogmoji-of-kanye-west_by-loogart.png" alt="Loogmoji of Kanye West" title="Kanye West" />
+                            <img class="b-lazy" data-src="./img/loogmoji/music/loogmoji-of-kendrick-lamar_by-loogart.png" alt="Loogmoji of Kendrick Lamar" title="Kendrick Lamar" />
+                            <img class="b-lazy" data-src="./img/loogmoji/music/loogmoji-of-lady-gaga_by-loogart.png" alt="Loogmoji of Lady Gaga" title="Lady Gaga" />
+                            <img class="b-lazy" data-src="./img/loogmoji/music/loogmoji-of-michael-jackson-bad_by-loogart.png" alt="Loogmoji of Michael Jackson" title="Michael Jackson" />
+                            <img class="b-lazy" data-src="./img/loogmoji/music/loogmoji-of-miley-cyrus_by-loogart.png" alt="Loogmoji of Miley Cyrus" title="Miley Cyrus" />
+                            <img class="b-lazy" data-src="./img/loogmoji/music/loogmoji-of-p-diddy_by-loogart.png" alt="Loogmoji of P. Diddy" title="P. Diddy" />
+                            <img class="b-lazy" data-src="./img/loogmoji/music/loogmoji-of-prince_by-loogart.png" alt="Loogmoji of Prince" title="Prince" />
+                            <img class="b-lazy" data-src="./img/loogmoji/music/loogmoji-of-rihanna_by-loogart.png" alt="Loogmoji of Rihanna" title="Rihanna" />
+                            <img class="b-lazy" data-src="./img/loogmoji/music/loogmoji-of-snoop-dogg_by-loogart.png" alt="Loogmoji of Snoop Dogg" title="Snoop Dogg" />
+                            <img class="b-lazy" data-src="./img/loogmoji/music/loogmoji-of-taylor-swift_by-loogart.png" alt="Loogmoji of Taylor Swift" title="Taylor Swift" />
+                            <img class="b-lazy" data-src="./img/loogmoji/music/loogmoji-of-the-weeknd_by-loogart.png" alt="Loogmoji of The Weeknd" title="The Weeknd" />
+                            <img class="b-lazy" data-src="./img/loogmoji/music/loogmoji-of-tupac_by-loogart.png" alt="Loogmoji of Tupac" title="Tupac" />
                         </div>
 
                         <!-- iconic -->
                         <h3 id="loogmojiPop">ICONIC</h3>
-                        <div class="row">
-                            <div class="col-xs-6 col-sm-3 col-md-2">
-                                <img class="img-responsive b-lazy" data-src="./img/loogmoji/iconic/loogmoji-of-angelina-jolie_by-loogart.png" alt="Loogmoji of Angelina Jolie" title="Angelina Jolie" />
-                            </div>
-                            <div class="col-xs-6 col-sm-3 col-md-2">
-                                <img class="img-responsive b-lazy" data-src="./img/loogmoji/iconic/loogmoji-of-austin-powers_by-loogart.png" alt="Loogmoji of Austin Powers" title="Austin Powers" />
-                            </div>
-                            <div class="col-xs-6 col-sm-3 col-md-2">
-                                <img class="img-responsive b-lazy" data-src="./img/loogmoji/iconic/loogmoji-of-batman_by-loogart.png" alt="Loogmoji of Christian Bale <as></as> Batman" title="Christians Bale as Batman" />
-                            </div>
+                        <div class="container-fluid">
+                            <img class="b-lazy" data-src="./img/loogmoji/iconic/loogmoji-of-angelina-jolie_by-loogart.png" alt="Loogmoji of Angelina Jolie" title="Angelina Jolie" />
+                            <img class="b-lazy" data-src="./img/loogmoji/iconic/loogmoji-of-arya-stark_by-loogart.png" alt="Loogmoji of Arya Stark" title="Arya Stark" />
+                            <img class="b-lazy" data-src="./img/loogmoji/iconic/loogmoji-of-austin-powers_by-loogart.png" alt="Loogmoji of Austin Powers" title="Austin Powers" />
+                            <img class="b-lazy" data-src="./img/loogmoji/iconic/loogmoji-of-batman_by-loogart.png" alt="Loogmoji of Christian Bale as Batman" title="Christians Bale as Batman" />
+                            <img class="b-lazy" data-src="./img/loogmoji/iconic/loogmoji-of-bear-grylls_by-loogart.png" alt="Loogmoji of Bear Grylls" title="Bear Grylls" />
+                            <img class="b-lazy" data-src="./img/loogmoji/iconic/loogmoji-of-bill-clinton_by-loogart.png" alt="Loogmoji of Bill Clinton" title="Bill Clinton" />
+                            <img class="b-lazy" data-src="./img/loogmoji/iconic/loogmoji-of-bill-nye_by-loogart.png" alt="Loogmoji of Bill Nye" title="Bill Nye" />
+                            <img class="b-lazy" data-src="./img/loogmoji/iconic/loogmoji-of-brad-pitt_by-loogart.png" alt="Loogmoji of Brad Pitt" title="Brad Pitt" />
+                            <img class="b-lazy" data-src="./img/loogmoji/iconic/loogmoji-of-captain-america_by-loogart.png" alt="Loogmoji of Captain America" title="Captain America" />
+                            <img class="b-lazy" data-src="./img/loogmoji/iconic/loogmoji-of-captain-kirk_by-loogart.png" alt="Loogmoji of Captain Kirk" title="Captain Kirk" />
                         </div>
 
                         <!-- popular -->
                         <h3 id="loogmojiPop">POPULAR</h3>
                         <div class="row">
-                            <div class="col-xs-6 col-sm-3 col-md-2">
-                                <img class="img-responsive b-lazy" data-src="./img/loogmoji/popular/loogmoji-of-adib_by-loogart.png" alt="Loogmoji of Adib Alkhalidey" title="Adib Alkhalidey" />
-                            </div>
-                            <div class="col-xs-6 col-sm-3 col-md-2">
-                                <img class="img-responsive b-lazy" data-src="./img/loogmoji/popular/loogmoji-of-angel-rich_by-loogart.png" alt="Loogmoji of Angel Rich" title="Angel Rich" />
-                            </div>
+                            <img class="b-lazy" data-src="./img/loogmoji/popular/loogmoji-of-adib_by-loogart.png" alt="Loogmoji of Adib Alkhalidey" title="Adib Alkhalidey" />
+                            <img class="b-lazy" data-src="./img/loogmoji/popular/loogmoji-of-angel-rich_by-loogart.png" alt="Loogmoji of Angel Rich" title="Angel Rich" />
                         </div>
 
                         <!-- sports -->
                         <h3 id="loogmojiPop">SPORTS</h3>
                         <div class="row">
-                            <div class="col-xs-6 col-sm-3 col-md-2">
-                                <img class="img-responsive b-lazy" data-src="./img/loogmoji/sports/loogmoji-of-budda_baker_by-loogart.png" alt="Loogmoji of Budda Baker" title="Budda Baker" />
-                            </div>
-                            <div class="col-xs-6 col-sm-3 col-md-2">
-                                <img class="img-responsive b-lazy" data-src="./img/loogmoji/sports/loogmoji-of-cabbie-richards_by-loogart.png" alt="Loogmoji of Cabbie Richards" title="Cabbie Richards" />
-                            </div>
+                            <img class="b-lazy" data-src="./img/loogmoji/sports/loogmoji-of-budda_baker_by-loogart.png" alt="Loogmoji of Budda Baker" title="Budda Baker" />
+                            <img class="b-lazy" data-src="./img/loogmoji/sports/loogmoji-of-cabbie-richards_by-loogart.png" alt="Loogmoji of Cabbie Richards" title="Cabbie Richards" />
                         </div>
 
                         <!-- friends -->
                         <h3 id="loogmojiPop">FRIENDS</h3>
                         <div class="row">
-                            <div class="col-xs-6 col-sm-3 col-md-2">
-                                <img class="img-responsive b-lazy" data-src="./img/loogmoji/friends/loogmoji-of-alex_by-loogart.png" alt="Loogmoji of Alex Tomovic" title="Alex Tomovic" />
-                            </div>
-                            <div class="col-xs-6 col-sm-3 col-md-2">
-                                <img class="img-responsive b-lazy" data-src="./img/loogmoji/friends/loogmoji-of-andrew_by-loogart.png" alt="Loogmoji of Drewbie Fahmey" title="Drewbie Fahmey" />
-                            </div>
+                            <img class="b-lazy" data-src="./img/loogmoji/friends/loogmoji-of-alex_by-loogart.png" alt="Loogmoji of Alex Tomovic" title="Alex Tomovic" />
+                            <img class="b-lazy" data-src="./img/loogmoji/friends/loogmoji-of-andrew_by-loogart.png" alt="Loogmoji of Drewbie Fahmey" title="Drewbie Fahmey" />
                         </div>
 
                         <!-- gov -->
                         <h3 id="loogmojiPop">GOV</h3>
                         <div class="row">
-                            <div class="col-xs-6 col-sm-3 col-md-2">
-                                <img class="img-responsive b-lazy" data-src="./img/loogmoji/gov/loogmoji-of-ailish-campbell_by-loogart.png" alt="Loogmoji of Ailish Campbell" title="Ailish Campbell" />
-                            </div>
-                            <div class="col-xs-6 col-sm-3 col-md-2">
-                                <img class="img-responsive b-lazy" data-src="./img/loogmoji/gov/loogmoji-of-alan-kessel_by-loogart.png" alt="Loogmoji of Alan Kessel" title="Alan Kessel" />
-                            </div>
+                            <img class="b-lazy" data-src="./img/loogmoji/gov/loogmoji-of-ailish-campbell_by-loogart.png" alt="Loogmoji of Ailish Campbell" title="Ailish Campbell" />
+                            <img class="b-lazy" data-src="./img/loogmoji/gov/loogmoji-of-alan-kessel_by-loogart.png" alt="Loogmoji of Alan Kessel" title="Alan Kessel" />
+
                         </div>
 
                     </div>
                 </div>
             </section>
-            
-                        <section class="portfolio-content">
+
+            <section class="portfolio-content">
                 <div class="row">
                     <div class="col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3">
                         <h3>Want to see more Loogmojis?</h3>

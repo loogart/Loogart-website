@@ -1400,15 +1400,43 @@ section.portfolio-content h3 {
     margin: 20px auto 12px;
 }
 
-section.loogmoji-collection img {
-    margin: 15px auto;
-    background-color: transparent;
-    width: 100%;
-    height: 100%;
+section.loogmoji-collection {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
 }
 
-section.loogmoji-collection h3{
-    color:#333;
+section.loogmoji-collection img {
+    background-color: transparent;
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+}
+
+@media (max-width: 767px) {
+    section.loogmoji-collection img {
+        width: 49%;
+    }
+}
+
+@media (min-width: 768px) {
+    section.loogmoji-collection img {
+        width: 32%;
+    }
+}
+
+@media (min-width: 991px) {
+    section.loogmoji-collection img {
+        width: 19%;
+    }
+}
+
+
+section.loogmoji-collection h3 {
+    color: #333;
 }
 
 .b-lazy {
@@ -1919,11 +1947,9 @@ section.page-404 p {
 }
 
 .hover-zoom img {
-    transition: all .4s ease-in-out;
+    transition: all .25s ease-in-out;
 }
 
 .hover-zoom img:hover {
-    transform: scale(1.5);
+    transform: scale(1.2);
 }
-
-
