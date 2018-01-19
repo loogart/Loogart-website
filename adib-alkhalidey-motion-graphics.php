@@ -32,7 +32,7 @@
 
                 <!-- First section: Starbucks Montreal -->
                 <div class="row">
-                    <div class="col-md-8 col-md-offset-2">
+                    <div class="col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3">
 
                         <h1>Adib Alkhalidey's <i>Ingénu</i> Ads</h1>
                         <p>Adib Alkhalidey is one of Quebec’s funniest comedians and the future of humour in La Belle Province. Mentored by Martin Matte in 2012 for his debut show “Je t’aime” which was a huge success, he is all over Quebec television and is a starring actor in the hit series “Like moi” along with actors Katherine Leave, Marie-Soleil Dion, Guillaume Lambert and Karine Gonthier-Hyndman.</p>

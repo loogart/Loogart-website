@@ -32,7 +32,7 @@
 
                 <!-- First section: Starbucks Montreal -->
                 <div class="row">
-                    <div class="col-md-8 col-md-offset-2">
+                    <div class="col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3">
                         <img class="img-responsive" src="./img/logo/logo-bref-mtl.png" style="max-width:120px;margin:30px 0">
                         <h1>Encore Montréal Illustrations by Loogart</h1>
                         <p>Bref is a Montreal-based boutique, gallery and event venue who’s mission is to offer art and design lovers a unique shopping experience. Every month, they bring together, under a unified theme, exclusive articles created by local and international emerging artists and brands.</p>

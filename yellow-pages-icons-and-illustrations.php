@@ -31,7 +31,7 @@
 
                 <!-- First section: Starbucks Montreal -->
                 <div class="row">
-                    <div class="col-md-8 col-md-offset-2">
+                <div class="col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3">
                         <img class="img-responsive" src="./img/logo/logo-yellow-pages-2.png" style="max-width:120px;margin:30px 0">
                         <h1>Yellow Pages iconography and illustrations</h1>
                         <p>Loogart works with companies to enhance their brand through illustration, graphic design and user interface design. Yellow Pages reached out to Loogart to build a transitional brand towards a new vision based off Turner Duckworth's proposition and to create icons and illustrations.</p>
@@ -109,7 +109,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-8 col-md-offset-2">
+                    <div class="col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3">
                         <h3>Yellow Pages B2B</h3>
                         <p>We created multiple illustrations for the B2B website which strongly conveys the Handmade style. You can view them on their <a href="https://business.yellowpages.ca/why-yellow-pages" target="_blank">B2B website</a>.</p>
                     </div>
@@ -146,7 +146,7 @@
                     <div class="col-sm-6">
                         <img class="img-responsive img-spacing" src="./img/portfolio/yellow-pages/yellow-pages-web-graphics-7b.jpg" alt="Yellow Pages B2B illustration by Loogart within your budget">
                     </div>
-                    <div class="col-md-8 col-md-offset-2">
+                    <div class="col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3">
                         <h3>Cityscape illustration</h3>
                         <p>We created 3 cityscape illustrations for the Yellow Pages HQ offices walls in Montreal, Toronto and Vancouver. The idea was to draw the cityscape of each city using one continuous Handmade line.</p>
                     </div>
@@ -159,7 +159,7 @@
                     <div class="col-sm-12">
                         <img class="img-responsive img-spacing" src="./img/portfolio/yellow-pages/yellow-pages-citysacpe-by-loogart-vancouver-2.jpg" alt="Yellow Pages Vancouver Cityscape illustration by Loogart">
                     </div>
-                    <div class="col-md-8 col-md-offset-2">
+                    <div class="col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3">
                         <h3>Yellow Pages x Loogart</h3>
                         <p>Successful branding evokes proper emotion and we believe that creating a full-range of visuals to supports the brand effectively and inspires action and feelings of trust with their existing client base and prospective clients. We are proud to have been part of Yellow Pages' rebrand and we are excited to see all designs rolled out in the near future.</p>
                     </div>

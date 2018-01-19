@@ -32,7 +32,7 @@
 
                 <!-- First section: Starbucks Montreal -->
                 <div class="row">
-                    <div class="col-md-8 col-md-offset-2">
+                    <div class="col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3">
 
                         <img class="img-responsive" src="./img/logo/logo-la-poutine-week.png" style="max-width:120px;margin:30px 0">
                         <h1>La Poutine Visual Design by Loogart</h1>

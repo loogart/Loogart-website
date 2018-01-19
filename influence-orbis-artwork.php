@@ -32,7 +32,7 @@
 
                 <!-- First section: Starbucks Montreal -->
                 <div class="row">
-                    <div class="col-md-8 col-md-offset-2">
+                    <div class="col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3">
                         <img class="img-responsive" src="./img/logo/logo-influence-orbis.png" style="max-width:100px;margin:30px 0" alt="influence toronto Loogmojis">
                         <h1>Influence Toronto Artwork by Loogart</h1>
                         <p>Influence Orbis is the #1 Canadian Influencer and entrepreneurship conference which brings together executives, entrepreneurs, students, creatives and individuals of influence from across the Globe. Each of their successful events is based on their 3 pillars: Inspire, Inform and Influence. The 2017 Editions were held in Montreal in May and in Toronto at the end of November.</p>

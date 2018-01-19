@@ -33,7 +33,7 @@
 
                 <!-- First section: Starbucks Montreal -->
                 <div class="row">
-                    <div class="col-md-8 col-md-offset-2">
+                    <div class="col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3">
 
                         <img class="img-responsive" src="./img/logo/logo-le-burger-week.png" style="max-width:120px;margin:30px 0">
                         <h1>Le Burger Week Visual Design by Loogart</h1>
