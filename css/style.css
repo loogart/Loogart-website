@@ -1910,10 +1910,20 @@ section.page-404 p {
     object-position: center 40%;
 }
 
-.hover-zoom img {
+.hover-move-up img {
     transition: all .25s ease-in-out;
 }
 
-.hover-zoom img:hover {
+.hover-move-up img:hover {
     transform: translateY(-5px);
 }
+
+.hover-zoom img {
+    transition: all .4s ease-in-out;
+}
+
+.hover-zoom img:hover {
+    transform: scale(1.5);
+}
+
+

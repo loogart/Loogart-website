@@ -44,7 +44,7 @@
                         <h3>Bref x Loogart</h3>
                         <p>Loogart was approached to be a part of the awesome “Bref, vivez Montréal!” theme, which complemented the 375th anniversary of Montreal. The partnership between Loogart and Bref was such an inspiring one. We created 8 new illustrations which would represent specific neighbourhoods in Montreal: Montreal Island, Little Italy, Mile-End, Le Plateau, Saint-Henri, Griffintown, Le Village and Hochelaga-Maisonneuve.</p>
                         <div class="row">
-                            <div class="col-sm-12 hover-zoom">
+                            <div class="col-sm-12 hover-move-up">
                                 <img class="img-responsive img-spacing" src="./img/portfolio/bref/illustration_encore-montreal-city_by-loogart.png" data-action="zoom" alt="Illustration of Encore Montreal by Loogart">
                                 <img class="img-responsive img-spacing" src="./img/portfolio/bref/illustration_encore-montreal-petite-italie_by-loogart.png" data-action="zoom" alt="Illustration of Encore Montreal - Petite Italy by Loogart">
                                 <img class="img-responsive img-spacing" src="./img/portfolio/bref/illustration_encore-montreal_mile-end_by-loogart.png" data-action="zoom" alt="Illustration of Encore Montreal - Mile End by Loogart">

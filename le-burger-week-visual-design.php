@@ -74,7 +74,7 @@
                         </div>
                         <h3>A brand new web experience</h3>
                         <p>We redesigned the <a href="./img/portfolio/burgerweek/the-new-burgrweek-website-b-loogart.pdf" target="_blank">user experience</a> and gave a new <a href="https://loogart.github.io/leburgerweek/" target="_blank">web interface</a> to Le Burger Week based on user feedback from the previous years. Updates included a fresh and clean design with a familiar look, an improved mobile design, increased imagery, enhanced web typography, meaningful and delightful navigational animations.</p>
-                        <div class="row app-ui hover-zoom">
+                        <div class="row app-ui hover-move-up">
                             <div class="col-sm-4 appear-2">
                                 <img class="img-responsive img-app-ui" src="./img/portfolio/burgerweek/burgerweek-mobile-website-5.png" alt="Le Burger Week mobile website 5">
                             </div>

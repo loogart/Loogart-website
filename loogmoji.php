@@ -30,17 +30,18 @@
                 <div class="row">
                     <div class="col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3">
                         <h1>Loogmoji</h1>
-                        <p>Meet the Loogmojis! A collection of pop-culture emojis by Loogart. The challenge behind these mini portraits consists of producing a quick design with the best possible likeness using minimal lines, colors and visual features. Some are animated, some are simply illustrated.</p>
+                        <p>Meet the Loogmojis! Essentially, a collection of emojis by Loogart... or caricatures by Loogart! The challenge behind these mini portraits consists of producing a quick design with the best possible likeness using minimal lines, colors and visual features. Some are animated, some are simply illustrated.</p>
                     </div>
                 </div>
             </section>
 
             <!-- Loog section -->
-            <section class="loogmoji-collection">
+            <section class="loogmoji-collection hover-zoom">
                 <div class="row">
-                    <div class="col-sm-12 text-center">
+                    <div class="col-sm-10 col-sm-offset-1">
+
                         <!-- music -->
-                        <h3>Music</h3>
+                        <h3 id="loogmojiMusic">MUSIC</h3>
                         <div class="row">
                             <div class="col-xs-6 col-sm-3 col-md-2">
                                 <img class="img-responsive b-lazy" data-src="./img/loogmoji/music/loogmoji-of-adele_by-loogart.png" alt="Loogmoji of Adele" title="Adele" />
@@ -124,19 +125,74 @@
                                 <img class="img-responsive b-lazy" data-src="./img/loogmoji/music/loogmoji-of-tupac_by-loogart.png" alt="Loogmoji of Tupac" title="Tupac" />
                             </div>
                         </div>
-                        <!-- pop culture -->
-                        <h3>Pop culture</h3>
+
+                        <!-- iconic -->
+                        <h3 id="loogmojiPop">ICONIC</h3>
                         <div class="row">
                             <div class="col-xs-6 col-sm-3 col-md-2">
-                                <img class="img-responsive b-lazy" data-src="./img/loogmoji/pop-culture/loogmoji-of-angelina-jolie_by-loogart.png" alt="Loogmoji of Angelina Jolie" title="Angelina Jolie" />
+                                <img class="img-responsive b-lazy" data-src="./img/loogmoji/iconic/loogmoji-of-angelina-jolie_by-loogart.png" alt="Loogmoji of Angelina Jolie" title="Angelina Jolie" />
                             </div>
                             <div class="col-xs-6 col-sm-3 col-md-2">
-                                <img class="img-responsive b-lazy" data-src="./img/loogmoji/pop-culture/loogmoji-of-austin-powers_by-loogart.png" alt="Loogmoji of Austin Powers" title="Austin Powers" />
+                                <img class="img-responsive b-lazy" data-src="./img/loogmoji/iconic/loogmoji-of-austin-powers_by-loogart.png" alt="Loogmoji of Austin Powers" title="Austin Powers" />
                             </div>
                             <div class="col-xs-6 col-sm-3 col-md-2">
-                                <img class="img-responsive b-lazy" data-src="./img/loogmoji/pop-culture/loogmoji-of-batman_by-loogart.png" alt="Loogmoji of Christian Bale <as></as> Batman" title="Christians Bale as Batman" />
+                                <img class="img-responsive b-lazy" data-src="./img/loogmoji/iconic/loogmoji-of-batman_by-loogart.png" alt="Loogmoji of Christian Bale <as></as> Batman" title="Christians Bale as Batman" />
                             </div>
                         </div>
+
+                        <!-- popular -->
+                        <h3 id="loogmojiPop">POPULAR</h3>
+                        <div class="row">
+                            <div class="col-xs-6 col-sm-3 col-md-2">
+                                <img class="img-responsive b-lazy" data-src="./img/loogmoji/popular/loogmoji-of-adib_by-loogart.png" alt="Loogmoji of Adib Alkhalidey" title="Adib Alkhalidey" />
+                            </div>
+                            <div class="col-xs-6 col-sm-3 col-md-2">
+                                <img class="img-responsive b-lazy" data-src="./img/loogmoji/popular/loogmoji-of-angel-rich_by-loogart.png" alt="Loogmoji of Angel Rich" title="Angel Rich" />
+                            </div>
+                        </div>
+
+                        <!-- sports -->
+                        <h3 id="loogmojiPop">SPORTS</h3>
+                        <div class="row">
+                            <div class="col-xs-6 col-sm-3 col-md-2">
+                                <img class="img-responsive b-lazy" data-src="./img/loogmoji/sports/loogmoji-of-budda_baker_by-loogart.png" alt="Loogmoji of Budda Baker" title="Budda Baker" />
+                            </div>
+                            <div class="col-xs-6 col-sm-3 col-md-2">
+                                <img class="img-responsive b-lazy" data-src="./img/loogmoji/sports/loogmoji-of-cabbie-richards_by-loogart.png" alt="Loogmoji of Cabbie Richards" title="Cabbie Richards" />
+                            </div>
+                        </div>
+
+                        <!-- friends -->
+                        <h3 id="loogmojiPop">FRIENDS</h3>
+                        <div class="row">
+                            <div class="col-xs-6 col-sm-3 col-md-2">
+                                <img class="img-responsive b-lazy" data-src="./img/loogmoji/friends/loogmoji-of-alex_by-loogart.png" alt="Loogmoji of Alex Tomovic" title="Alex Tomovic" />
+                            </div>
+                            <div class="col-xs-6 col-sm-3 col-md-2">
+                                <img class="img-responsive b-lazy" data-src="./img/loogmoji/friends/loogmoji-of-andrew_by-loogart.png" alt="Loogmoji of Drewbie Fahmey" title="Drewbie Fahmey" />
+                            </div>
+                        </div>
+
+                        <!-- gov -->
+                        <h3 id="loogmojiPop">GOV</h3>
+                        <div class="row">
+                            <div class="col-xs-6 col-sm-3 col-md-2">
+                                <img class="img-responsive b-lazy" data-src="./img/loogmoji/gov/loogmoji-of-ailish-campbell_by-loogart.png" alt="Loogmoji of Ailish Campbell" title="Ailish Campbell" />
+                            </div>
+                            <div class="col-xs-6 col-sm-3 col-md-2">
+                                <img class="img-responsive b-lazy" data-src="./img/loogmoji/gov/loogmoji-of-alan-kessel_by-loogart.png" alt="Loogmoji of Alan Kessel" title="Alan Kessel" />
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+            
+                        <section class="portfolio-content">
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3">
+                        <h3>Want to see more Loogmojis?</h3>
+                        <p>Follow Loogart on <a href="https://www.instagram.com/loogart/" target="_blank">Instagram</a>, you'll see the latest <a href="https://www.instagram.com/explore/tags/loogmoji/" target="_blank">#Loogmojis</a>! If you want to get your own Loogmoji, please <a href="./contact.php">contact us</a>! Once you get your own Loogmoji, you'll be part of the family and we will add you to this page.</p>
                     </div>
                 </div>
             </section>
