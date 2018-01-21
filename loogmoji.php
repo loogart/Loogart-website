@@ -30,7 +30,7 @@
                 <div class="row">
                     <div class="col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3">
                         <h1>Loogmoji</h1>
-                        <p>Meet the Loogmojis! Essentially, a collection of emojis by Loogart... or caricatures by Loogart! The challenge behind these mini portraits consists of producing a quick design with the best possible likeness using minimal lines, colors and visual features. Some are animated, some are simply illustrated.</p>
+                        <p>Meet the Loogmojis! The collection of <u>Loog</u>art E<u>moji</u>s = Loogmojis. The challenge behind these mini caricatures consists of achieveing the best possible likeness using minimal lines and a consistent color palette, while staying true to a consistent illustration style.</p>
                     </div>
                 </div>
             </section>
@@ -158,7 +158,31 @@
                             <img class="b-lazy" data-src="./img/loogmoji/popular/loogmoji-of-david-st-jacques_by-loogart.png" alt="Loogmoji of David St-Jacques" title="David St-Jacques" />
                             <img class="b-lazy" data-src="./img/loogmoji/popular/loogmoji-of-gary-vaynerchuk_by-loogart.png" alt="Loogmoji of Gary Vaynerchuk" title="Gary Vaynerchuk" />
                             <img class="b-lazy" data-src="./img/loogmoji/popular/loogmoji-of-grant-cardone_by-loogart.png" alt="Loogmoji of Grant Cardone" title="Grant Cardone" />
-
+                            <img class="b-lazy" data-src="./img/loogmoji/popular/loogmoji-of-1_andy-frisella_by-loogart.png" alt="Loogmoji of Andy Frisella" title="Andy Frisella" />
+                            <img class="b-lazy" data-src="./img/loogmoji/popular/loogmoji-of-2_brad-lea_by-loogart.png" alt="Loogmoji of Brad Lea" title="Brad Lea" />
+                            <img class="b-lazy" data-src="./img/loogmoji/popular/loogmoji-of-3_jordan-zimmerman_by-loogart.png" alt="Loogmoji of Jordan Zimmerman" title="Jordan Zimmerman" />
+                            <img class="b-lazy" data-src="./img/loogmoji/popular/loogmoji-of-4_todd-pederson_by-loogart.png" alt="Loogmoji of Todd Pederson" title="Todd Pederson" />
+                            <img class="b-lazy" data-src="./img/loogmoji/popular/loogmoji-of-5_forbes-riley_by-loogart.png" alt="Loogmoji of Forbes Riley" title="Forbes Riley" />
+                            <img class="b-lazy" data-src="./img/loogmoji/popular/loogmoji-of-6_anik-singal_by-loogart.png" alt="Loogmoji of Anik Singal" title="Anik Singal" />
+                            <img class="b-lazy" data-src="./img/loogmoji/popular/loogmoji-of-7_russell-brunson_by-loogart.png" alt="Loogmoji of Russell Brunson" title="Russell Brunson" />
+                            <img class="b-lazy" data-src="./img/loogmoji/popular/loogmoji-of-8_ezra-firestone_by-loogart.png" alt="Loogmoji of Ezra Firestone" title="Ezra Firestone" />
+                            <img class="b-lazy" data-src="./img/loogmoji/popular/loogmoji-of-9_hank-norman_by-loogart.png" alt="Loogmoji of Hank Norman" title="Hank Norman" />
+                            <img class="b-lazy" data-src="./img/loogmoji/popular/loogmoji-of-10_daymond-john_by-loogart.png" alt="Loogmoji of Daymond John" title="Daymond John" />
+                            <img class="b-lazy" data-src="./img/loogmoji/popular/loogmoji-of-11_tai-lopez_by-loogart.png" alt="Loogmoji of Tai Lopez" title="Tai Lopez" />
+                            <img class="b-lazy" data-src="./img/loogmoji/popular/loogmoji-of-12_kerri-kassem_by-loogart.png" alt="Loogmoji of Kerri Kassem" title="Kerri Kassem" />
+                            <img class="b-lazy" data-src="./img/loogmoji/popular/loogmoji-of-13_ed-mylett_by-loogart.png" alt="Loogmoji of Ed Mylett" title="Ed Mylett" />
+                            <img class="b-lazy" data-src="./img/loogmoji/popular/loogmoji-of-14_naveen-jain_by-loogart.png" alt="Loogmoji of Naveen Jain" title="Naveen Jain" />
+                            <img class="b-lazy" data-src="./img/loogmoji/popular/loogmoji-of-15_tim-storey_by-loogart.png" alt="Loogmoji of Tim Storey" title="Tim Storey" />
+                            <img class="b-lazy" data-src="./img/loogmoji/popular/loogmoji-of-16_lewis-howes_by-loogart.png" alt="Loogmoji of Lewis Howes" title="Lewis Howes" />
+                            <img class="b-lazy" data-src="./img/loogmoji/popular/loogmoji-of-17_coach-michael-burt_by-loogart.png" alt="Loogmoji of Coach Michael Burt" title="Coach Michael Burt" />
+                            <img class="b-lazy" data-src="./img/loogmoji/popular/loogmoji-of-18_tim-grover_by-loogart.png" alt="Loogmoji of Tim Grover" title="Tim Grover" />
+                            <img class="b-lazy" data-src="./img/loogmoji/popular/loogmoji-of-19_lori-harder_by-loogart.png" alt="Loogmoji of Lori Harder" title="Lori Harder" />
+                            <img class="b-lazy" data-src="./img/loogmoji/popular/loogmoji-of-20_elena-cardone_by-loogart.png" alt="Loogmoji of Elena Cardone" title="Elena Cardone" />
+                            <img class="b-lazy" data-src="./img/loogmoji/popular/loogmoji-of-21_jack-jackintelle_by-loogart.png" alt="Loogmoji of Jack Jackintelle" title="Jack Jackintelle" />
+                            <img class="b-lazy" data-src="./img/loogmoji/popular/loogmoji-of-22_mike-bertolino_by-loogart.png" alt="Loogmoji of Mike Bertolino" title="Mike Bertolino" />
+                            <img class="b-lazy" data-src="./img/loogmoji/popular/loogmoji-of-23_gary-cardone_by-loogart.png" alt="Loogmoji of Gary Cardone" title="Gary Cardone" />
+                            <img class="b-lazy" data-src="./img/loogmoji/popular/loogmoji-of-24_sheri-hamilton_by-loogart.png" alt="Loogmoji of Sheri Hamilton" title="Sheri Hamilton" />
+                            <img class="b-lazy" data-src="./img/loogmoji/popular/loogmoji-of-25_jarrod-glandt_by-loogart.png" alt="Loogmoji of Jarrod Glandt" title="Jarrod Glandt" />
                         </div>
 
                         <!-- sports -->
@@ -220,27 +244,27 @@
                         <div class="row">
                             <img class="b-lazy" data-src="./img/loogmoji/gov/loogmoji-of-ailish-campbell_by-loogart.png" alt="Loogmoji of Ailish Campbell" title="Ailish Campbell" />
                             <img class="b-lazy" data-src="./img/loogmoji/gov/loogmoji-of-alan-kessel_by-loogart.png" alt="Loogmoji of Alan Kessel" title="Alan Kessel" />
-                            <img class="b-lazy" data-src="./img/loogmoji/gov/" alt="Loogmoji of !" title="!" />
-                            <img class="b-lazy" data-src="./img/loogmoji/gov/" alt="Loogmoji of !" title="!" />
-                            <img class="b-lazy" data-src="./img/loogmoji/gov/" alt="Loogmoji of !" title="!" />
-                            <img class="b-lazy" data-src="./img/loogmoji/gov/" alt="Loogmoji of !" title="!" />
-                            <img class="b-lazy" data-src="./img/loogmoji/gov/" alt="Loogmoji of !" title="!" />
-                            <img class="b-lazy" data-src="./img/loogmoji/gov/" alt="Loogmoji of !" title="!" />
-                            <img class="b-lazy" data-src="./img/loogmoji/gov/" alt="Loogmoji of !" title="!" />
-                            <img class="b-lazy" data-src="./img/loogmoji/gov/" alt="Loogmoji of !" title="!" />
-                            <img class="b-lazy" data-src="./img/loogmoji/gov/" alt="Loogmoji of !" title="!" />
-                            <img class="b-lazy" data-src="./img/loogmoji/gov/" alt="Loogmoji of !" title="!" />
-                            <img class="b-lazy" data-src="./img/loogmoji/gov/" alt="Loogmoji of !" title="!" />
-                            <img class="b-lazy" data-src="./img/loogmoji/gov/" alt="Loogmoji of !" title="!" />
-                            <img class="b-lazy" data-src="./img/loogmoji/gov/" alt="Loogmoji of !" title="!" />
-                            <img class="b-lazy" data-src="./img/loogmoji/gov/" alt="Loogmoji of !" title="!" />
-                            <img class="b-lazy" data-src="./img/loogmoji/gov/" alt="Loogmoji of !" title="!" />
-                            <img class="b-lazy" data-src="./img/loogmoji/gov/" alt="Loogmoji of !" title="!" />
-                            <img class="b-lazy" data-src="./img/loogmoji/gov/" alt="Loogmoji of !" title="!" />
-                            <img class="b-lazy" data-src="./img/loogmoji/gov/" alt="Loogmoji of !" title="!" />
-                            <img class="b-lazy" data-src="./img/loogmoji/gov/" alt="Loogmoji of !" title="!" />
-                            <img class="b-lazy" data-src="./img/loogmoji/gov/" alt="Loogmoji of !" title="!" />
-                            <img class="b-lazy" data-src="./img/loogmoji/gov/" alt="Loogmoji of !" title="!" />
+                            <img class="b-lazy" data-src="./img/loogmoji/gov/loogmoji-of-arun-thangaraj_by-loogart.png" alt="Loogmoji of Arun Thangaraj" title="Arun Thangaraj" />
+                            <img class="b-lazy" data-src="./img/loogmoji/gov/loogmoji-of-brahim-achtouchal_by-loogart.png" alt="Loogmoji of Brahim Achtouchal" title="Brahim Achtouchal" />
+                            <img class="b-lazy" data-src="./img/loogmoji/gov/loogmoji-of-caroline-leclerc_by-loogart.png" alt="Loogmoji of Caroline Leclerc" title="Caroline Leclerc" />
+                            <img class="b-lazy" data-src="./img/loogmoji/gov/loogmoji-of-christopher-maclennan_by-loogart.png" alt="Loogmoji of Christopher MacLennan" title="Christopher MacLennan" />
+                            <img class="b-lazy" data-src="./img/loogmoji/gov/loogmoji-of-dan-danagher_by-loogart.png" alt="Loogmoji of Dan Danagher" title="Dan Danagher" />
+                            <img class="b-lazy" data-src="./img/loogmoji/gov/loogmoji-of-daniel-roussy_by-loogart.png" alt="Loogmoji of Daniel Roussy" title="Daniel Roussy" />
+                            <img class="b-lazy" data-src="./img/loogmoji/gov/loogmoji-of-dave-metcalfe_by-loogart.png" alt="Loogmoji of Dave Metcalfe" title="Dave Metcalfe" />
+                            <img class="b-lazy" data-src="./img/loogmoji/gov/loogmoji-of-david-morrison_by-loogart.png" alt="Loogmoji of David Morrison" title="David Morrison" />
+                            <img class="b-lazy" data-src="./img/loogmoji/gov/loogmoji-of-denis-stevens_by-loogart.png" alt="Loogmoji of Denis Stevens" title="Denis Stevens" />
+                            <img class="b-lazy" data-src="./img/loogmoji/gov/loogmoji-of-donald-bobiash_by-loogart.png" alt="Loogmoji of Donald Bobiash" title="Donald Bobiash" />
+                            <img class="b-lazy" data-src="./img/loogmoji/gov/loogmoji-of-elissa-golberg_by-loogart.png" alt="Loogmoji of Elissa Golberg" title="Elissa Golberg" />
+                            <img class="b-lazy" data-src="./img/loogmoji/gov/loogmoji-of-francis-trudel_by-loogart.png" alt="Loogmoji of Francis Trudel" title="Francis Trudel" />
+                            <img class="b-lazy" data-src="./img/loogmoji/gov/loogmoji-of-heather-jeffrey_by-loogart.png" alt="Loogmoji of Heather Jeffrey" title="Heather Jeffrey" />
+                            <img class="b-lazy" data-src="./img/loogmoji/gov/loogmoji-of-leslie-norton_by-loogart.png" alt="Loogmoji of Leslie Norton" title="Leslie Norton" />
+                            <img class="b-lazy" data-src="./img/loogmoji/gov/loogmoji-of-mark-gwozdecky_by-loogart.png" alt="Loogmoji of Mark Gwozdecky" title="Mark Gwozdecky" />
+                            <img class="b-lazy" data-src="./img/loogmoji/gov/loogmoji-of-peter-boehm_by-loogart.png" alt="Loogmoji of Peter Boehm" title="Peter Boehm" />
+                            <img class="b-lazy" data-src="./img/loogmoji/gov/loogmoji-of-peter-mcgovern_by-loogart.png" alt="Loogmoji of Peter McGovern" title="Peter McGovern" />
+                            <img class="b-lazy" data-src="./img/loogmoji/gov/loogmoji-of-rouben-khatchadourian_by-loogart.png" alt="Loogmoji of Rouben Khatchadourian" title="Rouben Khatchadourian" />
+                            <img class="b-lazy" data-src="./img/loogmoji/gov/loogmoji-of-stefanie-beck_by-loogart.png" alt="Loogmoji of Stefanie Beck" title="Stefanie Beck" />
+                            <img class="b-lazy" data-src="./img/loogmoji/gov/loogmoji-of-steve-verheul_by-loogart.png" alt="Loogmoji of Steve Verheul" title="Steve Verheul" />
+                            <img class="b-lazy" data-src="./img/loogmoji/gov/loogmoji-of-tamara-gutman_by-loogart.png" alt="Loogmoji of Tamara Gutman" title="Tamara Gutman" />
 
                         </div>
 
