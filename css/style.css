@@ -1445,13 +1445,20 @@ section.loogmoji-collection h3 {
 
 .b-lazy {
     opacity: 0;
-    transition: all 1s ease-out;
+    transition: all .5s ease-out;
     filter: grayscale(1);
+    transform: translateY(25px)
 }
 
 .b-loaded {
     opacity: 1;
     filter: grayscale(0);
+    transform: translateY(0)
+}
+
+.hover-zoom img.b-loaded:hover {
+    transform: scale(1.2);
+    transition: all .25s ease-out;
 }
 
 
@@ -1948,12 +1955,4 @@ section.page-404 p {
 
 .hover-move-up img:hover {
     transform: translateY(-5px);
-}
-
-.hover-zoom img {
-    transition: transform .25s ease-in-out;
-}
-
-.hover-zoom img:hover {
-    transform: scale(1.2);
 }
