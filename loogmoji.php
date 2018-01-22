@@ -75,6 +75,7 @@
                         <!-- iconic -->
                         <h3 id="loogmojiPop">ICONIC</h3>
                         <div class="container-fluid">
+                            <img class="b-lazy" data-src="./img/loogmoji/iconic/loogmoji-of-frida-kahlo_by-loogart.png" alt="Loogmoji of Frida Kahlo" title="Frida Kahlo" />
                             <img class="b-lazy" data-src="./img/loogmoji/iconic/loogmoji-of-angelina-jolie_by-loogart.png" alt="Loogmoji of Angelina Jolie" title="Angelina Jolie" />
                             <img class="b-lazy" data-src="./img/loogmoji/iconic/loogmoji-of-arya-stark_by-loogart.png" alt="Loogmoji of Arya Stark" title="Arya Stark" />
                             <img class="b-lazy" data-src="./img/loogmoji/iconic/loogmoji-of-austin-powers_by-loogart.png" alt="Loogmoji of Austin Powers" title="Austin Powers" />
