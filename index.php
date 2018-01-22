@@ -40,20 +40,20 @@
                     <h3>Loogmoji</h3>
                     <h4>Iconic pop-culture emojis designed by Loogart, just for fun. The Loogart caricature style.</h4>
                     <div class="scroll">
-                        <a href="loogmoji"><img class="carousel-loogs" src="./img/loogmoji/animated/loogmoji-animated-nacho-libre-by-loogart.gif" alt="Animated Loogmoji of Nacho Libre by Loogart" title="Nacho Libre"></a>
-                        <a href="loogmoji"><img class="carousel-loogs" src="./img/loogmoji/animated/loogmoji-animated-spiderman-by-loogart.gif" alt="Animated Loogmoji of Spiderman by Loogart" title="Spiderman"></a>
-                        <a href="loogmoji"><img class="carousel-loogs" src="./img/loogmoji/animated/loogmoji-animated-ironman-by-loogart.gif" alt="Animated Loogmoji of Ironman by Loogart" title="Ironman"></a>
-                        <a href="loogmoji"><img class="carousel-loogs" src="./img/loogmoji/animated/loogmoji-animated-gordon-ramsay-by-loogart.gif" alt="Animated Loogmoji of Gordon Ramsay by Loogart" title="Gordon Ramsay"></a>
+                        <a href="loogmoji#nachoLibre"><img class="carousel-loogs" src="./img/loogmoji/animated/loogmoji-animated-nacho-libre-by-loogart.gif" alt="Animated Loogmoji of Nacho Libre by Loogart" title="Nacho Libre"></a>
+                        <a href="loogmoji#spiderMan"><img class="carousel-loogs" src="./img/loogmoji/animated/loogmoji-animated-spiderman-by-loogart.gif" alt="Animated Loogmoji of Spiderman by Loogart" title="Spiderman"></a>
+                        <a href="loogmoji#ironMan"><img class="carousel-loogs" src="./img/loogmoji/animated/loogmoji-animated-ironman-by-loogart.gif" alt="Animated Loogmoji of Ironman by Loogart" title="Ironman"></a>
+                        <a href="loogmoji#gordonRamsay"><img class="carousel-loogs" src="./img/loogmoji/animated/loogmoji-animated-gordon-ramsay-by-loogart.gif" alt="Animated Loogmoji of Gordon Ramsay by Loogart" title="Gordon Ramsay"></a>
                         <a href="loogmoji"><img class="carousel-loogs" src="./img/loogmoji/animated/loogmoji-animated-elvis-presley-by-loogart.gif" alt="Animated Loogmoji of Elvis Presley by Loogart" title="Elvis Presley"></a>
-                        <a href="loogmoji"><img class="carousel-loogs" src="./img/loogmoji/animated/loogmoji-animated-ronald-mcdonald-by-loogart.gif" alt="Animated Loogmoji of Ronald McDonald by Loogart" title="Ronald McDonald"></a>
-                        <a href="loogmoji"><img class="carousel-loogs" src="./img/loogmoji/animated/loogmoji-animated-colonel-sanders-by-loogart.gif" alt="Animated Loogmoji of Colonel Sanders by Loogart" title="Colonel Sanders"></a>
-                        <a href="loogmoji"><img class="carousel-loogs" src="./img/loogmoji/animated/loogmoji-animated-mr-bean-by-loogart.gif" alt="Animated Loogmoji of Mr. Bean by Loogart" title="Mr. Bean"></a>
-                        <a href="loogmoji"><img class="carousel-loogs" src="./img/loogmoji/animated/loogmoji-animated-ice-cube-by-loogart.gif" alt="Animated Loogmoji of Ice Cube by Loogart" title="Ice Cube"></a>
-                        <a href="loogmoji"><img class="carousel-loogs" src="./img/loogmoji/animated/loogmoji-animated-pk-subban-by-loogart.gif" alt="Animated Loogmoji of PK Subban by Loogart" title="PK Subban"></a>
-                        <a href="loogmoji"><img class="carousel-loogs" src="./img/loogmoji/animated/loogmoji-animated-lebron-james-by-loogart.gif" alt="Animated Loogmoji of Lebron James by Loogart" title="Lebron James"></a>
-                        <a href="loogmoji"><img class="carousel-loogs" src="./img/loogmoji/animated/loogmoji-animated-russell-peters-by-loogart.gif" alt="Animated Loogmoji of Russell Peters by Loogart" title="Russell Peters"></a>
-                        <a href="loogmoji"><img class="carousel-loogs" src="./img/loogmoji/animated/loogmoji-animated-bruno-mars-by-loogart.gif" alt="Animated Loogmoji of Bruno Mars by Loogart" title="Bruno Mars"></a>
-                        <a href="loogmoji"><img class="carousel-loogs" src="./img/loogmoji/animated/loogmoji-animated-batman-by-loogart.gif" alt="Animated Loogmoji of Batman by Loogart" title="Batman"></a>
+                        <a href="loogmoji#ronaldMcDonald"><img class="carousel-loogs" src="./img/loogmoji/animated/loogmoji-animated-ronald-mcdonald-by-loogart.gif" alt="Animated Loogmoji of Ronald McDonald by Loogart" title="Ronald McDonald"></a>
+                        <a href="loogmoji#colonelSanders"><img class="carousel-loogs" src="./img/loogmoji/animated/loogmoji-animated-colonel-sanders-by-loogart.gif" alt="Animated Loogmoji of Colonel Sanders by Loogart" title="Colonel Sanders"></a>
+                        <a href="loogmoji#mrBean"><img class="carousel-loogs" src="./img/loogmoji/animated/loogmoji-animated-mr-bean-by-loogart.gif" alt="Animated Loogmoji of Mr. Bean by Loogart" title="Mr. Bean"></a>
+                        <a href="loogmoji#iceCube"><img class="carousel-loogs" src="./img/loogmoji/animated/loogmoji-animated-ice-cube-by-loogart.gif" alt="Animated Loogmoji of Ice Cube by Loogart" title="Ice Cube"></a>
+                        <a href="loogmoji#pkSubban"><img class="carousel-loogs" src="./img/loogmoji/animated/loogmoji-animated-pk-subban-by-loogart.gif" alt="Animated Loogmoji of PK Subban by Loogart" title="PK Subban"></a>
+                        <a href="loogmoji#lebronJames"><img class="carousel-loogs" src="./img/loogmoji/animated/loogmoji-animated-lebron-james-by-loogart.gif" alt="Animated Loogmoji of Lebron James by Loogart" title="Lebron James"></a>
+                        <a href="loogmoji#russellPeters"><img class="carousel-loogs" src="./img/loogmoji/animated/loogmoji-animated-russell-peters-by-loogart.gif" alt="Animated Loogmoji of Russell Peters by Loogart" title="Russell Peters"></a>
+                        <a href="loogmoji#brunoMars"><img class="carousel-loogs" src="./img/loogmoji/animated/loogmoji-animated-bruno-mars-by-loogart.gif" alt="Animated Loogmoji of Bruno Mars by Loogart" title="Bruno Mars"></a>
+                        <a href="loogmoji#batman"><img class="carousel-loogs" src="./img/loogmoji/animated/loogmoji-animated-batman-by-loogart.gif" alt="Animated Loogmoji of Batman by Loogart" title="Batman"></a>
                     </div>
                     <h5><a href="loogmoji">View all Loogmojis</a></h5>
                 </div>
