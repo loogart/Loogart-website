@@ -41,7 +41,7 @@
                                 <img class="img-responsive img-spacing" src="./img/portfolio/influence-toronto/photo-too-funky-toronto-by-loogart.jpg" alt="Photo of Toronto city illustration Too Funky Artwork by Loogart on easel">
                             </div>
                             <div class="col-sm-12">
-                                <img class="img-responsive img-spacing" src="./img/portfolio/influence-toronto/toronto-illustration_Too-Funky_by-loogart.jpg" alt="Toronto cityscape illustration Too Funky artwork by Loogart">
+                                <img class="img-responsive img-spacing" src="./img/portfolio/influence-toronto/toronto-illustration_too-funky_by-loogart.jpg" alt="Toronto cityscape illustration Too Funky artwork by Loogart">
                             </div>
 
                         </div>

@@ -10,7 +10,7 @@
     <meta property="og:title" content="Loogmoji">
     <meta property="og:description" content="Caricatures of pop culture icons illustrated by Chris Soueidan of Loogart">
     <meta property="og:url" content="http://loogart.com/">
-    <meta property="og:image" content="http://loogart.com/img/loogmoji/loog-mr-bean.gif">
+    <meta property="og:image" content="http://loogart.com/img/loogmoji/animated/loogmoji-animated-nacho-libre-by-loogart.gif">
     <title>Loogmoji | Loogart</title>
     <?php include 'php/header.php';?>
     <?php include 'php/facebook-pixel.php';?>

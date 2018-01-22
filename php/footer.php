@@ -55,7 +55,7 @@ echo '</main>
                 </div>
                 <div class="modal-footer">
                     <a type="button" class="btn btn-default" data-dismiss="modal">Close</a>
-                    <a href="portraits-loog-a-day" type="button" class="btn btn-default">Browse Loogs</a>
+                    <a href="loogmoji" type="button" class="btn btn-default">Browse Loogmojis</a>
                 </div>
             </div>
         </div>
@@ -83,7 +83,6 @@ echo '</main>
     <script src="./js/jquery.js"></script>
     <script src="./js/bootstrap.min.js"></script>
     <script src="./js/zoom.min.js"></script>
-    <script src="./js/jquery.lazyload.js"></script>
     <script src="./js/validate.js"></script>
     <script src="./js/bootstrapvalidator.js"></script>
     <script src="./js/flickity.pkgd.min.js"></script>
