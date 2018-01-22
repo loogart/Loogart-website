@@ -231,7 +231,7 @@
                             <img class="b-lazy" data-src="./img/loogmoji/friends/loogmoji-of-dan-roy_by-loogart.png" alt="Loogmoji of Dan Roy" title="Dan Roy" />
                             <img class="b-lazy" data-src="./img/loogmoji/friends/loogmoji-of-jen-mccomb_by-loogart.png" alt="Loogmoji of Jenn McComb" title="Jenn McComb" />
                             <img class="b-lazy" data-src="./img/loogmoji/friends/loogmoji-of-feisal_by-loogart.png" alt="Loogmoji of Feisal B" title="Feisal B" />
-                            <img class="b-lazy" data-src="./img/loogmoji/friends/loogmoji-of-graham_by-loogart.png" alt="Loogmoji of Graham Jack" title="Graham Jack" />
+                            <img class="b-lazy" data-src="./img/loogmoji/friends/loogmoji-of-graham_by-loogart.png" alt="Loogmoji of Graham Jack" title="Graham Jack" id="grahamJack"/>
                             <img class="b-lazy" data-src="./img/loogmoji/friends/loogmoji-of-jean-simon_by-loogart.png" alt="Loogmoji of Jean Simon Phan Lachapelle" title="Jean Simon Phan Lachapelle" />
                             <img class="b-lazy" data-src="./img/loogmoji/friends/loogmoji-of-myriam-lafond-imaginacake_by-loogart.png" alt="Loogmoji of Myriam Lafond Imaginacake" title="Myriam Lafond Imaginacake" />
                             <img class="b-lazy" data-src="./img/loogmoji/friends/loogmoji-of-patrice_by-loogart.png" alt="Loogmoji of Patrice Cesar" title="Patrice Cesar" />
