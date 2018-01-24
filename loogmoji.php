@@ -43,7 +43,7 @@
                         <!-- music -->
                         <h3 id="loogmojiMusic">MUSIC</h3>
                         <div class="container-fluid">
-<!--                            <img class="b-lazy" data-src="./img/loogmoji/music/loogmoji-of-justin-timberlake_by-loogart.png" alt="Loogmoji of Justin Timberlake" title="Justin Timberlake" />-->
+                            <img class="" src="./img/loogmoji/music/loogmoji-of-justin-timberlake_by-loogart.png" alt="Loogmoji of Justin Timberlake" title="Justin Timberlake" />
                             <img class="b-lazy" data-src="./img/loogmoji/music/loogmoji-of-adele_by-loogart.png" alt="Loogmoji of Adele" title="Adele" />
                             <img class="b-lazy" data-src="./img/loogmoji/music/loogmoji-of-biggie_by-loogart.png" alt="Loogmoji of Biggie" title="Biggie" />
                             <img class="b-lazy" data-src="./img/loogmoji/music/loogmoji-of-bob-marley_by-loogart.png" alt="Loogmoji of Bob Marley" title="Bob Marley" />
