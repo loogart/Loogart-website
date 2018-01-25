@@ -80,26 +80,26 @@ echo '</main>
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="./js/jquery.js"></script>
-    <script src="./js/bootstrap.min.js"></script>
-    <script src="./js/zoom.min.js"></script>
-    <script src="./js/validate.js"></script>
-    <script src="./js/bootstrapvalidator.js"></script>
-    <script src="./js/flickity.pkgd.min.js"></script>
-    <script src="./js/scrollreveal.js"></script>
-    <script src="./js/blazy.min.js"></script>
-    <script src="./js/loogart.js"></script>
-        <script>
+    <script async src="./js/jquery.js"></script>
+    <script async src="./js/bootstrap.min.js"></script>
+    <script async src="./js/zoom.min.js"></script>
+    <script async src="./js/validate.js"></script>
+    <script async src="./js/bootstrapvalidator.js"></script>
+    <script async src="./js/flickity.pkgd.min.js"></script>
+    <script async src="./js/scrollreveal.js"></script>
+    <script async src="./js/blazy.min.js"></script>
+    <script async src="./js/loogart.js"></script>
+        <script async>
         if (window.location.href.indexOf("#thankyou") > -1) {
             $("#thankyou").modal("show");
         };
     </script>
-    <script>
+    <script async>
         if (window.location.href.indexOf("#errorPopup") > -1) {
             $("#errorPopup").modal("show");
         }
     </script>
-    <script type="text/javascript">
+    <script async>
     $("#thankyou").modal("show") {
     fbq("track", "SubmitMessage"
     );
