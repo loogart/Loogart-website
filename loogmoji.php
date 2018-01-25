@@ -76,7 +76,7 @@
                         <!-- iconic -->
                         <h3 id="loogmojiPop">ICONIC</h3>
                         <div class="container-fluid">
-                            <img class="b-lazy" data-src="./img/loogmoji/iconic/loogmoji-of-fluffy_by-loogart.png" alt="Loogmoji of Gabriel Iglesias aka Fluffy" title="Iglesias aka Fluffy" />
+                            <img class="b-lazy" data-src="./img/loogmoji/iconic/loogmoji-of-fluffy_by-loogart.png" alt="Loogmoji of Gabriel Iglesias aka Fluffy" title="Gabriel Iglesias aka Fluffy" />
                             <img class="b-lazy" data-src="./img/loogmoji/iconic/loogmoji-of-el-chapo_by-loogart.png" alt="Loogmoji of El Chapo" title="El Chapo" />
                             <img class="b-lazy" data-src="./img/loogmoji/iconic/loogmoji-of-frida-kahlo_by-loogart.png" alt="Loogmoji of Frida Kahlo" title="Frida Kahlo" />
                             <img class="b-lazy" data-src="./img/loogmoji/iconic/loogmoji-of-angelina-jolie_by-loogart.png" alt="Loogmoji of Angelina Jolie" title="Angelina Jolie" />
