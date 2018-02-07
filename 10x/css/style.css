@@ -1,0 +1,82 @@
+html {
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+.container {
+    max-width: 960px;
+}
+
+.pricing-header {
+    max-width: 700px;
+}
+
+.card-deck .card {
+    min-width: 220px;
+}
+
+.border-top {
+    border-top: 1px solid #e5e5e5;
+}
+
+.border-bottom {
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow {
+    box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+.paypal_btn_1 {
+    font-weight: 600;
+    color: #222;
+    background: #FDC750;
+}
+
+.paypal_btn_1:hover {
+    background: #f8d78f;
+}
+
+.paypal_btn_2 {
+    font-weight: 600;
+    color: #FDC750;
+    background: #222;
+}
+
+.paypal_btn_2:hover {
+    background: #444;
+}
+
+.img-banner {
+    object-fit: cover;
+    height: 620px;
+    width: 100%;
+}
+
+@media (max-width:767px) {
+    .img-banner {
+        height: 320px;
+    }
+}
+
+.card-img-overflow {
+    overflow: hidden;
+    width: 100%;
+    height: 300px;
+    padding: 20px 0 0;
+    background-color: #FB753E;
+}
+
+
+.card {
+    transition: all 250ms ease-in-out;
+}
+
+.card:hover {
+    transform: translateY(-3px);
+}
