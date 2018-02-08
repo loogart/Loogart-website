@@ -18,13 +18,20 @@
 
 <body>
 
+
     <?php include 'php/analyticstracking.php';?>
     <?php include 'php/navbar.php';?>
+    
+    <!-- petition -->
+    <div class="text-center">
+        <div class="change-embed-petition" data-petition-id="12967259" style="padding-bottom:0"></div>
+        <script src="https://static.change.org/product/embeds/v1/change-embeds.js" type="text/javascript"></script>
+    </div>
 
     <main class="container">
 
         <div class="row">
-            <div class="container">
+            <div class="col-sm-12">
                 <h1 class="hidden">Loogart: Montreal visual design studio for illustration, brand identity and web design</h1>
                 <h2>Loogart is a Montreal-based visual design studio that specializes in illustration, brand identity, motion graphics and web design.</h2>
                 <p class="cta-jumbotron">
