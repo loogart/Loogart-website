@@ -6,6 +6,12 @@ html {
     html {
         font-size: 16px;
     }
+    .nav-sticky {
+        position: sticky;
+        position: -webkit-sticky;
+        top: 0;
+        z-index:1000;
+    }
 }
 
 .container {
@@ -29,6 +35,7 @@ html {
 }
 
 .box-shadow {
+    -webkit-box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
     box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
 }
 
@@ -53,6 +60,7 @@ html {
 }
 
 .img-banner {
+    -o-object-fit: cover;
     object-fit: cover;
     height: 620px;
     width: 100%;
@@ -74,9 +82,16 @@ html {
 
 
 .card {
+    -webkit-transition: all 250ms ease-in-out;
     transition: all 250ms ease-in-out;
 }
 
 .card:hover {
+    -webkit-transform: translateY(-3px);
     transform: translateY(-3px);
+}
+
+section#loogmoji, section#illustration, section#websites{
+    padding-top:70px;
+    margin-top:-70px;
 }
