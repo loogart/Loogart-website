@@ -23,10 +23,12 @@
     <?php include 'php/navbar.php';?>
     
     <!-- petition -->
+<!--
     <div class="text-center">
         <div class="change-embed-petition" data-petition-id="12967259" style="padding-bottom:0"></div>
         <script src="https://static.change.org/product/embeds/v1/change-embeds.js" type="text/javascript"></script>
     </div>
+-->
 
     <main class="container">
 
