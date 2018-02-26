@@ -10,7 +10,7 @@ html {
         position: sticky;
         position: -webkit-sticky;
         top: 0;
-        z-index:1000;
+        z-index: 1000;
     }
 }
 
@@ -91,7 +91,14 @@ html {
     transform: translateY(-3px);
 }
 
-section#loogmoji, section#illustration, section#websites{
-    padding-top:70px;
-    margin-top:-70px;
+section#loogmoji,
+section#illustration,
+section#websites {
+    padding-top: 70px;
+    margin-top: -70px;
+}
+
+.carousel-caption {
+    margin-bottom: 15px;
+    text-shadow: 0px 2px 20px rgba(0,0,0,.9);
 }
