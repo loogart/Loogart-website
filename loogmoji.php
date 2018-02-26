@@ -31,6 +31,7 @@
                     <div class="col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3">
                         <h1>Loogmoji</h1>
                         <p>Meet the Loogmojis! The collection of <u>Loog</u>art E<u>moji</u>s = Loogmojis. The challenge behind these mini caricatures consists of achieveing the best possible likeness using minimal lines and a consistent color palette, while staying true to a consistent illustration style.</p>
+                        <a class="btn btn-lg btn-turquoise" href="http://10x.loogart.com" target="_blank" role="button"><i class="fa fa-star-o"></i> Create my Loogmoji</a>
                     </div>
                 </div>
             </section>
@@ -280,7 +281,10 @@
                 <div class="row">
                     <div class="col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3">
                         <h3>Want to see more Loogmojis?</h3>
-                        <p>Follow Loogart on <a href="https://www.instagram.com/loogart/" target="_blank">Instagram</a>, you'll see the latest <a href="https://www.instagram.com/explore/tags/loogmoji/" target="_blank">#Loogmojis</a>! If you want to get your own Loogmoji, please <a href="./contact.php">contact us</a>! Once you get your own Loogmoji, you'll be part of the family and we will add you to this page.</p>
+                        <p>Follow Loogart on <a href="https://www.instagram.com/loogart/" target="_blank">Instagram</a>, you'll see the latest <a href="https://www.instagram.com/explore/tags/loogmoji/" target="_blank">#Loogmojis</a>! If you want to get your own Loogmoji, you can <a href="http://10x.loogart.com" target="_blank">purchase it here</a>! Once you get your own Loogmoji, you'll be part of the family and we will add you to this page.</p>
+                        <p>
+                            <a class="btn btn-lg btn-turquoise" href="http://10x.loogart.com" target="_blank" role="button"><i class="fa fa-star-o"></i> Create my Loogmoji</a>
+                        </p>
                         <div class="row">
                             <div class="col-sm-6">
                                 <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/BcibzeXh_zc/" data-instgrm-version="8" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:658px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);">

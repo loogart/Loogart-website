@@ -510,6 +510,7 @@ fieldset[disabled] .btn-pink.focus {
 }
 
 
+
 /* white button */
 
 .btn-white {
@@ -578,6 +579,53 @@ fieldset[disabled] .btn-white.focus {
 .btn-white .badge {
     color: #fff;
     background-color: #F75A56;
+}
+
+/* button turquoise */
+
+.btn-turquoise {
+    color: #fff;
+    background-color: rgba(0, 172, 137, 1.0);
+    border-color: rgba(0, 172, 137, 1.0);
+    -webkit-transition: .25s;
+    transition: .25s;
+}
+
+.btn-turquoise:focus,
+.btn-turquoise.focus {
+    color: #fff;
+    background-color: rgba(2, 209, 167,1);
+    border-color: rgba(2, 209, 167,1);
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.btn-turquoise:hover {
+    color: #fff;
+    background-color: rgba(2, 209, 167,1);
+    border-color: rgba(2, 209, 167,1);
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.btn-turquoise:active,
+.btn-turquoise.active,
+.open > .dropdown-toggle.btn-turquoise {
+    color: #fff;
+    background-color: rgba(2, 209, 167,1);
+    border-color: rgba(2, 209, 167,1);
+}
+
+.btn-turquoise:active:hover,
+.btn-turquoise.active:hover,
+.open > .dropdown-toggle.btn-turquoise:hover,
+.btn-turquoise:active:focus,
+.btn-turquoise.active:focus,
+.open > .dropdown-toggle.btn-turquoise:focus,
+.btn-turquoise:active.focus,
+.btn-turquoise.active.focus,
+.open > .dropdown-toggle.btn-turquoise.focus {
+    color: #fff;
+    background-color: rgba(2, 209, 167,1);
+    border-color: rgba(2, 209, 167,1);
 }
 
 

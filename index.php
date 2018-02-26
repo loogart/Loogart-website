@@ -38,7 +38,6 @@
                 <h2>Loogart is a Montreal-based visual design studio that specializes in illustration, brand identity, motion graphics and web design.</h2>
                 <p class="cta-jumbotron">
                     <a class="btn btn-lg btn-pink" href="contact" role="button">email us</a>
-                    <a class="btn btn-lg btn-pink" href="contact" role="button">email us</a>
                 </p>
             </div>
         </div>
@@ -48,7 +47,7 @@
             <div class="row">
                 <div class="container">
                     <h3>Loogmoji</h3>
-                    <h4>Iconic pop-culture emojis designed by Loogart, just for fun. The Loogart caricature style.</h4>
+                    <h4>Iconic pop-culture emojis designed by Loogart, just for fun. Want your own <a href="http://10x.loogart.com" target="_blank">custom Loogmoji?</a></h4>
                     <div class="scroll">
                         <a href="loogmoji#nachoLibre"><img class="carousel-loogs" src="./img/loogmoji/animated/loogmoji-animated-nacho-libre-by-loogart.gif" alt="Animated Loogmoji of Nacho Libre by Loogart" title="Nacho Libre"></a>
                         <a href="loogmoji#spiderMan"><img class="carousel-loogs" src="./img/loogmoji/animated/loogmoji-animated-spiderman-by-loogart.gif" alt="Animated Loogmoji of Spiderman by Loogart" title="Spiderman"></a>
@@ -59,7 +58,7 @@
                         <a href="loogmoji#colonelSanders"><img class="carousel-loogs" src="./img/loogmoji/animated/loogmoji-animated-colonel-sanders-by-loogart.gif" alt="Animated Loogmoji of Colonel Sanders by Loogart" title="Colonel Sanders"></a>
                         <a href="loogmoji#mrBean"><img class="carousel-loogs" src="./img/loogmoji/animated/loogmoji-animated-mr-bean-by-loogart.gif" alt="Animated Loogmoji of Mr. Bean by Loogart" title="Mr. Bean"></a>
                         <a href="loogmoji#iceCube"><img class="carousel-loogs" src="./img/loogmoji/animated/loogmoji-animated-ice-cube-by-loogart.gif" alt="Animated Loogmoji of Ice Cube by Loogart" title="Ice Cube"></a>
-                        <a href="loogmoji#pkSubban"><img class="carousel-loogs" src="./img/loogmoji/animated/loogmoji-animated-pk-subban-by-loogart.gif" alt="Animated Loogmoji of PK Subban by Loogart" title="PK Subban"></a>
+                        <a href="loogmoji#pkSubban"><img class="carousel-loogs" </a>src="./img/loogmoji/animated/loogmoji-animated-pk-subban-by-loogart.gif" alt="Animated Loogmoji of PK Subban by Loogart" title="PK Subban"></a>
                         <a href="loogmoji#lebronJames"><img class="carousel-loogs" src="./img/loogmoji/animated/loogmoji-animated-lebron-james-by-loogart.gif" alt="Animated Loogmoji of Lebron James by Loogart" title="Lebron James"></a>
                         <a href="loogmoji#russellPeters"><img class="carousel-loogs" src="./img/loogmoji/animated/loogmoji-animated-russell-peters-by-loogart.gif" alt="Animated Loogmoji of Russell Peters by Loogart" title="Russell Peters"></a>
                         <a href="loogmoji#brunoMars"><img class="carousel-loogs" src="./img/loogmoji/animated/loogmoji-animated-bruno-mars-by-loogart.gif" alt="Animated Loogmoji of Bruno Mars by Loogart" title="Bruno Mars"></a>
