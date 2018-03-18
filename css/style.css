@@ -594,15 +594,15 @@ fieldset[disabled] .btn-white.focus {
 .btn-turquoise:focus,
 .btn-turquoise.focus {
     color: #fff;
-    background-color: rgba(2, 209, 167,1);
-    border-color: rgba(2, 209, 167,1);
+    background-color: rgba(2, 209, 167, 1);
+    border-color: rgba(2, 209, 167, 1);
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
 }
 
 .btn-turquoise:hover {
     color: #fff;
-    background-color: rgba(2, 209, 167,1);
-    border-color: rgba(2, 209, 167,1);
+    background-color: rgba(2, 209, 167, 1);
+    border-color: rgba(2, 209, 167, 1);
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
 }
 
@@ -610,8 +610,8 @@ fieldset[disabled] .btn-white.focus {
 .btn-turquoise.active,
 .open > .dropdown-toggle.btn-turquoise {
     color: #fff;
-    background-color: rgba(2, 209, 167,1);
-    border-color: rgba(2, 209, 167,1);
+    background-color: rgba(2, 209, 167, 1);
+    border-color: rgba(2, 209, 167, 1);
 }
 
 .btn-turquoise:active:hover,
@@ -624,8 +624,8 @@ fieldset[disabled] .btn-white.focus {
 .btn-turquoise.active.focus,
 .open > .dropdown-toggle.btn-turquoise.focus {
     color: #fff;
-    background-color: rgba(2, 209, 167,1);
-    border-color: rgba(2, 209, 167,1);
+    background-color: rgba(2, 209, 167, 1);
+    border-color: rgba(2, 209, 167, 1);
 }
 
 
@@ -1463,6 +1463,14 @@ section.loogmoji-collection a {
     -webkit-box-flex: 1;
     -ms-flex: 1;
     flex: 1;
+    transition: all .25s ease-in;
+    -webkit-backface-visibility: hidden;
+    -webkit-transform: translate3d(0, 0, 0);
+}
+
+section.loogmoji-collection img:hover {
+    transform: scale(1.2);
+    transition: all .25s ease-out;
 }
 
 @media (max-width: 767px) {
@@ -1491,23 +1499,6 @@ section.loogmoji-collection h3 {
     color: #333;
 }
 
-.b-lazy {
-    opacity: 0;
-    transition: all .5s ease-out;
-    filter: grayscale(1);
-    transform: translateY(25px)
-}
-
-.b-loaded {
-    opacity: 1;
-    filter: grayscale(0);
-    transform: translateY(0)
-}
-
-.hover-zoom img.b-loaded:hover {
-    transform: scale(1.2);
-    transition: all .25s ease-out;
-}
 
 
 section.contact .container {
