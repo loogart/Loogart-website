@@ -45,7 +45,7 @@
                 <div class="row">
                     <div class="col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3">
                         <h3>I work with some awesome people.</h3>
-                        <p>I love working with clients on all sorts of challenging projects for illusration, branding, web design and small-scale animation. We ultimately look to do one thing: communicate through visual design.</p>
+                        <p>I love working with clients on all sorts of challenging projects for illustration, branding, web design and small-scale animation. We ultimately look to do one thing: communicate through visual design.</p>
                         <div class="list-logos">
                             <div class="about-logo">
                                 <span><img class="client-logo" src="./img/logo/starbucks_logo.png" alt="Starbucks logo"></span>
