@@ -325,7 +325,7 @@
                         <a href="http://loog.ca/salonteashop/" target="_blank" title="Salon Teashop"><img class="carousel-web-design" src="img/websites/website-salon-teashop.png" alt="Salon Teashop website prototype"></a>
                         <a href="http://loog.ca/dentastic/" target="_blank" title="Dentastic App website"><img class="carousel-web-design" src="img/websites/website-dentastic.png" alt="Dentastic website prototype"></a>
                         <a href="http://loog.ca/homicity/" target="_blank" title="social website prototype 2"><img class="carousel-web-design" src="img/websites/website-homicity.png" alt="social website prototype 2"></a>
-                        <a href="http://tiles.loogart.com" target="_blank" title="Loogart Labs"><img class="carousel-web-design" src="img/websites/website-loogart-tiles.png" alt="Loogart Labs experiments"></a>
+                        <a href="http://loog.ca/tiles/" target="_blank" title="Loogart Labs"><img class="carousel-web-design" src="img/websites/website-loogart-tiles.png" alt="Loogart Labs experiments"></a>
                     </div>
                 </div>
             </div>
