@@ -23,6 +23,9 @@
 
     <main>
         <img src="./img/portfolio/bref/photo-bref-loogart-frames-wall.jpg" class="img-fit" alt="Encore Montreal Wall by Loogart at Bref MTL">
+        <!-- award -->
+        <a href="https://www.indigoawards.com/winners/413?shortlist=Professional" target="_blank"><img src="./img/portfolio/bref/loogart-indigo-award-gold-winner-ribbon.png" class="img-award" alt="Loogart Indigo Award Gold Winner"></a>
+
         <div class="container-fluid">
 
             <?php include './php/back.php';?>

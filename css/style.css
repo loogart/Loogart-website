@@ -791,6 +791,25 @@ fieldset[disabled] .btn-white.focus {
     font-family: FontAwesome;
 }
 
+/*award ribbon*/
+
+.img-award {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 80px;
+    z-index: 2000;
+}
+
+@media (max-width:767px) {
+    .img-award {
+        position: absolute;
+        top: 100px;
+        left: 0;
+        height: 200px;
+        z-index: 1;
+    }
+}
 
 /* portfolio main page */
 
