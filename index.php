@@ -75,7 +75,7 @@
             <div class="row">
                 <div class="col-sm-12" id="montreal">
                     <h3 id="selectedProjects">Client projects <i class="fa fa-heart throb" aria-hidden="true"></i></h3>
-                    <h4>We are multidisciplinary design studio that works on illustration, branding, iconography, motion graphics, web projects and user experience. We form one team with our clients. They win, we win.</h4>
+                    <h4>We are a multidisciplinary design studio that works on illustration, branding, iconography, motion graphics, web projects and user experience. We form one team with our clients. They win, we win.</h4>
                 </div>
                 <div class="col-sm-6 appear-1" id="yellowPages">
                     <a href="yellow-pages-icons-and-illustrations">
