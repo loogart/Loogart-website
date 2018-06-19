@@ -44,6 +44,13 @@
                         <!-- music -->
                         <h3 id="loogmojiMusic">MUSIC</h3>
                         <div class="container-fluid">
+                            <img src="./img/loogmoji/music/loogmoji-of_michael-jackson-thriller_by-loogart.png" alt="Loogmoji of Michael Jackson in Thriller" title="Michael Jackson in Thriller" />
+                            <img src="./img/loogmoji/music/loogmoji-of_michael-jackson-bad_by-loogart.png" alt="Loogmoji of Michael Jackson in Bad" title="Michael Jackson in Bad" />
+                            <img src="./img/loogmoji/music/loogmoji-of_michael-jackson-black-or-white_by-loogart.png" alt="Loogmoji of Michael Jackson in Black or White" title="Michael Jackson in Black or White" />
+                            <img src="./img/loogmoji/music/loogmoji-of_michael-jackson-billie-jean_by-loogart.png" alt="Loogmoji of Michael Jackson in Billie Jean" title="Michael Jackson in Billie Jean" />
+                            <img src="./img/loogmoji/music/loogmoji-of_avicii_by-loogart.png" alt="Loogmoji of Avicii" title="Avicii" />
+                            <img src="./img/loogmoji/music/loogmoji-of_kanye-west_by-loogart.png" alt="Loogmoji of Kanye West" title="Kanye West" />
+                            <img src="./img/loogmoji/music/loogmoji-of_marc-anthony_by-loogart.png" alt="Loogmoji of Marc Anthony" title="Marc Anthony" />
                             <img src="./img/loogmoji/music/loogmoji-of-justin-timberlake_by-loogart.png" alt="Loogmoji of Justin Timberlake" title="Justin Timberlake" />
                             <img src="./img/loogmoji/music/loogmoji-of-adele_by-loogart.png" alt="Loogmoji of Adele" title="Adele" />
                             <img src="./img/loogmoji/music/loogmoji-of-biggie_by-loogart.png" alt="Loogmoji of Biggie" title="Biggie" />
@@ -77,6 +84,10 @@
                         <!-- iconic -->
                         <h3 id="loogmojiPop">ICONIC</h3>
                         <div class="container-fluid">
+                            <img src="./img/loogmoji/iconic/loogmoji-of_chris-rock_by-loogart.png" alt="Loogmoji of Chris Rock" title="Chris Rock" />
+                            <img src="./img/loogmoji/iconic/loogmoji-of_anthony-bourdain_by-loogart.png" alt="Loogmoji of Anthony Bourdain" title="Anthony Bourdain" />
+                            <img src="./img/loogmoji/iconic/loogmoji-of_wonder-woman_by-loogart.png" alt="Loogmoji of Wonder Woman" title="Wonder Woman" />
+                            <img src="./img/loogmoji/iconic/loogmoji-of_richard-branson_by-loogart.png" alt="Loogmoji of Richard Branson" title="Richard Branson" />
                             <img src="./img/loogmoji/iconic/loogmoji-of-fluffy_by-loogart.png" alt="Loogmoji of Gabriel Iglesias aka Fluffy" title="Gabriel Iglesias aka Fluffy" />
                             <img src="./img/loogmoji/iconic/loogmoji-of-el-chapo_by-loogart.png" alt="Loogmoji of El Chapo" title="El Chapo" />
                             <img src="./img/loogmoji/iconic/loogmoji-of-frida-kahlo_by-loogart.png" alt="Loogmoji of Frida Kahlo" title="Frida Kahlo" />
