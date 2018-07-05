@@ -47,7 +47,7 @@
             <div class="row">
                 <div class="container">
                     <h3>Loogmoji</h3>
-                    <h4>Iconic pop-culture emojis designed by Loogart, just for fun. Want your own <a href="http://10x.loogart.com" target="_blank">custom Loogmoji?</a></h4>
+                    <h4>Iconic pop-culture emojis designed by Loogart, just for fun. Want your own <a href="http://loogart.tictail.com/product/original-loogmoji" target="_blank">custom Loogmoji?</a></h4>
                     <div class="scroll">
                         <a href="loogmoji#nachoLibre"><img class="carousel-loogs" src="./img/loogmoji/animated/loogmoji-animated-nacho-libre-by-loogart.gif" alt="Animated Loogmoji of Nacho Libre by Loogart" title="Nacho Libre"></a>
                         <a href="loogmoji#spiderMan"><img class="carousel-loogs" src="./img/loogmoji/animated/loogmoji-animated-spiderman-by-loogart.gif" alt="Animated Loogmoji of Spiderman by Loogart" title="Spiderman"></a>

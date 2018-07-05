@@ -31,7 +31,8 @@
                     <div class="col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3">
                         <h1>Loogmoji</h1>
                         <p>Meet the Loogmojis! The collection of <u>Loog</u>art E<u>moji</u>s = Loogmojis. The challenge behind these mini caricatures consists of achieveing the best possible likeness using minimal lines and a consistent color palette, while staying true to a consistent illustration style.</p>
-                        <a class="btn btn-lg btn-turquoise" href="http://10x.loogart.com" target="_blank" role="button"><i class="fa fa-star-o"></i> Create my Loogmoji</a>
+                        <a class="btn btn-lg btn-turquoise" href="#buy-loogmoji" target="_blank" role="button"><i class="fa fa-star-o"></i> Create my Loogmoji</a>
+
                     </div>
                 </div>
             </section>
@@ -288,16 +289,18 @@
                 </div>
             </section>
 
-            <section class="portfolio-content">
+            <section class="portfolio-content" id="buy-loogmoji">
                 <div class="row">
                     <div class="col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3">
                         <h3>Want to see more Loogmojis?</h3>
                         <p>Follow Loogart on <a href="https://www.instagram.com/loogart/" target="_blank">Instagram</a>, you'll see the latest <a href="https://www.instagram.com/explore/tags/loogmoji/" target="_blank">#Loogmojis</a>! If you want to get your own Loogmoji, you can <a href="http://10x.loogart.com" target="_blank">purchase it here</a>! Once you get your own Loogmoji, you'll be part of the family and we will add you to this page.</p>
-                        <p>
-                            <a class="btn btn-lg btn-turquoise" href="http://10x.loogart.com" target="_blank" role="button"><i class="fa fa-star-o"></i> Create my Loogmoji</a>
-                        </p>
                         <div class="row">
-                            <div class="col-sm-6">
+                            <div class="col-sm-4">
+                                <div class="tictail-embed-frame" data-id="T9rL" data-type="product" data-nofollow="false" data-optin="false" data-reviews="false" data-showlogo="false" style="margin:auto;"><a href="http://loogart.tictail.com/product/original-loogmoji?utm_source=tictail.com&utm_medium=embed&utm_campaign=v2" rel="nofollow"><span>Browse Tictail</span></a><a href="http://loogart.tictail.com/product/original-loogmoji?utm_source=tictail.com&utm_medium=embed&utm_campaign=v2" rel="nofollow"> - Loogart Shop</a>
+                                    <script async="" src="https://frontend.ttcdn.co/embed/production/tt-embed.js"></script>
+                                </div>
+                            </div>
+                            <div class="col-sm-4">
                                 <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/BcibzeXh_zc/" data-instgrm-version="8" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:658px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);">
                                     <div style="padding:8px;">
                                         <div style=" background:#F8F8F8; line-height:0; margin-top:40px; padding:50.0% 0; text-align:center; width:100%;">
@@ -308,7 +311,7 @@
                                 </blockquote>
                                 <script async defer src="//platform.instagram.com/en_US/embeds.js"></script>
                             </div>
-                            <div class="col-sm-6">
+                            <div class="col-sm-4">
                                 <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/BG6yokbhlrS/" data-instgrm-version="8" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:658px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);">
                                     <div style="padding:8px;">
                                         <div style=" background:#F8F8F8; line-height:0; margin-top:40px; padding:50.0% 0; text-align:center; width:100%;">
