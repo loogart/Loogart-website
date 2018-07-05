@@ -31,7 +31,7 @@
                     <div class="col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3">
                         <h1>Loogmoji</h1>
                         <p>Meet the Loogmojis! The collection of <u>Loog</u>art E<u>moji</u>s = Loogmojis. The challenge behind these mini caricatures consists of achieveing the best possible likeness using minimal lines and a consistent color palette, while staying true to a consistent illustration style.</p>
-                        <a class="btn btn-lg btn-turquoise" href="#buy-loogmoji" target="_blank" role="button"><i class="fa fa-star-o"></i> Create my Loogmoji</a>
+                        <a class="btn btn-lg btn-turquoise" href="#buy-loogmoji" role="button"><i class="fa fa-star-o"></i> Create my Loogmoji</a>
 
                     </div>
                 </div>
