@@ -87,9 +87,13 @@ echo '</main>
     <script async src="./js/bootstrapvalidator.js"></script>
     <script async src="./js/flickity.pkgd.min.js"></script>
     <script async src="./js/scrollreveal.js"></script>
-    <script async src="./js/blazy.min.js"></script>
     <script async src="./js/loogart.js"></script>
-        <script async>
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script async src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script async src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <script async>
         if (window.location.href.indexOf("#thankyou") > -1) {
             $("#thankyou").modal("show");
         };
