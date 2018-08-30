@@ -80,30 +80,30 @@ echo '</main>
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script async src="./js/jquery.js"></script>
-    <script async src="./js/bootstrap.min.js"></script>
-    <script async src="./js/zoom.min.js"></script>
-    <script async src="./js/validate.js"></script>
-    <script async src="./js/bootstrapvalidator.js"></script>
-    <script async src="./js/flickity.pkgd.min.js"></script>
-    <script async src="./js/scrollreveal.js"></script>
-    <script async src="./js/loogart.js"></script>
+    <script src="./js/jquery.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/zoom.min.js"></script>
+    <script src="./js/validate.js"></script>
+    <script src="./js/bootstrapvalidator.js"></script>
+    <script src="./js/flickity.pkgd.min.js"></script>
+    <script src="./js/scrollreveal.js"></script>
+    <script src="./js/loogart.js"></script>
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
-    <script async src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-    <script async src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
-    <script async>
+    <script>
         if (window.location.href.indexOf("#thankyou") > -1) {
             $("#thankyou").modal("show");
         };
     </script>
-    <script async>
+    <script>
         if (window.location.href.indexOf("#errorPopup") > -1) {
             $("#errorPopup").modal("show");
         }
     </script>
-    <script async>
+    <script>
     $("#thankyou").modal("show") {
     fbq("track", "SubmitMessage"
     );
