@@ -1,54 +1,48 @@
-//navigation animation       
-$(window).scroll(function () {
-    if ($(document).scrollTop() > 50) {
-        $('nav').addClass('shrink');
-    } else {
-        $('nav').removeClass('shrink');
-    }
-});
-
-//lazy load
-var bLazy = new Blazy({
-    // Options
-});
-
-//flickity
-$('.montreal-carousel').flickity({
-    // options
-    cellAlign: 'left',
-    contain: true,
-    accessibility: true,
-    imagesLoaded: true
-});
-
-$('.sb-carousel').flickity({
-    // options
-    cellAlign: 'left',
-    contain: true,
-    accessibility: true,
-    pageDots: false,
-    imagesLoaded: true
-});
-
-$('.ets-carousel').flickity({
-    // options
-    cellAlign: 'left',
-    contain: true,
-    accessibility: true,
-    pageDots: false,
-    imagesLoaded: true
-});
-
-$('.upa-carousel').flickity({
-    // options
-    cellAlign: 'left',
-    contain: true,
-    accessibility: true,
-    pageDots: false,
-    imagesLoaded: true
-});
-
 $(document).ready(function () {
+    //navigation animation       
+    $(window).scroll(function () {
+        if ($(document).scrollTop() > 50) {
+            $('nav').addClass('shrink');
+        } else {
+            $('nav').removeClass('shrink');
+        }
+    });
+
+    //flickity
+    $('.montreal-carousel').flickity({
+        // options
+        cellAlign: 'left',
+        contain: true,
+        accessibility: true,
+        imagesLoaded: true
+    });
+
+    $('.sb-carousel').flickity({
+        // options
+        cellAlign: 'left',
+        contain: true,
+        accessibility: true,
+        pageDots: false,
+        imagesLoaded: true
+    });
+
+    $('.ets-carousel').flickity({
+        // options
+        cellAlign: 'left',
+        contain: true,
+        accessibility: true,
+        pageDots: false,
+        imagesLoaded: true
+    });
+
+    $('.upa-carousel').flickity({
+        // options
+        cellAlign: 'left',
+        contain: true,
+        accessibility: true,
+        pageDots: false,
+        imagesLoaded: true
+    });
     var loc = window.location.href; // returns the full URL
     if (/about/.test(loc)) {
         $("#aboutPage").addClass("active");
@@ -56,7 +50,6 @@ $(document).ready(function () {
         $("#contactPage").addClass("active");
     }
 });
-
 
 // interval and custom config passed to reveal
 window.sr = ScrollReveal();
