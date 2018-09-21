@@ -1,13 +1,4 @@
 $(document).ready(function () {
-    //navigation animation       
-    $(window).scroll(function () {
-        if ($(document).scrollTop() > 50) {
-            $('nav').addClass('shrink');
-        } else {
-            $('nav').removeClass('shrink');
-        }
-    });
-
     //flickity
     $('.montreal-carousel').flickity({
         // options
@@ -48,6 +39,14 @@ $(document).ready(function () {
         $("#aboutPage").addClass("active");
     } else if (/contact/.test(loc)) {
         $("#contactPage").addClass("active");
+    }
+});
+//navigation animation       
+$(window).scroll(function () {
+    if ($(document).scrollTop() > 50) {
+        $('nav').addClass('shrink');
+    } else {
+        $('nav').removeClass('shrink');
     }
 });
 

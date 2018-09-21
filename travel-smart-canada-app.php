@@ -72,57 +72,6 @@
                     <p>The app was designed for iOS and Android using the respective interface guidelines. This decision was taken to improve user experience for each platform user base.</p>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-md-12">
-
-                    <div class="carousel">
-                        <div class="montreal-carousel" data-flickity='{ "freeScroll": true }'>
-                            <div class="carousel-cell">
-                                <img class="img-portfolio" src="./img/portfolio/travel-smart/prototype-ios-destinations1.png" alt="travel-smart-canada-iOS-destinations-view" title="Travel Smart: Destinations">
-                            </div>
-                            <div class="carousel-cell">
-                                <img class="img-portfolio" src="./img/portfolio/travel-smart/prototype-ios-destinations2.png" alt="travel-smart-canada-iOS-destinations-view-2" title="Travel Smart: Destinations Country Level">
-                            </div>
-                            <div class="carousel-cell">
-                                <img class="img-portfolio" src="./img/portfolio/travel-smart/prototype-ios-border-wait-times.png" alt="travel-smart-canada-iOS-border-wait-times-view" title="Travel Smart: Border Wait times">
-                            </div>
-                            <div class="carousel-cell">
-                                <img class="img-portfolio" src="./img/portfolio/travel-smart/prototype-ios-assistance1.png" alt="travel-smart-canada-iOS-assistance-view" title="Travel Smart: Assistance">
-                            </div>
-                            <div class="carousel-cell">
-                                <img class="img-portfolio" src="./img/portfolio/travel-smart/prototype-ios-assistance2.png" alt="travel-smart-canada-iOS-assistance-view-2" title="Travel Smart: Assistance Office Level">
-                            </div>
-                            <div class="carousel-cell">
-                                <img class="img-portfolio" src="./img/portfolio/travel-smart/prototype-android-onboard1.png" alt="travel-smart-canada-android-onboard1" title="Travel Smart: Assistance Onboard 1">
-                            </div>
-                            <div class="carousel-cell">
-                                <img class="img-portfolio" src="./img/portfolio/travel-smart/prototype-android-onboard2.png" alt="travel-smart-canada-android-onboard2" title="Travel Smart: Assistance Onboard 2">
-                            </div>
-                            <div class="carousel-cell">
-                                <img class="img-portfolio" src="./img/portfolio/travel-smart/prototype-android-onboard3.png" alt="travel-smart-canada-android-onboard3" title="Travel Smart: Assistance Onboard 3">
-                            </div>
-                            <div class="carousel-cell">
-                                <img class="img-portfolio" src="./img/portfolio/travel-smart/prototype-android-destinations1.png" alt="travel-smart-canada-Android-destinations-view-2" title="Travel Smart: Destinations Country Level">
-                            </div>
-                            <div class="carousel-cell">
-                                <img class="img-portfolio" src="./img/portfolio/travel-smart/prototype-android-destinations2.png" alt="travel-smart-canada-android-border-wait-times-view" title="Travel Smart: Border Wait Times ">
-                            </div>
-                            <div class="carousel-cell">
-                                <img class="img-portfolio" src="./img/portfolio/travel-smart/prototype-android-border-wait-times.png" alt="travel-smart-canada-Android-destinations-view" title="Travel Smart: Destinations View">
-                            </div>
-                            <div class="carousel-cell">
-                                <img class="img-portfolio" src="./img/portfolio/travel-smart/prototype-android-assistance1.png" alt="travel-smart-canada-android-assistance-view" title="Travel Smart: Assistance">
-                            </div>
-                            <div class="carousel-cell">
-                                <img class="img-portfolio" src="./img/portfolio/travel-smart/prototype-android-assistance2.png" alt="travel-smart-canada-android-assistance-view-2" title="Travel Smart: Assistance Office Level">
-                            </div>
-                            <div class="carousel-cell">
-                                <img class="img-portfolio" src="./img/portfolio/travel-smart/prototype-android-assistance-header-offline-mockup.png" alt="travel-smart-canada-android-assistance-view-offline" title="Travel Smart: Assistance Offline">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
 
             <!-- section 4 Error States text -->
             <div class="row">
@@ -170,15 +119,6 @@
                             <img class="img-portfolio img-spacing" src="./img/portfolio/travel-smart/prototype-ios-enable-geolocation.jpg" data-action="zoom">
                         </div>
                     </div>
-                </div>
-            </div>
-
-            <!-- section 5 -->
-            <div class="row">
-                <div class="col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3">
-                    <h3>Prototyping</h3>
-                    <p>Before sending anything to the developer team, it was key to produce wireframes and high fidelity mockups to ensure that the client was satisfied with the proposed outcome. Using my favorite hotspot and prorotyping tool InVision, communicating my design and ideas to clients was simple and this ensured a smoother buy-in.</p>
-                    <iframe style="hidden-xs" width="100%" height="930" src="//invis.io/VJA54APKQ" frameborder="0" allowfullscreen></iframe>
                 </div>
             </div>
 
