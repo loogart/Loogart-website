@@ -71,11 +71,7 @@
                         <h3>Screenshots</h3>
                         <p>The app was designed for iOS and Android using the respective interface guidelines. This decision was taken to improve user experience for each platform user base.</p>
                     </div>
-                </div>
-
-                <!-- section 4 Error States text -->
-                <div class="row">
-                    <div class="col-md-11 col-md-offset-1 col-lg-10 col-lg-offset-2">
+                    <div class="col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3">
                         <h3>Error state designs</h3>
                         <p>One of the funnest parts of the app design was creating the illustrations and designing the views behind the error states. One of the best ways to deflect in-app errors or even user mishaps is to elegantly create a fun yet meaningful error view.</p>
                     </div>

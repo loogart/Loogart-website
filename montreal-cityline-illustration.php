@@ -17,7 +17,7 @@
 </head>
 
 <body>
-   
+
     <?php include './php/analyticstracking.php';?>
     <?php include './php/navbar.php';?>
 
@@ -38,142 +38,121 @@
                 </div>
             </div>
             <div class="row">
-                <div class="carousel">
-                    <div class="montreal-carousel" data-flickity='{ "freeScroll": true }'>
-                        <div class="carousel-cell">
-                            <img class="img-portfolio" src="./img/portfolio/citylines/cityline-montreal.png" alt="montreal-cityline-illustration-by-loogart" title="Montreal Cityline Illustration by Loogart">
-                        </div>
-                        <div class="carousel-cell">
-                            <img class="img-portfolio" src="./img/portfolio/citylines/cityline-mtl-downtown.png" alt="downtown-mtl-cityline-illustration-by-loogart" title="Downtown Montreal Cityline Illustration by Loogart">
-                        </div>
-                        <div class="carousel-cell">
-                            <img class="img-portfolio" src="./img/portfolio/citylines/cityline-mtl-old-montreal.png" alt="old-montreal-cityline-illustration-by-loogart" title="Old Montreal Cityline Illustration by Loogart">
-                        </div>
-                        <div class="carousel-cell">
-                            <img class="img-portfolio" src="./img/portfolio/citylines/cityline-mtl-ville-saint-laurent.png" alt="mtl-ville-saint-laurent-cityline-illustration-by-loogart" title="Ville Saint-Laurent Cityline Illustration by Loogart">
-                        </div>
-                        <div class="carousel-cell">
-                            <img class="img-portfolio" src="./img/portfolio/citylines/cityline-mtl-cote-des-neiges-ndg.png" alt="mtl-cote-des-neiges-ndg-cityline-illustration-by-loogart" title="Cote-des-Neiges and NDG Cityline Illustration by Loogart">
-                        </div>
-                        <div class="carousel-cell">
-                            <img class="img-portfolio" src="./img/portfolio/citylines/cityline-mtl-griffintown.png" alt="mtl-griffintown-cityline-illustration-by-loogart" title="Griffintown Cityline Illustration by Loogart">
-                        </div>
-                        <div class="carousel-cell">
-                            <img class="img-portfolio" src="./img/portfolio/citylines/cityline-mtl-saint-henri.png" src="./img/portfolio/citylines/cityline-mtl-saint-henri.png" alt="mtl-saint-henri-cityline-illustration-by-loogart" title="Saint-Henri Cityline Illustration by Loogart">
-                        </div>
-                        <div class="carousel-cell">
-                            <img class="img-portfolio" src="./img/portfolio/citylines/cityline-mtl-plateau.png" src="./img/portfolio/citylines/cityline-mtl-plateau.png" alt="mtl-plateau-cityline-illustration-by-loogart" title="Le Plateau Cityline Illustration by Loogart">
-                        </div>
-                        <div class="carousel-cell">
-                            <img class="img-portfolio" src="./img/portfolio/citylines/cityline-mtl-mile-end.png" alt="mtl-mile-end-cityline-illustration-by-loogart" title="Mile-End Cityline Illustration by Loogart">
-                        </div>
-                        <div class="carousel-cell">
-                            <img class="img-portfolio" src="./img/portfolio/citylines/cityline-mtl-outremont.png" alt="mtl-outremont-cityline-illustration-by-loogart" title="Outremont Cityline Illustration by Loogart">
-                        </div>
-                        <div class="carousel-cell">
-                            <img class="img-portfolio" src="./img/portfolio/citylines/cityline-mtl-homa.png" alt="mtl-homa-cityline-illustration-by-loogart" title="Hochellaga-Maisonneuve Cityline Illustration by Loogart">
-                        </div>
-                        <div class="carousel-cell">
-                            <img class="img-portfolio" src="./img/portfolio/citylines/cityline-mtl-verdun.png" alt="mtl-verdun-cityline-illustration-by-loogart" title="Verdun Cityline Illustration by Loogart">
-                        </div>
-                        <div class="carousel-cell">
-                            <img class="img-portfolio" src="./img/portfolio/citylines/cityline-mtl-village.png" alt="mtl-village-cityline-illustration-by-loogart" title="Le Village Cityline Illustration by Loogart">
-                        </div>
-                        <div class="carousel-cell">
-                            <img class="img-portfolio" src="./img/portfolio/citylines/cityline-mtl-little-italy.png" alt="mtl-litte-italy-cityline-illustration-by-loogart" title="Little-Italy Cityline Illustration by Loogart">
-                        </div>
-                        <div class="carousel-cell">
-                            <img class="img-portfolio" src="./img/portfolio/citylines/cityline-mtl-westmount.png" alt="mtl-westmount-cityline-illustration-by-loogart" title="Westmount Cityline Illustration by Loogart">
-                        </div>
-                        <div class="carousel-cell">
-                            <img class="img-portfolio" src="./img/portfolio/citylines/cityline-mtl-milton-park.png" alt="mtl-milton-park-cityline-illustration-by-loogart" title="Milton Park Cityline Illustration by Loogart">
-                        </div>
-                        <div class="carousel-cell">
-                            <img class="img-portfolio" src="./img/portfolio/citylines/cityline-mtl-west-island.png" alt="mtl-west-island-cityline-illustration-by-loogart" title="West Island Cityline Illustration by Loogart">
-                        </div>
-                        <div class="carousel-cell"></div>
+                <div class="col-12">
+                    <div class="carousel-cell">
+                        <img class="img-spacing" src="./img/portfolio/citylines/cityline-montreal.png" alt="montreal-cityline-illustration-by-loogart" title="Montreal Cityline Illustration by Loogart">
                     </div>
+                    <div class="carousel-cell">
+                        <img class="img-spacing" src="./img/portfolio/citylines/cityline-mtl-downtown.png" alt="downtown-mtl-cityline-illustration-by-loogart" title="Downtown Montreal Cityline Illustration by Loogart">
+                    </div>
+                    <div class="carousel-cell">
+                        <img class="img-spacing" src="./img/portfolio/citylines/cityline-mtl-old-montreal.png" alt="old-montreal-cityline-illustration-by-loogart" title="Old Montreal Cityline Illustration by Loogart">
+                    </div>
+                    <div class="carousel-cell">
+                        <img class="img-spacing" src="./img/portfolio/citylines/cityline-mtl-ville-saint-laurent.png" alt="mtl-ville-saint-laurent-cityline-illustration-by-loogart" title="Ville Saint-Laurent Cityline Illustration by Loogart">
+                    </div>
+                    <div class="carousel-cell">
+                        <img class="img-spacing" src="./img/portfolio/citylines/cityline-mtl-cote-des-neiges-ndg.png" alt="mtl-cote-des-neiges-ndg-cityline-illustration-by-loogart" title="Cote-des-Neiges and NDG Cityline Illustration by Loogart">
+                    </div>
+                    <div class="carousel-cell">
+                        <img class="img-spacing" src="./img/portfolio/citylines/cityline-mtl-griffintown.png" alt="mtl-griffintown-cityline-illustration-by-loogart" title="Griffintown Cityline Illustration by Loogart">
+                    </div>
+                    <div class="carousel-cell">
+                        <img class="img-spacing" src="./img/portfolio/citylines/cityline-mtl-saint-henri.png" src="./img/portfolio/citylines/cityline-mtl-saint-henri.png" alt="mtl-saint-henri-cityline-illustration-by-loogart" title="Saint-Henri Cityline Illustration by Loogart">
+                    </div>
+                    <div class="carousel-cell">
+                        <img class="img-spacing" src="./img/portfolio/citylines/cityline-mtl-plateau.png" src="./img/portfolio/citylines/cityline-mtl-plateau.png" alt="mtl-plateau-cityline-illustration-by-loogart" title="Le Plateau Cityline Illustration by Loogart">
+                    </div>
+                    <div class="carousel-cell">
+                        <img class="img-spacing" src="./img/portfolio/citylines/cityline-mtl-mile-end.png" alt="mtl-mile-end-cityline-illustration-by-loogart" title="Mile-End Cityline Illustration by Loogart">
+                    </div>
+                    <div class="carousel-cell">
+                        <img class="img-spacing" src="./img/portfolio/citylines/cityline-mtl-outremont.png" alt="mtl-outremont-cityline-illustration-by-loogart" title="Outremont Cityline Illustration by Loogart">
+                    </div>
+                    <div class="carousel-cell">
+                        <img class="img-spacing" src="./img/portfolio/citylines/cityline-mtl-homa.png" alt="mtl-homa-cityline-illustration-by-loogart" title="Hochellaga-Maisonneuve Cityline Illustration by Loogart">
+                    </div>
+                    <div class="carousel-cell">
+                        <img class="img-spacing" src="./img/portfolio/citylines/cityline-mtl-verdun.png" alt="mtl-verdun-cityline-illustration-by-loogart" title="Verdun Cityline Illustration by Loogart">
+                    </div>
+                    <div class="carousel-cell">
+                        <img class="img-spacing" src="./img/portfolio/citylines/cityline-mtl-village.png" alt="mtl-village-cityline-illustration-by-loogart" title="Le Village Cityline Illustration by Loogart">
+                    </div>
+                    <div class="carousel-cell">
+                        <img class="img-spacing" src="./img/portfolio/citylines/cityline-mtl-little-italy.png" alt="mtl-litte-italy-cityline-illustration-by-loogart" title="Little-Italy Cityline Illustration by Loogart">
+                    </div>
+                    <div class="carousel-cell">
+                        <img class="img-spacing" src="./img/portfolio/citylines/cityline-mtl-westmount.png" alt="mtl-westmount-cityline-illustration-by-loogart" title="Westmount Cityline Illustration by Loogart">
+                    </div>
+                    <div class="carousel-cell">
+                        <img class="img-spacing" src="./img/portfolio/citylines/cityline-mtl-milton-park.png" alt="mtl-milton-park-cityline-illustration-by-loogart" title="Milton Park Cityline Illustration by Loogart">
+                    </div>
+                    <div class="carousel-cell">
+                        <img class="img-spacing" src="./img/portfolio/citylines/cityline-mtl-west-island.png" alt="mtl-west-island-cityline-illustration-by-loogart" title="West Island Cityline Illustration by Loogart">
+                    </div>
+
                 </div>
             </div>
 
             <!-- Second section: Other Cities CityLines -->
             <div class="row">
                 <div class="col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3">
-                    <h3>Other Locations</h3>
-                    <p>I have illustrated several other CityLines for different locations. Some of these designs are also available for purchase on apparel and swag at <a href="http://kalooba.ca" target="_blank">Kalooba</a>.</p>
+                    <h3>Other Locations and Special Editions</h3>
+                    <p>I have illustrated several other CityLines for different locations and I also created CityLines based on different locations or for special events.</p>
                 </div>
             </div>
             <div class="row">
-                <div class="carousel">
-                    <div class="montreal-carousel-two" data-flickity='{ "freeScroll": true }'>
-                        <div class="carousel-cell">
-                            <img class="img-portfolio" src="./img/portfolio/citylines/cityline-toronto.png" alt="toronto-cityline-illustration-by-loogart" title="Toronto Cityline Illustration by Loogart">
-                        </div>
-                        <div class="carousel-cell">
-                            <img class="img-portfolio" src="./img/portfolio/citylines/cityline-canada.png" alt="canada-cityline-illustration-by-loogart" title="Canada Cityline Illustration by Loogart">
-                        </div>
-                        <div class="carousel-cell">
-                            <img class="img-portfolio" src="./img/portfolio/citylines/cityline-ottawa.png" alt="ottawa-cityline-illustration-by-loogart" title="Ottawa Cityline Illustration by Loogart">
-                        </div>
-                        <div class="carousel-cell">
-                            <img class="img-portfolio" src="./img/portfolio/citylines/cityline-gatineau.png" alt="gatineau-cityline-illustration-by-loogart" title="Gatineau Cityline Illustration by Loogart">
-                        </div>
-                        <div class="carousel-cell">
-                            <img class="img-portfolio" src="./img/portfolio/citylines/cityline-bogota.png" alt="bogota-cityline-illustration-by-loogart" title="Bogota Cityline Illustration by Loogart">
-                        </div>
-                        <div class="carousel-cell">
-                            <img class="img-portfolio" src="./img/portfolio/citylines/cityline-zurich.png" alt="zurich-cityline-illustration-by-loogart" title="Zurich Cityline Illustration by Loogart">
-                        </div>
-                        <div class="carousel-cell">
-                            <img class="img-portfolio" src="./img/portfolio/citylines/cityline-new-york-city.png" alt="new-york-cityline-illustration-by-loogart" title="New York Cityline Illustration by Loogart">
-                        </div>
-                        <div class="carousel-cell">
-                            <img class="img-portfolio" src="./img/portfolio/citylines/cityline-los-angeles.png" alt="los-angeles-cityline-illustration-by-loogart" title="Los Angelex Cityline Illustration by Loogart">
-                        </div>
-                        <div class="carousel-cell"></div>
+                <div class="col-12">
+                    <div class="carousel-cell">
+                        <img class="img-spacing" src="./img/portfolio/citylines/cityline-toronto.png" alt="toronto-cityline-illustration-by-loogart" title="Toronto Cityline Illustration by Loogart">
                     </div>
-                </div>
-            </div>
-
-            <!-- third section: Special Edition CityLines -->
-            <div class="row">
-                <div class="col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3">
-                    <h3>Montreal Special Edition Citylines</h3>
-                    <p>A collection of CityLines based on different locations or for special events.</p>
-                </div>
-            </div>
-            <div class="row">
-                <div class="carousel">
-                    <div class="montreal-carousel-three" data-flickity='{ "freeScroll": true }'>
-                        <div class="carousel-cell">
-                            <img class="img-portfolio" src="./img/portfolio/citylines/cityline-lavolley.png" alt="la-volley-cityline-illustration-by-loogart" title="LaVolley Cityline Illustration by Loogart">
-                        </div>
-                        <div class="carousel-cell">
-                            <img class="img-portfolio" src="./img/portfolio/citylines/cityline-montreall.png" alt="montreall-cityline-illustration-by-loogart" title="Montreall.com Cityline Illustration by Loogart">
-                        </div>
-                        <div class="carousel-cell">
-                            <img class="img-portfolio" src="./img/portfolio/citylines/cityline-tweetaide.png" alt="tweetaide-2016-cityline-illustration-by-loogart" title="Tweetaide Cityline Illustration by Loogart">
-                        </div>
-                        <div class="carousel-cell">
-                            <img class="img-portfolio" src="./img/portfolio/citylines/cityline-joyce-and-chris-wedding.png" alt="wedding-joyce-and-chris-cityline-illustration-by-loogart" title="Joyce and Chris' Wedding Cityline Illustration by Loogart">
-                        </div>
-                        <div class="carousel-cell">
-                            <img class="img-portfolio" src="./img/portfolio/citylines/cityline-montreal-original.png" alt="montreal-original-cityline-illustration-by-loogart" title="2013 Original Montreal Cityline Illustration by Loogart">
-                        </div>
-                        <div class="carousel-cell">
-                            <img class="img-portfolio" src="./img/portfolio/citylines/cityline-montreal-original-black.png" alt="montreal-original-black-cityline-illustration-by-loogart" title="2013 Original Montreal Black Edition Cityline Illustration by Loogart">
-                        </div>
-                        <div class="carousel-cell">
-                            <img class="img-portfolio" src="./img/portfolio/citylines/cityline-montreal-black.png" alt="montreal-black-edition-illustration-by-loogart" title="Montreal Black Edition Cityline Illustration by Loogart">
-                        </div>
-                        <div class="carousel-cell">
-                            <img class="img-portfolio" src="./img/portfolio/citylines/cityline-montreal-green.png" alt="montreal-green-edition-illustration-by-loogart" title="Montreal Green Edition Cityline Illustration by Loogart">
-                        </div>
-                        <div class="carousel-cell">
-                            <img class="img-portfolio" src="./img/portfolio/citylines/cityline-montreal-pink.png" alt="montreal-pink-edition-illustration-by-loogart" title="Montreal Pink Edition Cityline Illustration by Loogart">
-                        </div>
-
-                        <div class="carousel-cell"></div>
+                    <div class="carousel-cell">
+                        <img class="img-spacing" src="./img/portfolio/citylines/cityline-canada.png" alt="canada-cityline-illustration-by-loogart" title="Canada Cityline Illustration by Loogart">
+                    </div>
+                    <div class="carousel-cell">
+                        <img class="img-spacing" src="./img/portfolio/citylines/cityline-ottawa.png" alt="ottawa-cityline-illustration-by-loogart" title="Ottawa Cityline Illustration by Loogart">
+                    </div>
+                    <div class="carousel-cell">
+                        <img class="img-spacing" src="./img/portfolio/citylines/cityline-gatineau.png" alt="gatineau-cityline-illustration-by-loogart" title="Gatineau Cityline Illustration by Loogart">
+                    </div>
+                    <div class="carousel-cell">
+                        <img class="img-spacing" src="./img/portfolio/citylines/cityline-bogota.png" alt="bogota-cityline-illustration-by-loogart" title="Bogota Cityline Illustration by Loogart">
+                    </div>
+                    <div class="carousel-cell">
+                        <img class="img-spacing" src="./img/portfolio/citylines/cityline-zurich.png" alt="zurich-cityline-illustration-by-loogart" title="Zurich Cityline Illustration by Loogart">
+                    </div>
+                    <div class="carousel-cell">
+                        <img class="img-spacing" src="./img/portfolio/citylines/cityline-new-york-city.png" alt="new-york-cityline-illustration-by-loogart" title="New York Cityline Illustration by Loogart">
+                    </div>
+                    <div class="carousel-cell">
+                        <img class="img-spacing" src="./img/portfolio/citylines/cityline-los-angeles.png" alt="los-angeles-cityline-illustration-by-loogart" title="Los Angelex Cityline Illustration by Loogart">
+                    </div>
+                    <div class="carousel-cell">
+                        <img class="img-spacing" src="./img/portfolio/citylines/cityline-lavolley.png" alt="la-volley-cityline-illustration-by-loogart" title="LaVolley Cityline Illustration by Loogart">
+                    </div>
+                    <div class="carousel-cell">
+                        <img class="img-spacing" src="./img/portfolio/citylines/cityline-montreall.png" alt="montreall-cityline-illustration-by-loogart" title="Montreall.com Cityline Illustration by Loogart">
+                    </div>
+                    <div class="carousel-cell">
+                        <img class="img-spacing" src="./img/portfolio/citylines/cityline-tweetaide.png" alt="tweetaide-2016-cityline-illustration-by-loogart" title="Tweetaide Cityline Illustration by Loogart">
+                    </div>
+                    <div class="carousel-cell">
+                        <img class="img-spacing" src="./img/portfolio/citylines/cityline-joyce-and-chris-wedding.png" alt="wedding-joyce-and-chris-cityline-illustration-by-loogart" title="Joyce and Chris' Wedding Cityline Illustration by Loogart">
+                    </div>
+                    <div class="carousel-cell">
+                        <img class="img-spacing" src="./img/portfolio/citylines/cityline-montreal-original.png" alt="montreal-original-cityline-illustration-by-loogart" title="2013 Original Montreal Cityline Illustration by Loogart">
+                    </div>
+                    <div class="carousel-cell">
+                        <img class="img-spacing" src="./img/portfolio/citylines/cityline-montreal-original-black.png" alt="montreal-original-black-cityline-illustration-by-loogart" title="2013 Original Montreal Black Edition Cityline Illustration by Loogart">
+                    </div>
+                    <div class="carousel-cell">
+                        <img class="img-spacing" src="./img/portfolio/citylines/cityline-montreal-black.png" alt="montreal-black-edition-illustration-by-loogart" title="Montreal Black Edition Cityline Illustration by Loogart">
+                    </div>
+                    <div class="carousel-cell">
+                        <img class="img-spacing" src="./img/portfolio/citylines/cityline-montreal-green.png" alt="montreal-green-edition-illustration-by-loogart" title="Montreal Green Edition Cityline Illustration by Loogart">
+                    </div>
+                    <div class="carousel-cell">
+                        <img class="img-spacing" src="./img/portfolio/citylines/cityline-montreal-pink.png" alt="montreal-pink-edition-illustration-by-loogart" title="Montreal Pink Edition Cityline Illustration by Loogart">
                     </div>
                 </div>
             </div>
@@ -219,8 +198,11 @@
 
     <!-- footer -->
     <?php include './php/footer.php';?>
-    <script>fbq('track', 'ViewMTLCityline');</script>
-    
+    <script>
+        fbq('track', 'ViewMTLCityline');
+
+    </script>
+
 </body>
 
 </html>

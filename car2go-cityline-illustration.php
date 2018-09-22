@@ -42,16 +42,12 @@
             <div class="row">
                 <div class="carousel">
                     <div class="ets-carousel" data-flickity='{ "freeScroll": true }'>
-                        <div class="carousel-cell">
                             <img class="img-portfolio" src="./img/portfolio/car2go/car2go-cityline-2.jpg" alt="ets-montreal-cityline-by-loogart" title="ETS CityLine illustration by Loogart">
-                        </div>
-                        <div class="carousel-cell">
+
                             <img class="img-portfolio" src="./img/portfolio/car2go/car2go-cityline-1.jpg" alt="ets-montreal-cityline-by-loogart" title="ETS CityLine illustration by Loogart">
-                        </div>
-                        <div class="carousel-cell">
+
                             <img class="img-portfolio" src="./img/portfolio/car2go/car2go-cityline-2-blue-sky.jpg" alt="ets-montreal-cityline-by-loogart" title="ETS CityLine illustration by Loogart">
-                        </div>
-                        <div class="carousel-cell"></div>
+                        
                     </div>
                 </div>
             </div>

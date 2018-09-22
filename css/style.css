@@ -21,36 +21,43 @@ body {
     from {
         opacity: 0;
     }
+
     to {
         opacity: 1;
     }
 }
 
 @-moz-keyframes fadein {
+
     /* Firefox */
     from {
         opacity: 0;
     }
+
     to {
         opacity: 1;
     }
 }
 
 @-webkit-keyframes fadein {
+
     /* Safari and Chrome */
     from {
         opacity: 0;
     }
+
     to {
         opacity: 1;
     }
 }
 
 @-o-keyframes fadein {
+
     /* Opera */
     from {
         opacity: 0;
     }
+
     to {
         opacity: 1;
     }
@@ -336,23 +343,27 @@ nav.shrink .logo-loogart {
     .navbar-default .navbar-nav .open .dropdown-menu > li > a {
         color: #222;
     }
+
     .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
     .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
         color: #333;
         background-color: transparent;
     }
+
     .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
     .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
     .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
         color: #555;
         background-color: #e7e7e7;
     }
+
     .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a,
     .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a:hover,
     .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a:focus {
         color: #ccc;
         background-color: transparent;
     }
+
     .navbar-default .navbar-brand {
         font-family: "San Francisco", sans-serif;
         font-weight: 700;
@@ -362,10 +373,12 @@ nav.shrink .logo-loogart {
         -webkit-transition: .25s;
         transition: .25s;
     }
+
     nav.shrink .navbar-toggle {
         padding: 12px 5px;
         margin: 8px 15px 8px 0;
     }
+
     .navbar-default .navbar-nav > li > a {
         color: #222;
         font-size: 21px;
@@ -711,8 +724,8 @@ fieldset[disabled] .btn-white.focus {
 .portfolio-text.bottom {
     bottom: 0px;
     padding: 45px 25px 25px;
-    background: -webkit-linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, .34));
-    background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, .34));
+    background: -webkit-linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, .34));
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, .34));
 }
 
 .portfolio-text.top {
@@ -957,39 +970,47 @@ section.portfolio h4 {
     .outer {
         box-shadow: 0 0 0;
     }
+
     .logo-text.no-title {
         margin-top: 72px;
     }
+
     .starbucks-logo {
         background-image: url(../img/logo/starbucks_logo.png);
         width: 80px;
         height: 80px;
         margin: 0;
     }
+
     .ets-logo {
         background-image: url(../img/logo/ets-logo.jpg);
         width: 80px;
         margin-top: 40px;
     }
+
     .swiffer-logo {
         background-image: url(../img/logo/swiffer-logo.png);
         width: 80px;
         margin-top: 60px;
     }
+
     .upa-logo {
         background-image: url(../img/logo/upa-logo.png);
         width: 55px;
     }
+
     .canada-logo {
         background-image: url(../img/logo/canada-logo.png);
         width: 75px;
         margin-top: 20px;
     }
+
     .suite88-logo {
         background-image: url(../img/logo/suite88-logo.png);
         width: 85px;
         margin-top: 60px;
     }
+
     .otis-logo {
         background-image: url(../img/logo/otis-logo.png);
         width: 75px;
@@ -1405,12 +1426,12 @@ fieldset[disabled] .form-control {
     max-height: 500px;
 }
 
-.montreal-carousel .carousel-cell .img-portfolio {
+.montreal-carousel .img-portfolio {
     max-height: 484px;
     margin: 10px 40px 30px;
 }
 
-.sb-carousel .carousel-cell .img-portfolio {
+.sb-carousel .img-portfolio {
     max-height: 444px;
     margin: 10px 10px 30px;
 }
@@ -1493,6 +1514,7 @@ section.loogmoji-collection img:hover {
 }
 
 @media (max-width: 767px) {
+
     section.loogmoji-collection img,
     section.loogmoji-collection a {
         width: 49%;
@@ -1500,6 +1522,7 @@ section.loogmoji-collection img:hover {
 }
 
 @media (min-width: 768px) {
+
     section.loogmoji-collection img,
     section.loogmoji-collection a {
         width: 32%;
@@ -1507,6 +1530,7 @@ section.loogmoji-collection img:hover {
 }
 
 @media (min-width: 991px) {
+
     section.loogmoji-collection img,
     section.loogmoji-collection a {
         width: 19%;
@@ -1538,16 +1562,19 @@ section.contact p {
     .project-jumbotron {
         height: 320px;
     }
+
     .montreal-carousel .carousel-cell .img-portfolio,
     .sb-carousel .carousel-cell .img-portfolio,
     .ets-carousel .carousel-cell .img-portfolio {
         max-height: 320px;
         margin: 10px 20px 30px;
     }
+
     .upa-carousel .carousel-cell .img-portfolio {
         max-height: 420px;
         margin: 10px 20px 30px;
     }
+
     .project-starbucks-img {
         height: 50vh;
         background-image: url('../img/portfolio/starbucks/starbucks-montreal.png'), url('../img/portfolio/starbucks/coffee-beans-dark.jpg');
@@ -1555,6 +1582,7 @@ section.contact p {
         background-position: 50% 100%, 50%;
         background-size: 1400px, 444px;
     }
+
     .project-car2go-cityline-img {
         height: 60vh;
         background-position: 0% 50%;
@@ -1976,13 +2004,16 @@ section.page-404 p {
     0% {
         transform: scale(1);
     }
+
     20% {
         transform: scale(1.1);
         color: #dd3b37;
     }
+
     70% {
         color: #F75A56;
     }
+
     100% {
         transform: scale(1);
     }
@@ -2013,4 +2044,17 @@ section.page-404 p {
 
 .hover-move-up img:hover {
     transform: translateY(-5px);
+}
+
+.carousel-cell img {
+    width: 100%;
+
+}
+
+@media(max-width:767px) {
+    .carousel-cell img {
+        object-fit: cover;
+        width: 100vw;
+        height: 320px;
+    }
 }
