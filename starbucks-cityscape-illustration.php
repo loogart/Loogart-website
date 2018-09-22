@@ -85,7 +85,7 @@
             </div>
             <div class="row">
                 <div class="carousel">
-                    <div class="sb-carousel" data-flickity='{ "freeScroll": true }'>
+                    <div class="sb-carousel-two" data-flickity='{ "freeScroll": true }'>
                         <div class="carousel-cell">
                             <img class="img-portfolio" src="./img/portfolio/starbucks/starbucks_door2.jpg" alt="starbucks-montreal-door-by-loogart" title="Marketing of Starbucks Cityscape in Montreal by Loogart installed on door">
                         </div>

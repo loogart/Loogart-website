@@ -7,7 +7,20 @@ $(document).ready(function () {
         accessibility: true,
         imagesLoaded: true
     });
-
+    $('.montreal-carousel-two').flickity({
+        // options
+        cellAlign: 'left',
+        contain: true,
+        accessibility: true,
+        imagesLoaded: true
+    });
+    $('.montreal-carousel-three').flickity({
+        // options
+        cellAlign: 'left',
+        contain: true,
+        accessibility: true,
+        imagesLoaded: true
+    });
     $('.sb-carousel').flickity({
         // options
         cellAlign: 'left',
@@ -16,7 +29,14 @@ $(document).ready(function () {
         pageDots: false,
         imagesLoaded: true
     });
-
+    $('.sb-carousel-two').flickity({
+        // options
+        cellAlign: 'left',
+        contain: true,
+        accessibility: true,
+        pageDots: false,
+        imagesLoaded: true
+    });
     $('.ets-carousel').flickity({
         // options
         cellAlign: 'left',

@@ -105,7 +105,7 @@
             </div>
             <div class="row">
                 <div class="carousel">
-                    <div class="montreal-carousel" data-flickity='{ "freeScroll": true }'>
+                    <div class="montreal-carousel-two" data-flickity='{ "freeScroll": true }'>
                         <div class="carousel-cell">
                             <img class="img-portfolio" src="./img/portfolio/citylines/cityline-toronto.png" alt="toronto-cityline-illustration-by-loogart" title="Toronto Cityline Illustration by Loogart">
                         </div>
@@ -144,7 +144,7 @@
             </div>
             <div class="row">
                 <div class="carousel">
-                    <div class="montreal-carousel" data-flickity='{ "freeScroll": true }'>
+                    <div class="montreal-carousel-three" data-flickity='{ "freeScroll": true }'>
                         <div class="carousel-cell">
                             <img class="img-portfolio" src="./img/portfolio/citylines/cityline-lavolley.png" alt="la-volley-cityline-illustration-by-loogart" title="LaVolley Cityline Illustration by Loogart">
                         </div>
