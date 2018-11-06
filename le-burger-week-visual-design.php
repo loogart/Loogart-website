@@ -10,7 +10,7 @@
     <meta property="og:title" content="Le Burger Week visual design by Loogart">
     <meta property="og:description" content="Le Burger Week illustration, print advertising artwork, graphic design, user interface and web design by Loogart">
     <meta property="og:url" content="http://loogart.com/">
-    <meta property="og:image" content="http://loogart.com/img/portfolio/burgerweek/poster-mockup_le-burger-week_by-loogart.jpg">
+    <meta property="og:image" content="https://loogart.com/img/portfolio/burgerweek/poster-mockup_le-burger-week_by-loogart.jpg">
     <title>Le Burger Week Visual Design | Loogart</title>
     <?php include 'php/header.php';?>
     <?php include 'php/facebook-pixel.php';?>

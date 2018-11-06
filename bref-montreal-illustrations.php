@@ -10,7 +10,7 @@
     <meta property="og:title" content="Bref x Loogart Montréal Illustrations">
     <meta property="og:description" content="Encore Montreal City Illustrations by Loogart">
     <meta property="og:url" content="http://loogart.com/">
-    <meta property="og:image" content="http://loogart.com/img/portfolio/bref/illustration_encore-montreal-city_by-loogart.png">
+    <meta property="og:image" content="https://loogart.com/img/portfolio/bref/illustration_encore-montreal-city_by-loogart.png">
     <title>Bref x Loogart Encore Montréal Illustrations | Loogart</title>
     <?php include 'php/header.php';?>
     <?php include 'php/facebook-pixel.php';?>

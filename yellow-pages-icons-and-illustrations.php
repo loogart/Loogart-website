@@ -10,7 +10,7 @@
     <meta property="og:title" content="Yellow Pages x Loogart">
     <meta property="og:description" content="Yellow Pages Iconography and Illustration by Loogart">
     <meta property="og:url" content="http://loogart.com/">
-    <meta property="og:image" content="http://loogart.com/img/portfolio/yellow-pages/yellow-pages-web-graphics-4b.jpg">
+    <meta property="og:image" content="https://loogart.com/img/portfolio/yellow-pages/yellow-pages-web-graphics-4b.jpg">
     <title>Yellow Pages iconography design and illustrations | Loogart</title>
     <?php include 'php/header.php';?>
     <?php include 'php/facebook-pixel.php';?>

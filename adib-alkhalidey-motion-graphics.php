@@ -10,7 +10,7 @@
     <meta property="og:title" content="Adib Alkhalidey x Loogart">
     <meta property="og:description" content="Adib Alkhalidey's Ingénu Showanimated cartoon series and print advertising by Loogart">
     <meta property="og:url" content="http://loogart.com/">
-    <meta property="og:image" content="http://loogart.com/img/tile/adib/adib-by-loogart_11_jonquiere.jpg">
+    <meta property="og:image" content="https://loogart.com/img/tile/adib/adib-by-loogart_11_jonquiere.jpg">
     <title>Adib Alkhalidey Ingénu Animated Cartoon | Loogart</title>
     <?php include 'php/header.php';?>
     <?php include 'php/facebook-pixel.php';?>

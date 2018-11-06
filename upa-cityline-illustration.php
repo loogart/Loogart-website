@@ -10,7 +10,7 @@
     <meta property="og:title" content="UPA CityLine by Loogart">
     <meta property="og:description" content="CityLine illustration for the UPA's Portes Ouvertes Event in the Montreal area">
     <meta property="og:url" content="http://loogart.com/">
-    <meta property="og:image" content="http://loogart.com/img/portfolio/upa/upa-cityline-2015-zoomer.jpg">
+    <meta property="og:image" content="https://loogart.com/img/portfolio/upa/upa-cityline-2015-zoomer.jpg">
     <title>UPA CityLine Illustration | Loogart</title>
     <?php include 'php/header.php';?>
     <?php include 'php/facebook-pixel.php';?>

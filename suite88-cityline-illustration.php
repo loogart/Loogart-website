@@ -10,7 +10,7 @@
     <meta property="og:title" content="Suite 88 CityLine by Loogart">
     <meta property="og:description" content="Suite 88 CityLine by Loogart">
     <meta property="og:url" content="http://loogart.com/">
-    <meta property="og:image" content="http://loogart.com/img/portfolio/suite88/mockup-chocolate-mosaique-box.jpg">
+    <meta property="og:image" content="https://loogart.com/img/portfolio/suite88/mockup-chocolate-mosaique-box.jpg">
     <title>Suite 88 CityLine Illustration | Loogart</title>
     <?php include 'php/header.php';?>
     <?php include 'php/facebook-pixel.php';?>

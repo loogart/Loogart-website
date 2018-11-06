@@ -10,7 +10,7 @@
     <meta property="og:title" content="Custom artwork and Loogmojis by Loogart">
     <meta property="og:description" content="Custom Toronto cityscape and guest speakers Loogmojis by Loogart">
     <meta property="og:url" content="http://loogart.com/">
-    <meta property="og:image" content="http://loogart.com/img/portfolio/influence-toronto/toronto-illustration_too funky_full_by-loogart.jpg">
+    <meta property="og:image" content="https://loogart.com/img/portfolio/influence-toronto/toronto-illustration_too funky_full_by-loogart.jpg">
     <title>Influence Toronto Artwork | Loogart</title>
     <?php include 'php/header.php';?>
     <?php include 'php/facebook-pixel.php';?>

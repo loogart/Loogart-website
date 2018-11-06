@@ -10,7 +10,7 @@
     <meta property="og:title" content="Global Affais Canada Illustrations">
     <meta property="og:description" content="Innovation Room Illustrations for Global Affairs Canada">
     <meta property="og:url" content="http://loogart.com/">
-    <meta property="og:image" content="http://loogart.com/img/portfolio/gac-innovation/illo-awesome-wall-bleed.jpg">
+    <meta property="og:image" content="https://loogart.com/img/portfolio/gac-innovation/illo-awesome-wall-bleed.jpg">
     <title>Global Affairs Canada Innovation Room Illustrations | Loogart</title>
     <?php include 'php/header.php';?>
     <?php include 'php/facebook-pixel.php';?>

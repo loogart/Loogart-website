@@ -10,7 +10,7 @@
     <meta property="og:title" content="La Poutine Week visual design by Loogart">
     <meta property="og:description" content="Lea Poutine Week illustration, print advertising artwork, graphic design by Loogart">
     <meta property="og:url" content="http://loogart.com/">
-    <meta property="og:image" content="http://loogart.com/img/portfolio/poutineweek/table-tent-mockup_la-poutine-week-option1_by-loogart.jpg">
+    <meta property="og:image" content="https://loogart.com/img/portfolio/poutineweek/table-tent-mockup_la-poutine-week-option1_by-loogart.jpg">
     <title>La Poutine Week Visual Design | Loogart</title>
     <?php include 'php/header.php';?>
     <?php include 'php/facebook-pixel.php';?>

@@ -10,7 +10,7 @@
     <meta property="og:title" content="Otis 2016 Christmas Animation">
     <meta property="og:description" content="Otis Elevator animated GIF for Christmas 2016 by Loogart">
     <meta property="og:url" content="http://loogart.com/">
-    <meta property="og:image" content="http://loogart.com/img/portfolio/otis/otis-xmas-van-animated.gif">
+    <meta property="og:image" content="https://loogart.com/img/portfolio/otis/otis-xmas-van-animated.gif">
     <title>Otis Elevator Animated GIF | Loogart</title>
     <?php include 'php/header.php';?>
     <?php include 'php/facebook-pixel.php';?>

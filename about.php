@@ -10,7 +10,7 @@
     <meta property="og:title" content="Loogart">
     <meta property="og:description" content="Montreal-based Visual Design Studio">
     <meta property="og:url" content="http://loogart.com/">
-    <meta property="og:image" content="http://loogart.com/img/logo/chris-of-loogart.jpg">
+    <meta property="og:image" content="https://loogart.com/img/logo/chris-of-loogart.jpg">
     <title>About | Loogart</title>
     <?php include 'php/header.php';?>
     <?php include 'php/facebook-pixel.php';?>

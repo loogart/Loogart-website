@@ -11,7 +11,7 @@
     <meta property="og:title" content="Brand identity design">
     <meta property="og:description" content="Brand identity and illustrations by Chris Soueidan of Loogart">
     <meta property="og:url" content="http://loogart.com/">
-    <meta property="og:image" content="http://loogart.com/img/designs/sq-logo-team-dallas-curling.jpg">
+    <meta property="og:image" content="https://loogart.com/img/designs/sq-logo-team-dallas-curling.jpg">
     <?php include 'php/favicons.php';?>
 
     <title>Brand Identity and Illustration projects | Loogart</title>

@@ -11,7 +11,7 @@
     <meta property="og:title" content="Loogart">
     <meta property="og:description" content="Loogart 404 Page">
     <meta property="og:url" content="http://loogart.com/">
-    <meta property="og:image" content="http://loogart.com/img/bowser-404.gif">
+    <meta property="og:image" content="https://loogart.com/img/bowser-404.gif">
     <title>404 Page Not Found - Loogart</title>
     <?php include 'php/header.php';?>
     <?php include 'php/facebook-pixel.php';?>
