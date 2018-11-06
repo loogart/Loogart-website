@@ -10,7 +10,7 @@
     <meta property="og:title" content="2018 Loogart Bio | Loogart">
     <meta property="og:description" content="2018 Loogart Bio | Loogart">
     <meta property="og:url" content="http://loogart.com/">
-    <meta property="og:image" content="https://loogart.com/img/loogart-bio-2018.png">
+    <meta property="og:image" content="https://loogart.com/img/loogart-bio-2018.jpg">
     <title>2018 Loogart Bio | Loogart</title>
     <?php include 'php/header.php';?>
     <?php include 'php/facebook-pixel.php';?>
