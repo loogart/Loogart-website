@@ -51,7 +51,7 @@ $(window).scroll(function () {
 // interval and custom config passed to reveal
 window.sr = ScrollReveal();
 sr.reveal('.appear-1', {
-    duration: 1000,
+    duration: 500,
     delay: 150,
     origin: 'bottom',
     distance: '150px',
