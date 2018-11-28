@@ -17,7 +17,7 @@
 </head>
 
 <body>
-   
+
     <?php include './php/analyticstracking.php';?>
     <?php include './php/navbar.php';?>
 
@@ -50,18 +50,12 @@
                 </div>
 
                 <div class="carousel">
-                    <div class="montreal-carousel" data-flickity='{ "freeScroll": true }'>
-                        <div class="carousel-cell">
-                            <img class="img-portfolio" src="./img/portfolio/gac-innovation/illo-idea-garden-pattern.jpg" alt="global affairs Canada wall art innovation room idea garden by Loogart" title="Idea Garden Illustration by Loogart for Global Affairs Canada">
-                        </div>
-                        <div class="carousel-cell">
-                            <img class="img-portfolio" src="./img/portfolio/gac-innovation/illo-coaches-corner-pattern.jpg" alt="global affairs Canada wall art innovation room idea garden by Loogart" title="Idea Garden Illustration by Loogart for Global Affairs Canada">
-                        </div>
-                        <div class="carousel-cell">
-                            <img class="img-portfolio" src="./img/portfolio/gac-innovation/illo-awesome-wall-bleed.jpg" alt="global affairs Canada wall art innovation room idea garden by Loogart" title="Idea Garden Illustration by Loogart for Global Affairs Canada">
-                        </div>
-                        <div class="carousel-cell"></div>
+                    <div class="scroll">
+                        <img class="img-portfolio" src="./img/portfolio/gac-innovation/illo-idea-garden-pattern.jpg" alt="global affairs Canada wall art innovation room idea garden by Loogart" title="Idea Garden Illustration by Loogart for Global Affairs Canada">
+                        <img class="img-portfolio" src="./img/portfolio/gac-innovation/illo-coaches-corner-pattern.jpg" alt="global affairs Canada wall art innovation room idea garden by Loogart" title="Idea Garden Illustration by Loogart for Global Affairs Canada">
+                        <img class="img-portfolio" src="./img/portfolio/gac-innovation/illo-awesome-wall-bleed.jpg" alt="global affairs Canada wall art innovation room idea garden by Loogart" title="Idea Garden Illustration by Loogart for Global Affairs Canada">
                     </div>
+                    <h4 class="scroll-text">Scroll <i class="fa fa-long-arrow-right"></i></h4>
                 </div>
 
                 <!-- section 3: final animation -->
@@ -82,7 +76,10 @@
     </main>
 
     <?php include './php/footer.php';?>
-    <script>fbq('track', 'ViewGACwall');</script>
+    <script>
+        fbq('track', 'ViewGACwall');
+
+    </script>
 
 </body>
 

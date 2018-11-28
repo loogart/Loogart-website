@@ -42,11 +42,9 @@
             </div>
             <div class="row">
                 <div class="carousel">
-                    <div class="ets-carousel" data-flickity='{ "freeScroll": true }'>
-                        <div class="carousel-cell">
+                    <div class="scroll">
                             <img class="img-portfolio img-spacing" src="./img/portfolio/ets/ets-cityline-full.jpg" alt="ets-montreal-cityline-by-loogart" title="ETS CityLine illustration by Loogart">
-                        </div>
-                        <div class="carousel-cell"></div>
+                        <h4 class="scroll-text">Scroll <i class="fa fa-long-arrow-right"></i></h4>
                     </div>
                 </div>
             </div>

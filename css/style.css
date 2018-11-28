@@ -2058,3 +2058,29 @@ section.page-404 p {
         height: 320px;
     }
 }
+
+.scroll-text{
+    font-weight:500;
+    position:absolute;
+    bottom:35px;
+    left:35px;
+    background-color: rgba(0,0,0,0.4);
+    padding:0.2em 0.6em;
+    color:#fff;
+    border:2px solid #fff;
+    border-radius: 1em;
+    -webkit-animation: mymove 2s infinite; /* Safari 4.0 - 8.0 */
+    animation: mymove 2s infinite;
+}
+
+@-webkit-keyframes mymove {
+    0% {left: 0px;}
+    50% {left: 15px;}
+    100% {left: 0px;}
+}
+
+@keyframes mymove {
+    0% {left: 0px;}
+    50% {left: 15px;}
+    100% {left: 0px;}
+}

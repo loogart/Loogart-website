@@ -33,7 +33,6 @@
                 <!-- First section: Starbucks Montreal -->
                 <div class="row">
                     <div class="col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3">
-
                         <img class="img-responsive" src="./img/logo/starbucks_logo.png" style="max-width:100px;margin:30px 0">
                         <h1>Starbucks Cityscapes</h1>
                         <p>Starbucks was looking for elegant and locally relevant visuals which would be used as marketing materials for all the opening stores in Quebec, specifically in Montreal, Quebec City and several other towns within the province.</p>
@@ -48,11 +47,12 @@
                 </div>
                 <div class="row">
                     <div class="carousel">
-                        <div class="sb-carousel" data-flickity='{ "freeScroll": true }'>
-                                <img class="img-portfolio" src="./img/portfolio/starbucks/starbucks-montreal.png" alt="stabucks-montreal-cityscape-by-loogart" title="Montreal cityscape illustration for Starbucks by Loogart">
-                                <img class="img-portfolio" src="./img/portfolio/starbucks/starbucks-quebec.png" alt="stabucks-quebec-city-cityscape-by-loogart" title="Quebec City cityscape illustration for Starbucks by Loogart">
-                                <img class="img-portfolio" src="./img/portfolio/starbucks/starbucks-generic.png" alt="stabucks-quebec-towns-cityscape-by-loogart" title="Quebec towns cityscape illustration for Starbucks by Loogart">
+                        <div class="scroll">
+                            <img class="img-portfolio" src="./img/portfolio/starbucks/starbucks-montreal.png" alt="stabucks-montreal-cityscape-by-loogart" title="Montreal cityscape illustration for Starbucks by Loogart">
+                            <img class="img-portfolio" src="./img/portfolio/starbucks/starbucks-quebec.png" alt="stabucks-quebec-city-cityscape-by-loogart" title="Quebec City cityscape illustration for Starbucks by Loogart">
+                            <img class="img-portfolio" src="./img/portfolio/starbucks/starbucks-generic.png" alt="stabucks-quebec-towns-cityscape-by-loogart" title="Quebec towns cityscape illustration for Starbucks by Loogart">
                         </div>
+                        <h4 class="scroll-text">Scroll <i class="fa fa-long-arrow-right"></i></h4>
                     </div>
                 </div>
 

@@ -41,14 +41,14 @@
             </div>
             <div class="row">
                 <div class="carousel">
-                    <div class="ets-carousel" data-flickity='{ "freeScroll": true }'>
+                    <div class="scroll">
                             <img class="img-portfolio" src="./img/portfolio/car2go/car2go-cityline-2.jpg" alt="ets-montreal-cityline-by-loogart" title="ETS CityLine illustration by Loogart">
 
                             <img class="img-portfolio" src="./img/portfolio/car2go/car2go-cityline-1.jpg" alt="ets-montreal-cityline-by-loogart" title="ETS CityLine illustration by Loogart">
 
                             <img class="img-portfolio" src="./img/portfolio/car2go/car2go-cityline-2-blue-sky.jpg" alt="ets-montreal-cityline-by-loogart" title="ETS CityLine illustration by Loogart">
-                        
                     </div>
+                    <h4 class="scroll-text">Scroll <i class="fa fa-long-arrow-right"></i></h4>
                 </div>
             </div>
 
