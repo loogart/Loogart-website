@@ -52,10 +52,10 @@ $(window).scroll(function () {
 window.sr = ScrollReveal();
 sr.reveal('.appear-1', {
     duration: 500,
-    delay: 150,
+    delay: 100,
     origin: 'bottom',
-    distance: '150px',
-    opacity: 0,
+    distance: '0px',
+    opacity: 0.5,
     scale: 0.95,
     easing: 'ease-in-out',
     mobile: true,
@@ -67,7 +67,7 @@ sr.reveal('.appear-2', {
     duration: 500,
     delay: 0,
     origin: 'bottom',
-    distance: '69px',
+    distance: '0px',
     opacity: 0,
     scale: 0.9,
     easing: 'ease-in-out',
