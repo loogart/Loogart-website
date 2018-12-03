@@ -14,6 +14,7 @@
     <title>Shop | Loogart</title>
     <?php include 'php/header.php';?>
     <?php include 'php/facebook-pixel.php';?>
+
     <script type="text/javascript">
         /*<![CDATA[*/
 
@@ -46,26 +47,30 @@
                 ShopifyBuy.UI.onReady(client).then(function(ui) {
                     ui.createComponent('collection', {
                         id: 71250608192,
-                        node: document.getElementById('collection-component-7e8ef94be52'),
+                        node: document.getElementById('collection-component-c55fad8f87a'),
                         moneyFormat: '%24%7B%7Bamount%7D%7D',
                         options: {
                             "product": {
+                                "buttonDestination": "modal",
                                 "variantId": "all",
                                 "contents": {
                                     "imgWithCarousel": false,
                                     "variantTitle": false,
+                                    "options": false,
                                     "description": false,
                                     "buttonWithQuantity": false,
                                     "quantity": false
                                 },
+                                "text": {
+                                    "button": "VIEW PRODUCT"
+                                },
                                 "styles": {
                                     "product": {
-                                        "text-align": "left",
                                         "@media (min-width: 601px)": {
-                                            "max-width": "calc(50% - 40px)",
-                                            "margin-left": "40px",
+                                            "max-width": "calc(33.33333% - 30px)",
+                                            "margin-left": "30px",
                                             "margin-bottom": "50px",
-                                            "width": "calc(50% - 40px)"
+                                            "width": "calc(33.33333% - 30px)"
                                         }
                                     },
                                     "button": {
@@ -247,7 +252,7 @@
                                 "styles": {
                                     "products": {
                                         "@media (min-width: 601px)": {
-                                            "margin-left": "-40px"
+                                            "margin-left": "-30px"
                                         }
                                     }
                                 }
@@ -280,8 +285,7 @@
         <h1 class="sr-only">The Loogart Shop</h1>
         <h2>Shop Loogart Products</h2>
 
-        <div id='collection-component-7e8ef94be52'></div>
-
+        <div id='collection-component-c55fad8f87a'></div>
 
 
     </main>
