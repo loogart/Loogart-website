@@ -15,16 +15,23 @@
     <?php include 'php/header.php';?>
     <?php include 'php/facebook-pixel.php';?>
     <!-- Hotjar Tracking Code for https://loogart.com/shop-custom-loogmoji -->
-<script>
-    (function(h,o,t,j,a,r){
-        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
-        h._hjSettings={hjid:1145479,hjsv:6};
-        a=o.getElementsByTagName('head')[0];
-        r=o.createElement('script');r.async=1;
-        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
-        a.appendChild(r);
-    })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
-</script>
+    <script>
+        (function(h, o, t, j, a, r) {
+            h.hj = h.hj || function() {
+                (h.hj.q = h.hj.q || []).push(arguments)
+            };
+            h._hjSettings = {
+                hjid: 1145479,
+                hjsv: 6
+            };
+            a = o.getElementsByTagName('head')[0];
+            r = o.createElement('script');
+            r.async = 1;
+            r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
+            a.appendChild(r);
+        })(window, document, 'https://static.hotjar.com/c/hotjar-', '.js?sv=');
+
+    </script>
 </head>
 
 <body>
@@ -51,8 +58,8 @@
                         <a href="https://cucucovers.com/collections/vendors?q=Loogart" target="_blank"><img class="img-portfolio" src="./img/loogmoji/photos/cucu-loogart-covers-blog-to.jpg" alt="Card Covers by CUCU Covers featuring Loogmojis by Loogart" title="Card Covers by CUCU Covers featuring Loogmojis by Loogart"></a>
                         <img class="img-portfolio" src="./img/loogmoji/photos/loogmoji-angel-rich-by-loogart.JPG" alt="Angel Rich's Loogmoji by Loogart" title="Angel Rich's Loogmoji">
                         <img class="img-portfolio" src="./img/loogmoji/photos/loogmoji-peter-mcgovern-g7.JPG" alt="Peter McGovern's framed Loogmoji by Loogart for the G7 Summit" title="Peter McGovern's Loogmoji for the G7 Summit">
-                        <h4 class="scroll-text">Scroll <i class="fa fa-long-arrow-right"></i></h4>
                     </div>
+                    <h4 class="scroll-text">Scroll <i class="fa fa-long-arrow-right"></i></h4>
                 </div>
             </div>
         </div>
@@ -93,7 +100,7 @@
                     <h5><strong>Casey Neistat</strong></h5>
                     <small>American YouTube personality, filmmaker and vlogger. Casey took a photo with his Loogmoji during the Influence Orbis Conference in Toronto, Canada.</small>
                     <div class="">
-    
+
                         <hr>
                         <h2>Your custom Loogmoji</h2>
                         <h3 class="pull-right">$169</h3>

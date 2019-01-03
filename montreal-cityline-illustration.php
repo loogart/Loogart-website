@@ -58,8 +58,8 @@
                             <img class="img-portfolio" src="./img/portfolio/citylines/cityline-mtl-westmount.png" alt="mtl-westmount-cityline-illustration-by-loogart" title="Westmount Cityline Illustration by Loogart">
                             <img class="img-portfolio" src="./img/portfolio/citylines/cityline-mtl-milton-park.png" alt="mtl-milton-park-cityline-illustration-by-loogart" title="Milton Park Cityline Illustration by Loogart">
                             <img class="img-portfolio" src="./img/portfolio/citylines/cityline-mtl-west-island.png" alt="mtl-west-island-cityline-illustration-by-loogart" title="West Island Cityline Illustration by Loogart">
-                            <h4 class="scroll-text">Scroll <i class="fa fa-long-arrow-right"></i></h4>
                         </div>
+                        <h4 class="scroll-text">Scroll <i class="fa fa-long-arrow-right"></i></h4>
                     </div>
 
                 </div>
@@ -93,8 +93,8 @@
                             <img class="img-portfolio" src="./img/portfolio/citylines/cityline-montreal-black.png" alt="montreal-black-edition-illustration-by-loogart" title="Montreal Black Edition Cityline Illustration by Loogart">
                             <img class="img-portfolio" src="./img/portfolio/citylines/cityline-montreal-green.png" alt="montreal-green-edition-illustration-by-loogart" title="Montreal Green Edition Cityline Illustration by Loogart">
                             <img class="img-portfolio" src="./img/portfolio/citylines/cityline-montreal-pink.png" alt="montreal-pink-edition-illustration-by-loogart" title="Montreal Pink Edition Cityline Illustration by Loogart">
-                            <h4 class="scroll-text">Scroll <i class="fa fa-long-arrow-right"></i></h4>
                         </div>
+                        <h4 class="scroll-text">Scroll <i class="fa fa-long-arrow-right"></i></h4>
                     </div>
 
                 </div>
