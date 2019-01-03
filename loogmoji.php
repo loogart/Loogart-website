@@ -292,7 +292,10 @@
                 <div class="row">
                     <div class="col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3">
                         <h3>Want to see more Loogmojis?</h3>
-                        <p>Follow Loogart on <a href="https://www.instagram.com/loogart/" target="_blank">Instagram</a>, you'll see the latest <a href="https://www.instagram.com/explore/tags/loogmoji/" target="_blank">#Loogmojis</a>! If you want to get your own Loogmoji, you can <a href="./contact">email us</a>! Once you get your own Loogmoji, you'll be part of the family and we will add you to this page.</p>
+                        <p>Follow Loogart on <a href="https://www.instagram.com/loogart/" target="_blank">Instagram</a>, you'll see the latest <a href="https://www.instagram.com/explore/tags/loogmoji/" target="_blank">#Loogmojis</a>!      
+                        <h3>Want your own custom Loogmoji?</h3> 
+                        <p>That's right! I will create your very own personalized Loogmoji. Check it out.</p>
+                        <a href="./shop-custom-loogmoji" class="btn btn-lg btn-turquoise">Shop custom Loogmoji</a>
                     </div>
                 </div>
             </section>
