@@ -86,12 +86,13 @@
                     <h3>How this works</h3>
                     <ol>
                         <li>You buy your Loogmoji online - YAY!</li>
-                        <li>You receive an email shortly after asking you to send me 3 headshot photos + 1 photo with your favourite outfit. This will help me capture your likeness!</li>
-                        <li>I get to work and illustrate your Loogmoji within 7 business days.</li>
-                        <li>Once the Loogmoji is completed, I send it to you for a final look - last call for any minor change ;)</li>
-                        <li>I then provide you with all digital image files. Yassssss!!!</li>
-                        <li>You can use your Loogmoji on the internet (include the hashtag <a href="https://www.instagram.com/explore/tags/loogmoji/" target="_blank">#Loogmoji</a>) or print it at a local printshop.</li>
+                        <li>You receive a confirmation email which asks you to send me 3 headshot photos + your favourite outfit.</li>
+                        <li>I get to work and create your Loogmoji within 5 business days.</li>
+                        <li>I send you your Loogmoji for a sneak peak - Like it? Good. Changes? Let me know.</li>
+                        <li>I finish your Loogmoji and send you the digital image files (small, medium, large). Yassssss!!!</li>
                     </ol>
+                    <h3>What can you do with your Loogmoji?</h3>
+                    <p>Post your Loogmoji on the internet, use it on Social Media (include the hashtag <a href="https://www.instagram.com/explore/tags/loogmoji/" target="_blank">#Loogmoji</a>) or (even better!) print it at a local printshop. Need help printing it? <a href="./contact">Get in touch</a>.</p>
                 </div>
                 <div class="col-sm-6 sticky-right">
                     <a href="https://twitter.com/CaseyNeistat/status/933016922471436288/photo/1?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E933016922471436288&ref_url=http%3A%2F%2F127.0.0.1%3A8080%2Finfluence-orbis-artwork.php" target="_blank"><img class="img-responsive" src="./img/loogmoji/photos/loogmoji-casey-neistat.jpeg" style="box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);"></a>
@@ -102,8 +103,8 @@
 
                         <hr>
                         <h2>Your custom Loogmoji</h2>
-                        <div style="padding:1em;background:#111;color:#fff;">
-                            Use Discount Code <strong>XMAS2018</strong> for 30% off till January 6, 2019.
+                        <div class="alert alert-success">
+                            <h5>Use Discount Code <strong>XMAS2018</strong> for 30% off till January 6, 2019.</h5>
                         </div>
                         <h3 class="pull-right">$249</h3>
                         <h3 class="pull-left">Price</h3>
