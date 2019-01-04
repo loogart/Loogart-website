@@ -80,7 +80,7 @@
 
                     <h3>The Loogmoji includes...</h3>
                     <ul>
-                        <li>One (1) personalized caricature in the Loogart style + custom wardrobe</li>
+                        <li>One (1) personalized portrait in the Loogart style + custom wardrobe</li>
                         <li>Image files for use on social media, websites and for printing (jpeg, png and pdf). </li>
                     </ul>
                     <h3>How this works</h3>
@@ -109,7 +109,7 @@
                         <h3 class="pull-left">Price</h3>
                         <div class="clearfix"></div>
                         <ul class="list-unstyled product-details">
-                            <li>One (1) personalized caricature (Loogmoji) in the Loogart style.</li>
+                            <li>One (1) personalized portrait (Loogmoji) in the Loogart style.</li>
                             <li>Digital files of the artwork in jpeg, png and pdf.</li>
                             <li>Does not include printing of the artwork.</li>
                             <li>Delivery of digital artwork within 5-7 business days.</li>
