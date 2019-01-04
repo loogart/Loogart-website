@@ -75,7 +75,7 @@
                 <div class="col-sm-6">
                     <h1>Your <i>custom</i> Loogmoji</h1>
                     <h3>What is a Loogmoji?</h3>
-                    <p>The Loogmoji is a fun, bold and creative piece of art that portrays who you are. With minimal lines, Loogart creates an emoji-like representation of you. That's right, this is custom artwork, for you.</p>
+                    <p>The Loogmoji is a fun, bold and creative piece of art that portrays who you are. With minimal lines, Loogart creates an emoji-like portrait of you. That's right, this is custom artwork, for you.</p>
                     <img class="img-responsive img-spacing" src="./img/loogmoji/photos/loogmoji-made-by-looogart.jpg" alt="Loogmoji Made by Loogart logo">
 
                     <h3>The Loogmoji includes...</h3>
@@ -85,13 +85,12 @@
                     </ul>
                     <h3>How this works</h3>
                     <ol>
-                        <li>You buy a Loogmoji online - YAY! We become friends and I send you an email!</li>
-                        <li>This email will ask you to send me 3-5 photos of your face + 1 photo with your favourite outfit. Make sure to include headshots from various angles so that I can capture your likeness.</li>
-                        <li>I get to work and illustrate the Loogmoji within 7 business days.</li>
-                        <li>Once the Loogmoji is completed, I send it to you for a final look - last call for minor changes ;)</li>
-                        <li>Upon approval, I provide all digital image files. Yassssss!!!</li>
-                        <li>You can then use your Loogmoji on the internet or print it at a local printshop.</li>
-                        <li>When you use your Loogmoji on social media, make sure to include the hashtag <a href="https://www.instagram.com/explore/tags/loogmoji/" target="_blank">#Loogmoji</a></li>
+                        <li>You buy your Loogmoji online - YAY!</li>
+                        <li>You receive an email shortly after asking you to send me 3 headshot photos + 1 photo with your favourite outfit. This will help me capture your likeness!</li>
+                        <li>I get to work and illustrate your Loogmoji within 7 business days.</li>
+                        <li>Once the Loogmoji is completed, I send it to you for a final look - last call for any minor change ;)</li>
+                        <li>I then provide you with all digital image files. Yassssss!!!</li>
+                        <li>You can use your Loogmoji on the internet (include the hashtag <a href="https://www.instagram.com/explore/tags/loogmoji/" target="_blank">#Loogmoji</a>) or print it at a local printshop.</li>
                     </ol>
                 </div>
                 <div class="col-sm-6 sticky-right">
