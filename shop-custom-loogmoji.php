@@ -103,7 +103,10 @@
 
                         <hr>
                         <h2>Your custom Loogmoji</h2>
-                        <h3 class="pull-right">$169</h3>
+                        <div style="padding:1em;background:#111;color:#fff;">
+                            Use Discount Code <strong>XMAS2018</strong> for 30% off till January 6, 2019.
+                        </div>
+                        <h3 class="pull-right">$249</h3>
                         <h3 class="pull-left">Price</h3>
                         <div class="clearfix"></div>
                         <ul class="list-unstyled product-details">
