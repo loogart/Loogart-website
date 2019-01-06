@@ -37,6 +37,8 @@ $(document).ready(function () {
         $("#aboutPage").addClass("active");
     } else if (/contact/.test(loc)) {
         $("#contactPage").addClass("active");
+    } else if (/shop/.test(loc)) {
+        $("#shopPage").addClass("active");
     }
 });
 //navigation animation       

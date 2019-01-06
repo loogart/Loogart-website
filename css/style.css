@@ -2136,3 +2136,26 @@ ul.product-details li{
     margin:10px auto;
     line-height:1;
 }
+
+/* shop */
+
+.crds a{
+    text-decoration: none;
+}
+.crds a img{
+    object-fit: cover;
+    width:100%;
+    height:300px;
+        box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+
+}
+.crds a h4 {
+    font-weight: bolder;
+    color:rgba(0, 172, 137, 1.0);
+}
+
+.crds a p{
+    color:#333;
+    font-size: 1.1em;
+    line-height: 1.3;
+}

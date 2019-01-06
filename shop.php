@@ -15,256 +15,6 @@
     <?php include 'php/header.php';?>
     <?php include 'php/facebook-pixel.php';?>
 
-    <script type="text/javascript">
-        /*<![CDATA[*/
-
-        (function() {
-            var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
-            if (window.ShopifyBuy) {
-                if (window.ShopifyBuy.UI) {
-                    ShopifyBuyInit();
-                } else {
-                    loadScript();
-                }
-            } else {
-                loadScript();
-            }
-
-            function loadScript() {
-                var script = document.createElement('script');
-                script.async = true;
-                script.src = scriptURL;
-                (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(script);
-                script.onload = ShopifyBuyInit;
-            }
-
-            function ShopifyBuyInit() {
-                var client = ShopifyBuy.buildClient({
-                    domain: 'loogartshop.myshopify.com',
-                    storefrontAccessToken: 'b9145295531bae67ab1387ce1216ccff',
-                });
-
-                ShopifyBuy.UI.onReady(client).then(function(ui) {
-                    ui.createComponent('collection', {
-                        id: 71250608192,
-                        node: document.getElementById('collection-component-c55fad8f87a'),
-                        moneyFormat: '%24%7B%7Bamount%7D%7D',
-                        options: {
-                            "product": {
-                                "buttonDestination": "modal",
-                                "variantId": "all",
-                                "contents": {
-                                    "imgWithCarousel": false,
-                                    "variantTitle": false,
-                                    "options": false,
-                                    "description": false,
-                                    "buttonWithQuantity": false,
-                                    "quantity": false
-                                },
-                                "text": {
-                                    "button": "VIEW PRODUCT"
-                                },
-                                "styles": {
-                                    "product": {
-                                        "@media (min-width: 601px)": {
-                                            "max-width": "calc(33.33333% - 30px)",
-                                            "margin-left": "30px",
-                                            "margin-bottom": "50px",
-                                            "width": "calc(33.33333% - 30px)"
-                                        }
-                                    },
-                                    "button": {
-                                        "background-color": "#f75a56",
-                                        "font-family": "Roboto, sans-serif",
-                                        "padding-left": "100%px",
-                                        "padding-right": "100%px",
-                                        ":hover": {
-                                            "background-color": "#de514d"
-                                        },
-                                        "border-radius": "40px",
-                                        ":focus": {
-                                            "background-color": "#de514d"
-                                        },
-                                        "font-weight": "bold"
-                                    },
-                                    "variantTitle": {
-                                        "font-family": "Roboto, sans-serif",
-                                        "font-weight": "normal"
-                                    },
-                                    "title": {
-                                        "font-family": "Roboto, sans-serif",
-                                        "font-size": "20px",
-                                        "color": "#222222"
-                                    },
-                                    "description": {
-                                        "font-family": "Roboto, sans-serif",
-                                        "font-weight": "normal"
-                                    },
-                                    "price": {
-                                        "font-family": "Roboto, sans-serif",
-                                        "font-size": "26px",
-                                        "color": "#138a85",
-                                        "font-weight": "normal"
-                                    },
-                                    "compareAt": {
-                                        "font-family": "Roboto, sans-serif",
-                                        "font-weight": "normal",
-                                        "color": "#138a85",
-                                        "font-size": "22.099999999999998px"
-                                    }
-                                },
-                                "googleFonts": [
-                                    "Roboto",
-                                    "Roboto",
-                                    "Roboto",
-                                    "Roboto",
-                                    "Roboto",
-                                    "Roboto"
-                                ]
-                            },
-                            "cart": {
-                                "contents": {
-                                    "button": true
-                                },
-                                "styles": {
-                                    "button": {
-                                        "background-color": "#f75a56",
-                                        "font-family": "Roboto, sans-serif",
-                                        ":hover": {
-                                            "background-color": "#de514d"
-                                        },
-                                        "border-radius": "40px",
-                                        ":focus": {
-                                            "background-color": "#de514d"
-                                        },
-                                        "font-weight": "bold"
-                                    },
-                                    "footer": {
-                                        "background-color": "#ffffff"
-                                    }
-                                },
-                                "googleFonts": [
-                                    "Roboto"
-                                ]
-                            },
-                            "modalProduct": {
-                                "contents": {
-                                    "img": false,
-                                    "imgWithCarousel": true,
-                                    "variantTitle": false,
-                                    "buttonWithQuantity": true,
-                                    "button": false,
-                                    "quantity": false
-                                },
-                                "styles": {
-                                    "product": {
-                                        "@media (min-width: 601px)": {
-                                            "max-width": "100%",
-                                            "margin-left": "0px",
-                                            "margin-bottom": "0px"
-                                        }
-                                    },
-                                    "button": {
-                                        "background-color": "#f75a56",
-                                        "font-family": "Roboto, sans-serif",
-                                        "padding-left": "100%px",
-                                        "padding-right": "100%px",
-                                        ":hover": {
-                                            "background-color": "#de514d"
-                                        },
-                                        "border-radius": "40px",
-                                        ":focus": {
-                                            "background-color": "#de514d"
-                                        },
-                                        "font-weight": "bold"
-                                    },
-                                    "variantTitle": {
-                                        "font-family": "Roboto, sans-serif",
-                                        "font-weight": "normal"
-                                    },
-                                    "title": {
-                                        "font-family": "Roboto, sans-serif"
-                                    },
-                                    "description": {
-                                        "font-family": "Roboto, sans-serif",
-                                        "font-weight": "normal"
-                                    },
-                                    "price": {
-                                        "font-family": "Roboto, sans-serif",
-                                        "font-weight": "normal"
-                                    },
-                                    "compareAt": {
-                                        "font-family": "Roboto, sans-serif",
-                                        "font-weight": "normal"
-                                    }
-                                },
-                                "googleFonts": [
-                                    "Roboto",
-                                    "Roboto",
-                                    "Roboto",
-                                    "Roboto",
-                                    "Roboto",
-                                    "Roboto"
-                                ]
-                            },
-                            "toggle": {
-                                "styles": {
-                                    "toggle": {
-                                        "font-family": "Roboto, sans-serif",
-                                        "background-color": "#f75a56",
-                                        ":hover": {
-                                            "background-color": "#de514d"
-                                        },
-                                        ":focus": {
-                                            "background-color": "#de514d"
-                                        },
-                                        "font-weight": "bold"
-                                    },
-                                    "count": {
-                                        "color": "#ffffff",
-                                        ":hover": {
-                                            "color": "#ffffff"
-                                        }
-                                    },
-                                    "iconPath": {
-                                        "fill": "#ffffff"
-                                    }
-                                },
-                                "googleFonts": [
-                                    "Roboto"
-                                ]
-                            },
-                            "option": {
-                                "styles": {
-                                    "label": {
-                                        "font-family": "Roboto, sans-serif"
-                                    },
-                                    "select": {
-                                        "font-family": "Roboto, sans-serif"
-                                    }
-                                },
-                                "googleFonts": [
-                                    "Roboto",
-                                    "Roboto"
-                                ]
-                            },
-                            "productSet": {
-                                "styles": {
-                                    "products": {
-                                        "@media (min-width: 601px)": {
-                                            "margin-left": "-30px"
-                                        }
-                                    }
-                                }
-                            }
-                        }
-                    });
-                });
-            }
-        })();
-        /*]]>*/
-
-    </script>
 </head>
 
 <body>
@@ -273,20 +23,33 @@
     <?php include 'php/analyticstracking.php';?>
     <?php include 'php/navbar.php';?>
 
-    <!-- petition -->
-    <!--
-    <div class="text-center">
-        <div class="change-embed-petition" data-petition-id="12967259" style="padding-bottom:0"></div>
-        <script src="https://static.change.org/product/embeds/v1/change-embeds.js" type="text/javascript"></script>
-    </div>
--->
 
     <main class="container">
         <h1 class="sr-only">The Loogart Shop</h1>
         <h2>Shop Loogart Products</h2>
-
-        <div id='collection-component-c55fad8f87a'></div>
-
+        <div class="row crds">
+            <div class="col-sm-4">
+                <a href="./shop-custom-loogmoji">
+                    <img class="img-spacing" src="./img/loogmoji/photos/loogmoji-casey-neistat.jpeg" alt="loogmoji of casey neistat">
+                    <h4>Shop Custom Loogmoji</h4>
+                    <p>The Loogmoji is a fun, bold and creative piece of art that portrays who you are. With minimal lines, Loogart creates an emoji-like portrait of you. That's right, this is custom artwork, for you.</p>
+                </a>
+            </div>
+            <div class="col-sm-4">
+                <a href="./shop-artwork">
+                    <img class="img-spacing" src="./img/portfolio/citylines/photo-cityline-frames-room.jpg" alt="loogmoji of casey neistat">
+                    <h4>Shop CityLine Framed Prints</h4>
+                    <p>Looking to decorate your wall and showcase a city you love? The Loogart CityLine Collection are fun, bold and simplified illustrations that represent various cities and neighbourhoods.</p>
+                </a>
+            </div>
+            <div class="col-sm-4">
+                <a href="https://cucucovers.com/collections/loogmoji" target="_blank">
+                    <img class="img-spacing" src="./img/loogmoji/photos/cucu-loogart-covers-blog-to.jpg" alt="loogmoji of casey neistat">
+                    <h4>Shop CUCU Covers</h4>
+                    <p>Personalize any card in seconds. Stick-On Covers for Bank Cards, Transit Passes, Gift Cards and more! </p>
+                </a>
+            </div>            
+        </div>
 
     </main>
 
