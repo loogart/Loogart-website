@@ -53,13 +53,13 @@ $(window).scroll(function () {
 // interval and custom config passed to reveal
 window.sr = ScrollReveal();
 sr.reveal('.appear-1', {
-    duration: 500,
-    delay: 100,
+    duration: 1000,
+    delay: 0,
     origin: 'bottom',
-    distance: '0px',
-    opacity: 0.5,
-    scale: 0.95,
-    easing: 'ease-in-out',
+    distance: '69px',
+    opacity: 0,
+    scale: 1,
+    easing: 'ease-out',
     mobile: true,
     reset: false,
     useDelay: 'onload',
