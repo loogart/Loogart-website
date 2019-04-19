@@ -24,33 +24,41 @@
     <?php include 'php/navbar.php';?>
 
 
-    <main class="container">
-        <h1 class="sr-only">The Loogart Shop</h1>
-        <h2>Shop Loogart Products</h2>
-        <div class="row crds">
-            <div class="col-sm-4">
-                <a href="./shop-custom-loogmoji">
-                    <img class="img-spacing" src="./img/loogmoji/photos/loogmoji-casey-neistat.jpeg" alt="loogmoji of casey neistat">
-                    <h4>Shop Custom Loogmoji</h4>
-                    <p>The Loogmoji is a fun, bold and creative piece of art that portrays who you are. With minimal lines, Loogart creates an emoji-like portrait of you. That's right, this is custom artwork, for you.</p>
-                </a>
-            </div>
-            <div class="col-sm-4">
-                <a href="./shop-artwork">
-                    <img class="img-spacing" src="./img/portfolio/citylines/photo-cityline-frames-room.jpg" alt="loogmoji of casey neistat">
-                    <h4>Shop CityLine Framed Prints</h4>
-                    <p>Looking to decorate your wall and showcase a city you love? The Loogart CityLine Collection are fun, bold and simplified illustrations that represent various cities and neighbourhoods.</p>
-                </a>
-            </div>
-            <div class="col-sm-4">
-                <a href="https://cucucovers.com/collections/loogmoji" target="_blank">
-                    <img class="img-spacing" src="./img/loogmoji/photos/cucu-loogart-covers-blog-to.jpg" alt="loogmoji of casey neistat">
-                    <h4>Shop CUCU Covers</h4>
-                    <p>Personalize any card in seconds. Stick-On Covers for Bank Cards, Transit Passes, Gift Cards and more! </p>
-                </a>
-            </div>            
-        </div>
+    <main class="container text-center">
+        <section class="shop">
+            <h1 class="sr-only">The Loogart Shop</h1>
+            <h2>The Loogart Shop</h2>
+            <div class="row">
+                <div class="col-sm-12">
+                    <a href="./shop-custom-loogmoji">
+                        <div class="product-box product-loogmoji">
+                            <h3>Your personal Loogmoji.</h3>
+                            <p>An emoji-like portrait of you by Loogart. For personal use only.</p>
+                            <a class="link-btn" href="./shop-custom-loogmoji">Buy <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-sm-6">
+                    <a href="./shop-artwork">
+                        <div class="product-box product-framed-art">
+                            <h3>Framed Art</h3>
+                            <p>Original designs by Loogart ready to be displayed on your wall.</p>
+                            <a class="link-btn" href="./shop-artwork">Buy <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
 
+                        </div>
+                    </a>
+                </div>
+                <div class="col-sm-6">
+                    <a href="https://cucucovers.com/collections/loogmoji" target="_blank">
+                        <div class="product-box product-cucu">
+                            <h3>CUCU Covers</h3>
+                            <p>Personalize bank cards, transit passes and gift cards in seconds.</p>
+                            <a class="link-btn" href="https://cucucovers.com/collections/loogmoji" target="_blank">Buy <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
     </main>
 
     <?php include 'php/footer.php';?>
