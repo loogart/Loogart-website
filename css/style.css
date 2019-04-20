@@ -2175,6 +2175,14 @@ section.shop p {
     padding: 3.69rem 2rem 0;
 }
 
+.product-box p.link-btn{
+    color:rgba(0, 172, 137, 1.0);
+}
+.product-box  p.link-btn:hover {
+    text-decoration: underline;
+    color: teal;
+}
+
 .product-loogmoji {
     background-image: url("../img/shop/shop-loogmojis.svg");
     background-size: cover;
@@ -2257,7 +2265,3 @@ section.shop p {
     }
 }
 
-a.link-btn:hover {
-    text-decoration: underline;
-    color: teal;
-}

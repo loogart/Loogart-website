@@ -34,7 +34,7 @@
                         <div class="product-box product-loogmoji">
                             <h3>Your personal Loogmoji.</h3>
                             <p>An emoji-like portrait of you by Loogart. For personal use only.</p>
-                            <a class="link-btn" href="./shop-custom-loogmoji">Buy <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+                            <p class="link-btn" href="./shop-custom-loogmoji">Buy <i class="fa fa-long-arrow-right" aria-hidden="true"></i></p>
                         </div>
                     </a>
                 </div>
@@ -43,7 +43,7 @@
                         <div class="product-box product-framed-art">
                             <h3>Framed Art</h3>
                             <p>Original designs by Loogart ready to be displayed on your wall.</p>
-                            <a class="link-btn" href="./shop-artwork">Buy <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+                            <p class="link-btn" href="./shop-artwork">Buy <i class="fa fa-long-arrow-right" aria-hidden="true"></i></p>
 
                         </div>
                     </a>
@@ -53,7 +53,7 @@
                         <div class="product-box product-cucu">
                             <h3>CUCU Covers</h3>
                             <p>Personalize bank cards, transit passes and gift cards in seconds.</p>
-                            <a class="link-btn" href="https://cucucovers.com/collections/loogmoji" target="_blank">Buy <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+                            <p class="link-btn" href="https://cucucovers.com/collections/loogmoji" target="_blank">Buy <i class="fa fa-long-arrow-right" aria-hidden="true"></i></p>
                         </div>
                     </a>
                 </div>
