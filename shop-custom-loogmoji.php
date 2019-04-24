@@ -39,6 +39,11 @@
     <?php include './php/analyticstracking.php';?>
     <?php include './php/navbar.php';?>
     <div class="container">
+        <ol class="breadcrumb breadcrumb-shop">
+            <li><a href="./">Home</a></li>
+            <li><a href="./shop">Shop</a></li>
+            <li class="active">Your personal Loogmoji</li>
+        </ol>
         <img class="text-left logo-loogmoji" src="./img/loogmoji/photos/logo_loogmoji-by-loogart.png" alt="Loogmoji Made by Loogart logo">
     </div>
     <div class="container-fluid">
@@ -73,7 +78,7 @@
         <section class="portfolio-content">
             <div class="row">
                 <div class="col-sm-6">
-                    <h1>Your <i>custom</i> Loogmoji</h1>
+                    <h1>Your <i>personal</i> Loogmoji</h1>
                     <h3>What is a Loogmoji?</h3>
                     <p>The Loogmoji is a fun, bold and creative piece of art that portrays who you are. With minimal lines, Loogart creates an emoji-like portrait of you. That's right, this is custom artwork, for you.</p>
                     <img class="img-responsive img-spacing" src="./img/loogmoji/photos/loogmoji-made-by-looogart.jpg" alt="Loogmoji Made by Loogart logo">

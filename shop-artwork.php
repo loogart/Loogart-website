@@ -25,10 +25,15 @@
     <?php include 'php/navbar.php';?>
     <main>
         <div class="container">
+            <ol class="breadcrumb breadcrumb-shop">
+                <li><a href="./">Home</a></li>
+                <li><a href="./shop">Shop</a></li>
+                <li class="active">Framed Art</li>
+            </ol>
             <h1 class="sr-only">The Loogart Shop</h1>
-            <h2>Shop Loogart Artwork</h2>
+            <h2>Loogart Framed Art</h2>
         </div>
-        
+
         <img class="img-responsive img-spacing" src="./img/portfolio/citylines/photo-cityline-frames-room.jpg" alt="Montreal CityLine illustrations by Loogart">
 
         <div class="container-fluid">

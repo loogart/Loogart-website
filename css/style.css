@@ -2139,8 +2139,13 @@ ul.product-details li {
 }
 
 /* shop */
+.breadcrumb-shop{
+    background:transparent;
+    padding:0;
+}
+
 section.shop {
-    padding: 3rem 0;
+    padding: 0 0 3rem;
 }
 
 section.shop h2{
