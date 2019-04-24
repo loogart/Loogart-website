@@ -49,11 +49,11 @@
                     </a>
                 </div>
                 <div class="col-sm-6">
-                    <a href="shop-loogmoji-cucu-covers" target="_blank">
+                    <a href="shop-loogmoji-cucu-covers">
                         <div class="product-box product-cucu">
                             <h3>CUCU Covers</h3>
                             <p>Personalize bank cards, transit passes and gift cards in seconds.</p>
-                            <p class="link-btn" target="_blank">Buy <i class="fa fa-long-arrow-right" aria-hidden="true"></i></p>
+                            <p class="link-btn">Buy <i class="fa fa-long-arrow-right" aria-hidden="true"></i></p>
                         </div>
                     </a>
                 </div>
