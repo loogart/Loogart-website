@@ -2196,7 +2196,8 @@ section.shop p {
     background-color: pink;
 /*    background-color: #70bae2;*/
 }
-
+.product-loogmoji h1,
+.product-loogmoji h2,
 .product-loogmoji h3,
 .product-loogmoji p,
 .product-loogmoji a {

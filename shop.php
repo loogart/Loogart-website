@@ -49,7 +49,7 @@
                     </a>
                 </div>
                 <div class="col-sm-6">
-                    <a href="shop-loogmoji-cucu-covers">
+                    <a href="https://cucucovers.com/collections/loogmoji" target="_blank">
                         <div class="product-box product-cucu">
                             <h3>CUCU Covers</h3>
                             <p>Personalize bank cards, transit passes and gift cards in seconds.</p>
