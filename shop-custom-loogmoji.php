@@ -72,7 +72,7 @@
                         <li>Buy your <a href="https://www.instagram.com/explore/tags/loogmoji/" target="_blank">#Loogmoji</a>.</li>
                         <li>I email you with the next steps.</li>
                         <li>I draw your Loogmoji.</li>
-                        <li>You receive a digital version of your Loogmoji*.</li>
+                        <li>You receive a digital version of your Loogmoji.</li>
                     </ol>
                     <div id='product-component-7e4dee136c4'></div>
                     <script type="text/javascript">
@@ -162,7 +162,7 @@
                                                     },
                                                     "price": {
                                                         "font-family": "Roboto, sans-serif",
-                                                        "font-size": "26px",
+                                                        "font-size": "36px",
                                                         "color": "#222222",
                                                         "font-weight": "bold"
                                                     },
@@ -323,9 +323,7 @@
                     </script>
 
                     <br>
-                    <small>*For personal use only. If you would like to use it for commercial purposes, please <a href="mailto:chris@loogart.com">contact me</a>.</small>
-
-
+                    <small>*<strong>Commercial License Scope: </strong>If you are working on a web, print or TV advertisement or on revenue-generating content, the Commercial License will cover your single project in perpetuity.</small>
                 </div>
 
             </div>
