@@ -22,23 +22,18 @@
     <?php include 'php/analyticstracking.php';?>
     <?php include 'php/navbar.php';?>
 
-    <!-- petition -->
-    <!--
-    <div class="text-center">
-        <div class="change-embed-petition" data-petition-id="12967259" style="padding-bottom:0"></div>
-        <script src="https://static.change.org/product/embeds/v1/change-embeds.js" type="text/javascript"></script>
-    </div>
--->
 
     <main class="container">
 
         <div class="row">
             <div class="col-sm-12">
-                <h1 class="sr-only">Loogart: Montreal visual design studio for illustration, brand identity and web design</h1>
-                <h2>Loogart is a Montreal-based visual design studio that specializes in illustration, brand identity, motion graphics and web design.</h2>
-                <p class="cta-jumbotron">
-                    <a class="btn btn-lg btn-pink" href="contact" role="button">email us</a>
-                </p>
+
+
+                <h1 class="sr-only">Loogart: Montreal visual designer, illustrator, motion artist and web designer</h1>
+                <h2>Loogart is a Montreal-raised visual designer who specializes in illustration, brand identity, motion graphics and web design.</h2>
+                
+                <img class="img-hero appear-1" src="./img/loogart-montreal-mashup.jpg" alt="Geometrical, colourful and bold illustration of Montreal City areas by Loogart">
+
             </div>
         </div>
 
@@ -74,8 +69,8 @@
 
             <div class="row">
                 <div class="col-sm-12" id="montreal">
-                    <h3 id="selectedProjects">Client projects <i class="fa fa-heart throb" aria-hidden="true"></i></h3>
-                    <h4>We are a multidisciplinary design studio that works on illustration, branding, iconography, motion graphics, web projects and user experience. We form one team with our clients. They win, we win.</h4>
+                    <h3 id="selectedProjects">Work <!-- <i class="fa fa-heart throb" aria-hidden="true"></i> --></h3>
+                    <h4>Loogart is a multidisciplinary designer who works on illustration, branding, iconography, motion graphics, web projects and user experience.</h4>
                 </div>
                 <div class="col-sm-6 appear-1" id="yellowPages">
                     <a href="yellow-pages-icons-and-illustrations">
@@ -304,22 +299,19 @@
         <section class="portfolio portfolio__web">
             <div class="row">
                 <div class="container">
-                    <h3>Web design projects <i class="fa fa-mouse-pointer" aria-hidden="true"></i></h3>
+                    <h3>Web Design</h3>
                     <h4>A selection of websites made with love, html and css by Loogart for several clients in different industries.</h4>
                     <div class="scroll">
-                        <a href="https://loogart.github.io/leburgerweek/" target="_blank" title="Le Burger Week's Website"><img class="carousel-web-design" src="img/websites/website-le-burger-week.png" alt="Website prototype of Le Burger Week"></a>
-                        <a href="https://loogart.github.io/nutritionr-2/" target="_blank" title="Nutritionr's New Website"><img class="carousel-web-design" src="img/websites/website-nutritionr-2017.png" alt="Nutritionr's website prototype"></a>
+                        <a href="https://loogart.github.io/leburgerweek/2019" target="_blank" title="Le Burger Week's Website"><img class="carousel-web-design" src="img/websites/website-le-burger-week.png" alt="Website prototype of Le Burger Week"></a>
+                        <a href="https://loogart.github.io/nutritionr/" target="_blank" title="Nutritionr's New Website"><img class="carousel-web-design" src="img/websites/website-nutritionr-2017.png" alt="Nutritionr's website prototype"></a>
+                        <a href="http://robertbeaudry.ca" target="_blank" title="50 Shades of Beaudry by Loogart"><img class="carousel-web-design" src="img/websites/website-50-shades-of-beaudry.png" alt="50 Shades of Beaudry retirement gift website"></a>
                         <a href="http://timeringue.com" target="_blank" title="Timeringue's Website"><img class="carousel-web-design" src="img/websites/website-timeringue.png" alt="Timeringue's Website"></a>
-                        <a href="http://gac-digimat.loogart.com" target="_blank" title="Global Affairs Digital Maturity Micro-site"><img class="carousel-web-design" src="img/websites/website-gac-digimaturity.png" alt="Global Affairs Digital Maturity Micro website prototype"></a>
-                        <a href="http://loog.ca/nu/" target="_blank" title="Nutritionr Web app"><img class="carousel-web-design" src="img/websites/website-nutritionr.png" alt="Nutritionr's app dashboard prototype"></a>
+                        <a href="http://loog.ca/dma" target="_blank" title="Global Affairs Digital Maturity Micro-site"><img class="carousel-web-design" src="img/websites/website-gac-digimaturity.png" alt="Global Affairs Digital Maturity Micro website prototype"></a>
                         <a href="http://loog.ca/voldemort/" target="_blank" title="Global Affairs Canada - Ask Travel Web App"><img class="carousel-web-design" src="img/websites/website-ask-travel.png" alt="Ask Travel Web app prototype"></a>
                         <a href="http://loog.ca/2/" target="_blank" title="Global Affairs Canada - InnoLab GCPedia Website"><img class="carousel-web-design" src="img/websites/website-gac-innolab.png" alt="Global Affairs Canada InnoLab website prototype"></a>
                         <a href="http://loog.ca/buildmetric/" target="_blank" title="Buildmetric"><img class="carousel-web-design" src="img/websites/website-buildmetric.png" alt="Buildmetric's website prorotype"></a>
-                        <a href="http://robertbeaudry.ca" target="_blank" title="50 Shades of Beaudry by Loogart"><img class="carousel-web-design" src="img/websites/website-50-shades-of-beaudry.png" alt="50 Shades of Beaudry retirement gift website"></a>
                         <a href="http://loog.ca/ca/" target="_blank" title="Commecca"><img class="carousel-web-design" src="img/websites/website-commecca.png" alt="Commecca website prototype"></a>
                         <a href="http://strategiclawyers.ca" target="_blank" title="Strategic Lawyers Website"><img class="carousel-web-design" src="img/websites/website-strategic-lawyers.png" alt="Strategic Lawyers website"></a>
-                        <a href="http://loog.ca/innolab-tools/" target="_blank" title="Global Affairs Canada - InnoLab Tools"><img class="carousel-web-design" src="img/websites/website-gac-innolab-tools.png" alt="GAC InnoLab Tools prototype"></a>
-                        <a href="http://loog.ca/la/" target="_blank" title="Social web app prorotype"><img class="carousel-web-design" src="img/websites/website-lightagents.png" alt="Social web app prorotype"></a>
                         <a href="http://joyceandchris.com" target="_blank" title="Joyce&amp;Chris Wedding Website"><img class="carousel-web-design" src="img/websites/website-wedding-joyce-chris.png" alt="wedding website by Loogart"></a>
                         <a href="http://joyceandchris.com/savethedate/" target="_blank" title="Joyce&amp;Chris Save the Date Website"><img class="carousel-web-design" src="img/websites/website-save-the-date-joyce-chris.png" alt="Save the Date website by Loogart"></a>
                         <a href="http://loog.ca/salonteashop/" target="_blank" title="Salon Teashop"><img class="carousel-web-design" src="img/websites/website-salon-teashop.png" alt="Salon Teashop website prototype"></a>
@@ -331,24 +323,6 @@
             </div>
         </section>
 
-        <!-- IG section -->
-<!--
-        <section class="portfolio portfolio__instagram">
-            <div class="row">
-                <div class="container">
-                    <h3><i class="fa fa-instagram" aria-hidden="true"></i> Loogstagram</h3>
-                    <h4>Stay up to date with the latest designs relased by Loogart on Instagram.</h4>
-                    <section class="hidden-xs">
-                        <script src="//lightwidget.com/widgets/lightwidget.js"></script><iframe src="//lightwidget.com/widgets/a23d64b399dc5906a2b5a9fe37087469.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width: 100%; border: 0; overflow: hidden;"></iframe>
-                    </section>
-                    <section class="visible-xs">
-                        <script src="//lightwidget.com/widgets/lightwidget.js"></script><iframe src="//lightwidget.com/widgets/8892a326654b55329c6483c180edd0ea.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width: 100%; border: 0; overflow: hidden;"></iframe>
-                    </section>
-                    <h5><a href="https://www.instagram.com/loogart/">Follow @Loogart</a></h5>
-                </div>
-            </div>
-        </section>
--->
 
     </main>
 

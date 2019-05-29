@@ -15,7 +15,7 @@ echo '
                 <div id="navbar" class="navbar-collapse collapse">
                     <ul class="nav navbar-nav navbar-right">
                         <li id="aboutPage"><a href="about">about</a></li>
-                        <li id="contactPage"><a href="contact">contact</a></li>
+                        <li><a href="mailto:chris@loogart.com">contact</a></li>
                         <li id="shopPage"><a href="shop">shop</a></li>
                         <li><a href="https://www.instagram.com/loogart/" target="_blank"><i class="fa fa-instagram hidden-xs" aria-hidden="true"></i> <span class="visible-xs"><i class="fa fa-instagram" aria-hidden="true"></i> Instagram</span></a></li>
                         <li><a href="https://www.facebook.com/LoogArt/" target="_blank"><i class="fa fa-facebook-official hidden-xs" aria-hidden="true"></i> <span class="visible-xs"><i class="fa fa-facebook-official" aria-hidden="true"></i> Facebook</span></a></li>
