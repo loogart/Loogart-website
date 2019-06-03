@@ -116,18 +116,9 @@
                                 <img class="client-logo" src="./img/logo/logo-mtlblog.png" alt="MTL Blog logo">
                                 <h6>MTL Blog</h6>
                             </div>
-
                             <div class="about-logo">
                                 <img class="client-logo" src="./img/logo/suite88-logo.png" alt="Suite 88 logo">
                                 <h6>Suite 88 Chocolatier</h6>
-                            </div>
-                            <div class="about-logo">
-                                <img class="client-logo" src="./img/logo/logo-mariouomo.png" alt="Mario Uomo logo">
-                                <h6>Mario Uomo</h6>
-                            </div>
-                            <div class="about-logo">
-                                <img class="client-logo" src="./img/logo/logo-tweetaide.jpg" alt="Tweetaide logo">
-                                <h6>Tweetaide</h6>
                             </div>
                         </div>
                         <p class="cta-jumbotron">
