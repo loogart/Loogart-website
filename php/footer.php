@@ -7,14 +7,14 @@ echo '</main>
                     <h5>Hire Loogart now.</h5>
                     <p>We create a visual language to help communicate your ideas to your clients. We do this through brand identity direction, illustration, animation, web design.
                     </p>
-                    <a href="./contact"><i class="fa fa-long-arrow-right" aria-hidden="true"></i> Get in touch</a>
+                    <a href="mailto:chris@loogart.com"><i class="fa fa-long-arrow-right" aria-hidden="true"></i> Get in touch</a>
                 </div>
                 <div class="col-sm-3">
                     <h5>Reach us.</h5>
                     <ul class="list-unstyled">
                         <li><a href="http://facebook.com/loogart"><i class="fa fa-facebook-official" aria-hidden="true"></i> Facebook</a></li>
                         <li><a href="http://instagram.com/loogart"><i class="fa fa-instagram" aria-hidden="true"></i> Instagram</a></li>
-                        <li><a href="contact"><i class="fa fa-envelope-o" aria-hidden="true"></i> Email us</a></li>
+                        <li><a href="mailto:chris@loogart.com"><i class="fa fa-envelope-o" aria-hidden="true"></i> Email us</a></li>
                     </ul>
                 </div>
                 <div class="col-sm-4">

@@ -33,7 +33,7 @@
                     <p>Fast forward to the end of 2011, a friend of mine running a growing online business convinced me that he would pay money for my creative services.</p>
                     <p>That is where I started my career as a visual designer and that is how Loogart was born.</p>
                     <p class="cta-jumbotron">
-                        <a class="btn btn-lg btn-white" href="contact.php" role="button">email chris</a>
+                        <a class="btn btn-lg btn-white" href="mailto:chris@loogart.com" role="button">email chris</a>
                     </p>
                 </div>
             </div>
@@ -122,7 +122,7 @@
                             </div>
                         </div>
                         <p class="cta-jumbotron">
-                            <a class="btn btn-lg btn-pink" href="contact.php" role="button">Work with Loogart</a>
+                            <a class="btn btn-lg btn-pink" href="mailto:chris@loogart.com" role="button">Work with Loogart</a>
                         </p>
                     </div>
                 </div>
