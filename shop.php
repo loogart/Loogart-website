@@ -49,6 +49,15 @@
                     </a>
                 </div>
                 <div class="col-sm-6">
+                    <a href="https://brefmtl.com/collections/tous-les-produits/Loogart" target="_blank">
+                        <div class="product-box product-bref">
+                            <h3>Bref MTL Collection</h3>
+                            <p>Products created in partnership with Bref MTL.</p>
+                            <p class="link-btn">Buy <i class="fa fa-long-arrow-right" aria-hidden="true"></i></p>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-sm-6">
                     <a href="https://cucucovers.com/collections/loogmoji" target="_blank">
                         <div class="product-box product-cucu">
                             <h3>CUCU Covers</h3>
