@@ -2210,7 +2210,7 @@ section.shop p {
     background-repeat: no-repeat;
     background-position: 50% 69%;
     background-color: pink;
-    /*    background-color: #70bae2;*/
+    
 }
 
 .product-loogmoji h1,
@@ -2244,6 +2244,13 @@ section.shop p {
     background-position: center 180%;
 }
 
+.product-swag {
+    background-image: url(../img/shop/shop-swag.jpg);
+    background-size: 120%;
+    background-repeat: no-repeat;
+    background-position: center 15%;
+}
+
 @media(max-width:767px) {
     .product-loogmoji {
         background-size: 180%;
@@ -2264,6 +2271,9 @@ section.shop p {
         background-image: url(../img/shop/shop-bref.png);
         background-repeat: no-repeat;
         background-position: center 200%;
+    }
+    .product-swag{
+        
     }
 }
 

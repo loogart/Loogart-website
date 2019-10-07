@@ -49,6 +49,15 @@
                     </a>
                 </div>
                 <div class="col-sm-6">
+                    <a href="./shop-loogart-swag">
+                        <div class="product-box product-swag">
+                            <h3>Loogart Swag</h3>
+                            <p>Original Loogart accessories and items.</p>
+                            <p class="link-btn" style="color:black">Buy <i class="fa fa-long-arrow-right" aria-hidden="true"></i></p>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-sm-6">
                     <a href="https://brefmtl.com/collections/tous-les-produits/Loogart" target="_blank">
                         <div class="product-box product-bref">
                             <h3>Bref MTL Collection</h3>
