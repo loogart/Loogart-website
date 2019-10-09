@@ -107,5 +107,18 @@ echo '</main>
     $("#thankyou").modal("show") {
     fbq("track", "SubmitMessage"
     );
-    </script>'
+    </script>
+    
+    <script>
+      function initFreshChat() {
+        window.fcWidget.init({
+          token: "81f1766b-52c5-4b47-adea-06d4b42d2525",
+          host: "https://wchat.freshchat.com"
+        });
+      }
+      function initialize(i,t){var e;i.getElementById(t)?initFreshChat():((e=i.createElement("script")).id=t,e.async=!0,e.src="https://wchat.freshchat.com/js/widget.js",e.onload=initFreshChat,i.head.appendChild(e))}function initiateCall(){initialize(document,"freshchat-js-sdk")}window.addEventListener?window.addEventListener("load",initiateCall,!1):window.attachEvent("load",initiateCall,!1);
+    </script>
+
+    
+    '
     ;?>
