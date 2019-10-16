@@ -1,5 +1,11 @@
 <?php
-echo '</main>
+echo '
+
+       <!--<div class="apple-chat">
+           <div class="apple-business-chat-banner-container" data-apple-business-id="29b7c9d9-ef4c-48a2-9603-541e0ae77a79" data-apple-business-phone="+15146773091" data-apple-banner-cta="Questions?" data-apple-banner-context="Chat with Chris from Loogart." data-apple-banner-rounded-corners="false"></div>
+        </div>-->
+
+</main>
 <footer>
         <div class="container">
             <div class="row">
@@ -109,15 +115,8 @@ echo '</main>
     );
     </script>
     
-    <script>
-      function initFreshChat() {
-        window.fcWidget.init({
-          token: "81f1766b-52c5-4b47-adea-06d4b42d2525",
-          host: "https://wchat.freshchat.com"
-        });
-      }
-      function initialize(i,t){var e;i.getElementById(t)?initFreshChat():((e=i.createElement("script")).id=t,e.async=!0,e.src="https://wchat.freshchat.com/js/widget.js",e.onload=initFreshChat,i.head.appendChild(e))}function initiateCall(){initialize(document,"freshchat-js-sdk")}window.addEventListener?window.addEventListener("load",initiateCall,!1):window.attachEvent("load",initiateCall,!1);
-    </script>
+    <script src="https://static.cdn-apple.com/businesschat/start-chat-button/2/index.js"></script>
+
 
     
     '

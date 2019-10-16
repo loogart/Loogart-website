@@ -2210,7 +2210,7 @@ section.shop p {
     background-repeat: no-repeat;
     background-position: 50% 69%;
     background-color: pink;
-    
+
 }
 
 .product-loogmoji h1,
@@ -2272,9 +2272,8 @@ section.shop p {
         background-repeat: no-repeat;
         background-position: center 200%;
     }
-    .product-swag{
-        
-    }
+
+    .product-swag {}
 }
 
 @media(min-width:992px) {
@@ -2308,5 +2307,19 @@ section.shop p {
     .product-cucu {
         background-size: 70%;
         background-position: 50% 130%;
+    }
+}
+
+.apple-chat {}
+
+@media (max-width: 767px) {
+    .apple-chat {
+        display: block;
+        position: fixed;
+        bottom: -5px;
+        right: 0;
+        width: 100%;
+        background-color: transparent;
+        z-index: 1000;
     }
 }
