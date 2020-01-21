@@ -17,14 +17,19 @@
 </head>
 
 <body>
-   
+
     <?php include 'php/analyticstracking.php';?>
     <?php include './php/navbar.php';?>
 
     <main>
-        <section class="jumbotron-about">
-            <h1 class="hidden">About Loogart: Chris Soueidan is a Montreal visual designer.</h1>
-        </section>
+
+        <!-- 16:9 aspect ratio -->
+        <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="https://player.vimeo.com/video/384430288"></iframe>
+        </div>
+<!--        <section class="jumbotron-about">-->
+            <h1 class="hidden">About Loogart: Chris Soueidan is a Montreal-raised visual designer.</h1>
+<!--        </section>-->
         <section class="about">
             <div class="row">
                 <div class="col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3">
@@ -49,11 +54,15 @@
                         <div class="list-logos">
                             <div class="about-logo">
                                 <span><img class="client-logo" src="./img/logo/starbucks_logo.png" alt="Starbucks logo"></span>
-                                <span><h6>Starbucks</h6></span>
+                                <span>
+                                    <h6>Starbucks</h6>
+                                </span>
                             </div>
                             <div class="about-logo">
                                 <span><img class="client-logo" src="./img/logo/logo-yellow-pages-2.png" alt="Yellow Pages logo"></span>
-                                <span><h6>Yellow Pages</h6></span>
+                                <span>
+                                    <h6>Yellow Pages</h6>
+                                </span>
                             </div>
                             <div class="about-logo">
                                 <img class="client-logo" src="./img/logo/logo-proctorgamble.png" alt="Proctor and Gamble logo">
@@ -65,28 +74,40 @@
                             </div>
                             <div class="about-logo">
                                 <span><img class="client-logo" src="./img/logo/logo-car2go.png" alt="car2go logo"></span>
-                                <span><h6>car2go</h6></span>
+                                <span>
+                                    <h6>car2go</h6>
+                                </span>
                             </div>
                             <div class="about-logo">
                                 <span><img class="client-logo" src="./img/logo/logo-bref-mtl.png" alt="Bref MTL logo"></span>
-                                <span><h6>Bref MTL</h6></span>
+                                <span>
+                                    <h6>Bref MTL</h6>
+                                </span>
                             </div>
                             <div class="about-logo">
                                 <span><img class="client-logo" src="./img/logo/logo-le-burger-week.png" alt="Le Burger Week logo"></span>
-                                <span><h6>Le Burger Week</h6></span>
+                                <span>
+                                    <h6>Le Burger Week</h6>
+                                </span>
                             </div>
                             <div class="about-logo">
                                 <span><img class="client-logo" src="./img/logo/logo-la-poutine-week.png" alt="Le Poutine Week logo"></span>
-                                <span><h6>Le Poutine Week</h6></span>
+                                <span>
+                                    <h6>Le Poutine Week</h6>
+                                </span>
                             </div>
                             <div class="about-logo">
                                 <span><img class="client-logo" src="./img/logo/logo-influence-orbis.png" alt="Influence Orbis logo"></span>
-                                <span><h6>Influence Orbis</h6></span>
+                                <span>
+                                    <h6>Influence Orbis</h6>
+                                </span>
                             </div>
 
                             <div class="about-logo">
                                 <span><img class="client-logo" src="./img/logo/ets-logo.jpg" alt="ETS logo"></span>
-                                <span><h6>ÉTS</h6></span>
+                                <span>
+                                    <h6>ÉTS</h6>
+                                </span>
                             </div>
                             <div class="about-logo">
                                 <img class="client-logo" src="./img/logo/logo-upa.jpg" alt="UPA logo">
@@ -131,7 +152,10 @@
     </main>
 
     <?php include './php/footer.php';?>
-    <script>fbq('track', 'ViewAbout');</script>
+    <script>
+        fbq('track', 'ViewAbout');
+
+    </script>
 
 </body>
 
