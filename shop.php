@@ -58,7 +58,7 @@
                     </a>
                 </div>
                 <div class="col-sm-6">
-                    <a href="https://brefmtl.com/collections/tous-les-produits/Loogart" target="_blank">
+                    <a href="https://brefmtl.com/search?q=loogart&submit=Search" target="_blank">
                         <div class="product-box product-bref">
                             <h3>Bref MTL Collection</h3>
                             <p>Products created in partnership with Bref MTL.</p>
