@@ -27,7 +27,11 @@
     <main class="container text-center">
         <section class="shop">
             <h1 class="sr-only">The Loogart Shop</h1>
-            <h2>The Loogart Shop</h2>
+            <div class="alert alert-warning alert-dismissible text-left" role="alert">
+                <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <strong>Covid-19:</strong>  <br>This is a difficult time for everyone and Loogart is working hard to adapt to this new reality. We're experiencing many delays with production and shipping times for all products. Thank you for your understanding and stay safe.
+            </div>
+            <h2 class="sr-only">The Loogart Shop</h2>
             <div class="row">
                 <div class="col-sm-12">
                     <a href="./shop-custom-loogmoji">
@@ -58,7 +62,7 @@
                     </a>
                 </div>
                 <div class="col-sm-6">
-                    <a href="https://brefmtl.com/search?q=loogart&submit=Search" target="_blank">
+                    <a href="https://brefmtl.com/collections/boutique/Loogart" target="_blank">
                         <div class="product-box product-bref">
                             <h3>Bref MTL Collection</h3>
                             <p>Products created in partnership with Bref MTL.</p>
