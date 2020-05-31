@@ -5,12 +5,12 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=0">
-    <meta name="description" content="Shop Loogart products. Perfect for gifts for any occasion">
+    <meta name="description" content="FREE Loogart coloring pages">
     <meta name="author" content="Chris Soueidan of Loogart">
-    <meta property="og:title" content="Loogart Shop">
-    <meta property="og:description" content="Shop Loogart products. Perfect for gifts for any occasion">
+    <meta property="og:title" content="Loogart : Coloring Pages">
+    <meta property="og:description" content="FREE Loogart coloring pages">
     <meta property="og:url" content="http://loogart.com/">
-    <meta property="og:image" content="http://loogart.com/img/loogart-bio-2018.jpg">
+    <meta property="og:image" content="https://loogart.com/coloriage/img/couverture-gatinottawa.jpg">
     <title>Coloring Pages | Loogart</title>
     <?php include 'php/header.php';?>
     <?php include 'php/facebook-pixel.php';?>
