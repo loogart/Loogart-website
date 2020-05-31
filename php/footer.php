@@ -51,7 +51,7 @@ echo '
         </div>
     </footer>
     <div class="lower-footer">
-        <h6>© 2017 Loogart</h6>
+        <h6>© 2020 Loogart</h6>
     </div>
     <!-- Thank you modal -->
     <div class="modal popup fade" id="thankyou" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
