@@ -42,7 +42,7 @@
                     <div class="col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3">
 
                         <h3>The three Cityscapes</h3>
-                        <p>The three cityscapes were created with a handcrafted painbrush look, with layers of green derived from the Starbucks color palette and with whimsical characters interacting with coffee made by Starbucks.</p>
+                        <p>The three cityscapes were created with a handcrafted paintbrush look, with layers of green derived from the Starbucks color palette and with whimsical characters interacting with coffee made by Starbucks.</p>
                     </div>
                 </div>
                 <div class="row">
