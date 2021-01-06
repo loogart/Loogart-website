@@ -45,28 +45,58 @@
         </ol>
         <!--        <img class="text-left logo-loogmoji" src="./img/loogmoji/photos/logo_loogmoji-by-loogart.png" alt="Loogmoji Made by Loogart logo">-->
     </div>
+    <style>
+        .hero-loogmoji {
+            max-width: 900px;
+            display: inline-block;
+            margin: auto;
+        }
 
+        @media(max-width:767px) {
+            .hero-loogmoji {
+                width: 100%;
+                height: 260px;
+                object-fit: cover;
+            }
+        }
 
-    <div class="product-box product-loogmoji text-center" style="margin-bottom:0">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-offset-3 col-md-6">
-                    <h1>Your <i>personal</i> Loogmoji.</h1>
-                    <p>The Loogmoji is a fun, bold and creative piece of art that portrays who you are. With minimal lines, Loogart creates an emoji-like portrait of you.</p>
-                </div>
-            </div>
-        </div>
+        .img-cover {
+            margin-bottom: 10px;
+            margin-top: 10px;
+            border-radius: 4px;
+            height: 420px;
+            width: 100%;
+            object-fit: cover;
+        }
+
+        .img-fit {
+            margin-bottom: 10px;
+            margin-top: 10px;
+            border-radius: 4px;
+            height: 420px;
+            width: 100%;
+            object-fit: contain;
+        }
+
+    </style>
+    <div style="width:100%;background-color:#23CFE7;display:block;overflow:hidden;text-align:center">
+        <img src="./img/shop/banner-loogmoji.jpg" alt="" class="hero-loogmoji">
     </div>
-    <div class="alert alert-info text-center" role="alert" id="getStarted" style="border-radius:0;">
-        <div class="container">Buy 2 Loogmojis or more and <strong>save 15% on your order</strong>.</div>
+
+    <div class="container">
+        <div class="text-center" style="margin-top:50px;">
+            <h1>Your <i>personal</i> Loogmoji.</h1>
+            <p class="lead">The Loogmoji is a fun and minimal emoji-like portrait of you.<br>Made by Loogart with minimal lines.</p>
+        </div>
     </div>
 
     <div class="container">
 
         <!-- Jumbotron section -->
-        <section class="portfolio-content">
-            <div class="row">
-                <div class="col-md-offset-2 col-md-8">
+        <section class="portfolio-content" style="margin-bottom:40px">
+            <div class="row text-center">
+                <div class="col-12">
+                    <!--
                     <h2>Get started.</h2>
                     <ol>
                         <li>Buy your <a href="https://www.instagram.com/explore/tags/loogmoji/" target="_blank">#Loogmoji</a>.</li>
@@ -74,10 +104,10 @@
                         <li>I draw your Loogmoji.</li>
                         <li>You receive a digital version of your Loogmoji.</li>
                     </ol>
-                    <div id='product-component-7e4dee136c4'></div>
+-->
+                    <div id='product-component-1609971044841' style="margin:auto"></div>
                     <script type="text/javascript">
                         /*<![CDATA[*/
-
                         (function() {
                             var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
                             if (window.ShopifyBuy) {
@@ -103,118 +133,93 @@
                                     domain: 'loogartshop.myshopify.com',
                                     storefrontAccessToken: 'b9145295531bae67ab1387ce1216ccff',
                                 });
-
                                 ShopifyBuy.UI.onReady(client).then(function(ui) {
                                     ui.createComponent('product', {
-                                        id: [2143371591744],
-                                        node: document.getElementById('product-component-7e4dee136c4'),
+                                        id: '2143371591744',
+                                        variantId: '20349393633344',
+                                        node: document.getElementById('product-component-1609971044841'),
                                         moneyFormat: '%24%7B%7Bamount%7D%7D',
                                         options: {
                                             "product": {
-                                                "variantId": "all",
-                                                "width": "380px",
-                                                "contents": {
-                                                    "img": false,
-                                                    "imgWithCarousel": false,
-                                                    "variantTitle": false,
-                                                    "description": false,
-                                                    "buttonWithQuantity": false,
-                                                    "quantity": false
-                                                },
                                                 "styles": {
                                                     "product": {
-                                                        "text-align": "left",
                                                         "@media (min-width: 601px)": {
-                                                            "max-width": "100%",
-                                                            "margin-left": "0",
-                                                            "margin-bottom": "50px"
-                                                        },
-                                                        "carousel-button": {
-                                                            "display": "none"
+                                                            "max-width": "calc(25% - 20px)",
+                                                            "margin-left": "20px",
+                                                            "margin-bottom": "50px",
                                                         }
-                                                    },
-                                                    "button": {
-                                                        "background-color": "#468b40",
-                                                        "font-family": "Roboto, sans-serif",
-                                                        "padding-left": "80px",
-                                                        "padding-right": "80px",
-                                                        ":hover": {
-                                                            "background-color": "#3f7d3a"
-                                                        },
-                                                        "border-radius": "8px",
-                                                        "font-weight": "bold",
-                                                        ":focus": {
-                                                            "background-color": "#3f7d3a"
-                                                        }
-                                                    },
-                                                    "variantTitle": {
-                                                        "font-family": "Roboto, sans-serif",
-                                                        "font-weight": "bold"
                                                     },
                                                     "title": {
                                                         "font-family": "Roboto, sans-serif",
-                                                        "font-size": "0",
+                                                        "color": "#222222"
+                                                    },
+                                                    "button": {
+                                                        "font-family": "Roboto, sans-serif",
+                                                        "font-weight": "bold",
+                                                        "font-size": "16px",
+                                                        "padding-top": "16px",
+                                                        "padding-bottom": "16px",
+                                                        ":hover": {
+                                                            "background-color": "#dd5251"
+                                                        },
+                                                        "background-color": "#f55b5a",
+                                                        ":focus": {
+                                                            "background-color": "#dd5251"
+                                                        },
+                                                        "border-radius": "40px",
+                                                        "padding-left": "100px",
+                                                        "padding-right": "100px"
+                                                    },
+                                                    "quantityInput": {
+                                                        "font-size": "16px",
+                                                        "padding-top": "16px",
+                                                        "padding-bottom": "16px"
+                                                    },
+                                                    "price": {
+                                                        "font-family": "Roboto, sans-serif",
+                                                        "color": "#222222"
+                                                    },
+                                                    "compareAt": {
+                                                        "font-family": "Roboto, sans-serif",
+                                                        "color": "#222222"
+                                                    },
+                                                    "unitPrice": {
+                                                        "font-family": "Roboto, sans-serif",
                                                         "color": "#222222"
                                                     },
                                                     "description": {
                                                         "font-family": "Roboto, sans-serif",
                                                         "font-weight": "bold"
-                                                    },
-                                                    "price": {
-                                                        "font-family": "Roboto, sans-serif",
-                                                        "font-size": "36px",
-                                                        "color": "#222222",
-                                                        "font-weight": "bold"
-                                                    },
-                                                    "compareAt": {
-                                                        "font-size": "22.099999999999998px",
-                                                        "font-family": "Roboto, sans-serif",
-                                                        "font-weight": "bold",
-                                                        "color": "#222222"
                                                     }
                                                 },
+                                                "contents": {
+                                                    "img": false,
+                                                    "title": false,
+                                                    "price": false,
+                                                    "options": false
+                                                },
+                                                "text": {
+                                                    "button": "Buy now"
+                                                },
                                                 "googleFonts": [
-                                                    "Roboto",
-                                                    "Roboto",
-                                                    "Roboto",
-                                                    "Roboto",
-                                                    "Roboto",
                                                     "Roboto"
                                                 ]
                                             },
-                                            "cart": {
-                                                "contents": {
-                                                    "button": true
-                                                },
+                                            "productSet": {
                                                 "styles": {
-                                                    "button": {
-                                                        "background-color": "#468b40",
-                                                        "font-family": "Roboto, sans-serif",
-                                                        ":hover": {
-                                                            "background-color": "#3f7d3a"
-                                                        },
-                                                        "border-radius": "8px",
-                                                        "font-weight": "bold",
-                                                        ":focus": {
-                                                            "background-color": "#3f7d3a"
+                                                    "products": {
+                                                        "@media (min-width: 601px)": {
+                                                            "margin-left": "-20px"
                                                         }
-                                                    },
-                                                    "footer": {
-                                                        "background-color": "#ffffff"
                                                     }
-                                                },
-                                                "googleFonts": [
-                                                    "Roboto"
-                                                ]
+                                                }
                                             },
                                             "modalProduct": {
                                                 "contents": {
                                                     "img": false,
                                                     "imgWithCarousel": true,
-                                                    "variantTitle": false,
-                                                    "buttonWithQuantity": true,
                                                     "button": false,
-                                                    "quantity": false
+                                                    "buttonWithQuantity": true
                                                 },
                                                 "styles": {
                                                     "product": {
@@ -225,29 +230,31 @@
                                                         }
                                                     },
                                                     "button": {
-                                                        "background-color": "#468b40",
                                                         "font-family": "Roboto, sans-serif",
-                                                        "padding-left": "80px",
-                                                        "padding-right": "80px",
-                                                        ":hover": {
-                                                            "background-color": "#3f7d3a"
-                                                        },
-                                                        "border-radius": "8px",
                                                         "font-weight": "bold",
+                                                        "font-size": "16px",
+                                                        "padding-top": "16px",
+                                                        "padding-bottom": "16px",
+                                                        ":hover": {
+                                                            "background-color": "#dd5251"
+                                                        },
+                                                        "background-color": "#f55b5a",
                                                         ":focus": {
-                                                            "background-color": "#3f7d3a"
-                                                        }
+                                                            "background-color": "#dd5251"
+                                                        },
+                                                        "border-radius": "40px",
+                                                        "padding-left": "100px",
+                                                        "padding-right": "100px"
                                                     },
-                                                    "variantTitle": {
-                                                        "font-family": "Roboto, sans-serif",
-                                                        "font-weight": "bold"
+                                                    "quantityInput": {
+                                                        "font-size": "16px",
+                                                        "padding-top": "16px",
+                                                        "padding-bottom": "16px"
                                                     },
                                                     "title": {
-                                                        "font-family": "Roboto, sans-serif"
-                                                    },
-                                                    "description": {
                                                         "font-family": "Roboto, sans-serif",
-                                                        "font-weight": "bold"
+                                                        "font-size": "30px",
+                                                        "color": "#5755b2"
                                                     },
                                                     "price": {
                                                         "font-family": "Roboto, sans-serif",
@@ -256,37 +263,22 @@
                                                     "compareAt": {
                                                         "font-family": "Roboto, sans-serif",
                                                         "font-weight": "bold"
-                                                    }
-                                                },
-                                                "googleFonts": [
-                                                    "Roboto",
-                                                    "Roboto",
-                                                    "Roboto",
-                                                    "Roboto",
-                                                    "Roboto",
-                                                    "Roboto"
-                                                ]
-                                            },
-                                            "toggle": {
-                                                "styles": {
-                                                    "toggle": {
-                                                        "font-family": "Roboto, sans-serif",
-                                                        "background-color": "#468b40",
-                                                        ":hover": {
-                                                            "background-color": "#3f7d3a"
-                                                        },
-                                                        "font-weight": "bold",
-                                                        ":focus": {
-                                                            "background-color": "#3f7d3a"
-                                                        }
                                                     },
-                                                    "count": {
-                                                        "font-size": "16px"
+                                                    "unitPrice": {
+                                                        "font-family": "Roboto, sans-serif",
+                                                        "font-weight": "bold"
+                                                    },
+                                                    "description": {
+                                                        "font-family": "Roboto, sans-serif",
+                                                        "font-weight": "bold"
                                                     }
                                                 },
                                                 "googleFonts": [
                                                     "Roboto"
-                                                ]
+                                                ],
+                                                "text": {
+                                                    "button": "add to cart"
+                                                }
                                             },
                                             "option": {
                                                 "styles": {
@@ -300,20 +292,133 @@
                                                     }
                                                 },
                                                 "googleFonts": [
-                                                    "Roboto",
                                                     "Roboto"
                                                 ]
                                             },
-                                            "productSet": {
+                                            "cart": {
                                                 "styles": {
-                                                    "products": {
-                                                        "@media (min-width: 601px)": {
-                                                            "margin-left": "-20px"
+                                                    "button": {
+                                                        "font-family": "Roboto, sans-serif",
+                                                        "font-weight": "bold",
+                                                        "font-size": "16px",
+                                                        "padding-top": "16px",
+                                                        "padding-bottom": "16px",
+                                                        ":hover": {
+                                                            "background-color": "#dd5251"
+                                                        },
+                                                        "background-color": "#f55b5a",
+                                                        ":focus": {
+                                                            "background-color": "#dd5251"
+                                                        },
+                                                        "border-radius": "40px"
+                                                    },
+                                                    "title": {
+                                                        "color": "#4c4c4c"
+                                                    },
+                                                    "header": {
+                                                        "color": "#4c4c4c"
+                                                    },
+                                                    "lineItems": {
+                                                        "color": "#4c4c4c"
+                                                    },
+                                                    "subtotalText": {
+                                                        "color": "#4c4c4c"
+                                                    },
+                                                    "subtotal": {
+                                                        "color": "#4c4c4c"
+                                                    },
+                                                    "notice": {
+                                                        "color": "#4c4c4c"
+                                                    },
+                                                    "currency": {
+                                                        "color": "#4c4c4c"
+                                                    },
+                                                    "close": {
+                                                        "color": "#4c4c4c",
+                                                        ":hover": {
+                                                            "color": "#4c4c4c"
                                                         }
+                                                    },
+                                                    "empty": {
+                                                        "color": "#4c4c4c"
+                                                    },
+                                                    "noteDescription": {
+                                                        "color": "#4c4c4c"
+                                                    },
+                                                    "discountText": {
+                                                        "color": "#4c4c4c"
+                                                    },
+                                                    "discountIcon": {
+                                                        "fill": "#4c4c4c"
+                                                    },
+                                                    "discountAmount": {
+                                                        "color": "#4c4c4c"
+                                                    }
+                                                },
+                                                "popup": false,
+                                                "googleFonts": [
+                                                    "Roboto"
+                                                ]
+                                            },
+                                            "toggle": {
+                                                "styles": {
+                                                    "toggle": {
+                                                        "font-family": "Roboto, sans-serif",
+                                                        "font-weight": "bold",
+                                                        "background-color": "#f55b5a",
+                                                        ":hover": {
+                                                            "background-color": "#dd5251"
+                                                        },
+                                                        ":focus": {
+                                                            "background-color": "#dd5251"
+                                                        }
+                                                    },
+                                                    "count": {
+                                                        "font-size": "16px"
+                                                    }
+                                                },
+                                                "googleFonts": [
+                                                    "Roboto"
+                                                ]
+                                            },
+                                            "lineItem": {
+                                                "styles": {
+                                                    "variantTitle": {
+                                                        "color": "#4c4c4c"
+                                                    },
+                                                    "title": {
+                                                        "color": "#4c4c4c"
+                                                    },
+                                                    "price": {
+                                                        "color": "#4c4c4c"
+                                                    },
+                                                    "fullPrice": {
+                                                        "color": "#4c4c4c"
+                                                    },
+                                                    "discount": {
+                                                        "color": "#4c4c4c"
+                                                    },
+                                                    "discountIcon": {
+                                                        "fill": "#4c4c4c"
+                                                    },
+                                                    "quantity": {
+                                                        "color": "#4c4c4c"
+                                                    },
+                                                    "quantityIncrement": {
+                                                        "color": "#4c4c4c",
+                                                        "border-color": "#4c4c4c"
+                                                    },
+                                                    "quantityDecrement": {
+                                                        "color": "#4c4c4c",
+                                                        "border-color": "#4c4c4c"
+                                                    },
+                                                    "quantityInput": {
+                                                        "color": "#4c4c4c",
+                                                        "border-color": "#4c4c4c"
                                                     }
                                                 }
                                             }
-                                        }
+                                        },
                                     });
                                 });
                             }
@@ -321,9 +426,13 @@
                         /*]]>*/
 
                     </script>
+<!--
 
                     <br>
-                    <small>*<strong>Commercial License Scope: </strong>If you are working on a web, print or TV advertisement or on revenue-generating content, the Commercial License will cover your single project in perpetuity.</small>
+                    <div style="max-width:520px;margin:auto">
+                        <small>*<strong>Commercial License Scope: </strong>If you are working on a web, print or TV advertisement or on revenue-generating content, the Commercial License will cover your single project in perpetuity.</small>
+                    </div>
+-->
                 </div>
 
             </div>
@@ -331,28 +440,6 @@
         </section>
 
     </div>
-
-    <style>
-        .img-cover {
-            margin-bottom: 10px;
-            margin-top: 10px;
-            border-radius: 4px;
-            height: 420px;
-            width: 100%;
-            object-fit: cover;
-        }
-
-        .img-fit {
-            margin-bottom: 10px;
-            margin-top: 10px;
-            border-radius: 4px;
-            height: 420px;
-            width: 100%;
-            object-fit: contain;
-        }
-
-    </style>
-
     <div class="container" style="margin-top:50px">
         <div class="row">
             <div class="col-md-offset-2 col-md-4">
@@ -481,11 +568,6 @@
             </div>
             <div class="col-md-4">
                 <img class="img-fit" src="./img/loogmoji/photos/loogmoji-tai-lopez.jpg" alt="Tai Lopez printed Loogmoji by Loogart on canvas on Snapchat Story" title="Tai Lopez's Loogmoji on his Instagram Story">
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-offset-4 col-md-4" style="margin-top:50px;">
-                <a class="btn btn-pink btn-lg btn-block" href="#getStarted">Buy now</a>
             </div>
         </div>
     </div>

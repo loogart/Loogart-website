@@ -1,14 +1,6 @@
 <?php
 echo '
 
-    
-    <!-- Apple Business Chat -->
-    <div data-apple-business-id="a8bf0340-a810-4304-85da-7e17155192c9" id="apple-business-chat-button-container" style="bottom: 20px; height: auto; width: 220px;position:fixed; right:20px;">
-        <a target="_blank" href="https://bcrw.apple.com/urn:biz:a8bf0340-a810-4304-85da-7e17155192c9" id="apple-business-chat-button-link">
-            <img nopin="nopin" alt="Message through iMessage" src="https://cdn.shopifycloud.com/apple_business_chat_commerce/assets/business-chat-button-3fa48646313c9577627cf20b5d34fd58b520cb0826f63cb254fcc2436a11a140.png" id="apple-business-chat-button-image" style="width: 220px !important;">
-        </a>
-    </div> 
-
 </main>
 <footer>
         <div class="container">
