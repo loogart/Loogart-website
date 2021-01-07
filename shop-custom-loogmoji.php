@@ -85,15 +85,10 @@
 
     <div class="container">
         <div class="text-center" style="margin-top:50px;">
-            <h1>Your <i>personal</i> Loogmoji.</h1>
+            <h1>Your <i>personal</i> Loogmoji</h1>
             <p class="lead">The Loogmoji is a fun and minimal emoji-like portrait of you.<br>Made by Loogart with minimal lines.</p>
         </div>
-    </div>
-
-    <div class="container">
-
-        <!-- Jumbotron section -->
-        <section class="portfolio-content" style="margin-bottom:40px">
+                <section class="portfolio-content" style="margin-bottom:40px">
             <div class="row text-center">
                 <div class="col-12">
                     <!--
@@ -177,7 +172,9 @@
                                                     },
                                                     "price": {
                                                         "font-family": "Roboto, sans-serif",
-                                                        "color": "#222222"
+                                                        "color": "#222222",
+                                                        "font-size":"28px",
+                                                        "font-weight":"bold"
                                                     },
                                                     "compareAt": {
                                                         "font-family": "Roboto, sans-serif",
@@ -195,7 +192,7 @@
                                                 "contents": {
                                                     "img": false,
                                                     "title": false,
-                                                    "price": false,
+                                                    "price": true,
                                                     "options": false
                                                 },
                                                 "text": {
@@ -266,7 +263,7 @@
                                                     },
                                                     "unitPrice": {
                                                         "font-family": "Roboto, sans-serif",
-                                                        "font-weight": "bold"
+                                                        "font-weight": "bold",
                                                     },
                                                     "description": {
                                                         "font-family": "Roboto, sans-serif",
@@ -426,20 +423,17 @@
                         /*]]>*/
 
                     </script>
-<!--
 
                     <br>
-                    <div style="max-width:520px;margin:auto">
-                        <small>*<strong>Commercial License Scope: </strong>If you are working on a web, print or TV advertisement or on revenue-generating content, the Commercial License will cover your single project in perpetuity.</small>
+                    <div style="max-width:600px;margin: 30px auto 0">
+                        <small><strong>What's included: </strong>(1) High resolution digital versions of the artwork for web and print, (2) License to use artwork everywhere on the internet forever. <strong>How it works: </strong> Following your purchase, Loogart will email you within the next day to gather photos and get started.</small>
                     </div>
--->
                 </div>
 
             </div>
-
         </section>
-
     </div>
+
     <div class="container" style="margin-top:50px">
         <div class="row">
             <div class="col-md-offset-2 col-md-4">
