@@ -40,7 +40,7 @@
     <div class="container">
         <ol class="breadcrumb breadcrumb-shop">
             <li><a href="./">Home</a></li>
-            <li><a href="./shop">Shop</a></li>
+<!--            <li><a href="./shop">Shop</a></li>-->
             <li class="active">Your personal Loogmoji</li>
         </ol>
         <!--        <img class="text-left logo-loogmoji" src="./img/loogmoji/photos/logo_loogmoji-by-loogart.png" alt="Loogmoji Made by Loogart logo">-->
@@ -425,7 +425,7 @@
                     </script>
 
                     <br>
-                    <div style="max-width:600px;margin: 30px auto 0">
+                    <div style="max-width:600px;margin: 30px 15px">
                         <small><strong>What's included: </strong>(1) High resolution digital versions of the artwork for web and print, (2) License to use artwork everywhere on the internet forever. <strong>How it works: </strong> Following your purchase, Loogart will email you within the next day to gather photos and get started.</small>
                     </div>
                 </div>
