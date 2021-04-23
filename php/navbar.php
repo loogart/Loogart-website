@@ -18,6 +18,7 @@ echo '
                         <li><a href="mailto:chris@loogart.com">contact</a></li>
                         <li id="shopPage"><a href="shop-custom-loogmoji">shop</a></li>
                         <li><a href="https://www.instagram.com/loogart/" target="_blank"><i class="fa fa-instagram hidden-xs" aria-hidden="true"></i> <span class="visible-xs"><i class="fa fa-instagram" aria-hidden="true"></i> Instagram</span></a></li>
+                        <li><a href="https://vimeo.com/loogart" target="_blank"><i class="fa fa-vimeo hidden-xs" aria-hidden="true"></i> <span class="visible-xs"><i class="fa fa-vimeo" aria-hidden="true"></i> Vimeo</span></a></li>
                         <li><a href="https://www.facebook.com/LoogArt/" target="_blank"><i class="fa fa-facebook-official hidden-xs" aria-hidden="true"></i> <span class="visible-xs"><i class="fa fa-facebook-official" aria-hidden="true"></i> Facebook</span></a></li>
                         <li><a href="https://www.behance.net/loogart" target="_blank"><i class="fa fa-behance hidden-xs" aria-hidden="true"></i> <span class="visible-xs"><i class="fa fa-behance" aria-hidden="true"></i> Behance</span></a></li>
                     </ul>
