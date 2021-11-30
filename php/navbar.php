@@ -16,7 +16,7 @@ echo '
                     <ul class="nav navbar-nav navbar-right">
                         <li id="aboutPage"><a href="about">about</a></li>
                         <li><a href="mailto:chris@loogart.com">contact</a></li>
-                        <li id="shopPage"><a href="shop-custom-loogmoji">shop</a></li>
+                        <li id="shopPage"><a href="https://shop.loogart.com" target="_blank">shop</a></li>
                         <li><a href="https://www.instagram.com/loogart/" target="_blank"><i class="fa fa-instagram hidden-xs" aria-hidden="true"></i> <span class="visible-xs"><i class="fa fa-instagram" aria-hidden="true"></i> Instagram</span></a></li>
                         <li><a href="https://vimeo.com/loogart" target="_blank"><i class="fa fa-vimeo hidden-xs" aria-hidden="true"></i> <span class="visible-xs"><i class="fa fa-vimeo" aria-hidden="true"></i> Vimeo</span></a></li>
                         <li><a href="https://www.facebook.com/LoogArt/" target="_blank"><i class="fa fa-facebook-official hidden-xs" aria-hidden="true"></i> <span class="visible-xs"><i class="fa fa-facebook-official" aria-hidden="true"></i> Facebook</span></a></li>
