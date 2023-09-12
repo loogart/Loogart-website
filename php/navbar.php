@@ -14,6 +14,7 @@ echo '
                 </div>
                 <div id="navbar" class="navbar-collapse collapse">
                     <ul class="nav navbar-nav navbar-right">
+                        <li id="newWork"><a href="https://projects.invisionapp.com/boards/9V43HXSG8PY/#/6881680" target="_blank">✨ new work</a></li>
                         <li id="aboutPage"><a href="about">about</a></li>
                         <li><a href="mailto:chris@loogart.com">contact</a></li>
                         <li id="shopPage"><a href="https://shop.loogart.com" target="_blank">shop</a></li>

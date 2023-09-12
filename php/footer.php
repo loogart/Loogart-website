@@ -5,17 +5,19 @@ echo '
 <footer>
     <div class="container text-center">
         <ul class="list-inline" style="margin-top:auto">
-            <li><a href="http://instagram.com/loogart"><i class="fa fa-instagram" aria-hidden="true"></i> Instagram</a></li>
+            <li><a href="https://projects.invisionapp.com/boards/9V43HXSG8PY/#/6881680" target="_blank">✨ New work</a></li>
+            <li><a href="https://loog.art/" target="_blank"> ⚡️ quick links</a></li>
+            <li><a href="http://instagram.com/loogart" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i> Instagram</a></li>
             <li><a href="https://vimeo.com/loogart" target="_blank"><i class="fa fa-vimeo" aria-hidden="true"></i> Vimeo</span></a></li>
-            <li><a href="http://facebook.com/loogart"><i class="fa fa-facebook-official" aria-hidden="true"></i> Facebook</a></li>
-            <li><a href="mailto:chris@loogart.com"><i class="fa fa-envelope-o" aria-hidden="true"></i> Email</a></li>
+            <li><a href="http://facebook.com/loogart" target="_blank"><i class="fa fa-facebook-official" aria-hidden="true"></i> Facebook</a></li>
+            <li><a href="mailto:chris@loogart.com"><i class="fa fa-envelope-o" aria-hidden="true"></i> chris@loogart.com</a></li>
         </ul>
         </div>
     </div>
 </footer>
 <div class="lower-footer" style="padding:30px 0">
 <div class="container">
-        <small>© 2013-2021 Loogart. All rights reserved.</small>
+        <small>© 2013-present. Loogart. All rights reserved.</small>
         <!--<small> All texts, photos, graphics and the order thereof are subject to copyright and all other laws for the protection of intellectual property. They may not be copied for trading or for passing on to third parties, nor may they be changed and used on other websites.</small>-->
         </div>
     </div>
