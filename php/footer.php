@@ -5,7 +5,7 @@ echo '
 <footer>
     <div class="container text-center">
         <ul class="list-inline" style="margin-top:auto">
-            <li><a href="https://projects.invisionapp.com/boards/9V43HXSG8PY/#/6881680" target="_blank">✨ New work</a></li>
+            <li><a href="https://loogart.notion.site/Made-by-Loogart-054248070f524714aa9b7d3eb2e6ed9a?pvs=4" target="_blank">✨ New work</a></li>
             <li><a href="https://loog.art/" target="_blank"> ⚡️ quick links</a></li>
             <li><a href="http://instagram.com/loogart" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i> Instagram</a></li>
             <li><a href="https://vimeo.com/loogart" target="_blank"><i class="fa fa-vimeo" aria-hidden="true"></i> Vimeo</span></a></li>

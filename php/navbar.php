@@ -14,7 +14,7 @@ echo '
                 </div>
                 <div id="navbar" class="navbar-collapse collapse">
                     <ul class="nav navbar-nav navbar-right">
-                        <li id="newWork"><a href="https://projects.invisionapp.com/boards/9V43HXSG8PY/#/6881680" target="_blank">✨ new work</a></li>
+                        <li id="newWork"><a href="https://loogart.notion.site/Made-by-Loogart-054248070f524714aa9b7d3eb2e6ed9a?pvs=4" target="_blank">✨ new work</a></li>
                         <li id="shopPage"><a href="https://shop.loogart.com" target="_blank">my shop</a></li>
                         <li><a href="mailto:chris@loogart.com">contact</a></li>
                         <li><a href="about">about</a></li>
