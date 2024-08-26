@@ -4,67 +4,60 @@
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
-
 
 <url>
   <loc>http://loogart.com/</loc>
-  <lastmod>2018-01-14T15:56:28+00:00</lastmod>
+  <lastmod>2024-08-16T09:33:00+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>http://loogart.com/about</loc>
-  <lastmod>2018-01-14T15:56:28+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://loogart.com/contact</loc>
-  <lastmod>2018-01-14T15:56:28+00:00</lastmod>
+  <lastmod>2024-08-16T09:33:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://loogart.com/loogmoji</loc>
-  <lastmod>2018-01-14T15:56:28+00:00</lastmod>
+  <lastmod>2024-08-16T09:33:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://loogart.com/montreal-cityline-illustration</loc>
-  <lastmod>2018-01-14T15:56:28+00:00</lastmod>
+  <lastmod>2024-08-16T09:33:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://loogart.com/starbucks-cityscape-illustration</loc>
-  <lastmod>2018-01-14T15:56:28+00:00</lastmod>
+  <lastmod>2024-08-16T09:33:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://loogart.com/ets-cityline-illustration</loc>
-  <lastmod>2018-01-14T15:56:28+00:00</lastmod>
+  <lastmod>2024-08-16T09:33:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://loogart.com/car2go-cityline-illustration</loc>
-  <lastmod>2018-01-14T15:56:28+00:00</lastmod>
+  <lastmod>2024-08-16T09:33:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://loogart.com/swiffer-marketing-graphics</loc>
-  <lastmod>2018-01-14T15:56:28+00:00</lastmod>
+  <lastmod>2024-08-16T09:33:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://loogart.com/upa-cityline-illustration</loc>
-  <lastmod>2018-01-14T15:56:28+00:00</lastmod>
+  <lastmod>2024-08-16T09:33:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://loogart.com/travel-smart-canada-app</loc>
-  <lastmod>2018-01-14T15:56:28+00:00</lastmod>
+  <lastmod>2024-08-16T09:33:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://loogart.com/suite88-cityline-illustration</loc>
-  <lastmod>2018-01-14T15:56:28+00:00</lastmod>
+  <lastmod>2024-08-16T09:33:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
@@ -74,14 +67,38 @@
 </url>
 <url>
   <loc>http://loogart.com/global-affairs-canada-innovation-space</loc>
-  <lastmod>2018-01-14T15:56:28+00:00</lastmod>
+  <lastmod>2024-08-16T09:33:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://loogart.com/contact.php</loc>
-  <lastmod>2018-01-14T15:56:28+00:00</lastmod>
-  <priority>0.64</priority>
+  <loc>http://loogart.com/adib-alkhalidey-motion-graphics</loc>
+  <lastmod>2024-08-16T09:33:00+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
-
+<url>
+  <loc>http://loogart.com/bref-montreal-illustrations</loc>
+  <lastmod>2024-08-16T09:33:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://loogart.com/influence-orbis-artwork</loc>
+  <lastmod>2024-08-16T09:33:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://loogart.com/la-poutine-week-visual-design</loc>
+  <lastmod>2024-08-16T09:33:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://loogart.com/le-burger-week-visual-design</loc>
+  <lastmod>2024-08-16T09:33:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://loogart.com/yellow-pages-icons-and-illustrations</loc>
+  <lastmod>2024-08-16T09:33:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
 
 </urlset>
