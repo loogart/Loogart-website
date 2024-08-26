@@ -1,0 +1,2324 @@
+/* HTML & BODY */
+
+body {
+    padding-top: 99px;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    animation: fadein 1s;
+    -moz-animation: fadein 1s;
+    /* Firefox */
+    -webkit-animation: fadein 1s;
+    /* Safari and Chrome */
+    -o-animation: fadein 1s;
+    /* Opera */
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes fadein {
+
+    /* Firefox */
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes fadein {
+
+    /* Safari and Chrome */
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@-o-keyframes fadein {
+
+    /* Opera */
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+a {
+    color: rgba(0, 172, 137, 1.0);
+    text-decoration: none;
+}
+
+a:focus {
+    outline: 5px auto -webkit-focus-ring-color;
+    outline-offset: -2px;
+}
+
+a:hover,
+a:focus {
+    color: rgba(0, 172, 137, 1.0);
+    text-decoration: underline;
+}
+
+
+/* TYPOGRAPHY *?
+
+/** Ultra Light */
+
+@font-face {
+    font-family: "San Francisco", sans-serif;
+    font-weight: 100;
+    src: url("../fonts/SF/sanfranciscodisplay-ultralight-webfont.woff");
+}
+
+
+/** Thin */
+
+@font-face {
+    font-family: "San Francisco", sans-serif;
+    font-weight: 200;
+    src: url("../fonts/SF/sanfranciscodisplay-thin-webfont.woff");
+}
+
+
+/** Regular */
+
+@font-face {
+    font-family: "San Francisco", sans-serif;
+    font-weight: 400;
+    src: url("../fonts/SF/sanfranciscodisplay-regular-webfont.woff");
+}
+
+
+/** Medium */
+
+@font-face {
+    font-family: "San Francisco", sans-serif;
+    font-weight: 200;
+    src: url("../fonts/SF/sanfranciscodisplay-medium-webfont.woff");
+}
+
+
+/** Semi Bold */
+
+@font-face {
+    font-family: "San Francisco", sans-serif;
+    font-weight: 600;
+    src: url("../fonts/SF/sanfranciscodisplay-semibold-webfont.woff");
+}
+
+
+/** Bold */
+
+@font-face {
+    font-family: "San Francisco", sans-serif;
+    font-weight: 700;
+    src: url(../fonts/SF/sanfranciscodisplay-bold-webfont.woff);
+}
+
+h1 {
+    font-family: "San Francisco", sans-serif;
+    font-weight: 700;
+    line-height: 40px;
+    color: #222;
+    font-size: 36px;
+}
+
+h2 {
+    font-family: "San Francisco", sans-serif;
+    font-weight: 600;
+    line-height: 40px;
+    color: #222;
+    font-size: 32px;
+}
+
+h3 {
+    font-family: "San Francisco", sans-serif;
+    font-weight: 700;
+    line-height: 40px;
+    color: #F75A56;
+    font-size: 32px;
+}
+
+h4 {
+    font-family: "San Francisco", sans-serif;
+    font-weight: 500;
+    line-height: 30px;
+    color: #222;
+    font-size: 22px;
+    margin: 20px auto;
+}
+
+
+/* custom navbar */
+
+.navbar {
+    min-height: 100px;
+    padding-top: 20px;
+    margin-bottom: 0px;
+    border: 0px solid transparent;
+    -webkit-transition: .25s;
+    transition: .25s;
+}
+
+.navbar-default {
+    background-color: #fff;
+    border-color: #fff;
+}
+
+.navbar-default .navbar-brand {
+    font-family: "San Francisco", sans-serif;
+    font-weight: 700;
+    line-height: 40px;
+    color: #F75A56;
+    font-size: 32px;
+    -webkit-transition: .25s;
+    transition: .25s;
+}
+
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+    color: #c13935;
+    background-color: transparent;
+}
+
+.navbar-default .navbar-brand p {
+    /*Accessibility */
+    position: absolute !important;
+    clip: rect(1px 1px 1px 1px);
+    /* IE6, IE7 */
+    clip: rect(1px, 1px, 1px, 1px);
+}
+
+.navbar-default .navbar-text {
+    color: #222;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #222;
+    font-size: 16px;
+    -webkit-transition: .25s;
+    transition: .25s;
+
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #F75A56;
+    background-color: transparent;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+    color: #F75A56;
+    background-color: transparent;
+}
+
+.navbar-default .navbar-nav > .disabled > a,
+.navbar-default .navbar-nav > .disabled > a:hover,
+.navbar-default .navbar-nav > .disabled > a:focus {
+    color: #F75A56;
+    background-color: transparent;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+}
+
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+    background-color: #f8f8f8;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #F75A56;
+}
+
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+    border-color: transparent;
+    text-align: center;
+}
+
+.navbar-default .navbar-collapse.in {
+    max-height: 6000px;
+    height: 100vh;
+}
+
+.collapsing {
+    -webkit-transition: none;
+    transition: none;
+    display: none;
+}
+
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+    color: #555;
+    background-color: #e7e7e7;
+}
+
+.navbar-default .navbar-link {
+    color: #222;
+}
+
+.navbar-default .navbar-link:hover {
+    color: #333;
+}
+
+.navbar-default .btn-link {
+    color: #222;
+}
+
+.navbar-default .btn-link:hover,
+.navbar-default .btn-link:focus {
+    color: #333;
+}
+
+.navbar-default .btn-link[disabled]:hover,
+fieldset[disabled] .navbar-default .btn-link:hover,
+.navbar-default .btn-link[disabled]:focus,
+fieldset[disabled] .navbar-default .btn-link:focus {
+    color: #ccc;
+}
+
+nav.navbar.shrink {
+    min-height: 35px;
+    padding-top: 0;
+    border-bottom: 1px dotted #d3d3d3;
+}
+
+nav.shrink a {
+    font-size: 15px;
+}
+
+nav.shrink .navbar-brand {
+    font-size: 24px;
+    line-height: 24px
+}
+
+nav.shrink .navbar-toggle {
+    padding: 4px 5px;
+    margin: 8px 15px 8px 0;
+}
+
+.logo-loogart {
+    display: inline-block;
+    width: 120px;
+    height: 32px;
+    background-image: url('../img/icons/logo-loogart.svg');
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: contain;
+    -webkit-transition: .25s;
+    transition: .25s;
+}
+
+nav.shrink .logo-loogart {
+    width: 86px;
+    height: 32px;
+}
+
+@media (max-width: 767px) {
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+        color: #222;
+    }
+
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+        color: #333;
+        background-color: transparent;
+    }
+
+    .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+    .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+    .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+        color: #555;
+        background-color: #e7e7e7;
+    }
+
+    .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a,
+    .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a:hover,
+    .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a:focus {
+        color: #ccc;
+        background-color: transparent;
+    }
+
+    .navbar-default .navbar-brand {
+        font-family: "San Francisco", sans-serif;
+        font-weight: 700;
+        line-height: 16px;
+        color: #F75A56;
+        font-size: 32px;
+        -webkit-transition: .25s;
+        transition: .25s;
+    }
+
+    nav.shrink .navbar-toggle {
+        padding: 12px 5px;
+        margin: 8px 15px 8px 0;
+    }
+
+    .navbar-default .navbar-nav > li > a {
+        color: #222;
+        font-size: 21px;
+        -webkit-transition: .25s;
+        transition: .25s;
+        padding: 20px 0;
+
+    }
+}
+
+.img-hero {
+    width: 100%;
+    height: 69vh;
+    margin-top: 20px;
+    border-radius: 1rem;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15);
+    object-fit: cover;
+}
+
+.cta-jumbotron {
+    margin-top: 40px;
+}
+
+.cta-jumbotron .btn:before {
+    content: "\f178  ";
+    font-family: FontAwesome;
+}
+
+.cta-back {
+    margin-top: 30px;
+}
+
+.cta-back:before {
+    content: "\f104  ";
+    font-family: FontAwesome;
+    color: rgba(0, 172, 137, 1.0);
+}
+
+.cta-next {
+    margin-top: 20px;
+}
+
+.cta-next:after {
+    content: "\f105  ";
+    font-family: FontAwesome;
+    color: rgba(0, 172, 137, 1.0);
+}
+
+
+/* custom buttons */
+
+.btn {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 36px;
+    -webkit-transition: .25s;
+    transition: .25s;
+}
+
+.btn-lg,
+.btn-group-lg > .btn {
+    padding: 10px 16px;
+    font-size: 18px;
+    line-height: 1.3333333;
+    border-radius: 44px;
+}
+
+.btn-pink {
+    color: #fff;
+    background-color: #F75A56;
+    border-color: #F75A56;
+    -webkit-transition: .25s;
+    transition: .25s;
+}
+
+.btn-pink:focus,
+.btn-pink.focus {
+    color: #fff;
+    background-color: #c13935;
+    border-color: #c13935;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.btn-pink:hover {
+    color: #fff;
+    background-color: #F75A56;
+    border-color: #F75A56;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.btn-pink:active,
+.btn-pink.active,
+.open > .dropdown-toggle.btn-pink {
+    color: #fff;
+    background-color: #c13935;
+    border-color: #c13935;
+}
+
+.btn-pink:active:hover,
+.btn-pink.active:hover,
+.open > .dropdown-toggle.btn-pink:hover,
+.btn-pink:active:focus,
+.btn-pink.active:focus,
+.open > .dropdown-toggle.btn-pink:focus,
+.btn-pink:active.focus,
+.btn-pink.active.focus,
+.open > .dropdown-toggle.btn-pink.focus {
+    color: #fff;
+    background-color: #c13935;
+    border-color: #c13935;
+}
+
+.btn-pink:active,
+.btn-pink.active,
+.open > .dropdown-toggle.btn-pink {
+    background-image: none;
+}
+
+.btn-pink.disabled:hover,
+.btn-pink[disabled]:hover,
+fieldset[disabled] .btn-pink:hover,
+.btn-pink.disabled:focus,
+.btn-pink[disabled]:focus,
+fieldset[disabled] .btn-pink:focus,
+.btn-pink.disabled.focus,
+.btn-pink[disabled].focus,
+fieldset[disabled] .btn-pink.focus {
+    background-color: #F75A56;
+    border-color: #F75A56;
+}
+
+.btn-pink .badge {
+    color: #F75A56;
+    background-color: #fff;
+}
+
+
+
+/* white button */
+
+.btn-white {
+    color: #F75A56;
+    background-color: #fff;
+    border-color: #fff;
+    -webkit-transition: .25s;
+    transition: .25s;
+}
+
+.btn-white:focus,
+.btn-white.focus {
+    color: #c13935;
+    background-color: #c13935;
+    border-color: #c13935;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.btn-white:hover {
+    color: #c13935;
+    background-color: #fff;
+    border-color: #fff;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.btn-white:active,
+.btn-white.active,
+.open > .dropdown-toggle.btn-white {
+    color: #c13935;
+    background-color: #fff;
+    border-color: #fff;
+}
+
+.btn-white:active:hover,
+.btn-white.active:hover,
+.open > .dropdown-toggle.btn-white:hover,
+.btn-white:active:focus,
+.btn-white.active:focus,
+.open > .dropdown-toggle.btn-white:focus,
+.btn-white:active.focus,
+.btn-white.active.focus,
+.open > .dropdown-toggle.btn-white.focus {
+    color: #c13935;
+    background-color: #fff;
+    border-color: #fff;
+}
+
+.btn-white:active,
+.btn-white.active,
+.open > .dropdown-toggle.btn-white {
+    background-image: none;
+}
+
+.btn-white.disabled:hover,
+.btn-white[disabled]:hover,
+fieldset[disabled] .btn-white:hover,
+.btn-white.disabled:focus,
+.btn-white[disabled]:focus,
+fieldset[disabled] .btn-white:focus,
+.btn-white.disabled.focus,
+.btn-white[disabled].focus,
+fieldset[disabled] .btn-white.focus {
+    background-color: #fff border-color: #fff;
+}
+
+.btn-white .badge {
+    color: #fff;
+    background-color: #F75A56;
+}
+
+/* button turquoise */
+
+.btn-turquoise {
+    color: #fff;
+    background-color: rgba(0, 172, 137, 1.0);
+    border-color: rgba(0, 172, 137, 1.0);
+    -webkit-transition: .25s;
+    transition: .25s;
+}
+
+.btn-turquoise:focus,
+.btn-turquoise.focus {
+    color: #fff;
+    background-color: rgba(2, 209, 167, 1);
+    border-color: rgba(2, 209, 167, 1);
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.btn-turquoise:hover {
+    color: #fff;
+    background-color: rgba(2, 209, 167, 1);
+    border-color: rgba(2, 209, 167, 1);
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.btn-turquoise:active,
+.btn-turquoise.active,
+.open > .dropdown-toggle.btn-turquoise {
+    color: #fff;
+    background-color: rgba(2, 209, 167, 1);
+    border-color: rgba(2, 209, 167, 1);
+}
+
+.btn-turquoise:active:hover,
+.btn-turquoise.active:hover,
+.open > .dropdown-toggle.btn-turquoise:hover,
+.btn-turquoise:active:focus,
+.btn-turquoise.active:focus,
+.open > .dropdown-toggle.btn-turquoise:focus,
+.btn-turquoise:active.focus,
+.btn-turquoise.active.focus,
+.open > .dropdown-toggle.btn-turquoise.focus {
+    color: #fff;
+    background-color: rgba(2, 209, 167, 1);
+    border-color: rgba(2, 209, 167, 1);
+}
+
+
+/* custom carousel */
+
+.scroll {
+    white-space: nowrap;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+}
+
+.scroll h5 {
+    color: #F75A56;
+}
+
+.carousel-loogs {
+    width: 150px;
+    height: 150px;
+    background-color: #D8D8D8;
+    border-radius: 8px;
+    margin-right: 8px;
+}
+
+.carousel-brands {
+    width: 250px;
+    height: 250px;
+    background-color: #D8D8D8;
+}
+
+.carousel-web-design {
+    width: 250px;
+    height: 196px;
+    background-color: #D8D8D8;
+}
+
+
+/* portfolio styles */
+
+.outer {
+    /* set your width and height here on the outer div */
+    display: block;
+    width: 100%;
+    height: 360px;
+    position: relative;
+    overflow: hidden;
+    /* comment this line to see what happens behind the scenes */
+    margin-bottom: 30px;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    /*box-shadow: 0 14px 28px rgba(0, 0, 0, 0.18), 0 10px 10px rgba(0, 0, 0, 0.12);*/
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15) !important;
+    border-radius: 16px;
+
+}
+
+.inner {
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #D8D8D8;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+}
+
+.outer:hover .inner,
+.outer:active .inner {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.outer:hover,
+.outer:active {
+    -webkit-transform: scale(.98);
+    transform: scale(.98);
+    box-shadow: 0 .1rem .5rem rgba(0, 0, 0, .15) !important;
+    /*box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);*/
+}
+
+.portfolio-text {
+    font-family: "San Francisco", sans-serif;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    overflow: hidden;
+}
+
+.portfolio-text.bottom {
+    bottom: 0px;
+    padding: 45px 25px 25px;
+    background: -webkit-linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, .34));
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, .34));
+}
+
+.portfolio-text.top {
+    top: 0px;
+    padding: 25px 25px 45px;
+    background: -webkit-linear-gradient(rgba(0, 0, 0, .34), rgba(0, 0, 0, 0));
+    background: linear-gradient(rgba(0, 0, 0, .34), rgba(0, 0, 0, 0));
+    overflow: hidden;
+}
+
+.portfolio-text.no-gradient {
+    background: -webkit-linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0));
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0));
+}
+
+.portfolio .tile-logo {
+    width: 100px;
+}
+
+.text-dark {
+    color: #222;
+}
+
+.text-light {
+    color: #fff;
+}
+
+.text-green-starbucks {
+    color: #0B7244;
+}
+
+.text-red-ets {
+    color: #ED3B3E;
+}
+
+.text-blue-otis {
+    color: rgba(36, 63, 143, 1.0);
+}
+
+.portfolio-text h5 {
+    font-weight: 700;
+    line-height: 32px;
+    font-size: 24px;
+    z-index: 4;
+}
+
+.portfolio-text p {
+    font-weight: 500;
+    line-height: 18px;
+    font-size: 15px;
+}
+
+.logo {
+    display: block-inline;
+    width: 40%;
+    min-width: 65px;
+    min-height: 65px;
+    background-color: transparent;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: auto;
+}
+
+.logo-text {
+    display: block-inline;
+    width: 60%;
+}
+
+.logo-text.no-title {
+    margin-top: 32px;
+}
+
+.portfolio h5 a:after {
+    content: "  \f105";
+    font-family: FontAwesome;
+}
+
+/*award ribbon*/
+
+.img-award {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 80px;
+    z-index: 2000;
+}
+
+@media (max-width:767px) {
+    .img-award {
+        position: absolute;
+        top: 100px;
+        left: 0;
+        height: 200px;
+        z-index: 1;
+    }
+}
+
+/* portfolio main page */
+
+section.portfolio {
+    margin: 40px auto;
+}
+
+section.portfolio h4 {
+    margin: 20px auto 30px;
+}
+
+.portfolio-yp {
+    background-image: url(../img/tile/yellowpages-icons-design-by-loogart.svg);
+    background-position: top center;
+}
+
+.portfolio-adib {
+    background-image: url(../img/tile/adib-cartoon-videos-by-loogart.jpg);
+    background-position: top center;
+}
+
+.portfolio-bref-mtl {
+    background-image: url(../img/tile/bref-montreal-illustrations-by-loogart.jpg);
+    background-position: top center;
+}
+
+.portfolio-burgerweek {
+    background-image: url(../img/tile/burgerweek-visual-design-by-loogart.jpg);
+    background-position: top center;
+}
+
+.portfolio-poutineweek {
+    background-image: url(../img/tile/poutineweek-visual-design-by-loogart.jpg);
+    background-position: top center;
+}
+
+.portfolio-influence-orbis {
+    background-image: url(../img/tile/influence-toronto-artwork-by-loogart.jpg);
+    background-position: top center;
+}
+
+.portfolio-montreal {
+    background-image: url(../img/tile/montreal-cityline-by-loogart.jpg);
+    background-position: top center;
+}
+
+
+.portfolio-starbucks {
+    background-image: url(../img/tile/starbucks-cityscape-by-loogart.jpg);
+    background-position: top center;
+}
+
+.starbucks-logo {
+    background-image: url(../img/logo/starbucks_logo.png);
+    width: 85px;
+    height: 85px;
+}
+
+.portfolio-ets {
+    background-image: url(../img/tile/ets-cityline-by-loogart.jpg);
+    background-position: top center;
+}
+
+.ets-logo {
+    background-image: url(../img/logo/ets-logo.jpg);
+    width: 105px;
+}
+
+.portfolio-car2go {
+    background-image: url(../img/tile/car2go-cityline-by-loogart.jpg);
+    background-position: top center;
+}
+
+.portfolio-swiffer {
+    background-image: url(../img/tile/swiffer-marketing-by-loogart.jpg);
+    background-position: top center;
+}
+
+.swiffer-logo {
+    background-image: url(../img/logo/swiffer-logo.png);
+    width: 105px;
+}
+
+.portfolio-upa {
+    background-image: url(../img/tile/upa-cityline-by-loogart.jpg);
+    background-position: top center;
+}
+
+.upa-logo {
+    background-image: url(../img/upa-logo.png);
+    width: 105px;
+}
+
+.portfolio-travel-smart {
+    background-image: url(../img/tile/travel-smart-visual-design-by-loogart.jpg);
+    background-position: top center;
+}
+
+.canada-logo {
+    background-image: url(../img/logo/canada-logo.png);
+    width: 105px;
+}
+
+.portfolio-suite88 {
+    background-image: url(../img/tile/suite88-chocolatier-cityline-by-loogart.jpg);
+    background-position: top center;
+}
+
+.suite88-logo {
+    background-image: url(../img/logo/suite88-logo.png);
+    width: 105px;
+}
+
+.travel-smart-logo {
+    background-image: url('../img/logo/travel-smart-icon.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 75px;
+    width: 75px;
+}
+
+.portfolio-otis {
+    background-image: url(../img/tile/otis-elevator-animated-illustration-by-loogart.gif);
+    background-position: 0 -40px;
+    background-color: #fff;
+}
+
+.portfolio-innovation-space {
+    background-image: url(../img/tile/global-affairs-canada-innovation-wall-illustrations-by-loogart.jpg);
+    background-color: #fff;
+}
+
+.otis-logo {
+    background-image: url(../img/logo/otis-logo.png);
+    width: 105px;
+    margin-top: 20px;
+}
+
+.otis-logo-2 {
+    background-image: url(../img/logo/otis-logo.png);
+    width: 105px;
+}
+
+@media (max-width: 767px) {
+    .outer {
+        box-shadow: 0 0 0;
+    }
+
+    .logo-text.no-title {
+        margin-top: 72px;
+    }
+
+    .starbucks-logo {
+        background-image: url(../img/logo/starbucks_logo.png);
+        width: 80px;
+        height: 80px;
+        margin: 0;
+    }
+
+    .ets-logo {
+        background-image: url(../img/logo/ets-logo.jpg);
+        width: 80px;
+        margin-top: 40px;
+    }
+
+    .swiffer-logo {
+        background-image: url(../img/logo/swiffer-logo.png);
+        width: 80px;
+        margin-top: 60px;
+    }
+
+    .upa-logo {
+        background-image: url(../img/logo/upa-logo.png);
+        width: 55px;
+    }
+
+    .canada-logo {
+        background-image: url(../img/logo/canada-logo.png);
+        width: 75px;
+        margin-top: 20px;
+    }
+
+    .suite88-logo {
+        background-image: url(../img/logo/suite88-logo.png);
+        width: 85px;
+        margin-top: 60px;
+    }
+
+    .otis-logo {
+        background-image: url(../img/logo/otis-logo.png);
+        width: 75px;
+        margin-top: 20px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {}
+
+@media (min-width: 1200px) {}
+
+
+/* about page styles */
+
+.jumbotron-about {
+    background-color: #fff;
+    min-height: 560px;
+    background-image: url('../img/chris-soueidan-loogart.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+section.about {
+    background-color: #F75A56;
+    color: #fff;
+    padding: 40px;
+}
+
+section.about h3 {
+    color: #fff;
+}
+
+
+section.about p {
+    font-family: "San Francisco", sans-serif;
+    font-weight: 500;
+    line-height: 28px;
+    color: #fff;
+    font-size: 22px;
+    margin: 20px auto;
+}
+
+section.clients {
+    font-family: "San Francisco", sans-serif;
+    font-weight: 500;
+    line-height: 28px;
+    color: #222;
+    font-size: 22px;
+    margin: 20px auto;
+}
+
+section.clients p {
+    font-family: "San Francisco", sans-serif;
+    font-weight: 500;
+    line-height: 30px;
+    color: #222;
+    font-size: 22px;
+    margin: 15px auto;
+}
+
+section.clients ul {
+    margin: 20px auto;
+}
+
+.car2go-logo {
+    background-image: url(../img/logo-car2go.png);
+    width: 85px;
+    height: 85px;
+}
+
+.upa-logo-2 {
+    background-image: url(../img/logo-upa.jpg);
+    width: 105px;
+}
+
+.list-logos {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 15px;
+}
+
+.about-logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 33%;
+    height: 100%;
+    margin-top: 30px;
+}
+
+.about-logo h6 {
+    font-weight: bold;
+}
+
+.about-logo img.client-logo {
+    width: 120px;
+    transition: all .3s ease-in;
+    -webkit-backface-visibility: hidden;
+    -webkit-transform: translate3d(0, 0, 0);
+}
+
+@media (max-width:767px) {
+    .about-logo {
+        width: 50%;
+    }
+}
+
+.canada-logo-2 {
+    background-image: url(../img/logo-canada.png);
+    width: 105px;
+}
+
+.bbdo-logo {
+    background-image: url('../img/logo-bbdo.png');
+}
+
+.citizenrelations-logo {
+    background-image: url('../img/logo-citizen-relations.png');
+}
+
+.mtlblog-logo {
+    background-image: url('../img/logo-mtlblog.png');
+}
+
+.mariouomo-logo {
+    background-image: url('../img/logo-mariouomo.png');
+}
+
+.tweetaide-logo {
+    background-image: url('../img/logo-tweetaide.jpg');
+}
+
+.logo-kalooba {
+    background-image: url('../img/logo-kalooba.png');
+}
+
+.logo-station16 {
+    background-image: url('../img/logo-station16.jpg');
+}
+
+.logo-proctorgamble {
+    background-image: url('../img/logo-proctorgamble.png');
+}
+
+
+
+
+/* color palette */
+
+.pink {
+    color: #F75A56;
+}
+
+.pink-bg {
+    background-color: #F75A56;
+}
+
+
+/* shadow material design style */
+
+.shadow-1 {
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+.shadow-2 {
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.shadow-3 {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+
+.shadow-4 {
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.shadow-5 {
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.30), 0 15px 12px rgba(0, 0, 0, 0.22);
+}
+
+
+/* footer style */
+
+footer {
+    font-family: "San Francisco", sans-serif;
+    font-weight: 500;
+    background-color: #333333;
+    color: #fff;
+    padding: 30px 0;
+}
+
+footer a {
+    color: #fff;
+}
+
+footer a:hover,
+footer a:focus {
+    color: #ccc;
+    text-decoration: underline;
+}
+
+footer .col-sm-6,
+footer .col-sm-3,
+footer .col-sm-4 {
+    border-right: 1px solid #444;
+    padding: 0 30px;
+}
+
+footer h5 {
+    font-family: "San Francisco", sans-serif;
+    font-weight: 700;
+    line-height: 28px;
+    color: #fff;
+    font-size: 22px;
+}
+
+.lower-footer {
+    background-color: #222;
+    color: #777;
+    text-align: center;
+    padding: 7px;
+    font-family: "San Francisco", sans-serif;
+}
+
+
+/* form control, select input styles */
+
+.form-control {
+    display: block;
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #222;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 0;
+    -webkit-box-shadow: inset 0 0 0 rgba(0, 0, 0, 0);
+    box-shadow: inset 0 0 0 rgba(0, 0, 0, .0);
+    -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+
+.form-control:focus {
+    border: 1px solid #F75A56;
+    background-color: #F75A56;
+    color: #fff;
+    outline: 0;
+    -webkit-box-shadow: inset 0 0 0 rgba(0, 0, 0, .075), 0 0 0 rgba(247, 90, 86, .3);
+    box-shadow: inset 0 0 0 rgba(0, 0, 0, .075), 0 0 0 rgba(247, 90, 86, .3);
+}
+
+.form-control:focus::-moz-placeholder {
+    color: #eee;
+    background-color: #F75A56;
+    opacity: 1;
+}
+
+.form-control:focus:-ms-input-placeholder {
+    color: #eee;
+    background-color: #F75A56;
+}
+
+.form-control:focus::-webkit-input-placeholder {
+    color: #eee;
+    background-color: #F75A56;
+}
+
+.form-control:focus::-ms-expand {
+    background-color: transparent;
+    border: 0;
+}
+
+.form-control.on-dark {
+    display: block;
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #9b9b9b;
+    background-color: #4A4A4A;
+    border: 1px solid #FFFFFF;
+    border-radius: 44px;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+    -webkit-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+
+.form-control.on-dark:focus {
+    border: 1px solid #F75A56;
+    background-color: #F75A56;
+    outline: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(247, 90, 86, .3);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(247, 90, 86, .3);
+}
+
+.form-control[disabled],
+.form-control[readonly],
+fieldset[disabled] .form-control {
+    background-color: #eee;
+    opacity: 1;
+}
+
+.form-control[disabled],
+fieldset[disabled] .form-control {
+    cursor: not-allowed;
+}
+
+.select-69 select {
+    background-color: #fff;
+    background-image: none;
+    width: 100%;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    border: 1px solid #ccc;
+    border-radius: 0;
+    height: 34px;
+    -webkit-appearance: none;
+    color: #222;
+    text-align: center;
+    box-shadow: inset 0 0 0 rgba(0, 0, 0, .075);
+}
+
+.styled-69 {
+    width: 100%;
+    overflow: hidden;
+}
+
+
+/* portfolio content */
+
+.project-jumbotron {
+    min-height: 50px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.project-montreal-cityline-img {
+    height: 46vh;
+    background-position: 50% 38%;
+    background-image: url('../img/portfolio/citylines/cityline-montreal-4.png');
+}
+
+.project-starbucks-img {
+    height: 40vh;
+    background-image: url('../img/portfolio/starbucks/starbucks-montreal.png'), url('../img/portfolio/starbucks/coffee-beans-dark.jpg');
+    background-repeat: repeat-x, repeat;
+    background-position: 10% 100%, 0;
+    background-size: 1600px, 600px;
+    padding: 5%;
+}
+
+.project-ets-cityline-img {
+    height: 44vh;
+    background-position: 50% 90%;
+    background-image: url('../img/portfolio/ets/ets-cityline-zoom.jpg');
+}
+
+.project-car2go-cityline-img {
+    height: 54vh;
+    background-position: 60% 90%;
+    background-image: url('../img/portfolio/car2go/car2go-cityline-2-zoom-blue-sky.jpg');
+}
+
+.project-swiffer-img {
+    height: 52vh;
+    background-position: 50% 100%;
+    background-image: url('../img/portfolio/swiffer/swiffer-cityline-by-loogart-v1.jpg');
+}
+
+.project-upa-cityline-img {
+    height: 44vh;
+    background-position: 50% 10%;
+    background-image: url('../img/portfolio/upa/upa-cityline-2015-zoomer.jpg');
+}
+
+.project-travel-smart-img {
+    height: 44vh;
+    background-position: 50% 10%;
+    background-image: url('../img/portfolio/travel-smart/mockup-assistance1.jpg');
+}
+
+.project-suite88-cityline-img {
+    height: 44vh;
+    background-position: 50% 30%;
+    background-image: url('../img/portfolio/suite88/packaging-choco-2.jpg');
+}
+
+.project-otis-elevator-img {
+    height: 44vh;
+    background-position: 50% 10%;
+    background-image: url('../img/portfolio/otis/otis-animated-gif-on-phone.gif');
+}
+
+.project-gac-img {
+    height: 48vh;
+    background-position: 50% 40%;
+    background-image: url('../img/portfolio/gac-innovation/illo-awesome-wall-bleed.jpg');
+}
+
+.img-portfolio {
+    margin: 30px auto;
+    max-height: 500px;
+}
+
+.montreal-carousel .img-portfolio {
+    max-height: 484px;
+    margin: 10px 40px 30px;
+}
+
+.sb-carousel .img-portfolio {
+    max-height: 444px;
+    margin: 10px 10px 30px;
+}
+
+.ets-carousel .carousel-cell .img-portfolio {
+    max-height: 544px;
+    margin: 10px 10px 30px;
+}
+
+.upa-carousel .carousel-cell .img-portfolio {
+    max-height: 700px;
+    margin: 0;
+}
+
+.portfolio-content .carousel {
+    margin: 50px auto;
+}
+
+.portfolio-content ul li img {
+    margin: 30px auto;
+}
+
+
+.img-portfolio-scroller {
+    height: 400px;
+    margin-right: 15px;
+    background-color: #e5e5e5;
+}
+
+section.portfolio-content p,
+section.portfolio-content li {
+    font-family: "San Francisco", sans-serif;
+    font-weight: 500;
+    line-height: 30px;
+    color: #222;
+    font-size: 22px;
+    margin: 15px auto;
+}
+
+section.portfolio-content h1 {
+    font-family: "San Francisco", sans-serif;
+    font-weight: 700;
+    line-height: 42px;
+    color: #222;
+    font-size: 36px;
+    margin: 20px auto;
+}
+
+section.portfolio-content h3 {
+    font-family: "San Francisco", sans-serif;
+    font-weight: 700;
+    line-height: 28px;
+    color: #333;
+    font-size: 24px;
+    margin: 20px auto 12px;
+}
+
+section.loogmoji-collection {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+section.loogmoji-collection img,
+section.loogmoji-collection a {
+    background-color: transparent;
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    transition: all .25s ease-in;
+    -webkit-backface-visibility: hidden;
+    -webkit-transform: translate3d(0, 0, 0);
+}
+
+section.loogmoji-collection img:hover {
+    transform: scale(1.2);
+    transition: all .25s ease-out;
+}
+
+@media (max-width: 767px) {
+
+    section.loogmoji-collection img,
+    section.loogmoji-collection a {
+        width: 49%;
+    }
+}
+
+@media (min-width: 768px) {
+
+    section.loogmoji-collection img,
+    section.loogmoji-collection a {
+        width: 32%;
+    }
+}
+
+@media (min-width: 991px) {
+
+    section.loogmoji-collection img,
+    section.loogmoji-collection a {
+        width: 19%;
+    }
+}
+
+
+section.loogmoji-collection h3 {
+    color: #333;
+}
+
+
+
+section.contact .container {
+    margin: auto;
+    max-width: 600px;
+}
+
+section.contact p {
+    font-family: "San Francisco", sans-serif;
+    font-weight: 500;
+    line-height: 28px;
+    color: #222;
+    font-size: 22px;
+    margin: 20px auto;
+}
+
+@media (max-width: 767px) {
+    .project-jumbotron {
+        height: 320px;
+    }
+
+    .montreal-carousel .carousel-cell .img-portfolio,
+    .sb-carousel .carousel-cell .img-portfolio,
+    .ets-carousel .carousel-cell .img-portfolio {
+        max-height: 320px;
+        margin: 10px 20px 30px;
+    }
+
+    .upa-carousel .carousel-cell .img-portfolio {
+        max-height: 420px;
+        margin: 10px 20px 30px;
+    }
+
+    .project-starbucks-img {
+        height: 50vh;
+        background-image: url('../img/portfolio/starbucks/starbucks-montreal.png'), url('../img/portfolio/starbucks/coffee-beans-dark.jpg');
+        background-repeat: repeat-x, repeat;
+        background-position: 50% 100%, 50%;
+        background-size: 1400px, 444px;
+    }
+
+    .project-car2go-cityline-img {
+        height: 60vh;
+        background-position: 0% 50%;
+        background-image: url('../img/portfolio/car2go/car2go-cityline-2-zoom-blue-sky.jpg');
+    }
+}
+
+
+/* custom modal POPUP */
+
+.modal.popup {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1050;
+    display: none;
+    overflow: hidden;
+    -webkit-overflow-scrolling: touch;
+    outline: 0;
+}
+
+.modal.popup .modal-dialog {
+    max-width: 400px;
+}
+
+.modal.popup.fade .modal-dialog {
+    -webkit-transition: -webkit-transform .3s ease-out;
+    -o-transition: -o-transform .3s ease-out;
+    transition: transform .3s ease-out;
+    -webkit-transform: translate(0, -100%);
+    -ms-transform: translate(0, -100%);
+    -o-transform: translate(0, -100%);
+    transform: translate(0, -100%);
+}
+
+.modal.popup.in .modal-dialog {
+    -webkit-transform: translate(0, 0);
+    -ms-transform: translate(0, 0);
+    -o-transform: translate(0, 0);
+    transform: translate(0, 0);
+}
+
+.modal.popup .modal-content {
+    position: relative;
+    background-color: #fff;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    border: 0px solid #999;
+    border: 0px solid rgba(0, 0, 0, .2);
+    border-radius: 20px;
+    outline: 0;
+    -webkit-box-shadow: 0 3px 9px rgba(0, 0, 0, .5);
+    box-shadow: 0 3px 9px rgba(0, 0, 0, .5);
+    text-align: center;
+    padding: 20px 0 0;
+}
+
+.popup .modal-header {
+    padding: 15px;
+    border-bottom: 0px solid #e5e5e5;
+}
+
+.popup .modal-body {
+    position: relative;
+    font-family: "San Francisco", sans-serif;
+    font-weight: 500;
+    line-height: 28px;
+    color: #222;
+    font-size: 22px;
+    margin: 0 auto 20px;
+    padding: 10px 50px 20px;
+}
+
+.popup .modal-footer {
+    padding: 0;
+    text-align: right;
+    border-top: 1px dotted #c5c5c5;
+    text-align: center;
+    height: 50px;
+}
+
+.popup .modal-footer a:first-child {
+    margin-bottom: 0;
+    margin-left: 0;
+    float: left;
+    width: 50%;
+    height: 52px;
+    border-radius: 0 0 0 20px;
+    border-right: 1px dotted #c5c5c5;
+    padding-top: 12px;
+    font-size: 18px;
+}
+
+.popup .modal-footer a:last-child {
+    margin-bottom: 0;
+    margin-left: 0;
+    float: right;
+    width: 50%;
+    height: 52px;
+    border-radius: 0 0 20px 0;
+    padding-top: 12px;
+    font-size: 18px;
+}
+
+.popup .modal-footer a.btn-wide {
+    margin-bottom: 0;
+    margin-left: 0;
+    float: right;
+    width: 100%;
+    height: 52px;
+    border-radius: 0 0 20px 20px;
+    padding-top: 12px;
+    font-size: 18px;
+}
+
+.popup .modal-footer .btn-group .btn + .btn {
+    margin-left: 0;
+}
+
+.popup .modal-footer .btn-block + .btn-block {
+    margin-left: 0;
+}
+
+
+/* validation styles */
+
+/*!
+ * BootstrapValidator (http://bootstrapvalidator.com)
+ * The best jQuery plugin to validate form fields. Designed to use with Bootstrap 3
+ *
+ * @version     v0.5.0, built on 2014-07-14 4:31:02 PM
+ * @author      https://twitter.com/nghuuphuoc
+ * @copyright   (c) 2013 - 2014 Nguyen Huu Phuoc
+ * @license     MIT
+ */
+
+.bv-form .help-block {
+    margin-bottom: 0
+}
+
+.bv-form .tooltip-inner {
+    text-align: left
+}
+
+.nav-tabs li.bv-tab-success > a {
+    color: #3c763d
+}
+
+.nav-tabs li.bv-tab-error > a {
+    color: #a94442
+}
+
+#success_message {
+    display: none;
+}
+
+
+/* atvImg styling */
+
+.tile {
+    width: 100%;
+    height: 320px;
+    margin: 30px auto
+}
+
+.tile-wide {
+    width: 100%;
+    height: 420px;
+    margin: 40px auto 50px;
+}
+
+.tile-phone {
+    width: 320px;
+    height: 569px;
+    margin: 40px auto 50px;
+}
+
+h4 {
+    margin: 0 auto 12px;
+    font-size: 21px;
+    line-height: 1.3em
+}
+
+p {
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.jumbotron {
+    margin-bottom: 0;
+    padding: 0;
+}
+
+
+/*! Flickity v2.0.5
+http://flickity.metafizzy.co
+---------------------------------------------- */
+
+.flickity-enabled {
+    position: relative;
+}
+
+.flickity-enabled:focus {
+    outline: none;
+}
+
+.flickity-viewport {
+    overflow: hidden;
+    position: relative;
+    height: 100%;
+}
+
+.flickity-slider {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+
+/* draggable */
+
+.flickity-enabled.is-draggable {
+    -webkit-tap-highlight-color: transparent;
+    tap-highlight-color: transparent;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.flickity-enabled.is-draggable .flickity-viewport {
+    cursor: move;
+    cursor: -webkit-grab;
+    cursor: grab;
+}
+
+.flickity-enabled.is-draggable .flickity-viewport.is-pointer-down {
+    cursor: -webkit-grabbing;
+    cursor: grabbing;
+}
+
+
+/* ---- previous/next buttons ---- */
+
+.flickity-prev-next-button {
+    position: absolute;
+    top: 50%;
+    width: 44px;
+    height: 44px;
+    border: none;
+    border-radius: 50%;
+    background: white;
+    background: hsla(0, 0%, 100%, 0.75);
+    cursor: pointer;
+    /* vertically center */
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.flickity-prev-next-button:hover {
+    background: white;
+}
+
+.flickity-prev-next-button:focus {
+    outline: none;
+    box-shadow: 0 0 0 5px #09F;
+}
+
+.flickity-prev-next-button:active {
+    opacity: 0.6;
+}
+
+.flickity-prev-next-button.previous {
+    left: 10px;
+}
+
+.flickity-prev-next-button.next {
+    right: 10px;
+}
+
+
+/* right to left */
+
+.flickity-rtl .flickity-prev-next-button.previous {
+    left: auto;
+    right: 10px;
+}
+
+.flickity-rtl .flickity-prev-next-button.next {
+    right: auto;
+    left: 10px;
+}
+
+.flickity-prev-next-button:disabled {
+    opacity: 0.3;
+    cursor: auto;
+}
+
+.flickity-prev-next-button svg {
+    position: absolute;
+    left: 20%;
+    top: 20%;
+    width: 60%;
+    height: 60%;
+}
+
+.flickity-prev-next-button .arrow {
+    fill: #333;
+}
+
+
+/* ---- page dots ---- */
+
+.flickity-page-dots {
+    position: absolute;
+    width: 100%;
+    bottom: -25px;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: center;
+    line-height: 1;
+}
+
+.flickity-rtl .flickity-page-dots {
+    direction: rtl;
+}
+
+.flickity-page-dots .dot {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin: 4px 8px;
+    background: #F75A56;
+    border-radius: 50%;
+    opacity: 0.25;
+    cursor: pointer;
+}
+
+.flickity-page-dots .dot.is-selected {
+    opacity: 1;
+}
+
+
+/* position dots up a bit */
+
+.flickity-page-dots {
+    bottom: -22px;
+}
+
+.montreal-carousel {
+    margin: 0;
+}
+
+.img-spacing {
+    margin: 20px auto;
+}
+
+/* video */
+
+.video-responsive {
+    margin: 15px auto;
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+
+/*404 page*/
+
+section.page-404 {
+    padding: 5% 0 0;
+}
+
+section.page-404 h3 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+section.page-404 p {
+    font-family: "San Francisco", sans-serif;
+    font-weight: 500;
+    line-height: 28px;
+    color: #222;
+    font-size: 24px;
+    margin: 15px auto;
+}
+
+.img-404 {
+    display: block;
+    max-width: 320px;
+    width: 100%;
+    min-height: 200px;
+    background-image: url('../img/bowser-404.gif');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left;
+    margin: auto;
+}
+
+/* css extra spice */
+
+.throb {
+    animation-name: throb;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-timing-function: ease-in-out;
+    /* or: ease, ease-in, ease-in-out, linear, cubic-bezier(x1, y1, x2, y2) */
+    animation-fill-mode: forwards;
+    /* or: backwards, both, none */
+    animation-delay: 0s;
+    /* or: Xms */
+}
+
+@keyframes throb {
+    0% {
+        transform: scale(1);
+    }
+
+    20% {
+        transform: scale(1.1);
+        color: #dd3b37;
+    }
+
+    70% {
+        color: #F75A56;
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+/* app ui demo */
+
+.app-ui div[class^="col-"] {
+    margin: 30px auto;
+}
+
+.img-app-ui {
+    border-radius: 1.25em;
+    box-shadow: 0 1px 8px 0 rgba(43, 49, 58, 0.05), 1px 12px 25px 0 rgba(43, 49, 58, 0.1);
+    transition: all .5s ease-in-out;
+}
+
+.img-fit {
+    object-fit: cover;
+    width: 100%;
+    height: 48vh;
+    object-position: center 40%;
+}
+
+.hover-move-up img {
+    transition: all .25s ease-in-out;
+}
+
+.hover-move-up img:hover {
+    transform: translateY(-5px);
+}
+
+.carousel-cell img {
+    width: 100%;
+
+}
+
+@media(max-width:767px) {
+    .carousel-cell img {
+        object-fit: cover;
+        width: 100vw;
+        height: 320px;
+    }
+}
+
+.scroll-text {
+    font-weight: 500;
+    position: absolute;
+    bottom: 35px;
+    left: 35px;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 0.2em 0.6em;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 1em;
+    -webkit-animation: mymove 2s infinite;
+    /* Safari 4.0 - 8.0 */
+    animation: mymove 2s infinite;
+}
+
+@-webkit-keyframes mymove {
+    0% {
+        left: 0px;
+    }
+
+    50% {
+        left: 15px;
+    }
+
+    100% {
+        left: 0px;
+    }
+}
+
+@keyframes mymove {
+    0% {
+        left: 0px;
+    }
+
+    50% {
+        left: 15px;
+    }
+
+    100% {
+        left: 0px;
+    }
+}
+
+.logo-loogmoji {
+    width: 20%;
+    margin: 2em auto;
+}
+
+.sticky-right {
+    position: sticky;
+    position: -webkit-sticky;
+    top: 69px;
+}
+
+.scroll.album > img {
+    margin-right: 20px;
+}
+
+
+@media (max-width:767px) {
+    .logo-loogmoji {
+        width: 50%;
+        margin: 2em auto;
+    }
+
+    .sticky-right {
+        position: relative;
+        top: 0;
+
+    }
+}
+
+ul.product-details li {
+    font-size: 12px;
+    margin: 10px auto;
+    line-height: 1;
+}
+
+/* shop */
+.breadcrumb-shop {
+    background: transparent;
+    padding: 0;
+}
+
+section.shop {
+    padding: 0 0 3rem;
+}
+
+section.shop h2 {
+    margin-bottom: 7rem;
+    font-size: 4rem;
+}
+
+section.shop a {
+    text-decoration: none;
+    display: block;
+    font-size: 2rem;
+
+}
+
+section.shop a h3 {
+    color: #222;
+}
+
+section.shop p {
+    color: #333;
+    font-size: 2rem;
+    line-height: 1.25;
+}
+
+.product-box {
+    min-height: 40rem;
+    background-color: #f5f5f5;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-bottom: 15px;
+    padding: 3.69rem 2rem 0;
+    border-radius: 2rem;
+}
+
+.product-box p.link-btn {
+    color: rgba(0, 172, 137, 1.0);
+}
+
+.product-box p.link-btn:hover {
+    text-decoration: underline;
+    color: teal;
+}
+
+.product-loogmoji {
+    background-image: url("../img/shop/shop-loogmojis.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 69%;
+    background-color: pink;
+
+}
+
+.product-loogmoji h1,
+.product-loogmoji h2,
+.product-loogmoji h3,
+.product-loogmoji p,
+.product-loogmoji a {
+    color: #3c4a84 !important;
+}
+
+.product-framed-art {
+    background-image: url("../img/shop/shop-artwork.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 50% 150%;
+    background-color: #f5f5f5;
+}
+
+.product-cucu {
+    background-image: url("../img/shop/shop-cucu.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 50% 120%;
+    background-color: #d6edf0;
+}
+
+.product-bref {
+    background-image: url(../img/shop/shop-bref.png);
+    background-size: 320px;
+    background-repeat: no-repeat;
+    background-position: center 180%;
+}
+
+.product-swag {
+    background-image: url(../img/shop/shop-swag.jpg);
+    background-size: 120%;
+    background-repeat: no-repeat;
+    background-position: center 15%;
+}
+
+@media(max-width:767px) {
+    .product-loogmoji {
+        background-size: 180%;
+        background-position: 50% 120%;
+    }
+
+    .product-framed-art {
+        background-size: contain;
+        background-position: 50% 130%;
+    }
+
+    .product-cucu {
+        background-size: contain;
+        background-position: 50% 110%;
+    }
+
+    .product-bref {
+        background-image: url(../img/shop/shop-bref.png);
+        background-repeat: no-repeat;
+        background-position: center 200%;
+    }
+
+    .product-swag {}
+}
+
+@media(min-width:992px) {
+    .product-loogmoji {
+        background-size: cover;
+        background-position: 50% 40%;
+    }
+
+    .product-framed-art {
+        background-size: 80%;
+        background-position: 50% 160%;
+    }
+
+    .product-cucu {
+        background-size: 80%;
+        background-position: 50% 120%;
+    }
+}
+
+@media(min-width:1200px) {
+    .product-loogmoji {
+        background-size: contain;
+        background-position: 50% 20%;
+    }
+
+    .product-framed-art {
+        background-size: 70%;
+        background-position: 50% 180%;
+    }
+
+    .product-cucu {
+        background-size: 70%;
+        background-position: 50% 130%;
+    }
+}
+
+.apple-chat {}
+
+@media (max-width: 767px) {
+    .apple-chat {
+        display: block;
+        position: fixed;
+        bottom: -5px;
+        right: 0;
+        width: 100%;
+        background-color: transparent;
+        z-index: 1000;
+    }
+}

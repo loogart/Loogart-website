@@ -1,3 +1,18 @@
+// Function to load HTML file content
+function loadHTML(file, element) {
+    fetch(file)
+      .then(response => response.text())
+      .then(data => {
+        document.querySelector(element).innerHTML = data;
+      })
+      .catch(error => console.error('Error loading HTML:', error));
+  }
+
+  // Load header and footer
+  loadHTML('html/navbar.html', '#header-placeholder');
+  loadHTML('html/footer.html', '#footer-placeholder');
+
+
 $(document).ready(function () {
     //flickity
     $('.montreal-carousel').flickity({
@@ -39,14 +54,6 @@ $(document).ready(function () {
         $("#contactPage").addClass("active");
     } else if (/shop/.test(loc)) {
         $("#shopPage").addClass("active");
-    }
-});
-//navigation animation       
-$(window).scroll(function () {
-    if ($(document).scrollTop() > 50) {
-        $('nav').addClass('shrink');
-    } else {
-        $('nav').removeClass('shrink');
     }
 });
 
