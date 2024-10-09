@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+
+    <title>MONtréal Prototype</title>
+    <script>
+      window.onload = function () {
+
+        // Artwork images with updated paths
+        var artworks = [
+          './img/1-mont-royal.png',
+          './img/2-stade-olympic.png',
+          './img/3-basilique-notre-dame.png',
+          './img/4-pont-jacques-cartier.png',
+          './img/5-oratoire-st-joseph.png',
+          './img/6-biosphere.png',
+          './img/7-PVM.png',
+          './img/8-maisons-plateau.png',
+          './img/9-habitat.png',
+          './img/10-village.png',
+          './img/11-farine-five-roses.png',
+          './img/12-UdeM.png',
+          './img/13-fireworks.png',
+          './img/14-grande-roue.png',
+          './img/15-orange-julep.png',
+          './img/16-habs.png',
+          './img/17-indigenous.png',
+          './img/18-bagels.png',
+          './img/19-poutine.png',
+          './img/20-open-mic.png',
+          './img/21-st-hub.png',
+          './img/22-metro.png',
+          './img/23-musique.png',
+          './img/24-rue-sherbrooke.png'
+        ];
+
+        // Load rosace image
+        var rosace = new Image();
+        rosace.src = './img/rosace.png'; // Ensure this path matches your structure
+
+        // Selected artworks array to store the 4 square artworks
+        var selectedArtworks = [];
+
+        // Function to build the artwork and draw everything on the canvas
+        function buildArtwork() {
+          var canvas = document.getElementById('canvas');
+          var ctx = canvas.getContext('2d');
+          canvas.width = 1000;
+          canvas.height = 1000;
+
+          // Clear canvas (transparent background)
+          ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+          // Draw the 4 squares of artwork
+          const squareSize = 310;
+          const positions = [
+            { x: 200, y: 195 },
+            { x: 495, y: 195 },
+            { x: 200, y: 485 },
+            { x: 495, y: 485 }
+          ];
+
+          let imagesLoaded = 0; // Counter for loaded images
+          positions.forEach((pos, index) => {
+            const img = new Image();
+            img.src = selectedArtworks[index];
+            img.onload = function () {
+              ctx.drawImage(img, pos.x, pos.y, squareSize, squareSize);
+              imagesLoaded++;
+              if (imagesLoaded === positions.length) {
+                // Draw rosace after all squares are loaded
+                ctx.drawImage(rosace, 0, 0, canvas.width, canvas.height);
+              }
+            };
+          });
+        }
+
+        // Function to randomly generate a mix of 4 unique squares
+        function remix() {
+          selectedArtworks = [];
+          const shuffled = artworks.slice().sort(() => 0.5 - Math.random());
+          selectedArtworks = shuffled.slice(0, 4); // Pick the first 4 unique images
+          buildArtwork(); // Rebuild the canvas with random squares
+        }
+
+        // On page load, set default artworks and build the initial canvas
+        selectedArtworks = [
+          artworks[0],
+          artworks[1],
+          artworks[2],
+          artworks[3]
+        ];
+        buildArtwork();
+
+        // Attach remix functionality to the button
+        document.getElementById('remix').addEventListener('click', remix);
+      }
+    </script>
+
+    <style>
+      body{
+        min-height:100vh;
+        background: linear-gradient(45deg, #FF7900 0%, #FF2022 100%);
+        background-size: 100%;
+        background-repeat: no-repeat;
+      }
+      .canvas-styling {
+        border-radius: 1rem;
+        overflow: hidden;
+      }
+      .canvas-styling canvas {
+        border-radius: .5rem;
+      }
+    </style>
+  </head>
+
+  <body>
+    <section class="py-5">
+      <div class="container text-center">
+        <h1 class="fw-bolder mb-4 mt-3 visually-hidden">MONtréal</h1>
+        <img src="./img/logo.png" alt="" style="width:69px" class="mb-3">
+
+        <div class="row justify-content-center">
+          <div class="col-md-8">
+            <!-- Canvas with artwork -->
+            <div class="canvas-styling">
+              <canvas id="canvas" class="d-block w-100"></canvas>
+            </div>
+            <button id="remix" class="btn btn-lg btn-block btn-outline-light mt-5">🪄 REMIX</button>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+  </body>
+</html>
