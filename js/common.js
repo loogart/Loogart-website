@@ -17,7 +17,7 @@ function loadNavbar() {
                 </div>
                 <div id="navbar" class="navbar-collapse collapse">
                     <ul class="nav navbar-nav navbar-right">
-                        <li id="newWork"><a href="new-work">✨ new work</a></li>
+                        <li id="newWork"><a href="new-work">Illustration</a></li>
                         <li id="shopPage"><a href="https://shop.loogart.com" target="_blank">my shop</a></li>
                         <li><a href="mailto:chris@loogart.com">contact</a></li>
                         <li><a href="about">about</a></li>

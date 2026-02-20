@@ -2500,11 +2500,19 @@ html[data-theme="dark"] .lower-footer {
     margin-bottom: 40px;
 }
 
+.new-work-page.container {
+    width: 100%;
+    max-width: 100%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
 .new-work-page .img-hero {
-    height: 420px;
-    max-height: 420px;
+    height: 100%;
+    max-height: 60vh;
     width: 100%;
     object-fit: cover;
+    object-position: top;
     border-radius: 24px;
     box-shadow: none !important;
 }
@@ -2512,7 +2520,7 @@ html[data-theme="dark"] .lower-footer {
 .new-work-grid {
     column-count: 3;
     column-gap: 16px;
-    margin-top: 40px;
+    margin-top: 20px;
 }
 
 .new-work-card {
