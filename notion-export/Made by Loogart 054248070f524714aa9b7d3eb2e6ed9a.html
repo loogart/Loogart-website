@@ -1,0 +1,719 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><title>Made by Loogart</title><style>
+/* cspell:disable-file */
+/* webkit printing magic: print all background colors */
+html {
+	-webkit-print-color-adjust: exact;
+}
+* {
+	box-sizing: border-box;
+	-webkit-print-color-adjust: exact;
+}
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+}
+@media only screen {
+	body {
+		margin: 2em auto;
+		max-width: 900px;
+		color: rgb(55, 53, 47);
+	}
+}
+
+body {
+	line-height: 1.5;
+	white-space: pre-wrap;
+}
+
+a,
+a.visited {
+	color: inherit;
+	text-decoration: underline;
+}
+
+.pdf-relative-link-path {
+	font-size: 80%;
+	color: #444;
+}
+
+h1,
+h2,
+h3 {
+	letter-spacing: -0.01em;
+	line-height: 1.2;
+	font-weight: 600;
+	margin-bottom: 0;
+}
+
+/* Override strong tags inside headings to maintain consistent weight */
+h1 strong,
+h2 strong,
+h3 strong {
+	font-weight: 600;
+}
+
+.page-title {
+	font-size: 2.5rem;
+	font-weight: 700;
+	margin-top: 0;
+	margin-bottom: 0.75em;
+}
+
+h1 {
+	font-size: 1.875rem;
+	margin-top: 1.875rem;
+}
+
+h2 {
+	font-size: 1.5rem;
+	margin-top: 1.5rem;
+}
+
+h3 {
+	font-size: 1.25rem;
+	margin-top: 1.25rem;
+}
+
+.source {
+	border: 1px solid #ddd;
+	border-radius: 3px;
+	padding: 1.5em;
+	word-break: break-all;
+}
+
+.callout {
+	border-radius: 10px;
+	padding: 1rem;
+}
+
+figure {
+	margin: 1.25em 0;
+	page-break-inside: avoid;
+}
+
+figcaption {
+	opacity: 0.5;
+	font-size: 85%;
+	margin-top: 0.5em;
+}
+
+mark {
+	background-color: transparent;
+}
+
+.indented {
+	padding-left: 1.5em;
+}
+
+hr {
+	background: transparent;
+	display: block;
+	width: 100%;
+	height: 1px;
+	visibility: visible;
+	border: none;
+	border-bottom: 1px solid rgba(55, 53, 47, 0.09);
+}
+
+img {
+	max-width: 100%;
+}
+
+@media only print {
+	img {
+		max-height: 100vh;
+		object-fit: contain;
+	}
+}
+
+@page {
+	margin: 1in;
+}
+
+.collection-content {
+	font-size: 0.875rem;
+}
+
+.collection-content td {
+	white-space: pre-wrap;
+	word-break: break-word;
+}
+
+.column-list {
+	display: flex;
+	justify-content: space-between;
+}
+
+.column {
+	padding: 0 1em;
+}
+
+.column:first-child {
+	padding-left: 0;
+}
+
+.column:last-child {
+	padding-right: 0;
+}
+
+.table_of_contents-item {
+	display: block;
+	font-size: 0.875rem;
+	line-height: 1.3;
+	padding: 0.125rem;
+}
+
+.table_of_contents-indent-1 {
+	margin-left: 1.5rem;
+}
+
+.table_of_contents-indent-2 {
+	margin-left: 3rem;
+}
+
+.table_of_contents-indent-3 {
+	margin-left: 4.5rem;
+}
+
+.table_of_contents-link {
+	text-decoration: none;
+	opacity: 0.7;
+	border-bottom: 1px solid rgba(55, 53, 47, 0.18);
+}
+
+table,
+th,
+td {
+	border: 1px solid rgba(55, 53, 47, 0.09);
+	border-collapse: collapse;
+}
+
+table {
+	border-left: none;
+	border-right: none;
+}
+
+th,
+td {
+	font-weight: normal;
+	padding: 0.25em 0.5em;
+	line-height: 1.5;
+	min-height: 1.5em;
+	text-align: left;
+}
+
+th {
+	color: rgba(55, 53, 47, 0.6);
+}
+
+ol,
+ul {
+	margin: 0;
+	margin-block-start: 0.6em;
+	margin-block-end: 0.6em;
+}
+
+li > ol:first-child,
+li > ul:first-child {
+	margin-block-start: 0.6em;
+}
+
+ul > li {
+	list-style: disc;
+}
+
+ul.to-do-list {
+	padding-inline-start: 0;
+}
+
+ul.to-do-list > li {
+	list-style: none;
+}
+
+.to-do-children-checked {
+	text-decoration: line-through;
+	opacity: 0.375;
+}
+
+ul.toggle > li {
+	list-style: none;
+}
+
+ul {
+	padding-inline-start: 1.7em;
+}
+
+ul > li {
+	padding-left: 0.1em;
+}
+
+ol {
+	padding-inline-start: 1.6em;
+}
+
+ol > li {
+	padding-left: 0.2em;
+}
+
+.mono ol {
+	padding-inline-start: 2em;
+}
+
+.mono ol > li {
+	text-indent: -0.4em;
+}
+
+.toggle {
+	padding-inline-start: 0em;
+	list-style-type: none;
+}
+
+/* Indent toggle children */
+.toggle > li > details {
+	padding-left: 1.7em;
+}
+
+.toggle > li > details > summary {
+	margin-left: -1.1em;
+}
+
+.selected-value {
+	display: inline-block;
+	padding: 0 0.5em;
+	background: rgba(206, 205, 202, 0.5);
+	border-radius: 3px;
+	margin-right: 0.5em;
+	margin-top: 0.3em;
+	margin-bottom: 0.3em;
+	white-space: nowrap;
+}
+
+.collection-title {
+	display: inline-block;
+	margin-right: 1em;
+}
+
+.page-description {
+	margin-bottom: 2em;
+}
+
+.simple-table {
+	margin-top: 1em;
+	font-size: 0.875rem;
+	empty-cells: show;
+}
+.simple-table td {
+	height: 29px;
+	min-width: 120px;
+}
+
+.simple-table th {
+	height: 29px;
+	min-width: 120px;
+}
+
+.simple-table-header-color {
+	background: rgb(247, 246, 243);
+	color: black;
+}
+.simple-table-header {
+	font-weight: 500;
+}
+
+time {
+	opacity: 0.5;
+}
+
+.icon {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	max-width: 1.2em;
+	max-height: 1.2em;
+	text-decoration: none;
+	vertical-align: text-bottom;
+	margin-right: 0.5em;
+}
+
+img.icon {
+	border-radius: 3px;
+}
+
+.callout img.notion-static-icon {
+	width: 1em;
+	height: 1em;
+}
+
+.callout p {
+	margin: 0;
+}
+
+.callout h1,
+.callout h2,
+.callout h3 {
+	margin: 0 0 0.6rem;
+}
+
+.user-icon {
+	width: 1.5em;
+	height: 1.5em;
+	border-radius: 100%;
+	margin-right: 0.5rem;
+}
+
+.user-icon-inner {
+	font-size: 0.8em;
+}
+
+.text-icon {
+	border: 1px solid #000;
+	text-align: center;
+}
+
+.page-cover-image {
+	display: block;
+	object-fit: cover;
+	width: 100%;
+	max-height: 30vh;
+}
+
+.page-header-icon {
+	font-size: 3rem;
+	margin-bottom: 1rem;
+}
+
+.page-header-icon-with-cover {
+	margin-top: -0.72em;
+	margin-left: 0.07em;
+}
+
+.page-header-icon img {
+	border-radius: 3px;
+}
+
+.link-to-page {
+	margin: 1em 0;
+	padding: 0;
+	border: none;
+	font-weight: 500;
+}
+
+p > .user {
+	opacity: 0.5;
+}
+
+td > .user,
+td > time {
+	white-space: nowrap;
+}
+
+input[type="checkbox"] {
+	transform: scale(1.5);
+	margin-right: 0.6em;
+	vertical-align: middle;
+}
+
+p {
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+.image {
+	border: none;
+	margin: 1.5em 0;
+	padding: 0;
+	border-radius: 0;
+	text-align: center;
+}
+
+.code,
+code {
+	background: rgba(135, 131, 120, 0.15);
+	border-radius: 3px;
+	padding: 0.2em 0.4em;
+	border-radius: 3px;
+	font-size: 85%;
+	tab-size: 2;
+}
+
+code {
+	color: #eb5757;
+}
+
+.code {
+	padding: 1.5em 1em;
+}
+
+.code-wrap {
+	white-space: pre-wrap;
+	word-break: break-all;
+}
+
+.code > code {
+	background: none;
+	padding: 0;
+	font-size: 100%;
+	color: inherit;
+}
+
+blockquote {
+	font-size: 1em;
+	margin: 1em 0;
+	padding-left: 1em;
+	border-left: 3px solid rgb(55, 53, 47);
+}
+
+blockquote.quote-large {
+	font-size: 1.25em;
+}
+
+.bookmark {
+	text-decoration: none;
+	max-height: 8em;
+	padding: 0;
+	display: flex;
+	width: 100%;
+	align-items: stretch;
+}
+
+.bookmark-title {
+	font-size: 0.85em;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	height: 1.75em;
+	white-space: nowrap;
+}
+
+.bookmark-text {
+	display: flex;
+	flex-direction: column;
+}
+
+.bookmark-info {
+	flex: 4 1 180px;
+	padding: 12px 14px 14px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.bookmark-image {
+	width: 33%;
+	flex: 1 1 180px;
+	display: block;
+	position: relative;
+	object-fit: cover;
+	border-radius: 1px;
+}
+
+.bookmark-description {
+	color: rgba(55, 53, 47, 0.6);
+	font-size: 0.75em;
+	overflow: hidden;
+	max-height: 4.5em;
+	word-break: break-word;
+}
+
+.bookmark-href {
+	font-size: 0.75em;
+	margin-top: 0.25em;
+}
+
+.sans { font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", "Noto Sans Arabic", "Noto Sans Hebrew", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol"; }
+.code { font-family: "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace; }
+.serif { font-family: Lyon-Text, Georgia, ui-serif, serif; }
+.mono { font-family: iawriter-mono, Nitti, Menlo, Courier, monospace; }
+.pdf .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", "Noto Sans Arabic", "Noto Sans Hebrew", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK JP'; }
+.pdf:lang(zh-CN) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", "Noto Sans Arabic", "Noto Sans Hebrew", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK SC'; }
+.pdf:lang(zh-TW) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", "Noto Sans Arabic", "Noto Sans Hebrew", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK TC'; }
+.pdf:lang(ko-KR) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", "Noto Sans Arabic", "Noto Sans Hebrew", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK KR'; }
+.pdf .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK JP'; }
+.pdf:lang(zh-CN) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC'; }
+.pdf:lang(zh-TW) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK TC'; }
+.pdf:lang(ko-KR) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK KR'; }
+.pdf .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK JP'; }
+.pdf:lang(zh-CN) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK SC'; }
+.pdf:lang(zh-TW) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK TC'; }
+.pdf:lang(ko-KR) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK KR'; }
+.pdf .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK JP'; }
+.pdf:lang(zh-CN) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC'; }
+.pdf:lang(zh-TW) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK TC'; }
+.pdf:lang(ko-KR) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK KR'; }
+.highlight-default {
+	color: rgba(44, 44, 43, 1);
+}
+.highlight-gray {
+	color: rgba(125, 122, 117, 1);
+	fill: rgba(125, 122, 117, 1);
+}
+.highlight-brown {
+	color: rgba(159, 118, 90, 1);
+	fill: rgba(159, 118, 90, 1);
+}
+.highlight-orange {
+	color: rgba(210, 123, 45, 1);
+	fill: rgba(210, 123, 45, 1);
+}
+.highlight-yellow {
+	color: rgba(203, 148, 52, 1);
+	fill: rgba(203, 148, 52, 1);
+}
+.highlight-teal {
+	color: rgba(80, 148, 110, 1);
+	fill: rgba(80, 148, 110, 1);
+}
+.highlight-blue {
+	color: rgba(56, 125, 201, 1);
+	fill: rgba(56, 125, 201, 1);
+}
+.highlight-purple {
+	color: rgba(154, 107, 180, 1);
+	fill: rgba(154, 107, 180, 1);
+}
+.highlight-pink {
+	color: rgba(193, 76, 138, 1);
+	fill: rgba(193, 76, 138, 1);
+}
+.highlight-red {
+	color: rgba(207, 81, 72, 1);
+	fill: rgba(207, 81, 72, 1);
+}
+.highlight-default_background {
+	color: rgba(44, 44, 43, 1);
+}
+.highlight-gray_background {
+	background: rgba(42, 28, 0, 0.07);
+}
+.highlight-brown_background {
+	background: rgba(139, 46, 0, 0.086);
+}
+.highlight-orange_background {
+	background: rgba(224, 101, 1, 0.129);
+}
+.highlight-yellow_background {
+	background: rgba(211, 168, 0, 0.137);
+}
+.highlight-teal_background {
+	background: rgba(0, 100, 45, 0.09);
+}
+.highlight-blue_background {
+	background: rgba(0, 124, 215, 0.094);
+}
+.highlight-purple_background {
+	background: rgba(102, 0, 178, 0.078);
+}
+.highlight-pink_background {
+	background: rgba(197, 0, 93, 0.086);
+}
+.highlight-red_background {
+	background: rgba(223, 22, 0, 0.094);
+}
+.block-color-default {
+	color: inherit;
+	fill: inherit;
+}
+.block-color-gray {
+	color: rgba(125, 122, 117, 1);
+	fill: rgba(125, 122, 117, 1);
+}
+.block-color-brown {
+	color: rgba(159, 118, 90, 1);
+	fill: rgba(159, 118, 90, 1);
+}
+.block-color-orange {
+	color: rgba(210, 123, 45, 1);
+	fill: rgba(210, 123, 45, 1);
+}
+.block-color-yellow {
+	color: rgba(203, 148, 52, 1);
+	fill: rgba(203, 148, 52, 1);
+}
+.block-color-teal {
+	color: rgba(80, 148, 110, 1);
+	fill: rgba(80, 148, 110, 1);
+}
+.block-color-blue {
+	color: rgba(56, 125, 201, 1);
+	fill: rgba(56, 125, 201, 1);
+}
+.block-color-purple {
+	color: rgba(154, 107, 180, 1);
+	fill: rgba(154, 107, 180, 1);
+}
+.block-color-pink {
+	color: rgba(193, 76, 138, 1);
+	fill: rgba(193, 76, 138, 1);
+}
+.block-color-red {
+	color: rgba(207, 81, 72, 1);
+	fill: rgba(207, 81, 72, 1);
+}
+.block-color-default_background {
+	color: inherit;
+	fill: inherit;
+}
+.block-color-gray_background {
+	background: rgba(240, 239, 237, 1);
+}
+.block-color-brown_background {
+	background: rgba(245, 237, 233, 1);
+}
+.block-color-orange_background {
+	background: rgba(251, 235, 222, 1);
+}
+.block-color-yellow_background {
+	background: rgba(249, 243, 220, 1);
+}
+.block-color-teal_background {
+	background: rgba(232, 241, 236, 1);
+}
+.block-color-blue_background {
+	background: rgba(229, 242, 252, 1);
+}
+.block-color-purple_background {
+	background: rgba(243, 235, 249, 1);
+}
+.block-color-pink_background {
+	background: rgba(250, 233, 241, 1);
+}
+.block-color-red_background {
+	background: rgba(252, 233, 231, 1);
+}
+.select-value-color-default { background-color: rgba(42, 28, 0, 0.07); }
+.select-value-color-gray { background-color: rgba(28, 19, 1, 0.11); }
+.select-value-color-brown { background-color: rgba(127, 51, 0, 0.156); }
+.select-value-color-orange { background-color: rgba(196, 88, 0, 0.203); }
+.select-value-color-yellow { background-color: rgba(209, 156, 0, 0.282); }
+.select-value-color-green { background-color: rgba(0, 96, 38, 0.156); }
+.select-value-color-blue { background-color: rgba(0, 118, 217, 0.203); }
+.select-value-color-purple { background-color: rgba(92, 0, 163, 0.141); }
+.select-value-color-pink { background-color: rgba(183, 0, 78, 0.152); }
+.select-value-color-red { background-color: rgba(206, 24, 0, 0.164); }
+
+.checkbox {
+	display: inline-flex;
+	vertical-align: text-bottom;
+	width: 16;
+	height: 16;
+	background-size: 16px;
+	margin-left: 2px;
+	margin-right: 5px;
+}
+
+.checkbox-on {
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20width%3D%2216%22%20height%3D%2216%22%20fill%3D%22%2358A9D7%22%2F%3E%0A%3Cpath%20d%3D%22M6.71429%2012.2852L14%204.9995L12.7143%203.71436L6.71429%209.71378L3.28571%206.2831L2%207.57092L6.71429%2012.2852Z%22%20fill%3D%22white%22%2F%3E%0A%3C%2Fsvg%3E");
+}
+
+.checkbox-off {
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20x%3D%220.75%22%20y%3D%220.75%22%20width%3D%2214.5%22%20height%3D%2214.5%22%20fill%3D%22white%22%20stroke%3D%22%2336352F%22%20stroke-width%3D%221.5%22%2F%3E%0A%3C%2Fsvg%3E");
+}
+	
+</style></head><body><article id="05424807-0f52-4714-aa9b-7d3eb2e6ed9a" class="page sans"><header><img class="page-cover-image" src="Made%20by%20Loogart/youtube_header.png" style="object-position:center 23.380000000000003%"/><div class="page-header-icon page-header-icon-with-cover"><img class="icon" src="Made%20by%20Loogart/chris_avatar.jpg"/></div><h1 class="page-title" dir="auto">Made by Loogart</h1><p class="page-description" dir="auto"></p></header><div class="page-body"><div style="display:contents" dir="ltr"><figure class="block-color-gray_background callout" style="white-space:pre-wrap;display:flex" id="13ea7f4a-3d6c-4159-af58-eadf4c9df2f7"><div style="font-size:1.5em"><span class="icon">⭐</span></div><div style="width:100%">A selection of portfolio work between 2012-2025 | Chris Soueidan a.k.a. Loogart</div></figure></div><div style="display:contents" dir="ltr"><figure id="c416477d-9eae-4bcc-aa65-ea861bf3ba1c" class="image"><a href="Made%20by%20Loogart/ee-01_montreal.jpg"><img style="width:1008px" src="Made%20by%20Loogart/ee-01_montreal.jpg"/></a></figure></div><div style="display:contents" dir="auto"><div id="05374cfe-1c43-444c-85cb-79f48be2d653" class="column-list"><div style="display:contents" dir="auto"><div id="e4e87c60-e4fb-409b-b446-c39bb72032ff" style="width:62.5%" class="column"><div style="display:contents" dir="ltr"><figure id="107d1d14-1f47-4f22-a407-2234a85ddc16" class="image"><a href="Made%20by%20Loogart/ef-montreal-loogart-full-width-installation.jpg"><img style="width:1008px" src="Made%20by%20Loogart/ef-montreal-loogart-full-width-installation.jpg"/></a></figure></div></div></div><div style="display:contents" dir="auto"><div id="23d66b94-ad04-49a9-86fa-9ccd00aa034c" style="width:37.49999999999999%" class="column"><div style="display:contents" dir="ltr"><figure id="5f1675e8-1b52-496a-a3b5-ae121ef9f5f7" class="image"><a href="Made%20by%20Loogart/ed-montreal-loogart-installation-angle1.jpg"><img style="width:1160px" src="Made%20by%20Loogart/ed-montreal-loogart-installation-angle1.jpg"/></a></figure></div></div></div></div></div><div style="display:contents" dir="auto"><div id="f2d2fd2c-cfc4-436c-aa73-c8fdc325b41a" class="column-list"><div style="display:contents" dir="auto"><div id="ec932b89-ebc0-4003-ac8a-6069e3afd3e6" style="width:43.75%" class="column"><div style="display:contents" dir="ltr"><figure id="f9cb1424-1324-4485-9856-1b35a105449c" class="image"><a href="Made%20by%20Loogart/eg-2022-02-23_illustration-plan-racisme-mtl.jpg"><img style="width:720px" src="Made%20by%20Loogart/eg-2022-02-23_illustration-plan-racisme-mtl.jpg"/></a></figure></div><div style="display:contents" dir="ltr"><figure id="1c1a8cb1-5e6f-8044-8fb3-c6cd64f8bc0b" class="image"><a href="Made%20by%20Loogart/2024-10-30_laval_x_loogart_v3.jpg"><img style="width:538.5546875px" src="Made%20by%20Loogart/2024-10-30_laval_x_loogart_v3.jpg"/></a></figure></div><div style="display:contents" dir="ltr"><figure id="1c1a8cb1-5e6f-80ae-92c0-c5eb78621a66" class="image"><a href="Made%20by%20Loogart/Sustainability.png"><img style="width:3327px" src="Made%20by%20Loogart/Sustainability.png"/></a></figure></div></div></div><div style="display:contents" dir="auto"><div id="760e4a98-b2fa-4867-a872-bbd5cb2d53d6" style="width:56.25%" class="column"><div style="display:contents" dir="ltr"><figure id="01e5be21-a5a1-4eb8-b0c0-c8a88eff1d8e" class="image"><a href="Made%20by%20Loogart/eh-2021-05-19-illustration.jpg"><img style="width:912px" src="Made%20by%20Loogart/eh-2021-05-19-illustration.jpg"/></a></figure></div><div style="display:contents" dir="ltr"><figure id="99db6a05-3854-4098-a0e3-736c94abefc9" class="image"><a href="Made%20by%20Loogart/illustration.png"><img style="width:720px" src="Made%20by%20Loogart/illustration.png"/></a></figure></div><div style="display:contents" dir="ltr"><figure id="69202cad-d38e-4c9c-8dcb-3028832e165c" class="image"><a href="Made%20by%20Loogart/2024-05-17_sto_card_mockup.jpg"><img style="width:912px" src="Made%20by%20Loogart/2024-05-17_sto_card_mockup.jpg"/></a></figure></div></div></div></div></div><div style="display:contents" dir="auto"><div id="3e09ece3-5f43-4736-8e37-0b05f435ee4c" class="column-list"><div style="display:contents" dir="auto"><div id="b4b19ec7-70d3-4a79-b8be-f188bf2856e5" style="width:56.25%" class="column"><div style="display:contents" dir="ltr"><figure id="e3997aaa-d840-4e31-b7f8-3a9fbfe8f817" class="image"><a href="Made%20by%20Loogart/ei-starbucks_montreal_1.png"><img style="width:1160px" src="Made%20by%20Loogart/ei-starbucks_montreal_1.png"/></a></figure></div><div style="display:contents" dir="ltr"><figure id="e36571cc-1bac-4b93-b025-81acbcbc4ba3" class="image"><a href="Made%20by%20Loogart/ek-yp-cityline-mtl-only.jpg"><img style="width:1160px" src="Made%20by%20Loogart/ek-yp-cityline-mtl-only.jpg"/></a></figure></div></div></div><div style="display:contents" dir="auto"><div id="7fa6bf62-990d-4cb4-b977-28bf4475fb9a" style="width:43.75%" class="column"><div style="display:contents" dir="ltr"><figure id="e6303db2-55fd-4665-8117-b978ac06508f" class="image"><a href="Made%20by%20Loogart/2024-12-10_v1_cafe_kuya_illustration_bg_blue.png"><img style="width:4400px" src="Made%20by%20Loogart/2024-12-10_v1_cafe_kuya_illustration_bg_blue.png"/></a></figure></div><div style="display:contents" dir="auto"><p id="8672d3f0-f2c2-4c99-a262-d94814b8ae3e" class="">
+</p></div></div></div></div></div><div style="display:contents" dir="auto"><div id="fbae94cd-9feb-4209-9544-ecfcb84f1873" class="column-list"><div style="display:contents" dir="auto"><div id="18626860-4fbd-4cc5-8e38-4a109c85a6d2" style="width:29.166666666666664%" class="column"><div style="display:contents" dir="ltr"><figure id="c6aeaa27-f768-4d90-b6b0-95c342eb3da0" class="image"><a href="Made%20by%20Loogart/el-v3-24jan-dark.jpg"><img style="width:1160px" src="Made%20by%20Loogart/el-v3-24jan-dark.jpg"/></a></figure></div><div style="display:contents" dir="ltr"><figure id="1dd5fe7c-8013-4974-ad5e-4bf1e109cd89" class="image"><a href="Made%20by%20Loogart/er-poster-8.5x11-en-lbw.jpg"><img style="width:1160px" src="Made%20by%20Loogart/er-poster-8.5x11-en-lbw.jpg"/></a></figure></div><div style="display:contents" dir="ltr"><figure id="ec2334bc-e77e-4c0c-8d87-7a5d73c8a965" class="image"><a href="Made%20by%20Loogart/ep-lpw2021-poster-11x17-en.jpg"><img style="width:1160px" src="Made%20by%20Loogart/ep-lpw2021-poster-11x17-en.jpg"/></a></figure></div></div></div><div style="display:contents" dir="auto"><div id="316be65b-4582-4bac-b20a-a2fd731ca176" style="width:33.33333333333333%" class="column"><div style="display:contents" dir="ltr"><figure id="c6dd38f5-047e-49a1-b07e-8cb9a0ce9dcb" class="image"><a href="Made%20by%20Loogart/em-8-instagram-fb.png"><img style="width:1160px" src="Made%20by%20Loogart/em-8-instagram-fb.png"/></a></figure></div><div style="display:contents" dir="ltr"><figure id="292baaf4-2bcf-47d2-bc6c-166db8144148" class="image"><a href="Made%20by%20Loogart/eq-2_yp_cover_atlantic.jpg"><img style="width:1160px" src="Made%20by%20Loogart/eq-2_yp_cover_atlantic.jpg"/></a></figure></div><div style="display:contents" dir="ltr"><figure id="c236faf6-3913-4b46-8f89-745dc96be3d5" class="image"><a href="Made%20by%20Loogart/es-poster-8.5x11-en.jpg"><img style="width:1160px" src="Made%20by%20Loogart/es-poster-8.5x11-en.jpg"/></a></figure></div><div style="display:contents" dir="auto"><p id="bfbcddad-8c99-49a4-ace7-6eff7e0ba3ff" class="">
+</p></div></div></div><div style="display:contents" dir="auto"><div id="feeae0fa-6e96-4d87-ad13-bff03473366f" style="width:37.49999999999999%" class="column"><div style="display:contents" dir="ltr"><figure id="681ea8bf-9c68-4a8a-9fba-bfb206fbc4f3" class="image"><a href="Made%20by%20Loogart/en-starbucks_montreal_2.png"><img style="width:1160px" src="Made%20by%20Loogart/en-starbucks_montreal_2.png"/></a></figure></div><div style="display:contents" dir="ltr"><figure id="9873d458-f4ef-48f3-9e9c-41d77ce01a84" class="image"><a href="Made%20by%20Loogart/eo-yp2020cover_generic.jpg"><img style="width:1160px" src="Made%20by%20Loogart/eo-yp2020cover_generic.jpg"/></a></figure></div><div style="display:contents" dir="ltr"><figure id="9a9aa658-5d83-4668-b35e-11dc8b557137" class="image"><a href="Made%20by%20Loogart/eu-sdg13-climate-change.jpg"><img style="width:1160px" src="Made%20by%20Loogart/eu-sdg13-climate-change.jpg"/></a></figure></div><div style="display:contents" dir="ltr"><figure id="21ca8cb1-5e6f-802b-85a8-d77784ca88da" class="image"><a href="Made%20by%20Loogart/Screenshot_2025-06-24_at_10.38.41_AM.png"><img style="width:548.9921875px" src="Made%20by%20Loogart/Screenshot_2025-06-24_at_10.38.41_AM.png"/></a></figure></div></div></div></div></div><div style="display:contents" dir="auto"><div id="7eca8a5f-ffa8-4669-99f0-c618226a676f" class="column-list"><div style="display:contents" dir="auto"><div id="5bf8f9db-9fc4-4b42-9076-bfd97d6b9497" style="width:43.75%" class="column"><div style="display:contents" dir="ltr"><figure id="f8d6ae7b-19c5-4634-aef3-68efd7885625" class="image"><a href="Made%20by%20Loogart/ev-12x18-adjusted.jpg"><img style="width:720px" src="Made%20by%20Loogart/ev-12x18-adjusted.jpg"/></a></figure></div></div></div><div style="display:contents" dir="auto"><div id="9f2d21dc-eb89-45b9-92b2-386cf8fff2c3" style="width:56.25%" class="column"><div style="display:contents" dir="ltr"><figure id="47b7add9-b379-4a47-8312-7ebbdec98bd8" class="image"><a href="Made%20by%20Loogart/ew-sdg5-gender-equality.jpg"><img style="width:1160px" src="Made%20by%20Loogart/ew-sdg5-gender-equality.jpg"/></a></figure></div><div style="display:contents" dir="ltr"><figure id="b68e05d3-7fc2-4f53-8fb5-619440a8e1ff" class="image"><a href="Made%20by%20Loogart/et-sdg2-original-artwork.png"><img style="width:1160px" src="Made%20by%20Loogart/et-sdg2-original-artwork.png"/></a></figure></div></div></div></div></div><div style="display:contents" dir="auto"><div id="646d8486-7da8-4f91-8b25-1fc10ccb8372" class="column-list"><div style="display:contents" dir="auto"><div id="b4cc79d6-ebc9-4fdc-bdd5-77c124ede519" style="width:50%" class="column"><div style="display:contents" dir="ltr"><figure id="840f0822-b448-44ec-80cd-f4d46dcad33d" class="image"><a href="Made%20by%20Loogart/ex-banner-fb.png"><img style="width:1160px" src="Made%20by%20Loogart/ex-banner-fb.png"/></a></figure></div><div style="display:contents" dir="ltr"><figure id="091abf0b-ef59-4873-b1d9-f2034cc4a032" class="image"><a href="Made%20by%20Loogart/f0-mashup.png"><img style="width:1160px" src="Made%20by%20Loogart/f0-mashup.png"/></a></figure></div></div></div><div style="display:contents" dir="auto"><div id="1c5ce7cc-855c-499d-8272-d4d9242d17de" style="width:50%" class="column"><div style="display:contents" dir="ltr"><figure id="cd5e9743-e230-4855-af30-216e3fc429f6" class="image"><a href="Made%20by%20Loogart/ey-v4.jpg"><img style="width:1160px" src="Made%20by%20Loogart/ey-v4.jpg"/></a></figure></div><div style="display:contents" dir="ltr"><figure id="7a2d442b-7760-4715-898c-dce17b8fd126" class="image"><a href="Made%20by%20Loogart/ez-2019-11-28_cityline-cote-saint-luc.jpg"><img style="width:1160px" src="Made%20by%20Loogart/ez-2019-11-28_cityline-cote-saint-luc.jpg"/></a></figure></div><div style="display:contents" dir="ltr"><figure id="773c6fe2-304a-4ef3-b65a-727ee0842c48" class="image"><a href="Made%20by%20Loogart/f1-suite88_cityline_v4_montreal.png"><img style="width:1160px" src="Made%20by%20Loogart/f1-suite88_cityline_v4_montreal.png"/></a></figure></div></div></div></div></div><div style="display:contents" dir="ltr"><figure id="397a06be-e0ec-47fc-8fc0-e2c3aef101e9" class="image"><a href="Made%20by%20Loogart/f2-36x11.75_gatinottawa.png"><img style="width:1632px" src="Made%20by%20Loogart/f2-36x11.75_gatinottawa.png"/></a></figure></div><div style="display:contents" dir="auto"><div id="21ca8cb1-5e6f-80b1-acd7-e989660df012" class="column-list"><div style="display:contents" dir="auto"><div id="21ca8cb1-5e6f-80b0-8acd-ed6ccca0ecdc" style="width:43.75%" class="column"><div style="display:contents" dir="ltr"><figure id="21ca8cb1-5e6f-80eb-9c11-ea292d4334cb" class="image"><a href="Made%20by%20Loogart/Screenshot_2025-06-24_at_10.42.19_AM.png"><img style="width:660.6171875px" src="Made%20by%20Loogart/Screenshot_2025-06-24_at_10.42.19_AM.png"/></a></figure></div></div></div><div style="display:contents" dir="auto"><div id="21ca8cb1-5e6f-80ae-8bfb-d6ddef56edf8" style="width:56.25%" class="column"><div style="display:contents" dir="ltr"><figure id="21ca8cb1-5e6f-809d-9665-c7fbf6efd97a" class="image"><a href="Made%20by%20Loogart/maneken-11USA061.png"><img style="width:2049px" src="Made%20by%20Loogart/maneken-11USA061.png"/></a></figure></div><div style="display:contents" dir="auto"><p id="21ca8cb1-5e6f-80f3-94c9-ebc528bc4c12" class="">
+</p></div></div></div></div></div><div style="display:contents" dir="ltr"><figure id="f4581c68-756c-4c35-b144-981dde532a1e" class="image"><a href="Made%20by%20Loogart/f3-2020-01-02_bridgemtl-cityline.jpg"><img style="width:1632px" src="Made%20by%20Loogart/f3-2020-01-02_bridgemtl-cityline.jpg"/></a></figure></div><div style="display:contents" dir="ltr"><figure id="4d62defc-6df6-472d-8d73-fa277b1b5c48" class="image"><a href="Made%20by%20Loogart/f4-office-hallway2.jpg"><img style="width:1632px" src="Made%20by%20Loogart/f4-office-hallway2.jpg"/></a></figure></div><div style="display:contents" dir="auto"><div id="5c6b5690-f3ff-4a74-933c-b28f8da28ea6" class="column-list"><div style="display:contents" dir="auto"><div id="2cbda87a-44d8-4154-bdac-16943b98c023" style="width:81.25%" class="column"><div style="display:contents" dir="ltr"><figure id="c97bd1ff-dff0-4a33-89eb-124c50709e80" class="image"><a href="Made%20by%20Loogart/f5-car2gocityline_final2.jpg"><img style="width:1296px" src="Made%20by%20Loogart/f5-car2gocityline_final2.jpg"/></a></figure></div></div></div><div style="display:contents" dir="auto"><div id="3d1a7e53-6a7c-4da1-a50f-2a90d5a6dd54" style="width:18.750000000000004%" class="column"><div style="display:contents" dir="ltr"><figure id="1777696c-e0a3-4fab-b278-41f689a5ab0f" class="image"><a href="Made%20by%20Loogart/f6-after_sample.png"><img style="width:1160px" src="Made%20by%20Loogart/f6-after_sample.png"/></a></figure></div></div></div></div></div><div style="display:contents" dir="auto"><div id="bca2add8-8d09-45f7-9a93-6f10803b3d94" class="column-list"><div style="display:contents" dir="auto"><div id="c3cce0cf-96d9-40a9-b699-68d8fce6376a" style="width:50%" class="column"><div style="display:contents" dir="ltr"><figure id="70e7b731-a8eb-48f8-8b0d-2e773e586fc7" class="image"><a href="Made%20by%20Loogart/f7-illustration-full.jpg"><img style="width:1160px" src="Made%20by%20Loogart/f7-illustration-full.jpg"/></a></figure></div><div style="display:contents" dir="ltr"><figure id="037e8306-bcb1-4422-9c92-0a8e7ef62abe" class="image"><a href="Made%20by%20Loogart/f9-dribbble.png"><img style="width:1160px" src="Made%20by%20Loogart/f9-dribbble.png"/></a></figure></div><div style="display:contents" dir="ltr"><figure id="a0a130ad-8e9a-4876-85a8-d80ac4d43f59" class="image"><a href="Made%20by%20Loogart/fb-may18_front.jpg"><img style="width:1160px" src="Made%20by%20Loogart/fb-may18_front.jpg"/></a></figure></div></div></div><div style="display:contents" dir="auto"><div id="59531d44-2270-4112-881f-fe11419fe603" style="width:50%" class="column"><div style="display:contents" dir="ltr"><figure id="fc120319-1de4-47f7-ab99-721ec5d02a43" class="image"><a href="Made%20by%20Loogart/f8-4-challenge-pandemic.jpg"><img style="width:1160px" src="Made%20by%20Loogart/f8-4-challenge-pandemic.jpg"/></a></figure></div><div style="display:contents" dir="ltr"><figure id="63490947-c6fa-44d9-a8cd-a1c578b994fa" class="image"><a href="Made%20by%20Loogart/fa-oecd-rpo-2021-illustration_draft2-coloured.jpg"><img style="width:1160px" src="Made%20by%20Loogart/fa-oecd-rpo-2021-illustration_draft2-coloured.jpg"/></a></figure></div></div></div></div></div><div style="display:contents" dir="ltr"><figure id="cad737c0-3721-4b90-9416-8b0886068097" class="image"><a href="Made%20by%20Loogart/fc-loogmoji-phaneuf-case_white.jpg"><img style="width:1632px" src="Made%20by%20Loogart/fc-loogmoji-phaneuf-case_white.jpg"/></a></figure></div><div style="display:contents" dir="ltr"><figure id="f697bccb-75fb-4f9b-a64c-196827359c91" class="image"><a href="Made%20by%20Loogart/fd-2020-04-25_acti-sol-cityline.jpg"><img style="width:1392px" src="Made%20by%20Loogart/fd-2020-04-25_acti-sol-cityline.jpg"/></a></figure></div><div style="display:contents" dir="auto"><div id="7e5cf538-4343-4d0e-a259-a45c7c25d03c" class="column-list"><div style="display:contents" dir="auto"><div id="b4ab2295-8ec2-4852-b279-6dec31ed930c" style="width:50%" class="column"><div style="display:contents" dir="ltr"><figure id="e67af747-f5ae-429a-947a-b12e64d9c8f3" class="image"><a href="Made%20by%20Loogart/fe-1-growing-team.jpg"><img style="width:816px" src="Made%20by%20Loogart/fe-1-growing-team.jpg"/></a></figure></div><div style="display:contents" dir="auto"><p id="443b666d-a7f2-4d82-8da0-63cad5d1c8ea" class="">
+</p></div></div></div><div style="display:contents" dir="auto"><div id="b6bef2c0-b134-48f7-a0f7-af84170abd16" style="width:50%" class="column"><div style="display:contents" dir="ltr"><figure id="d34f42f5-6d1c-4eea-84cf-cd661c465f04" class="image"><a href="Made%20by%20Loogart/ff-loogmoji-3d-sneak-peak.jpg"><img style="width:1160px" src="Made%20by%20Loogart/ff-loogmoji-3d-sneak-peak.jpg"/></a></figure></div></div></div></div></div><div style="display:contents" dir="ltr"><figure id="0932e0f2-fa70-48af-a002-b3b0eaa2edbb" class="image"><a href="Made%20by%20Loogart/catelli_cityline_loogart_cut.jpg"><img style="width:6401px" src="Made%20by%20Loogart/catelli_cityline_loogart_cut.jpg"/></a></figure></div><div style="display:contents" dir="ltr"><figure id="2fc5d0ee-999e-4f66-b8ac-76c798b68e9b" class="image"><a href="Made%20by%20Loogart/fg-screen-shot-2022-07-06-at-2.51.18-pm.png"><img style="width:900.984375px" src="Made%20by%20Loogart/fg-screen-shot-2022-07-06-at-2.51.18-pm.png"/></a></figure></div><div style="display:contents" dir="ltr"><figure id="286ed3dc-43b0-4bbd-8e49-4111f8154791" class="image"><a href="Made%20by%20Loogart/artwork-frankie-tiano-2022.png"><img style="width:1223px" src="Made%20by%20Loogart/artwork-frankie-tiano-2022.png"/></a></figure></div><div style="display:contents" dir="auto"><div id="e6fefe88-92cf-44b1-9ee0-4237567cc2b7" class="column-list"><div style="display:contents" dir="auto"><div id="e64d751d-cc7b-4a47-becd-baa65c11f2cd" style="width:50%" class="column"><div style="display:contents" dir="ltr"><figure id="3e782a18-4e06-41fd-8320-62daff07838e" class="image"><a href="Made%20by%20Loogart/fh-36x72-lightbox.jpg"><img style="width:427.5px" src="Made%20by%20Loogart/fh-36x72-lightbox.jpg"/></a></figure></div><div style="display:contents" dir="ltr"><figure id="7afc46d1-7c02-47c1-8f52-a21e7d97a899" class="image"><a href="Made%20by%20Loogart/fk-2020-05-03_v2.1.png"><img style="width:1160px" src="Made%20by%20Loogart/fk-2020-05-03_v2.1.png"/></a></figure></div><div style="display:contents" dir="ltr"><figure id="9fb6cf42-bf65-464f-ac1a-5379d2bce89e" class="image"><a href="Made%20by%20Loogart/fn-dribbble-shot_7.jpg"><img style="width:1160px" src="Made%20by%20Loogart/fn-dribbble-shot_7.jpg"/></a></figure></div><div style="display:contents" dir="ltr"><figure id="c94e2d04-7f66-4471-8edc-450a093e6f52" class="image"><a href="Made%20by%20Loogart/fp-dribbble-shot_2.jpg"><img style="width:1160px" src="Made%20by%20Loogart/fp-dribbble-shot_2.jpg"/></a></figure></div><div style="display:contents" dir="ltr"><figure id="3b89402e-818a-44ba-b81b-bc07e53a165e" class="image"><a href="Made%20by%20Loogart/fq-dribbble-shot_1.jpg"><img style="width:1160px" src="Made%20by%20Loogart/fq-dribbble-shot_1.jpg"/></a></figure></div></div></div><div style="display:contents" dir="auto"><div id="4f0caa83-f8e7-4b74-b9ff-b3baff4c60d3" style="width:50%" class="column"><div style="display:contents" dir="ltr"><figure id="1010d73d-d5dd-4f4d-99e7-513ce70fb7ab" class="image"><a href="Made%20by%20Loogart/fi-doughremi-brand-basics-draft.jpg"><img style="width:1160px" src="Made%20by%20Loogart/fi-doughremi-brand-basics-draft.jpg"/></a></figure></div><div style="display:contents" dir="ltr"><figure id="16d09dea-6c2f-4aff-a133-e4b36cb0755c" class="image"><a href="Made%20by%20Loogart/fj-icra2019_cityline_v1.jpg"><img style="width:1160px" src="Made%20by%20Loogart/fj-icra2019_cityline_v1.jpg"/></a></figure></div><div style="display:contents" dir="ltr"><figure id="6ca7ab82-27f9-4236-9e89-000409caca0f" class="image"><a href="Made%20by%20Loogart/fl-dribbble-shot_3.jpg"><img style="width:1160px" src="Made%20by%20Loogart/fl-dribbble-shot_3.jpg"/></a></figure></div><div style="display:contents" dir="ltr"><figure id="476b9def-2ab9-42fe-83c5-45700aff6e9a" class="image"><a href="Made%20by%20Loogart/fm-dribbble-shot_6.jpg"><img style="width:1160px" src="Made%20by%20Loogart/fm-dribbble-shot_6.jpg"/></a></figure></div><div style="display:contents" dir="ltr"><figure id="ee838ace-921e-4439-901b-77cfa3c9ea14" class="image"><a href="Made%20by%20Loogart/fo-dribbble-shot_9.jpg"><img style="width:1160px" src="Made%20by%20Loogart/fo-dribbble-shot_9.jpg"/></a></figure></div><div style="display:contents" dir="ltr"><figure id="138743e4-3060-471f-8258-7122bdcf3da1" class="image"><a href="Made%20by%20Loogart/2023-07-05_DnZ_branding-dark-bg.jpg"><img style="width:3203px" src="Made%20by%20Loogart/2023-07-05_DnZ_branding-dark-bg.jpg"/></a></figure></div></div></div></div></div><div style="display:contents" dir="ltr"><figure id="827bd20b-3ddf-4e07-8dfc-f6c2e3b2148a" class="image"><a href="Made%20by%20Loogart/fr-2022-05-1166-slater-mural-draft_final.jpg"><img style="width:1632px" src="Made%20by%20Loogart/fr-2022-05-1166-slater-mural-draft_final.jpg"/></a></figure></div><div style="display:contents" dir="ltr"><figure id="70a22363-7ac9-4e22-adfb-72c59dca6dd4" class="image"><a href="Made%20by%20Loogart/fs-impact-canada-wall.jpg"><img style="width:1680px" src="Made%20by%20Loogart/fs-impact-canada-wall.jpg"/></a></figure></div><div style="display:contents" dir="ltr"><figure id="8aba38fc-f3db-49da-a01f-23126459e56b" class="image"><a href="Made%20by%20Loogart/ft-hero-wide.jpg"><img style="width:1632px" src="Made%20by%20Loogart/ft-hero-wide.jpg"/></a></figure></div><div style="display:contents" dir="ltr"><figure id="86cea152-341e-4f02-95fc-9b75f2cd58d5" class="image"><a href="Made%20by%20Loogart/fu-img_5516.jpg"><img style="width:1680px" src="Made%20by%20Loogart/fu-img_5516.jpg"/></a></figure></div><div style="display:contents" dir="ltr"><figure id="f235ebb1-97c8-44a1-9ff0-14deaf4e3235" class="image"><a href="Made%20by%20Loogart/fv-2021-05-17_final-artwork.jpg"><img style="width:1632px" src="Made%20by%20Loogart/fv-2021-05-17_final-artwork.jpg"/></a></figure></div><div style="display:contents" dir="ltr"><figure id="4c9b07ab-78a7-4ac0-a04f-dce52341fa6d" class="image"><a href="Made%20by%20Loogart/fw-maya-htt-loogart-mural-left.jpg"><img style="width:1632px" src="Made%20by%20Loogart/fw-maya-htt-loogart-mural-left.jpg"/></a></figure></div><div style="display:contents" dir="ltr"><figure id="24af58a3-18d4-4157-a739-d488113ca317" class="image"><a href="Made%20by%20Loogart/fx-2018-05-05-mls-montreal-impact-la-galaxy-pablo-ortiz-012.jpg"><img style="width:1632px" src="Made%20by%20Loogart/fx-2018-05-05-mls-montreal-impact-la-galaxy-pablo-ortiz-012.jpg"/></a></figure></div><div style="display:contents" dir="ltr"><figure id="2afd0e06-0561-44eb-9517-b68b4814be81" class="image"><a href="Made%20by%20Loogart/fy-yul-love-me-loogart-bnw.jpg"><img style="width:1632px" src="Made%20by%20Loogart/fy-yul-love-me-loogart-bnw.jpg"/></a></figure></div><div style="display:contents" dir="auto"><div id="23215947-6223-4530-a52e-bfdb5893b2f1" class="column-list"><div style="display:contents" dir="auto"><div id="3975ce2f-200e-4fb8-9572-7ea065eda6ce" style="width:50%" class="column"><div style="display:contents" dir="ltr"><figure id="6d572653-10eb-420b-880e-ee75a1bb2ecb" class="image"><a href="Made%20by%20Loogart/fz-screen-shot-2022-09-12-at-9.43.22-am.png"><img style="width:1160px" src="Made%20by%20Loogart/fz-screen-shot-2022-09-12-at-9.43.22-am.png"/></a></figure></div></div></div><div style="display:contents" dir="auto"><div id="9aa13a18-d05e-4378-9de5-1e514247d914" style="width:50%" class="column"><div style="display:contents" dir="ltr"><figure id="1b6c9086-2e2e-4607-b2bb-d320a01b7e4b" class="image"><a href="Made%20by%20Loogart/g0-screen-shot-2022-09-12-at-9.43.26-am.png"><img style="width:1160px" src="Made%20by%20Loogart/g0-screen-shot-2022-09-12-at-9.43.26-am.png"/></a></figure></div></div></div></div></div><div style="display:contents" dir="ltr"><figure id="160a8cb1-5e6f-802c-af50-fe54d258588f" class="image"><a href="Made%20by%20Loogart/image.png"><img style="width:2624px" src="Made%20by%20Loogart/image.png"/></a></figure></div><div style="display:contents" dir="ltr"><figure id="1c1a8cb1-5e6f-80dd-a107-d08a144dd87e" class="image"><a href="Made%20by%20Loogart/Cafeteria.png"><img style="width:5630px" src="Made%20by%20Loogart/Cafeteria.png"/></a></figure></div><div style="display:contents" dir="ltr"><figure id="160a8cb1-5e6f-8003-b727-f62cc3cb2629" class="image"><a href="Made%20by%20Loogart/image%201.png"><img style="width:2624px" src="Made%20by%20Loogart/image%201.png"/></a></figure></div><div style="display:contents" dir="ltr"><figure id="160a8cb1-5e6f-80b3-8167-f18f3acd7188" class="image"><a href="Made%20by%20Loogart/President.png"><img style="width:7333px" src="Made%20by%20Loogart/President.png"/></a></figure></div><div style="display:contents" dir="auto"><div id="160a8cb1-5e6f-80cb-9000-ca7c6ab35cf8" class="column-list"><div style="display:contents" dir="auto"><div id="160a8cb1-5e6f-80c5-afe2-dd325d3ef2e1" style="width:56.25%" class="column"><div style="display:contents" dir="ltr"><figure id="160a8cb1-5e6f-80e3-bf9c-e5d412272451" class="image"><a href="Made%20by%20Loogart/image%202.png"><img style="width:2670px" src="Made%20by%20Loogart/image%202.png"/></a></figure></div></div></div><div style="display:contents" dir="auto"><div id="160a8cb1-5e6f-8016-8c51-c88c2efdefd7" style="width:43.75%" class="column"><div style="display:contents" dir="ltr"><figure id="160a8cb1-5e6f-80e3-af4c-d3073890a159" class="image"><a href="Made%20by%20Loogart/image%203.png"><img style="width:2624px" src="Made%20by%20Loogart/image%203.png"/></a></figure></div></div></div></div></div><div style="display:contents" dir="ltr"><figure id="1c1a8cb1-5e6f-801f-82d3-db0e0f0a32cd" class="image"><a href="Made%20by%20Loogart/Canada.png"><img style="width:9439px" src="Made%20by%20Loogart/Canada.png"/></a></figure></div><div style="display:contents" dir="ltr"><figure id="1c1a8cb1-5e6f-80b7-a819-c027cce3972b" class="image"><a href="Made%20by%20Loogart/Montreal.png"><img style="width:9441px" src="Made%20by%20Loogart/Montreal.png"/></a></figure></div><div style="display:contents" dir="auto"><div id="935698cf-fc0a-4555-ad64-60e7f9c08160" class="column-list"><div style="display:contents" dir="auto"><div id="df9208ee-4028-419f-8e51-d721059a6ea4" style="width:33.333333333333336%" class="column"><div style="display:contents" dir="ltr"><figure id="bd0205a9-cad5-44cc-9f91-60dc8ed1cc6a" class="image"><a href="Made%20by%20Loogart/rochlecoq-nft1.jpg"><img style="width:1160px" src="Made%20by%20Loogart/rochlecoq-nft1.jpg"/></a></figure></div></div></div><div style="display:contents" dir="auto"><div id="d658c90b-09f1-4fea-a33a-3a858e33fe4e" style="width:33.333333333333336%" class="column"><div style="display:contents" dir="ltr"><figure id="9121da37-9ca9-4da8-a4b1-a4de8fe88b02" class="image"><a href="Made%20by%20Loogart/rochlecoq-nft2.jpg"><img style="width:1160px" src="Made%20by%20Loogart/rochlecoq-nft2.jpg"/></a></figure></div></div></div><div style="display:contents" dir="auto"><div id="bcfbf8bc-ba08-4843-b11e-96a6e69fd28c" style="width:33.33333333333333%" class="column"><div style="display:contents" dir="ltr"><figure id="97b97713-218f-49d4-8f2a-dc0edf0ef585" class="image"><a href="Made%20by%20Loogart/rochlecoq-nft3.jpg"><img style="width:1160px" src="Made%20by%20Loogart/rochlecoq-nft3.jpg"/></a></figure></div></div></div></div></div><div style="display:contents" dir="ltr"><figure id="20567c2e-e02e-4d6e-b730-02d0d371a9cd" class="image"><a href="Made%20by%20Loogart/g1-illustrations.jpg"><img style="width:1632px" src="Made%20by%20Loogart/g1-illustrations.jpg"/></a></figure></div><div style="display:contents" dir="auto"><div id="a0e0fa67-1f58-4772-be76-d19cce5290f5" class="column-list"><div style="display:contents" dir="auto"><div id="02889adf-9012-4edd-b350-3d3136e41b5d" style="width:37.5%" class="column"><div style="display:contents" dir="ltr"><figure id="a92ec3ce-bf25-4610-9295-79cd881dc6bc" class="image"><a href="Made%20by%20Loogart/Untitled.png"><img style="width:480px" src="Made%20by%20Loogart/Untitled.png"/></a></figure></div></div></div><div style="display:contents" dir="auto"><div id="2ab36bb0-1266-40cc-ab5b-5bf8e9ee6085" style="width:24.999999999999996%" class="column"><div style="display:contents" dir="ltr"><figure id="8f26ac6d-5404-47b6-95c7-367289f705fb"><div class="source"><a href="Made%20by%20Loogart/bumper_5.mp4">https://prod-files-secure.s3.us-west-2.amazonaws.com/796ba4e7-d009-439f-b00b-43b7356050f1/19281ff7-84fa-41b4-a000-d374ffaf3c17/bumper_5.mp4</a></div></figure></div></div></div><div style="display:contents" dir="auto"><div id="7302ac0c-92fc-436c-91ee-df42dd381abc" style="width:37.5%" class="column"><div style="display:contents" dir="ltr"><figure id="db1954c3-7e75-40fd-86a8-fdaa2d0d1ee2" class="image"><a href="Made%20by%20Loogart/Untitled%201.png"><img style="width:204.73959350585938px" src="Made%20by%20Loogart/Untitled%201.png"/></a></figure></div></div></div></div></div><div style="display:contents" dir="auto"><div id="d439336d-b8a3-481b-90ea-a08a3cb6d738" class="column-list"><div style="display:contents" dir="auto"><div id="c73da99f-61c4-407a-a085-05505bfcf79b" style="width:62.5%" class="column"><div style="display:contents" dir="ltr"><figure id="9b25b6a0-b1e1-4b16-9c85-a4ebfc5396f0" class="image"><a href="Made%20by%20Loogart/Untitled%202.png"><img style="width:1160px" src="Made%20by%20Loogart/Untitled%202.png"/></a></figure></div></div></div><div style="display:contents" dir="auto"><div id="f736f1dc-a857-491a-a50f-33b2db17d1af" style="width:37.50000000000001%" class="column"><div style="display:contents" dir="ltr"><figure id="1a132a69-3db6-4cfb-85d5-e9ecb413b936" class="image"><a href="Made%20by%20Loogart/Untitled%203.png"><img style="width:624px" src="Made%20by%20Loogart/Untitled%203.png"/></a></figure></div></div></div></div></div><div style="display:contents" dir="auto"><h2 id="6ba7c99e-760c-4090-9b77-c9d0a1edb87e" class=""><strong>Partners, clients and features</strong></h2></div><div style="display:contents" dir="auto"><p id="72f0bcfd-c987-4189-addc-2b3c0e518516" class="">Complex, 7-Eleven, Starbucks, Autodesk, ETS, Yellow Pages, Barilla (Catelli), Car2Go, Swiffer, Grant Cardone, Russell Brunson, Le Burger Week, Adib Alkhalidey, Fabrice Vil, Pour 3 Points, Nicolas Duvernois, Ville de Montréal, Ville de Gatineau, Société de Transport de l&#x27;Outaouais (STO), Maya HTT, UPA, Government of Canada, OECD, IEEE, Bref MTL, MTL Blog, Paysafe, Mobeewave (Apple), St-Laurent TV, Casey Neistat, Marc Anthony, Charlamagne The God, Terrence Ross</p></div><div style="display:contents" dir="auto"><div id="41b44f1b-f3b5-441a-992c-919ca3919050" class="column-list"><div style="display:contents" dir="auto"><div id="c0b23db8-a41a-4b25-a8fb-9a6f7c0334a4" style="width:68.75%" class="column"><div style="display:contents" dir="ltr"><figure id="0588254e-e587-4b6e-9cea-3bd3b283ea18" class="image"><a href="Made%20by%20Loogart/Untitled%204.png"><img style="width:1104px" src="Made%20by%20Loogart/Untitled%204.png"/></a></figure></div><div style="display:contents" dir="ltr"><figure id="ed04a8b7-ac57-48c6-84da-42375474b77e" class="image"><a href="Made%20by%20Loogart/portrait_color.jpg"><img style="width:1104px" src="Made%20by%20Loogart/portrait_color.jpg"/></a></figure></div></div></div><div style="display:contents" dir="auto"><div id="e701df31-de45-46fb-9623-dd61a4272837" style="width:31.250000000000007%" class="column"><div style="display:contents" dir="ltr"><figure id="caad9b6e-54c0-4079-8264-630fa792b320"><div class="source"><a href="Made%20by%20Loogart/1_smokes-loyal.mp4">https://prod-files-secure.s3.us-west-2.amazonaws.com/796ba4e7-d009-439f-b00b-43b7356050f1/f6939d72-573c-4e8e-94ac-e4fd529894bd/1_smokes-loyal.mp4</a></div></figure></div><div style="display:contents" dir="ltr"><figure id="c96f8548-2151-4841-bb94-92ccd2314a6d"><div class="source"><a href="Made%20by%20Loogart/2_smokes_fam.mp4">https://prod-files-secure.s3.us-west-2.amazonaws.com/796ba4e7-d009-439f-b00b-43b7356050f1/6bfcd96c-99dc-4c9a-8907-09b88ad45b08/2_smokes_fam.mp4</a></div></figure></div><div style="display:contents" dir="ltr"><figure id="252dec75-4ef3-4fad-bd19-cc623079e01f"><div class="source"><a href="Made%20by%20Loogart/3_smokes-secret.mp4">https://prod-files-secure.s3.us-west-2.amazonaws.com/796ba4e7-d009-439f-b00b-43b7356050f1/2babbdb9-05b2-47d6-af64-3faa0f66a8f3/3_smokes-secret.mp4</a></div></figure></div><div style="display:contents" dir="ltr"><figure id="0047aa1c-fcc1-4151-b0e6-2193625e6690"><div class="source"><a href="Made%20by%20Loogart/teaser_v1.2.mp4">https://prod-files-secure.s3.us-west-2.amazonaws.com/796ba4e7-d009-439f-b00b-43b7356050f1/aab4fb16-153e-4052-8934-1667cad3887a/teaser_v1.2.mp4</a></div></figure></div></div></div></div></div><div style="display:contents" dir="auto"><div id="f5a17121-2a03-4f39-8b56-22c7027128f3" class="column-list"><div style="display:contents" dir="auto"><div id="9fb7bd0a-fa45-4a5b-a55c-2e1cd16008e7" style="width:62.5%" class="column"><div style="display:contents" dir="ltr"><figure id="b55c5fb6-683b-4667-af05-075a9d5edbe0" class="image"><a href="Made%20by%20Loogart/Untitled%205.png"><img style="width:1008px" src="Made%20by%20Loogart/Untitled%205.png"/></a></figure></div></div></div><div style="display:contents" dir="auto"><div id="deec4349-6c0b-4922-9849-ee5ed93b3648" style="width:37.5%" class="column"><div style="display:contents" dir="ltr"><figure id="6888c307-c56f-4374-9770-ba0da0a1e508" class="image"><a href="Made%20by%20Loogart/post-canada-final.jpg"><img style="width:624px" src="Made%20by%20Loogart/post-canada-final.jpg"/></a></figure></div></div></div></div></div><div style="display:contents" dir="ltr"><figure id="44b6b967-f222-4d92-a630-ee6817307efb" class="image"><a href="Made%20by%20Loogart/Untitled%206.png"><img style="width:1632px" src="Made%20by%20Loogart/Untitled%206.png"/></a></figure></div><div style="display:contents" dir="ltr"><figure id="70a029f3-54f0-4119-88b9-2f5a7d96bf25" class="image"><a href="Made%20by%20Loogart/Untitled%207.png"><img style="width:1632px" src="Made%20by%20Loogart/Untitled%207.png"/></a></figure></div><div style="display:contents" dir="ltr"><figure id="0ff0cce7-8757-4365-859b-9f8506ede62e" class="image"><a href="Made%20by%20Loogart/Screenshot_2024-09-04_at_11.23.31_PM.png"><img style="width:2264px" src="Made%20by%20Loogart/Screenshot_2024-09-04_at_11.23.31_PM.png"/></a></figure></div><div style="display:contents" dir="auto"><div id="c1b16827-7078-4486-9f21-8ae9213f586f" class="column-list"><div style="display:contents" dir="auto"><div id="fdae87b1-7746-4b8e-8f28-93984ee14963" style="width:43.75%" class="column"><div style="display:contents" dir="ltr"><figure id="9ee72566-4cd0-4392-88ac-cbfc10c53ad1" class="image"><a href="Made%20by%20Loogart/image%204.png"><img style="width:775px" src="Made%20by%20Loogart/image%204.png"/></a></figure></div></div></div><div style="display:contents" dir="auto"><div id="8cec4c49-3734-4485-ab64-59232d1be36f" style="width:56.25%" class="column"><div style="display:contents" dir="ltr"><figure id="45693869-518c-4c0b-ac0d-d15981b70683" class="image"><a href="Made%20by%20Loogart/image%205.png"><img style="width:556.3021240234375px" src="Made%20by%20Loogart/image%205.png"/></a></figure></div></div></div></div></div><div style="display:contents" dir="auto"><div id="2aaa8cb1-5e6f-80cf-b511-c101c3cb5d04" class="column-list"><div style="display:contents" dir="auto"><div id="2aaa8cb1-5e6f-802e-a2e1-da2cebbadcbb" style="width:56.25%" class="column"><div style="display:contents" dir="ltr"><figure id="2aaa8cb1-5e6f-8038-a491-d6c529134f79" class="image"><a href="Made%20by%20Loogart/Screenshot_2025-11-13_at_12.23.02_PM.png"><img style="width:2392px" src="Made%20by%20Loogart/Screenshot_2025-11-13_at_12.23.02_PM.png"/></a></figure></div></div></div><div style="display:contents" dir="auto"><div id="2aaa8cb1-5e6f-80d1-b8dc-cdb6c18cc294" style="width:43.75%" class="column"><div style="display:contents" dir="ltr"><figure id="2aaa8cb1-5e6f-80fd-be77-dfd0582082bb" class="image"><a href="Made%20by%20Loogart/Screenshot_2025-11-13_at_12.23.43_PM.png"><img style="width:1001.9921875px" src="Made%20by%20Loogart/Screenshot_2025-11-13_at_12.23.43_PM.png"/></a></figure></div><div style="display:contents" dir="auto"><p id="2aaa8cb1-5e6f-80d7-b075-fd81efab8220" class="">
+</p></div></div></div></div></div><div style="display:contents" dir="ltr"><div id="160a8cb1-5e6f-80ab-80a0-d043a88b2667" class="collection-content"><h4 class="collection-title">Selected website projects</h4><table class="collection-content"><thead><tr><th><span class="icon property-icon"><img src="https://www.notion.so/icons/font_gray.svg" style="width:14px;height:14px;display:block"/></span>Name</th><th><span class="icon property-icon"><img src="https://www.notion.so/icons/clock_gray.svg" style="width:14px;height:14px;display:block"/></span>Created</th><th><span class="icon property-icon"><img src="https://www.notion.so/icons/list_gray.svg" style="width:14px;height:14px;display:block"/></span>Tags</th></tr></thead><tbody><tr id="160a8cb1-5e6f-81bb-900f-ee1d89831c9e"><td class="cell-title"><a href="Made%20by%20Loogart/Selected%20website%20projects/CHARGE%20Montr%C3%A9al%20160a8cb15e6f81bb900fee1d89831c9e.html">CHARGE Montréal</a></td><td class="cell-dSIV"><time>@December 17, 2024 8:04 PM</time></td><td class="cell-_fPo"></td></tr><tr id="160a8cb1-5e6f-8189-866a-ee14af4b053f"><td class="cell-title"><a href="Made%20by%20Loogart/Selected%20website%20projects/Lucas%20CPA%20160a8cb15e6f8189866aee14af4b053f.html">Lucas CPA</a></td><td class="cell-dSIV"><time>@December 17, 2024 8:04 PM</time></td><td class="cell-_fPo"></td></tr><tr id="160a8cb1-5e6f-8193-85e1-f9e24b589e64"><td class="cell-title"><a href="Made%20by%20Loogart/Selected%20website%20projects/Pragma%20160a8cb15e6f819385e1f9e24b589e64.html">Pragma</a></td><td class="cell-dSIV"><time>@December 17, 2024 8:04 PM</time></td><td class="cell-_fPo"></td></tr><tr id="1fea8cb1-5e6f-8039-8c93-d7e7b0571076"><td class="cell-title"><a href="Made%20by%20Loogart/Selected%20website%20projects/SOS%20Inc%201fea8cb15e6f80398c93d7e7b0571076.html">SOS Inc</a></td><td class="cell-dSIV"><time>@May 25, 2025 9:12 AM</time></td><td class="cell-_fPo"></td></tr><tr id="160a8cb1-5e6f-8149-9622-cf5c3f8fb7b2"><td class="cell-title"><a href="Made%20by%20Loogart/Selected%20website%20projects/SOS%20Ticket%20160a8cb15e6f81499622cf5c3f8fb7b2.html">SOS Ticket</a></td><td class="cell-dSIV"><time>@December 17, 2024 8:04 PM</time></td><td class="cell-_fPo"></td></tr><tr id="160a8cb1-5e6f-8111-9983-dc4803871719"><td class="cell-title"><a href="Made%20by%20Loogart/Selected%20website%20projects/Bingham%20Cup%202022%20160a8cb15e6f81119983dc4803871719.html">Bingham Cup 2022</a></td><td class="cell-dSIV"><time>@December 17, 2024 8:04 PM</time></td><td class="cell-_fPo"></td></tr><tr id="160a8cb1-5e6f-81c5-a0a7-de1917abd02e"><td class="cell-title"><a href="Made%20by%20Loogart/Selected%20website%20projects/Dingus%20&amp;%20Zazzy%20160a8cb15e6f81c5a0a7de1917abd02e.html">Dingus &amp; Zazzy</a></td><td class="cell-dSIV"><time>@December 17, 2024 8:04 PM</time></td><td class="cell-_fPo"></td></tr><tr id="160a8cb1-5e6f-81b6-b5d4-d08df9ade695"><td class="cell-title"><a href="Made%20by%20Loogart/Selected%20website%20projects/Laberge%20R%C3%A9solution%20160a8cb15e6f81b6b5d4d08df9ade695.html">Laberge Résolution</a></td><td class="cell-dSIV"><time>@December 17, 2024 8:04 PM</time></td><td class="cell-_fPo"></td></tr><tr id="160a8cb1-5e6f-81a0-9c4f-f025de7879dc"><td class="cell-title"><a href="Made%20by%20Loogart/Selected%20website%20projects/Adib%20Alkhalidey%20160a8cb15e6f81a09c4ff025de7879dc.html">Adib Alkhalidey</a></td><td class="cell-dSIV"><time>@December 17, 2024 8:04 PM</time></td><td class="cell-_fPo"></td></tr><tr id="160a8cb1-5e6f-818d-9329-fcbdae5483b6"><td class="cell-title"><a href="Made%20by%20Loogart/Selected%20website%20projects/T%C3%A9tons%20Ben%20Dr%C3%B4les%20160a8cb15e6f818d9329fcbdae5483b6.html">Tétons Ben Drôles</a></td><td class="cell-dSIV"><time>@December 17, 2024 8:04 PM</time></td><td class="cell-_fPo"></td></tr><tr id="160a8cb1-5e6f-8161-b5f5-e84f9fd2b7fe"><td class="cell-title"><a href="Made%20by%20Loogart/Selected%20website%20projects/Town%20of%20Perth%20Western%20Annex%20Land%20160a8cb15e6f8161b5f5e84f9fd2b7fe.html">Town of Perth Western Annex Land</a></td><td class="cell-dSIV"><time>@December 17, 2024 8:04 PM</time></td><td class="cell-_fPo"></td></tr><tr id="160a8cb1-5e6f-8113-8dfb-e50f3925b973"><td class="cell-title"><a href="Made%20by%20Loogart/Selected%20website%20projects/Clot%20Avocats%20160a8cb15e6f81138dfbe50f3925b973.html">Clot Avocats</a></td><td class="cell-dSIV"><time>@December 17, 2024 8:04 PM</time></td><td class="cell-_fPo"></td></tr><tr id="160a8cb1-5e6f-8141-bc6a-c15c6a6c795f"><td class="cell-title"><a href="Made%20by%20Loogart/Selected%20website%20projects/Le%20Pont%20160a8cb15e6f8141bc6ac15c6a6c795f.html">Le Pont</a></td><td class="cell-dSIV"><time>@December 17, 2024 8:04 PM</time></td><td class="cell-_fPo"></td></tr></tbody></table><br/><br/></div></div><div style="display:contents" dir="auto"><p id="1fea8cb1-5e6f-8045-82cf-e525d1d37410" class="">
+</p></div></div></article><span class="sans" style="font-size:14px;padding-top:2em"></span></body></html>
