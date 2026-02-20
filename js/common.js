@@ -4,7 +4,7 @@
 function loadNavbar() {
     const navbarHTML = `
         <header>
-<nav class="navbar navbar-default navbar-fixed-top">
+<nav class="navbar navbar-default">
             <div class="container">
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -21,6 +21,7 @@ function loadNavbar() {
                         <li id="shopPage"><a href="https://shop.loogart.com" target="_blank">my shop</a></li>
                         <li><a href="mailto:chris@loogart.com">contact</a></li>
                         <li><a href="about">about</a></li>
+                        <li><button type="button" id="theme-toggle" class="theme-toggle-btn" aria-label="Switch to dark mode">Dark mode</button></li>
                         <li><a href="https://www.instagram.com/loogart/" target="_blank"><i class="fa fa-instagram hidden-xs" aria-hidden="true"></i> <span class="visible-xs"><i class="fa fa-instagram" aria-hidden="true"></i> Instagram</span></a></li>
                         <li><a href="https://vimeo.com/loogart" target="_blank"><i class="fa fa-vimeo hidden-xs" aria-hidden="true"></i> <span class="visible-xs"><i class="fa fa-vimeo" aria-hidden="true"></i> Vimeo</span></a></li>
                         <li><a href="https://www.facebook.com/LoogArt/" target="_blank"><i class="fa fa-facebook-official hidden-xs" aria-hidden="true"></i> <span class="visible-xs"><i class="fa fa-facebook-official" aria-hidden="true"></i> Facebook</span></a></li>
@@ -30,8 +31,11 @@ function loadNavbar() {
                 <!--/.nav-collapse -->
             </div>
         </nav>
-    </header>;
-    document.getElementById('navbar').innerHTML = navbarHTML;
+    </header>`;
+    const navbarContainer = document.getElementById('header-placeholder') || document.getElementById('navbar');
+    if (navbarContainer) {
+        navbarContainer.innerHTML = navbarHTML;
+    }
 }
 
 // Function to load the footer
@@ -57,11 +61,14 @@ function loadFooter() {
 </div>
 </footer>
     `;
-    document.getElementById('footer').innerHTML = footerHTML;
+    const footerContainer = document.getElementById('footer-placeholder') || document.getElementById('footer');
+    if (footerContainer) {
+        footerContainer.innerHTML = footerHTML;
+    }
 }
 
 // Call the functions when the page loads
-window.onload = function() {
+window.addEventListener('load', function() {
     loadNavbar();
     loadFooter();
-};
+});

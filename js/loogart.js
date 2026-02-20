@@ -1,16 +1,75 @@
+const THEME_STORAGE_KEY = 'loogart-theme';
+const systemDarkTheme = window.matchMedia('(prefers-color-scheme: dark)');
+
+function getInitialTheme() {
+  const savedTheme = localStorage.getItem(THEME_STORAGE_KEY);
+  if (savedTheme === 'light' || savedTheme === 'dark') {
+    return savedTheme;
+  }
+  return systemDarkTheme.matches ? 'dark' : 'light';
+}
+
+function applyTheme(theme) {
+  document.documentElement.setAttribute('data-theme', theme);
+}
+
+function updateThemeToggleLabel() {
+  const themeToggle = document.getElementById('theme-toggle');
+  if (!themeToggle) {
+    return;
+  }
+  const activeTheme = document.documentElement.getAttribute('data-theme') || 'light';
+  const shouldSwitchToDark = activeTheme !== 'dark';
+  themeToggle.textContent = shouldSwitchToDark ? 'Dark mode' : 'Light mode';
+  themeToggle.setAttribute(
+    'aria-label',
+    shouldSwitchToDark ? 'Switch to dark mode' : 'Switch to light mode'
+  );
+}
+
+function toggleTheme() {
+  const activeTheme = document.documentElement.getAttribute('data-theme') || 'light';
+  const nextTheme = activeTheme === 'dark' ? 'light' : 'dark';
+  applyTheme(nextTheme);
+  localStorage.setItem(THEME_STORAGE_KEY, nextTheme);
+  updateThemeToggleLabel();
+}
+
+applyTheme(getInitialTheme());
+
 // Function to load HTML file content
 function loadHTML(file, element) {
-    fetch(file)
-      .then(response => response.text())
-      .then(data => {
-        document.querySelector(element).innerHTML = data;
-      })
-      .catch(error => console.error('Error loading HTML:', error));
-  }
+  return fetch(file)
+    .then(response => response.text())
+    .then(data => {
+      document.querySelector(element).innerHTML = data;
+    })
+    .catch(error => console.error('Error loading HTML:', error));
+}
 
-  // Load header and footer
-  loadHTML('html/navbar.html', '#header-placeholder');
-  loadHTML('html/footer.html', '#footer-placeholder');
+// Load header and footer
+loadHTML('html/navbar.html', '#header-placeholder').then(() => {
+  updateThemeToggleLabel();
+});
+loadHTML('html/footer.html', '#footer-placeholder');
+
+document.addEventListener('click', function (event) {
+  const themeToggle = event.target.closest('#theme-toggle');
+  if (!themeToggle) {
+    return;
+  }
+  toggleTheme();
+});
+
+if (typeof systemDarkTheme.addEventListener === 'function') {
+  systemDarkTheme.addEventListener('change', function (event) {
+    if (localStorage.getItem(THEME_STORAGE_KEY)) {
+      return;
+    }
+    applyTheme(event.matches ? 'dark' : 'light');
+    updateThemeToggleLabel();
+  });
+}
 
 
 $(document).ready(function () {
