@@ -17,7 +17,7 @@ function loadNavbar() {
                 </div>
                 <div id="navbar" class="navbar-collapse collapse">
                     <ul class="nav navbar-nav navbar-right">
-                        <li id="newWork"><a href="new-work">Illustration</a></li>
+                        <li id="newWork"><a href="illustration">Illustration</a></li>
                         <li id="shopPage"><a href="https://shop.loogart.com" target="_blank">my shop</a></li>
                         <li><a href="mailto:chris@loogart.com">contact</a></li>
                         <li><a href="about">about</a></li>
@@ -44,7 +44,7 @@ function loadFooter() {
     <footer>
     <div class="container text-center">
         <ul class="list-inline" style="margin-top:auto">
-            <li><a href="new-work">✨ New work</a></li>
+            <li><a href="illustration">Illustration</a></li>
             <li><a href="https://loog.art/" target="_blank"> ⚡️ quick links</a></li>
             <li><a href="http://instagram.com/loogart" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i> Instagram</a></li>
             <li><a href="https://vimeo.com/loogart" target="_blank"><i class="fa fa-vimeo" aria-hidden="true"></i> Vimeo</span></a></li>
