@@ -56,7 +56,7 @@ function loadFooter() {
 </footer>
 <div class="lower-footer">
 <div class="container">
-        <small>© 2013-present. Loogart. All rights reserved.</small>
+        <small>© <span id="current-year" data-current-year></span> Loogart. All rights reserved.</small>
     </div>
 </div>
 </footer>
@@ -67,8 +67,17 @@ function loadFooter() {
     }
 }
 
+function updateFooterYear() {
+    const currentYear = String(new Date().getFullYear());
+    const yearElements = document.querySelectorAll('#current-year, [data-current-year]');
+    yearElements.forEach(function (element) {
+        element.textContent = currentYear;
+    });
+}
+
 // Call the functions when the page loads
 window.addEventListener('load', function() {
     loadNavbar();
     loadFooter();
+    updateFooterYear();
 });
