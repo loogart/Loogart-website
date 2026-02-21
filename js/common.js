@@ -1,70 +1,30 @@
 // common.js
 
-// Function to load the navbar
-function loadNavbar() {
-    const navbarHTML = `
-        <header>
-<nav class="navbar navbar-default">
-            <div class="container">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a class="navbar-brand" href="./"><p>Loogart</p><span class="logo-loogart"></span></a>
-                </div>
-                <div id="navbar" class="navbar-collapse collapse">
-                    <ul class="nav navbar-nav navbar-right">
-                        <li id="newWork"><a href="illustration">Illustration</a></li>
-                        <li id="shopPage"><a href="https://shop.loogart.com" target="_blank">my shop</a></li>
-                        <li><a href="mailto:chris@loogart.com">contact</a></li>
-                        <li><a href="about">about</a></li>
-                        <li><button type="button" id="theme-toggle" class="theme-toggle-btn" aria-label="Switch to dark mode">Dark mode</button></li>
-                        <li><a href="https://www.instagram.com/loogart/" target="_blank"><i class="fa fa-instagram hidden-xs" aria-hidden="true"></i> <span class="visible-xs"><i class="fa fa-instagram" aria-hidden="true"></i> Instagram</span></a></li>
-                        <li><a href="https://vimeo.com/loogart" target="_blank"><i class="fa fa-vimeo hidden-xs" aria-hidden="true"></i> <span class="visible-xs"><i class="fa fa-vimeo" aria-hidden="true"></i> Vimeo</span></a></li>
-                        <li><a href="https://www.facebook.com/LoogArt/" target="_blank"><i class="fa fa-facebook-official hidden-xs" aria-hidden="true"></i> <span class="visible-xs"><i class="fa fa-facebook-official" aria-hidden="true"></i> Facebook</span></a></li>
-                        <li><a href="https://www.behance.net/loogart" target="_blank"><i class="fa fa-behance hidden-xs" aria-hidden="true"></i> <span class="visible-xs"><i class="fa fa-behance" aria-hidden="true"></i> Behance</span></a></li>
-                    </ul>
-                </div>
-                <!--/.nav-collapse -->
-            </div>
-        </nav>
-    </header>`;
-    const navbarContainer = document.getElementById('header-placeholder') || document.getElementById('navbar');
-    if (navbarContainer) {
-        navbarContainer.innerHTML = navbarHTML;
+function loadHTMLFragment(file, elementIdOptions) {
+    const container = elementIdOptions
+        .map(function (id) { return document.getElementById(id); })
+        .find(Boolean);
+    if (!container) {
+        return Promise.resolve();
     }
+    return fetch(file)
+        .then(function (response) { return response.text(); })
+        .then(function (data) {
+            container.innerHTML = data;
+        })
+        .catch(function (error) {
+            console.error('Error loading HTML:', error);
+        });
 }
 
-// Function to load the footer
+// Load navbar from shared partial to avoid stale duplicate markup.
+function loadNavbar() {
+    return loadHTMLFragment('html/navbar.html', ['header-placeholder', 'navbar']);
+}
+
+// Load footer from shared partial to avoid stale duplicate markup.
 function loadFooter() {
-    const footerHTML = `
-    <footer>
-    <div class="container text-center">
-        <ul class="list-inline" style="margin-top:auto">
-            <li><a href="illustration">Illustration</a></li>
-            <li><a href="https://loog.art/" target="_blank"> ⚡️ quick links</a></li>
-            <li><a href="http://instagram.com/loogart" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i> Instagram</a></li>
-            <li><a href="https://vimeo.com/loogart" target="_blank"><i class="fa fa-vimeo" aria-hidden="true"></i> Vimeo</span></a></li>
-            <li><a href="http://facebook.com/loogart" target="_blank"><i class="fa fa-facebook-official" aria-hidden="true"></i> Facebook</a></li>
-            <li><a href="mailto:chris@loogart.com"><i class="fa fa-envelope-o" aria-hidden="true"></i> chris@loogart.com</a></li>
-        </ul>
-        </div>
-    </div>
-</footer>
-<div class="lower-footer">
-<div class="container">
-        <small>© <span id="current-year" data-current-year></span> Loogart. All rights reserved.</small>
-    </div>
-</div>
-</footer>
-    `;
-    const footerContainer = document.getElementById('footer-placeholder') || document.getElementById('footer');
-    if (footerContainer) {
-        footerContainer.innerHTML = footerHTML;
-    }
+    return loadHTMLFragment('html/footer.html', ['footer-placeholder', 'footer']);
 }
 
 function updateFooterYear() {
