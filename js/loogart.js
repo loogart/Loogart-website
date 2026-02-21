@@ -88,23 +88,39 @@ function initNewWorkLightbox() {
   lightbox.innerHTML = `
     <button type="button" class="new-work-lightbox-btn new-work-lightbox-close" aria-label="Close image viewer">&times;</button>
     <button type="button" class="new-work-lightbox-btn new-work-lightbox-prev" aria-label="Previous image">&#8249;</button>
+    <img class="new-work-lightbox-preview new-work-lightbox-preview-prev" src="" alt="" aria-hidden="true">
     <img class="new-work-lightbox-media" src="" alt="">
+    <img class="new-work-lightbox-preview new-work-lightbox-preview-next" src="" alt="" aria-hidden="true">
     <button type="button" class="new-work-lightbox-btn new-work-lightbox-next" aria-label="Next image">&#8250;</button>
   `;
   document.body.appendChild(lightbox);
 
   const media = lightbox.querySelector('.new-work-lightbox-media');
+  const prevPreview = lightbox.querySelector('.new-work-lightbox-preview-prev');
+  const nextPreview = lightbox.querySelector('.new-work-lightbox-preview-next');
   const prevBtn = lightbox.querySelector('.new-work-lightbox-prev');
   const nextBtn = lightbox.querySelector('.new-work-lightbox-next');
   const closeBtn = lightbox.querySelector('.new-work-lightbox-close');
   let activeIndex = 0;
   let isOpen = false;
   let wheelLock = false;
+  let touchStartX = 0;
+  let touchStartY = 0;
+  let touchInProgress = false;
 
   function render(index) {
     const image = images[index];
+    const prevIndex = (index - 1 + images.length) % images.length;
+    const nextIndex = (index + 1) % images.length;
+    const prevImage = images[prevIndex];
+    const nextImage = images[nextIndex];
+
     media.src = image.currentSrc || image.src;
     media.alt = image.alt || 'Loogart artwork';
+    prevPreview.src = prevImage.currentSrc || prevImage.src;
+    prevPreview.alt = prevImage.alt || 'Previous artwork';
+    nextPreview.src = nextImage.currentSrc || nextImage.src;
+    nextPreview.alt = nextImage.alt || 'Next artwork';
   }
 
   function openAt(index) {
@@ -176,6 +192,34 @@ function initNewWorkLightbox() {
       wheelLock = false;
     }, 160);
   }, { passive: false });
+
+  lightbox.addEventListener('touchstart', function (event) {
+    if (!isOpen || event.touches.length !== 1) {
+      return;
+    }
+    touchInProgress = true;
+    touchStartX = event.touches[0].clientX;
+    touchStartY = event.touches[0].clientY;
+  }, { passive: true });
+
+  lightbox.addEventListener('touchend', function (event) {
+    if (!isOpen || !touchInProgress || !event.changedTouches.length) {
+      return;
+    }
+    touchInProgress = false;
+    const touch = event.changedTouches[0];
+    const deltaX = touch.clientX - touchStartX;
+    const deltaY = touch.clientY - touchStartY;
+    const horizontalSwipe = Math.abs(deltaX) > 45 && Math.abs(deltaX) > Math.abs(deltaY);
+    if (!horizontalSwipe) {
+      return;
+    }
+    if (deltaX < 0) {
+      step(1);
+    } else {
+      step(-1);
+    }
+  }, { passive: true });
 
   document.addEventListener('keydown', function (event) {
     if (!isOpen) {
