@@ -20,17 +20,21 @@ function applyTheme(theme) {
 }
 
 function updateThemeToggleLabel() {
-  const themeToggle = document.getElementById('theme-toggle');
-  if (!themeToggle) {
+  const themeToggles = document.querySelectorAll('[data-theme-toggle]');
+  if (!themeToggles.length) {
     return;
   }
   const activeTheme = document.documentElement.getAttribute('data-theme') || 'light';
   const shouldSwitchToDark = activeTheme !== 'dark';
-  themeToggle.textContent = shouldSwitchToDark ? 'Dark mode' : 'Light mode';
-  themeToggle.setAttribute(
-    'aria-label',
-    shouldSwitchToDark ? 'Switch to dark mode' : 'Switch to light mode'
-  );
+  const nextThemeLabel = shouldSwitchToDark ? 'Dark' : 'Light';
+  const iconClass = shouldSwitchToDark ? 'fa-moon-o' : 'fa-sun-o';
+  themeToggles.forEach(function (themeToggle) {
+    themeToggle.innerHTML = '<i class="fa ' + iconClass + '" aria-hidden="true"></i> <span>' + nextThemeLabel + '</span>';
+    themeToggle.setAttribute(
+      'aria-label',
+      shouldSwitchToDark ? 'Switch to dark mode' : 'Switch to light mode'
+    );
+  });
 }
 
 function toggleTheme() {
@@ -70,7 +74,7 @@ loadHTML('html/footer.html', '#footer-placeholder').then(() => {
 });
 
 document.addEventListener('click', function (event) {
-  const themeToggle = event.target.closest('#theme-toggle');
+  const themeToggle = event.target.closest('[data-theme-toggle]');
   if (!themeToggle) {
     return;
   }
