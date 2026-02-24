@@ -560,6 +560,19 @@ fieldset[disabled] .btn-pink.focus {
     background-color: #fff;
 }
 
+.btn-outline-adaptive {
+    color: #222;
+    background-color: transparent;
+    border-color: #222;
+}
+
+.btn-outline-adaptive:hover,
+.btn-outline-adaptive:focus {
+    color: #222;
+    background-color: rgba(34, 34, 34, 0.08);
+    border-color: #222;
+}
+
 
 
 /* white button */
@@ -2487,6 +2500,19 @@ html[data-theme="dark"] .open > .dropdown-toggle.btn-turquoise {
     background-color: rgba(247, 90, 86, 0.3);
     border-color: var(--accent);
     box-shadow: none;
+}
+
+html[data-theme="dark"] .btn-outline-adaptive {
+    color: var(--text-dark);
+    background-color: transparent;
+    border-color: var(--text-dark);
+}
+
+html[data-theme="dark"] .btn-outline-adaptive:hover,
+html[data-theme="dark"] .btn-outline-adaptive:focus {
+    color: var(--text-dark);
+    background-color: rgba(231, 231, 231, 0.12);
+    border-color: var(--text-dark);
 }
 
 /* Preserve per-tile text design in portfolio cards */
