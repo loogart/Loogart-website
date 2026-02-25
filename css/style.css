@@ -321,10 +321,12 @@ nav.shrink .logo-loogart {
         right: 0;
         width: 100%;
         z-index: 1200;
+        margin-bottom: 0;
     }
 
     .navbar > .container {
         background-color: inherit;
+        position: relative;
     }
 
     .navbar-header-actions.visible-xs {
@@ -340,18 +342,22 @@ nav.shrink .logo-loogart {
 
     .navbar-default .navbar-collapse.collapse {
         opacity: 0;
-        position: fixed;
+        position: absolute;
         left: 0;
         right: 0;
-        top: 72px;
+        top: 100%;
         width: 100%;
         max-height: 0;
         overflow: hidden;
         background-color: inherit;
         z-index: 1199;
+        margin-top: 0;
+        padding-left: 0;
+        padding-right: 0;
     }
 
-    .navbar-default .navbar-collapse.in {
+    .navbar-default .navbar-collapse.in,
+    .navbar-default .navbar-collapse.show {
         opacity: 1;
         max-height: calc(100vh - 72px);
         height: calc(100vh - 72px);
@@ -360,13 +366,16 @@ nav.shrink .logo-loogart {
 
     .navbar-default .navbar-collapse.collapsing {
         opacity: 0;
-        position: fixed;
+        position: absolute;
         left: 0;
         right: 0;
-        top: 72px;
+        top: 100%;
         width: 100%;
         background-color: inherit;
         z-index: 1199;
+        margin-top: 0;
+        padding-left: 0;
+        padding-right: 0;
     }
 
     .navbar-default .navbar-nav .open .dropdown-menu > li > a {
@@ -2459,7 +2468,8 @@ html[data-theme="dark"] nav.navbar.shrink {
 
 html[data-theme="dark"] .navbar-default .navbar-collapse,
 html[data-theme="dark"] .navbar-default .navbar-form,
-html[data-theme="dark"] .navbar-default .navbar-collapse.in {
+html[data-theme="dark"] .navbar-default .navbar-collapse.in,
+html[data-theme="dark"] .navbar-default .navbar-collapse.show {
     background-color: var(--bg-dark);
 }
 
