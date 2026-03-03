@@ -247,9 +247,71 @@ function initNewWorkLightbox() {
   });
 }
 
+function initAosForAppearImages() {
+  const appearImages = document.querySelectorAll('img.appear-1');
+  if (!appearImages.length) {
+    return;
+  }
+
+  appearImages.forEach(function (image, index) {
+    if (!image.hasAttribute('data-aos')) {
+      image.setAttribute('data-aos', 'fade-up');
+    }
+    if (!image.hasAttribute('data-aos-duration')) {
+      image.setAttribute('data-aos-duration', '1000');
+    }
+    if (!image.hasAttribute('data-aos-offset')) {
+      image.setAttribute('data-aos-offset', '120');
+    }
+    if (!image.hasAttribute('data-aos-easing')) {
+      image.setAttribute('data-aos-easing', 'ease-out');
+    }
+    if (!image.hasAttribute('data-aos-delay')) {
+      image.setAttribute('data-aos-delay', String(index * 80));
+    }
+  });
+
+  function startAos() {
+    if (window.AOS && typeof window.AOS.init === 'function') {
+      window.AOS.init({
+        once: true,
+        mirror: false,
+        duration: 1000
+      });
+      window.AOS.refresh();
+    }
+  }
+
+  if (!document.querySelector('link[data-loogart-aos]')) {
+    const aosStylesheet = document.createElement('link');
+    aosStylesheet.rel = 'stylesheet';
+    aosStylesheet.href = 'https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css';
+    aosStylesheet.setAttribute('data-loogart-aos', 'true');
+    document.head.appendChild(aosStylesheet);
+  }
+
+  if (window.AOS && typeof window.AOS.init === 'function') {
+    startAos();
+    return;
+  }
+
+  const existingAosScript = document.querySelector('script[data-loogart-aos]');
+  if (existingAosScript) {
+    existingAosScript.addEventListener('load', startAos, { once: true });
+    return;
+  }
+
+  const aosScript = document.createElement('script');
+  aosScript.src = 'https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js';
+  aosScript.setAttribute('data-loogart-aos', 'true');
+  aosScript.onload = startAos;
+  document.body.appendChild(aosScript);
+}
+
 
 $(document).ready(function () {
     initNewWorkLightbox();
+    initAosForAppearImages();
     //flickity
     $('.montreal-carousel').flickity({
         // options
@@ -294,30 +356,19 @@ $(document).ready(function () {
 });
 
 // interval and custom config passed to reveal
-window.sr = ScrollReveal();
-sr.reveal('.appear-1', {
-    duration: 1000,
-    delay: 0,
-    origin: 'bottom',
-    distance: '69px',
-    opacity: 0,
-    scale: 1,
-    easing: 'ease-out',
-    mobile: true,
-    reset: false,
-    useDelay: 'onload',
-    viewFactor: 0.3
-}, 250);
-sr.reveal('.appear-2', {
-    duration: 500,
-    delay: 0,
-    origin: 'bottom',
-    distance: '0px',
-    opacity: 0,
-    scale: 0.9,
-    easing: 'ease-in-out',
-    mobile: true,
-    reset: false,
-    useDelay: 'onload',
-    viewFactor: 0.2
-}, 250);
+if (typeof ScrollReveal === 'function') {
+    window.sr = ScrollReveal();
+    sr.reveal('.appear-2', {
+        duration: 500,
+        delay: 0,
+        origin: 'bottom',
+        distance: '0px',
+        opacity: 0,
+        scale: 0.9,
+        easing: 'ease-in-out',
+        mobile: true,
+        reset: false,
+        useDelay: 'onload',
+        viewFactor: 0.2
+    }, 250);
+}
