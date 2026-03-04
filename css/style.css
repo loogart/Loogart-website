@@ -2716,6 +2716,10 @@ html[data-theme="dark"] .lower-footer {
 }
 
 @media (max-width: 767px) {
+    .place-bonaventure-page {
+        padding-top: var(--pb-navbar-height, 72px);
+    }
+
     .place-bonaventure-page .navbar-default .navbar-brand {
         display: flex;
         align-items: center;
