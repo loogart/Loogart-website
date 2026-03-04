@@ -5,12 +5,11 @@
   }
 
   var direction = 1;
-  var speedPxPerSecond = 38;
+  var speedPxPerSecond = 62;
   var resumeDelayMs = 1800;
   var lastFrameTime = 0;
   var lastManualTime = 0;
   var rafId = null;
-  var programmaticScrollUntil = 0;
   var isDragging = false;
   var dragStartX = 0;
   var dragStartScrollLeft = 0;
@@ -27,14 +26,6 @@
 
   function markManualControl() {
     lastManualTime = performance.now();
-  }
-
-  function markProgrammaticScrollWindow() {
-    programmaticScrollUntil = performance.now() + 120;
-  }
-
-  function isProgrammaticScrollActive() {
-    return performance.now() < programmaticScrollUntil;
   }
 
   function setDirectionFromPosition() {
@@ -69,7 +60,6 @@
         next = 0;
         direction = 1;
       }
-      markProgrammaticScrollWindow();
       scroller.scrollLeft = next;
     }
 
@@ -134,20 +124,16 @@
     }
   }
 
-  scroller.addEventListener('scroll', function () {
-    if (isProgrammaticScrollActive()) {
-      return;
-    }
-    markManualControl();
-    setDirectionFromPosition();
-  }, { passive: true });
-
   scroller.addEventListener('wheel', function () {
     markManualControl();
     setDirectionFromPosition();
   }, { passive: true });
 
   scroller.addEventListener('touchstart', markManualControl, { passive: true });
+  scroller.addEventListener('touchmove', function () {
+    markManualControl();
+    setDirectionFromPosition();
+  }, { passive: true });
   scroller.addEventListener('pointerdown', onPointerDown);
   scroller.addEventListener('pointermove', onPointerMove);
   scroller.addEventListener('pointerup', endPointerDrag);
