@@ -1,104 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-
-<url>
-  <loc>http://loogart.com/</loc>
-  <lastmod>2024-08-16T09:33:00+00:00</lastmod>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>http://loogart.com/about</loc>
-  <lastmod>2024-08-16T09:33:00+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://loogart.com/loogmoji</loc>
-  <lastmod>2024-08-16T09:33:00+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://loogart.com/montreal-cityline-illustration</loc>
-  <lastmod>2024-08-16T09:33:00+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://loogart.com/starbucks-cityscape-illustration</loc>
-  <lastmod>2024-08-16T09:33:00+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://loogart.com/ets-cityline-illustration</loc>
-  <lastmod>2024-08-16T09:33:00+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://loogart.com/car2go-cityline-illustration</loc>
-  <lastmod>2024-08-16T09:33:00+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://loogart.com/swiffer-marketing-graphics</loc>
-  <lastmod>2024-08-16T09:33:00+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://loogart.com/upa-cityline-illustration</loc>
-  <lastmod>2024-08-16T09:33:00+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://loogart.com/travel-smart-canada-app</loc>
-  <lastmod>2024-08-16T09:33:00+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://loogart.com/suite88-cityline-illustration</loc>
-  <lastmod>2024-08-16T09:33:00+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://loogart.com/otis-elevator-animated-gif</loc>
-  <lastmod>2018-01-14T15:56:28+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://loogart.com/global-affairs-canada-innovation-space</loc>
-  <lastmod>2024-08-16T09:33:00+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://loogart.com/adib-alkhalidey-motion-graphics</loc>
-  <lastmod>2024-08-16T09:33:00+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://loogart.com/bref-montreal-illustrations</loc>
-  <lastmod>2024-08-16T09:33:00+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://loogart.com/influence-orbis-artwork</loc>
-  <lastmod>2024-08-16T09:33:00+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://loogart.com/la-poutine-week-visual-design</loc>
-  <lastmod>2024-08-16T09:33:00+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://loogart.com/le-burger-week-visual-design</loc>
-  <lastmod>2024-08-16T09:33:00+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://loogart.com/yellow-pages-icons-and-illustrations</loc>
-  <lastmod>2024-08-16T09:33:00+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url><loc>https://loogart.com/about.html</loc><xhtml:link rel="alternate" hreflang="en" href="https://loogart.com/about.html"/><xhtml:link rel="alternate" hreflang="fr" href="https://loogart.com/fr/about.html"/></url>
+  <url><loc>https://loogart.com/fr/about.html</loc><xhtml:link rel="alternate" hreflang="en" href="https://loogart.com/about.html"/><xhtml:link rel="alternate" hreflang="fr" href="https://loogart.com/fr/about.html"/></url>
+  <url><loc>https://loogart.com/adib-alkhalidey-motion-graphics.html</loc><xhtml:link rel="alternate" hreflang="en" href="https://loogart.com/adib-alkhalidey-motion-graphics.html"/><xhtml:link rel="alternate" hreflang="fr" href="https://loogart.com/fr/adib-alkhalidey-motion-graphics.html"/></url>
+  <url><loc>https://loogart.com/fr/adib-alkhalidey-motion-graphics.html</loc><xhtml:link rel="alternate" hreflang="en" href="https://loogart.com/adib-alkhalidey-motion-graphics.html"/><xhtml:link rel="alternate" hreflang="fr" href="https://loogart.com/fr/adib-alkhalidey-motion-graphics.html"/></url>
+  <url><loc>https://loogart.com/bref-montreal-illustrations.html</loc><xhtml:link rel="alternate" hreflang="en" href="https://loogart.com/bref-montreal-illustrations.html"/><xhtml:link rel="alternate" hreflang="fr" href="https://loogart.com/fr/bref-montreal-illustrations.html"/></url>
+  <url><loc>https://loogart.com/fr/bref-montreal-illustrations.html</loc><xhtml:link rel="alternate" hreflang="en" href="https://loogart.com/bref-montreal-illustrations.html"/><xhtml:link rel="alternate" hreflang="fr" href="https://loogart.com/fr/bref-montreal-illustrations.html"/></url>
+  <url><loc>https://loogart.com/car2go-cityline-illustration.html</loc><xhtml:link rel="alternate" hreflang="en" href="https://loogart.com/car2go-cityline-illustration.html"/><xhtml:link rel="alternate" hreflang="fr" href="https://loogart.com/fr/car2go-cityline-illustration.html"/></url>
+  <url><loc>https://loogart.com/fr/car2go-cityline-illustration.html</loc><xhtml:link rel="alternate" hreflang="en" href="https://loogart.com/car2go-cityline-illustration.html"/><xhtml:link rel="alternate" hreflang="fr" href="https://loogart.com/fr/car2go-cityline-illustration.html"/></url>
+  <url><loc>https://loogart.com/ets-cityline-illustration.html</loc><xhtml:link rel="alternate" hreflang="en" href="https://loogart.com/ets-cityline-illustration.html"/><xhtml:link rel="alternate" hreflang="fr" href="https://loogart.com/fr/ets-cityline-illustration.html"/></url>
+  <url><loc>https://loogart.com/fr/ets-cityline-illustration.html</loc><xhtml:link rel="alternate" hreflang="en" href="https://loogart.com/ets-cityline-illustration.html"/><xhtml:link rel="alternate" hreflang="fr" href="https://loogart.com/fr/ets-cityline-illustration.html"/></url>
+  <url><loc>https://loogart.com/exclusive-wallpapers.html</loc><xhtml:link rel="alternate" hreflang="en" href="https://loogart.com/exclusive-wallpapers.html"/><xhtml:link rel="alternate" hreflang="fr" href="https://loogart.com/fr/exclusive-wallpapers.html"/></url>
+  <url><loc>https://loogart.com/fr/exclusive-wallpapers.html</loc><xhtml:link rel="alternate" hreflang="en" href="https://loogart.com/exclusive-wallpapers.html"/><xhtml:link rel="alternate" hreflang="fr" href="https://loogart.com/fr/exclusive-wallpapers.html"/></url>
+  <url><loc>https://loogart.com/global-affairs-canada-innovation-space.html</loc><xhtml:link rel="alternate" hreflang="en" href="https://loogart.com/global-affairs-canada-innovation-space.html"/><xhtml:link rel="alternate" hreflang="fr" href="https://loogart.com/fr/global-affairs-canada-innovation-space.html"/></url>
+  <url><loc>https://loogart.com/fr/global-affairs-canada-innovation-space.html</loc><xhtml:link rel="alternate" hreflang="en" href="https://loogart.com/global-affairs-canada-innovation-space.html"/><xhtml:link rel="alternate" hreflang="fr" href="https://loogart.com/fr/global-affairs-canada-innovation-space.html"/></url>
+  <url><loc>https://loogart.com/</loc><xhtml:link rel="alternate" hreflang="en" href="https://loogart.com/"/><xhtml:link rel="alternate" hreflang="fr" href="https://loogart.com/fr/"/></url>
+  <url><loc>https://loogart.com/fr/</loc><xhtml:link rel="alternate" hreflang="en" href="https://loogart.com/"/><xhtml:link rel="alternate" hreflang="fr" href="https://loogart.com/fr/"/></url>
+  <url><loc>https://loogart.com/influence-orbis-artwork.html</loc><xhtml:link rel="alternate" hreflang="en" href="https://loogart.com/influence-orbis-artwork.html"/><xhtml:link rel="alternate" hreflang="fr" href="https://loogart.com/fr/influence-orbis-artwork.html"/></url>
+  <url><loc>https://loogart.com/fr/influence-orbis-artwork.html</loc><xhtml:link rel="alternate" hreflang="en" href="https://loogart.com/influence-orbis-artwork.html"/><xhtml:link rel="alternate" hreflang="fr" href="https://loogart.com/fr/influence-orbis-artwork.html"/></url>
+  <url><loc>https://loogart.com/la-poutine-week-visual-design.html</loc><xhtml:link rel="alternate" hreflang="en" href="https://loogart.com/la-poutine-week-visual-design.html"/><xhtml:link rel="alternate" hreflang="fr" href="https://loogart.com/fr/la-poutine-week-visual-design.html"/></url>
+  <url><loc>https://loogart.com/fr/la-poutine-week-visual-design.html</loc><xhtml:link rel="alternate" hreflang="en" href="https://loogart.com/la-poutine-week-visual-design.html"/><xhtml:link rel="alternate" hreflang="fr" href="https://loogart.com/fr/la-poutine-week-visual-design.html"/></url>
+  <url><loc>https://loogart.com/le-burger-week-visual-design.html</loc><xhtml:link rel="alternate" hreflang="en" href="https://loogart.com/le-burger-week-visual-design.html"/><xhtml:link rel="alternate" hreflang="fr" href="https://loogart.com/fr/le-burger-week-visual-design.html"/></url>
+  <url><loc>https://loogart.com/fr/le-burger-week-visual-design.html</loc><xhtml:link rel="alternate" hreflang="en" href="https://loogart.com/le-burger-week-visual-design.html"/><xhtml:link rel="alternate" hreflang="fr" href="https://loogart.com/fr/le-burger-week-visual-design.html"/></url>
+  <url><loc>https://loogart.com/loogmoji.html</loc><xhtml:link rel="alternate" hreflang="en" href="https://loogart.com/loogmoji.html"/><xhtml:link rel="alternate" hreflang="fr" href="https://loogart.com/fr/loogmoji.html"/></url>
+  <url><loc>https://loogart.com/fr/loogmoji.html</loc><xhtml:link rel="alternate" hreflang="en" href="https://loogart.com/loogmoji.html"/><xhtml:link rel="alternate" hreflang="fr" href="https://loogart.com/fr/loogmoji.html"/></url>
+  <url><loc>https://loogart.com/montreal-cityline-illustration.html</loc><xhtml:link rel="alternate" hreflang="en" href="https://loogart.com/montreal-cityline-illustration.html"/><xhtml:link rel="alternate" hreflang="fr" href="https://loogart.com/fr/montreal-cityline-illustration.html"/></url>
+  <url><loc>https://loogart.com/fr/montreal-cityline-illustration.html</loc><xhtml:link rel="alternate" hreflang="en" href="https://loogart.com/montreal-cityline-illustration.html"/><xhtml:link rel="alternate" hreflang="fr" href="https://loogart.com/fr/montreal-cityline-illustration.html"/></url>
+  <url><loc>https://loogart.com/montreal-wallpapers.html</loc><xhtml:link rel="alternate" hreflang="en" href="https://loogart.com/montreal-wallpapers.html"/><xhtml:link rel="alternate" hreflang="fr" href="https://loogart.com/fr/montreal-wallpapers.html"/></url>
+  <url><loc>https://loogart.com/fr/montreal-wallpapers.html</loc><xhtml:link rel="alternate" hreflang="en" href="https://loogart.com/montreal-wallpapers.html"/><xhtml:link rel="alternate" hreflang="fr" href="https://loogart.com/fr/montreal-wallpapers.html"/></url>
+  <url><loc>https://loogart.com/otis-elevator-animated-gif.html</loc><xhtml:link rel="alternate" hreflang="en" href="https://loogart.com/otis-elevator-animated-gif.html"/><xhtml:link rel="alternate" hreflang="fr" href="https://loogart.com/fr/otis-elevator-animated-gif.html"/></url>
+  <url><loc>https://loogart.com/fr/otis-elevator-animated-gif.html</loc><xhtml:link rel="alternate" hreflang="en" href="https://loogart.com/otis-elevator-animated-gif.html"/><xhtml:link rel="alternate" hreflang="fr" href="https://loogart.com/fr/otis-elevator-animated-gif.html"/></url>
+  <url><loc>https://loogart.com/place-bonaventure.html</loc><xhtml:link rel="alternate" hreflang="en" href="https://loogart.com/place-bonaventure.html"/><xhtml:link rel="alternate" hreflang="fr" href="https://loogart.com/fr/place-bonaventure.html"/></url>
+  <url><loc>https://loogart.com/fr/place-bonaventure.html</loc><xhtml:link rel="alternate" hreflang="en" href="https://loogart.com/place-bonaventure.html"/><xhtml:link rel="alternate" hreflang="fr" href="https://loogart.com/fr/place-bonaventure.html"/></url>
+  <url><loc>https://loogart.com/portfolio.html</loc><xhtml:link rel="alternate" hreflang="en" href="https://loogart.com/portfolio.html"/><xhtml:link rel="alternate" hreflang="fr" href="https://loogart.com/fr/portfolio.html"/></url>
+  <url><loc>https://loogart.com/fr/portfolio.html</loc><xhtml:link rel="alternate" hreflang="en" href="https://loogart.com/portfolio.html"/><xhtml:link rel="alternate" hreflang="fr" href="https://loogart.com/fr/portfolio.html"/></url>
+  <url><loc>https://loogart.com/starbucks-cityscape-illustration.html</loc><xhtml:link rel="alternate" hreflang="en" href="https://loogart.com/starbucks-cityscape-illustration.html"/><xhtml:link rel="alternate" hreflang="fr" href="https://loogart.com/fr/starbucks-cityscape-illustration.html"/></url>
+  <url><loc>https://loogart.com/fr/starbucks-cityscape-illustration.html</loc><xhtml:link rel="alternate" hreflang="en" href="https://loogart.com/starbucks-cityscape-illustration.html"/><xhtml:link rel="alternate" hreflang="fr" href="https://loogart.com/fr/starbucks-cityscape-illustration.html"/></url>
+  <url><loc>https://loogart.com/suite88-cityline-illustration.html</loc><xhtml:link rel="alternate" hreflang="en" href="https://loogart.com/suite88-cityline-illustration.html"/><xhtml:link rel="alternate" hreflang="fr" href="https://loogart.com/fr/suite88-cityline-illustration.html"/></url>
+  <url><loc>https://loogart.com/fr/suite88-cityline-illustration.html</loc><xhtml:link rel="alternate" hreflang="en" href="https://loogart.com/suite88-cityline-illustration.html"/><xhtml:link rel="alternate" hreflang="fr" href="https://loogart.com/fr/suite88-cityline-illustration.html"/></url>
+  <url><loc>https://loogart.com/swiffer-marketing-graphics.html</loc><xhtml:link rel="alternate" hreflang="en" href="https://loogart.com/swiffer-marketing-graphics.html"/><xhtml:link rel="alternate" hreflang="fr" href="https://loogart.com/fr/swiffer-marketing-graphics.html"/></url>
+  <url><loc>https://loogart.com/fr/swiffer-marketing-graphics.html</loc><xhtml:link rel="alternate" hreflang="en" href="https://loogart.com/swiffer-marketing-graphics.html"/><xhtml:link rel="alternate" hreflang="fr" href="https://loogart.com/fr/swiffer-marketing-graphics.html"/></url>
+  <url><loc>https://loogart.com/travel-smart-canada-app.html</loc><xhtml:link rel="alternate" hreflang="en" href="https://loogart.com/travel-smart-canada-app.html"/><xhtml:link rel="alternate" hreflang="fr" href="https://loogart.com/fr/travel-smart-canada-app.html"/></url>
+  <url><loc>https://loogart.com/fr/travel-smart-canada-app.html</loc><xhtml:link rel="alternate" hreflang="en" href="https://loogart.com/travel-smart-canada-app.html"/><xhtml:link rel="alternate" hreflang="fr" href="https://loogart.com/fr/travel-smart-canada-app.html"/></url>
+  <url><loc>https://loogart.com/upa-cityline-illustration.html</loc><xhtml:link rel="alternate" hreflang="en" href="https://loogart.com/upa-cityline-illustration.html"/><xhtml:link rel="alternate" hreflang="fr" href="https://loogart.com/fr/upa-cityline-illustration.html"/></url>
+  <url><loc>https://loogart.com/fr/upa-cityline-illustration.html</loc><xhtml:link rel="alternate" hreflang="en" href="https://loogart.com/upa-cityline-illustration.html"/><xhtml:link rel="alternate" hreflang="fr" href="https://loogart.com/fr/upa-cityline-illustration.html"/></url>
+  <url><loc>https://loogart.com/yellow-pages-icons-and-illustrations.html</loc><xhtml:link rel="alternate" hreflang="en" href="https://loogart.com/yellow-pages-icons-and-illustrations.html"/><xhtml:link rel="alternate" hreflang="fr" href="https://loogart.com/fr/yellow-pages-icons-and-illustrations.html"/></url>
+  <url><loc>https://loogart.com/fr/yellow-pages-icons-and-illustrations.html</loc><xhtml:link rel="alternate" hreflang="en" href="https://loogart.com/yellow-pages-icons-and-illustrations.html"/><xhtml:link rel="alternate" hreflang="fr" href="https://loogart.com/fr/yellow-pages-icons-and-illustrations.html"/></url>
 </urlset>

@@ -26,13 +26,14 @@ function updateThemeToggleLabel() {
   }
   const activeTheme = document.documentElement.getAttribute('data-theme') || 'light';
   const shouldSwitchToDark = activeTheme !== 'dark';
-  const nextThemeLabel = shouldSwitchToDark ? 'Dark' : 'Light';
-  const iconClass = shouldSwitchToDark ? 'fa-moon-o' : 'fa-sun-o';
+  const french = document.documentElement.lang === 'fr';
+  const nextThemeLabel = french ? (shouldSwitchToDark ? 'Sombre' : 'Clair') : (shouldSwitchToDark ? 'Dark' : 'Light');
+  const icon = shouldSwitchToDark ? '<path d="M20 14a8 8 0 0 1-10-10A8 8 0 1 0 20 14Z"/>' : '<circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M2 12h2m16 0h2M5 5l1 1m12 12 1 1M5 19l1-1M18 6l1-1"/>';
   themeToggles.forEach(function (themeToggle) {
-    themeToggle.innerHTML = '<i class="fa ' + iconClass + '" aria-hidden="true"></i> <span>' + nextThemeLabel + '</span>';
+    themeToggle.innerHTML = '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true">' + icon + '</svg> <span>' + nextThemeLabel + '</span>';
     themeToggle.setAttribute(
       'aria-label',
-      shouldSwitchToDark ? 'Switch to dark mode' : 'Switch to light mode'
+      french ? (shouldSwitchToDark ? 'Passer au mode sombre' : 'Passer au mode clair') : (shouldSwitchToDark ? 'Switch to dark mode' : 'Switch to light mode')
     );
   });
 }
@@ -45,33 +46,7 @@ function toggleTheme() {
   updateThemeToggleLabel();
 }
 
-function updateFooterYear() {
-  const currentYear = String(new Date().getFullYear());
-  const yearElements = document.querySelectorAll('#current-year, [data-current-year]');
-  yearElements.forEach(function (element) {
-    element.textContent = currentYear;
-  });
-}
-
 applyTheme(getInitialTheme());
-
-// Function to load HTML file content
-function loadHTML(file, element) {
-  return fetch(file)
-    .then(response => response.text())
-    .then(data => {
-      document.querySelector(element).innerHTML = data;
-    })
-    .catch(error => console.error('Error loading HTML:', error));
-}
-
-// Load header and footer
-loadHTML('html/navbar.html', '#header-placeholder').then(() => {
-  updateThemeToggleLabel();
-});
-loadHTML('html/footer.html', '#footer-placeholder').then(() => {
-  updateFooterYear();
-});
 
 document.addEventListener('click', function (event) {
   const themeToggle = event.target.closest('[data-theme-toggle]');
@@ -98,12 +73,12 @@ function initNewWorkLightbox() {
   lightbox.className = 'new-work-lightbox';
   lightbox.setAttribute('aria-hidden', 'true');
   lightbox.innerHTML = `
-    <button type="button" class="new-work-lightbox-btn new-work-lightbox-close" aria-label="Close image viewer">&times;</button>
-    <button type="button" class="new-work-lightbox-btn new-work-lightbox-prev" aria-label="Previous image">&#8249;</button>
+    <button type="button" class="new-work-lightbox-btn new-work-lightbox-close" aria-label="${document.documentElement.lang === 'fr' ? 'Fermer la visionneuse' : 'Close image viewer'}"><svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M6 6l12 12M6 18 18 6"/></svg></button>
+    <button type="button" class="new-work-lightbox-btn new-work-lightbox-prev" aria-label="${document.documentElement.lang === 'fr' ? 'Image précédente' : 'Previous image'}"><svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="m15 5-7 7 7 7"/></svg></button>
     <img class="new-work-lightbox-preview new-work-lightbox-preview-prev" src="" alt="" aria-hidden="true">
     <img class="new-work-lightbox-media" src="" alt="">
     <img class="new-work-lightbox-preview new-work-lightbox-preview-next" src="" alt="" aria-hidden="true">
-    <button type="button" class="new-work-lightbox-btn new-work-lightbox-next" aria-label="Next image">&#8250;</button>
+    <button type="button" class="new-work-lightbox-btn new-work-lightbox-next" aria-label="${document.documentElement.lang === 'fr' ? 'Image suivante' : 'Next image'}"><svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="m9 5 7 7-7 7"/></svg></button>
   `;
   document.body.appendChild(lightbox);
 
