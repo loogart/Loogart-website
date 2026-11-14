@@ -2907,38 +2907,6 @@ html[data-theme="dark"] .new-work-card {
     }
 }
 
-/* Persistent announcement strip with a cropped glimpse of the artwork. */
-#header-placeholder .shop-teaser {
-    display: block;
-    background: linear-gradient(110deg, #0b1427, #203b68);
-    border-bottom: 2px solid #df393d;
-    color: #fff;
-    text-decoration: none;
-}
-.shop-teaser-inner { display: grid; grid-template-columns: 33.333333% minmax(0, 1fr) auto; align-items: center; gap: 24px; width: 100%; min-height: 58px; }
-.shop-teaser-art {
-    display: block;
-    align-self: stretch;
-    min-width: 0;
-    background-image: url('/img/shop/habs-117-framed-print.png');
-    background-size: 200% auto;
-    background-position: center 48%;
-}
-.shop-teaser-text { display: flex; align-items: center; flex-wrap: wrap; gap: 3px 14px; padding: 10px 0; font-size: 13px; line-height: 1.4; }
-.shop-teaser-text strong { font-weight: 700; color: #fff; }
-.shop-teaser-description { color: #e2e8f2; }
-.shop-teaser svg { flex-shrink: 0; margin-right: 28px; }
-#header-placeholder .shop-teaser:hover,
-#header-placeholder .shop-teaser:focus { color: #fff; text-decoration: none; }
-.shop-teaser:hover .shop-teaser-description { text-decoration: underline; }
-.shop-teaser:focus-visible { outline: 3px solid #fff; outline-offset: -4px; }
-@media (max-width: 767px) {
-    .shop-teaser-inner { gap: 14px; min-height: 62px; }
-    .shop-teaser-art { background-size: 200% auto; }
-    .shop-teaser-text { display: block; font-size: 11px; padding: 10px 0; }
-    .shop-teaser svg { margin-right: 14px; }
-    .shop-teaser-text strong, .shop-teaser-description { display: block; }
-}
 /* A dismissible Habs 117 card floats independently of the site header. */
 .shop-promo {
     position: fixed;
