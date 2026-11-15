@@ -3095,3 +3095,117 @@ body:has(.new-work-lightbox.is-open) .shop-promo { visibility: hidden; }
 @media (max-width: 767px) {
     #header-placeholder .navbar-header { margin-left: 0; margin-right: 0; }
 }
+
+/* The Loog Letter: shared English/French footer signup. */
+.footer-newsletter {
+    display: grid;
+    grid-template-columns: 1.15fr 1fr;
+    align-items: center;
+    gap: 64px;
+    padding-top: 32px;
+    padding-bottom: 54px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid rgba(255, 255, 255, .18);
+    font-family: "Google Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.footer-newsletter::before,
+.footer-newsletter::after { display: none; }
+.footer-newsletter-eyebrow {
+    margin: 0 0 16px;
+    color: #ff918d;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: .14em;
+    text-transform: uppercase;
+}
+.footer-newsletter h2 {
+    margin: 0 0 18px;
+    color: #fff;
+    font-size: clamp(28px, 3vw, 38px);
+    line-height: 1.2;
+    letter-spacing: -.035em;
+}
+.footer-newsletter-description {
+    max-width: 520px;
+    margin: 0;
+    color: #e0e3e8;
+    line-height: 1.65;
+}
+.footer-newsletter-form { position: relative; min-width: 0; }
+.footer-newsletter-form label { margin-bottom: 10px; font-size: 14px; font-weight: 500; }
+.footer-newsletter-field {
+    display: flex;
+    gap: 8px;
+    padding: 6px;
+    border: 1px solid #bfc3c8;
+    border-radius: 8px;
+    background: #fff;
+}
+.footer-newsletter-field:focus-within { outline: 3px solid #ff918d; outline-offset: 4px; }
+.footer-newsletter-field input {
+    flex: 1;
+    min-width: 0;
+    width: 100%;
+    padding: 12px 10px;
+    border: 0;
+    border-radius: 4px;
+    background: #fff;
+    color: #222;
+    font: inherit;
+    font-size: 16px;
+    line-height: 1.5;
+}
+.footer-newsletter-field input::placeholder { color: #666; opacity: 1; }
+.footer-newsletter-field input:focus { outline: 0; }
+.footer-newsletter-field button {
+    display: flex;
+    flex-shrink: 0;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    min-height: 48px;
+    padding: 10px;
+    border: 0;
+    border-radius: 5px;
+    background: #f75a56;
+    color: #222;
+    cursor: pointer;
+    transition: background .2s;
+}
+.footer-newsletter-field button:hover { background: #ff918d; }
+.footer-newsletter-field button:focus-visible { outline: 3px solid #222; outline-offset: 2px; }
+.footer-newsletter-status { margin: 12px 0 0; min-height: 22px; color: #d3d6db; font-size: 13px; line-height: 1.6; }
+.footer-newsletter-status[data-state="success"] { color: #99e2c2; }
+.footer-newsletter-status[data-state="error"] { color: #ffb6b2; }
+.footer-newsletter-field button:disabled { cursor: wait; opacity: .6; }
+html[data-theme="dark"] .footer-newsletter-field,
+html[data-theme="dark"] .footer-newsletter-field input { background: #232930; color: #f4f5f7; color-scheme: dark; }
+html[data-theme="dark"] .footer-newsletter-field { border-color: #59636f; }
+html[data-theme="dark"] .footer-newsletter-field input::placeholder { color: #b9c0ca; }
+html[data-theme="dark"] .footer-newsletter-field input:autofill { box-shadow: 0 0 0 100px #232930 inset; -webkit-text-fill-color: #f4f5f7; }
+.footer-newsletter-trap { position: absolute; left: -5000px; }
+@media (max-width: 991px) {
+    .footer-newsletter { gap: 32px; }
+}
+@media (max-width: 767px) {
+    .footer-newsletter { grid-template-columns: 1fr; gap: 28px; padding: 24px 20px 36px; }
+}
+
+/* Replace the signup controls with a clear confirmation after success. */
+.footer-newsletter-check { display: none; color: #99e2c2; }
+.footer-newsletter-form[data-newsletter-state="success"] {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    min-height: 92px;
+}
+.footer-newsletter-form[data-newsletter-state="success"] > label,
+.footer-newsletter-form[data-newsletter-state="success"] .footer-newsletter-field { display: none; }
+.footer-newsletter-form[data-newsletter-state="success"] .footer-newsletter-check {
+    display: block;
+    flex: 0 0 28px;
+    width: 28px;
+    height: 28px;
+}
+.footer-newsletter-status[data-state="success"] { margin: 0; color: #dce8e2; font-size: 16px; font-weight: 400; line-height: 1.5; }
+.footer-newsletter-status:focus { outline: none; }
